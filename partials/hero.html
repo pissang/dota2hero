@@ -1,0 +1,17 @@
+<div id="Overview">
+    <div class="portrait">
+        <img ng-src="{{overview.portrait}}" />
+        <h2>{{overview.title}}</h2>
+    </div>
+    <div class="abilities">
+        <ul>
+            <li ng-repeat="ability in overview.abilities">
+                <img ng-src="{{ability.icon}}" />
+                <div class="ability-detail">
+                    <h4>{{ability.title}}</h4>
+                    <p>{{ability.detail}}</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

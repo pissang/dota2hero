@@ -1,0 +1,43 @@
+{
+    "meta" : {
+        "name" : "Sparkle"
+    },
+    "shaders" : {
+        "sparkle" : "#url(sparkle.essl)"
+    },
+    "parameters" : {
+        "common" : {
+            "width" : 32,
+            "height" : 32,
+            "type" : "FLOAT",
+            "minFilter" : "NEAREST",
+            "magFilter" : "NEAREST",
+            "wrapS" : "REPEAT",
+            "wrapT" : "REPEAT",
+            "useMipmap" : false
+        }
+    },
+    "textures" : {},
+    "nodes" : [
+        {
+            "name" : "updatePosition",
+            "shader" : "#source(sparkle.updatePosition)",
+            "type" : "processor",
+            "output" : true,
+            "parameters" : {
+                "positionTextureSize" : 32
+            },
+            "inputs" : {
+                "positionTexture" : {
+                    "node" : "updatePosition",
+                    "pin" : "position"
+                }
+            },
+            "outputs" : {
+                "position" : {
+                    "parameters" : "#common"
+                }
+            }
+        }
+    ]
+}

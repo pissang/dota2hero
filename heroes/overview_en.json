@@ -1,0 +1,1140 @@
+[
+    {
+        "name": "beastmaster",
+        "title": "Beastmaster",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/beastmaster_vert.jpg",
+        "abilities": [
+            {
+                "name": "beastmaster_wild_axes",
+                "title": "Wild Axes",
+                "detail": "Beastmaster sends his axes flying and calls them home again, slicing through enemy units and trees along their path.  Each axe can hit an enemy once.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/beastmaster_wild_axes_hp1.png"
+            },
+            {
+                "name": "beastmaster_call_of_the_wild",
+                "title": "Call of the Wild",
+                "detail": "Beastmaster calls allies in the form of a watchful Hawk and a powerful Boar.  Previous summons are removed upon casting.\n\nLevel 1: Summons Scout Hawk.\nLevel 2: Summons Scout Hawk and Lesser Boar.\nLevel 3: Summons Greater Hawk and Lesser Boar.\nLevel 4: Summons Greater Hawk and Greater Boar.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/beastmaster_call_of_the_wild_hp1.png"
+            },
+            {
+                "name": "beastmaster_inner_beast",
+                "title": "Inner Beast",
+                "detail": "Untaps the inner fury of allies, passively increasing their attack speed.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/beastmaster_inner_beast_hp1.png"
+            },
+            {
+                "name": "beastmaster_primal_roar",
+                "title": "Primal Roar",
+                "detail": "A deafening roar that deals damage and stuns the target enemy unit, while opening a path between Beastmaster and his prey. Nearby enemies also take damage and have their movement speed and attack rate reduced.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/beastmaster_primal_roar_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/beastmaster_hphover.png"
+    },
+    {
+        "name": "kunkka",
+        "title": "Kunkka",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_vert.jpg",
+        "abilities": [
+            {
+                "name": "kunkka_torrent",
+                "title": "Torrent",
+                "detail": "Summons a rising torrent that, after a short delay, hurls enemy units into the sky, stunning, dealing damage and slowing movement speed.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/kunkka_torrent_hp1.png"
+            },
+            {
+                "name": "kunkka_tidebringer",
+                "title": "Tidebringer",
+                "detail": "Kunkka's legendary sword grants increased damage and cleaves a large area of effect in front of him for a single strike.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/kunkka_tidebringer_hp1.png"
+            },
+            {
+                "name": "kunkka_x_marks_the_spot",
+                "title": "X Marks the Spot",
+                "detail": "Targets a friendly or enemy Hero, marks their position with an X, and returns them to it after several seconds.  Kunkka can trigger the return at any time during the duration.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/kunkka_x_marks_the_spot_hp1.png"
+            },
+            {
+                "name": "kunkka_ghostship",
+                "title": "Ghostship",
+                "detail": "Summons a ghostship to cut a swath through battle, causing damage and stuns to enemy units as it crashes through. Allies are doused in Kunkka's Rum, receiving bonus movement speed and a delayed reaction to damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/kunkka_ghostship_hp1.png"
+            },
+            {
+                "name": "kunkka_return",
+                "title": "Return",
+                "detail": "Returns the marked hero to the X.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/kunkka_return_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_hphover.png"
+    },
+    {
+        "name": "earthshaker",
+        "title": "Earthshaker",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/earthshaker_vert.jpg",
+        "abilities": [
+            {
+                "name": "earthshaker_fissure",
+                "title": "Fissure",
+                "detail": "Slams the ground with a mighty totem, fissuring the earth while stunning and damaging enemy units in a line.  Creates an impassable ridge of stone.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/earthshaker_fissure_hp1.png"
+            },
+            {
+                "name": "earthshaker_enchant_totem",
+                "title": "Enchant Totem",
+                "detail": "Empowers Earthshaker's totem, causing it to deal extra damage on the next attack.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/earthshaker_enchant_totem_hp1.png"
+            },
+            {
+                "name": "earthshaker_aftershock",
+                "title": "Aftershock",
+                "detail": "Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/earthshaker_aftershock_hp1.png"
+            },
+            {
+                "name": "earthshaker_echo_slam",
+                "title": "Echo Slam",
+                "detail": "Shockwaves travel through the ground, damaging enemy units.  Each enemy hit causes an echo to damage nearby units.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/earthshaker_echo_slam_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/earthshaker_hphover.png"
+    },
+    {
+        "name": "dragon_knight",
+        "title": "Dragon Knight",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dragon_knight_vert.jpg",
+        "abilities": [
+            {
+                "name": "dragon_knight_breathe_fire",
+                "title": "Breathe Fire",
+                "detail": "Unleashes a breath of fire on enemy units in a line in front of Dragon Knight.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dragon_knight_breathe_fire_hp1.png"
+            },
+            {
+                "name": "dragon_knight_dragon_tail",
+                "title": "Dragon Tail",
+                "detail": "Dragon Knight smites an enemy unit in melee range with his shield, stunning it while dealing minor damage.  When in Elder Dragon Form, the cast range increases to 400.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dragon_knight_dragon_tail_hp1.png"
+            },
+            {
+                "name": "dragon_knight_dragon_blood",
+                "title": "Dragon Blood",
+                "detail": "The life blood of the Dragon improves health regeneration and strengthens armor.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dragon_knight_dragon_blood_hp1.png"
+            },
+            {
+                "name": "dragon_knight_elder_dragon_form",
+                "title": "Elder Dragon Form",
+                "detail": "Dragon Knight can take the form of three powerful elder dragons.\nLEVEL 1 - Green Dragon: Short poison damage over time on attack.\nLEVEL 2 - Red Dragon: Splash damage on attack.\nLEVEL 3 - Blue Dragon: Splash damage and frost attack that slows enemy units.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dragon_knight_elder_dragon_form_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/dragon_knight_hphover.png"
+    },
+    {
+        "name": "huskar",
+        "title": "Huskar",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/huskar_vert.jpg",
+        "abilities": [
+            {
+                "name": "huskar_inner_vitality",
+                "title": "Inner Vitality",
+                "detail": "Unlocks the regenerative power of a friendly unit, with healing based upon its primary attribute. If the target is below 40% it will heal faster.  Lasts 16 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/huskar_inner_vitality_hp1.png"
+            },
+            {
+                "name": "huskar_burning_spear",
+                "title": "Burning Spear",
+                "detail": "Huskar sets his spears aflame, dealing damage over time with his regular attack.  Multiple attacks will stack additional damage.  Each attack drains some of Huskar's health.  Lasts 7 seconds.\n\nBurning Spears is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/huskar_burning_spear_hp1.png"
+            },
+            {
+                "name": "huskar_berserkers_blood",
+                "title": "Berserker's Blood",
+                "detail": "Huskar's injuries feed his power, giving increased attack speed and magic resistance based on missing health.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/huskar_berserkers_blood_hp1.png"
+            },
+            {
+                "name": "huskar_life_break",
+                "title": "Life Break",
+                "detail": "Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to inflict a percentage of that hero's current HP, and slow at the cost of his own vitality.  While leaping, Huskar is magic immune.  Slow lasts 5 seconds.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/huskar_life_break_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/huskar_hphover.png"
+    },
+    {
+        "name": "alchemist",
+        "title": "Alchemist",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/alchemist_vert.jpg",
+        "abilities": [
+            {
+                "name": "alchemist_acid_spray",
+                "title": "Acid Spray",
+                "detail": "Sprays high-pressure acid across a target area. Enemy units who step across the contaminated terrain take mixed damage per second and have their armor reduced.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/alchemist_acid_spray_hp1.png"
+            },
+            {
+                "name": "alchemist_unstable_concoction",
+                "title": "Unstable Concoction",
+                "detail": "Alchemist brews up an unstable concoction that he can throw at an enemy hero, to stun and deal damage in an area around the explosion. The longer the concoction brews, the more damage it deals and the longer the stun. After 5 seconds, the brew reaches its maximum damage and stun time. However, after 7 seconds, the concoction will explode on Alchemist himself if not thrown.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/alchemist_unstable_concoction_hp1.png"
+            },
+            {
+                "name": "alchemist_goblins_greed",
+                "title": "Greevil's Greed",
+                "detail": "Alchemist gets bonus gold for killing creeps; the bonus stacks if the creeps are killed within a period of time, after which the count is reset.  The bonus gold is capped at 30 gold.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/alchemist_goblins_greed_hp1.png"
+            },
+            {
+                "name": "alchemist_chemical_rage",
+                "title": "Chemical Rage",
+                "detail": "Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed, hitpoints and regeneration.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/alchemist_chemical_rage_hp1.png"
+            },
+            {
+                "name": "alchemist_unstable_concoction_throw",
+                "title": "Unstable Concoction Throw",
+                "detail": "Throw it before it blows up!",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/alchemist_unstable_concoction_throw_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/alchemist_hphover.png"
+    },
+    {
+        "name": "brewmaster",
+        "title": "Brewmaster",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/brewmaster_vert.jpg",
+        "abilities": [
+            {
+                "name": "brewmaster_thunder_clap",
+                "title": "Thunder Clap",
+                "detail": "Slams the ground, dealing damage and slowing the movement speed and attack rate of nearby enemy land units.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/brewmaster_thunder_clap_hp1.png"
+            },
+            {
+                "name": "brewmaster_drunken_haze",
+                "title": "Drunken Haze",
+                "detail": "Drenches an enemy unit in alcohol, causing his movement speed to be reduced, and causing his attacks to have a chance to miss.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/brewmaster_drunken_haze_hp1.png"
+            },
+            {
+                "name": "brewmaster_drunken_brawler",
+                "title": "Drunken Brawler",
+                "detail": "Gives a chance to avoid attacks and to deal critical damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/brewmaster_drunken_brawler_hp1.png"
+            },
+            {
+                "name": "brewmaster_primal_split",
+                "title": "Primal Split",
+                "detail": "Splits Brewmaster into elements, forming 3 specialized warriors, adept at survival. If any of them survive until the end of their summoned timer, the Brewmaster is reborn.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/brewmaster_primal_split_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/brewmaster_hphover.png"
+    },
+    {
+        "name": "centaur",
+        "title": "Centaur Warrunner",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/centaur_vert.jpg",
+        "abilities": [
+            {
+                "name": "centaur_hoof_stomp",
+                "title": "Hoof Stomp",
+                "detail": "Slams the ground, stunning and damaging nearby enemy units.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/centaur_hoof_stomp_hp1.png"
+            },
+            {
+                "name": "centaur_double_edge",
+                "title": "Double Edge",
+                "detail": "Centaur strikes a mighty blow at melee range, damaging both himself and a small area around the target.  Centaur cannot die from Double Edge.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/centaur_double_edge_hp1.png"
+            },
+            {
+                "name": "centaur_return",
+                "title": "Return",
+                "detail": "Centaur immediately counters every attack, damaging the attacker based on a percentage of Centaur's strength.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/centaur_return_hp1.png"
+            },
+            {
+                "name": "centaur_stampede",
+                "title": "Stampede",
+                "detail": "Centaur leads all allies into a vicious charge causing them to move through units at max speed and slow enemy units they tread upon. Each enemy can be trampled once and takes damage based on the Warrunner's strength.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/centaur_stampede_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/centaur_hphover.png"
+    },
+    {
+        "name": "bristleback",
+        "title": "Bristleback",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bristleback_vert.jpg",
+        "abilities": [
+            {
+                "name": "bristleback_viscous_nasal_goo",
+                "title": "Viscous Nasal Goo",
+                "detail": "Covers a target in snot, causing it to have reduced armor and movement speed.  Multiple casts stack and refresh the duration.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/bristleback_viscous_nasal_goo_hp1.png"
+            },
+            {
+                "name": "bristleback_quill_spray",
+                "title": "Quill Spray",
+                "detail": "Sprays enemy units with quills dealing damage in an area of effect around Bristleback.  Deals bonus damage for every time a unit was hit by Quill Spray in the last 14 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/bristleback_quill_spray_hp1.png"
+            },
+            {
+                "name": "bristleback_bristleback",
+                "title": "Bristleback",
+                "detail": "Bristleback takes less damage if hit on the sides or rear.  If Bristleback takes 250 damage from the rear, he releases a Quill Spray of the current level.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/bristleback_bristleback_hp1.png"
+            },
+            {
+                "name": "bristleback_warpath",
+                "title": "Warpath",
+                "detail": "Bristleback works himself up into a fury every time he casts a spell, increasing his movement speed and damage.  The first stack (base) provides larger bonuses.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/bristleback_warpath_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/bristleback_hphover.png"
+    },
+    {
+        "name": "elder_titan",
+        "title": "Elder Titan",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/elder_titan_vert.jpg",
+        "abilities": [
+            {
+                "name": "elder_titan_echo_stomp",
+                "title": "Echo Stomp",
+                "detail": "Elder Titan and his Astral Spirit both stomp the ground, damaging and knocking nearby enemy units unconscious around their locations.  The Elder Titan stomp deals physical damage, while the Spirit stomp deals magical damage.  Unconscious enemies will wake if they take damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/elder_titan_echo_stomp_hp1.png"
+            },
+            {
+                "name": "elder_titan_ancestral_spirit",
+                "title": "Astral Spirit",
+                "detail": "Elder Titan sends forth his Astral Spirit, damaging any units it passes through.  When the spirit rejoins the Titan, it grants bonus damage and movement speed for each unit it damaged.\n\nThe Astral Spirit possesses the Echo Stomp, Return Spirit, and Natural Order abilities.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/elder_titan_ancestral_spirit_hp1.png"
+            },
+            {
+                "name": "elder_titan_natural_order",
+                "title": "Natural Order",
+                "detail": "Reduces all elements to their basic levels, removing base armor and magic resistance from nearby enemy units.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/elder_titan_natural_order_hp1.png"
+            },
+            {
+                "name": "elder_titan_return_spirit",
+                "title": "Return Astral Spirit",
+                "detail": "Returns the Astral Spirit to Elder Titan.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/elder_titan_return_spirit_hp1.png"
+            },
+            {
+                "name": "elder_titan_earth_splitter",
+                "title": "Earth Splitter",
+                "detail": "Sends forth a jagged crack in front of Elder Titan.  After 3 seconds, the crack implodes, slowing them while dealing damage based on the maximum life of units caught in the area.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/elder_titan_earth_splitter_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/elder_titan_hphover.png"
+    },
+    {
+        "name": "antimage",
+        "title": "Anti-Mage",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/antimage_vert.jpg",
+        "abilities": [
+            {
+                "name": "antimage_mana_break",
+                "title": "Mana Break",
+                "detail": "Burns an opponent's mana on each attack.  Mana Break deals 60% of the mana burned as damage to the target.\n\nMana Break is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/antimage_mana_break_hp1.png"
+            },
+            {
+                "name": "antimage_blink",
+                "title": "Blink",
+                "detail": "Short distance teleportation that allows Anti-Mage to move in and out of combat.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/antimage_blink_hp1.png"
+            },
+            {
+                "name": "antimage_spell_shield",
+                "title": "Spell Shield",
+                "detail": "Increases Anti-Mage's resistance to magic damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/antimage_spell_shield_hp1.png"
+            },
+            {
+                "name": "antimage_mana_void",
+                "title": "Mana Void",
+                "detail": "For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies.  The main target is also mini-stunned.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/antimage_mana_void_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/antimage_hphover.png"
+    },
+    {
+        "name": "bounty_hunter",
+        "title": "Bounty Hunter",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/bounty_hunter_vert.jpg",
+        "abilities": [
+            {
+                "name": "bounty_hunter_shuriken_toss",
+                "title": "Shuriken Toss",
+                "detail": "Hurls a deadly shuriken at an enemy unit, dealing damage and mini-stunning the target.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/bounty_hunter_shuriken_toss_hp1.png"
+            },
+            {
+                "name": "bounty_hunter_jinada",
+                "title": "Jinada",
+                "detail": "Bounty Hunter plans his next hit, passively adding a critical strike and maim to his next attack.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/bounty_hunter_jinada_hp1.png"
+            },
+            {
+                "name": "bounty_hunter_wind_walk",
+                "title": "Shadow Walk",
+                "detail": "Bounty Hunter becomes invisible and gains the ability to move through other units until he attacks or uses an ability.  If he breaks the invisibility with an attack, that attack will deal bonus damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/bounty_hunter_wind_walk_hp1.png"
+            },
+            {
+                "name": "bounty_hunter_track",
+                "title": "Track",
+                "detail": "Tracks an enemy hero, giving True Sight of it and grants a gain in movement speed to allies near the hunted. If the target dies, Bounty Hunter and nearby heroes collect a bounty in gold.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/bounty_hunter_track_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/bounty_hunter_hphover.png"
+    },
+    {
+        "name": "juggernaut",
+        "title": "Juggernaut",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/juggernaut_vert.jpg",
+        "abilities": [
+            {
+                "name": "juggernaut_blade_fury",
+                "title": "Blade Fury",
+                "detail": "Causes a bladestorm of destructive force around Juggernaut, rendering him immune to magic and dealing damage to nearby enemy units.  Lasts 5 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/juggernaut_blade_fury_hp1.png"
+            },
+            {
+                "name": "juggernaut_healing_ward",
+                "title": "Healing Ward",
+                "detail": "Summons a Healing Ward that heals all nearby allied units, based on their max hit points.  The Healing Ward can move at 300 movement speed after being summoned.  Lasts 25 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/juggernaut_healing_ward_hp1.png"
+            },
+            {
+                "name": "juggernaut_blade_dance",
+                "title": "Blade Dance",
+                "detail": "Gives Juggernaut a chance to deal double damage on each attack.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/juggernaut_blade_dance_hp1.png"
+            },
+            {
+                "name": "juggernaut_omni_slash",
+                "title": "Omnislash",
+                "detail": "Juggernaut leaps towards the target enemy unit with a damaging attack, and then slashes other nearby enemy units, dealing between 175-250 damage per slash.  Juggernaut is invulnerable for the duration.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/juggernaut_omni_slash_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/juggernaut_hphover.png"
+    },
+    {
+        "name": "furion",
+        "title": "Nature's Prophet",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/furion_vert.jpg",
+        "abilities": [
+            {
+                "name": "furion_sprout",
+                "title": "Sprout",
+                "detail": "Sprouts a ring of trees around a unit, trapping it in place.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/furion_sprout_hp1.png"
+            },
+            {
+                "name": "furion_teleportation",
+                "title": "Teleportation",
+                "detail": "Teleports to any point on the map.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/furion_teleportation_hp1.png"
+            },
+            {
+                "name": "furion_force_of_nature",
+                "title": "Nature's Call",
+                "detail": "Converts an area of trees into Treants. Treants have 550 hit points and deal 21-23 damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/furion_force_of_nature_hp1.png"
+            },
+            {
+                "name": "furion_wrath_of_nature",
+                "title": "Wrath of Nature",
+                "detail": "Damaging energy bounces around the map, striking enemies close to the cast point that are in vision. Each enemy hit beyond the first adds damage.\n\nUpgradable with Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/furion_wrath_of_nature_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/furion_hphover.png"
+    },
+    {
+        "name": "crystal_maiden",
+        "title": "Crystal Maiden",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/crystal_maiden_vert.jpg",
+        "abilities": [
+            {
+                "name": "crystal_maiden_crystal_nova",
+                "title": "Crystal Nova",
+                "detail": "A burst of damaging frost slows enemy movement and attack rate in the targeted area.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/crystal_maiden_crystal_nova_hp1.png"
+            },
+            {
+                "name": "crystal_maiden_frostbite",
+                "title": "Frostbite",
+                "detail": "Encases an enemy unit in ice, prohibiting movement and attack, while dealing damage per second.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/crystal_maiden_frostbite_hp1.png"
+            },
+            {
+                "name": "crystal_maiden_brilliance_aura",
+                "title": "Arcane Aura",
+                "detail": "Gives additional mana regeneration to all friendly units on the map. This bonus is doubled on Crystal Maiden.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/crystal_maiden_brilliance_aura_hp1.png"
+            },
+            {
+                "name": "crystal_maiden_freezing_field",
+                "title": "Freezing Field",
+                "detail": "CHANNELED - Surrounds Crystal Maiden with random icy explosions that slow enemies and deal massive damage.  Lasts 7 seconds.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/crystal_maiden_freezing_field_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/crystal_maiden_hphover.png"
+    },
+    {
+        "name": "enchantress",
+        "title": "Enchantress",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/enchantress_vert.jpg",
+        "abilities": [
+            {
+                "name": "enchantress_untouchable",
+                "title": "Untouchable",
+                "detail": "Enchantress beguiles her enemies, slowing their attacks when she is attacked.  Lasts 3 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/enchantress_untouchable_hp1.png"
+            },
+            {
+                "name": "enchantress_enchant",
+                "title": "Enchant",
+                "detail": "Enchantress charms an enemy, bringing it under her control (if a creep) or slowing it (if a hero).",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/enchantress_enchant_hp1.png"
+            },
+            {
+                "name": "enchantress_natures_attendants",
+                "title": "Nature's Attendants",
+                "detail": "A cloud of wisps heals Enchantress and any friendly units nearby.  Lasts 10 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/enchantress_natures_attendants_hp1.png"
+            },
+            {
+                "name": "enchantress_impetus",
+                "title": "Impetus",
+                "detail": "Places an enchantment on each attack while activated, causing it to deal additional damage based on how far away the target is.  The farther the target, the greater the damage dealt.\n\nImpetus is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/enchantress_impetus_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/enchantress_hphover.png"
+    },
+    {
+        "name": "chen",
+        "title": "Chen",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/chen_vert.jpg",
+        "abilities": [
+            {
+                "name": "chen_penitence",
+                "title": "Penitence",
+                "detail": "Forces an enemy unit to move slower and take more damage from attacks and spells.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/chen_penitence_hp1.png"
+            },
+            {
+                "name": "chen_test_of_faith",
+                "title": "Test of Faith",
+                "detail": "Deals random damage to test an enemy unit's faith.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/chen_test_of_faith_hp1.png"
+            },
+            {
+                "name": "chen_test_of_faith_teleport",
+                "title": "Test of Faith",
+                "detail": "Teleports a friendly unit back to the base.  Creeps are teleported instantly, Heroes have a delay before teleporting.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/chen_test_of_faith_teleport_hp1.png"
+            },
+            {
+                "name": "chen_holy_persuasion",
+                "title": "Holy Persuasion",
+                "detail": "Gives control of an enemy or neutral creep, and gives it bonus hit points.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/chen_holy_persuasion_hp1.png"
+            },
+            {
+                "name": "chen_hand_of_god",
+                "title": "Hand of God",
+                "detail": "Fully regenerates any creeps under Chen's control and heals all allied heroes on the map.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/chen_hand_of_god_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/chen_hphover.png"
+    },
+    {
+        "name": "keeper_of_the_light",
+        "title": "Keeper of the Light",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/keeper_of_the_light_vert.jpg",
+        "abilities": [
+            {
+                "name": "keeper_of_the_light_illuminate",
+                "title": "Illuminate",
+                "detail": "Channels a ball of light energy, building power the longer it's channeled.  Once released, the ball deals damage and gives vision in a line.  The longer it is channeled, the more damage dealt.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/keeper_of_the_light_illuminate_hp1.png"
+            },
+            {
+                "name": "keeper_of_the_light_mana_leak",
+                "title": "Mana Leak",
+                "detail": "Weakens an enemy's magical essence, causing them to lose mana as they move.  If the enemy loses all of its mana, it will be stunned.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/keeper_of_the_light_mana_leak_hp1.png"
+            },
+            {
+                "name": "keeper_of_the_light_chakra_magic",
+                "title": "Chakra Magic",
+                "detail": "Restores mana to the target unit.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/keeper_of_the_light_chakra_magic_hp1.png"
+            },
+            {
+                "name": "keeper_of_the_light_recall",
+                "title": "Recall",
+                "detail": "After a short delay, teleports the targeted friendly hero to your location.  If the targeted friendly hero takes player based damage during this time, the ability is interrupted.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/keeper_of_the_light_recall_hp1.png"
+            },
+            {
+                "name": "keeper_of_the_light_blinding_light",
+                "title": "Blinding Light",
+                "detail": "A blinding light flashes over the targeted area, knocking back and blinding the units in the area, causing them to miss attacks.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/keeper_of_the_light_blinding_light_hp1.png"
+            },
+            {
+                "name": "keeper_of_the_light_spirit_form",
+                "title": "Spirit Form",
+                "detail": "Ezalor turns his body luminescent temporarily, gaining various abilities.  Illuminate is now channeled by a separate spirit, and gains the Blinding Light and Recall abilities.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/keeper_of_the_light_spirit_form_hp1.png"
+            },
+            {
+                "name": "keeper_of_the_light_illuminate_end",
+                "title": "Release Illuminate",
+                "detail": "Release the channel early.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/keeper_of_the_light_illuminate_end_hp1.png"
+            },
+            {
+                "name": "keeper_of_the_light_spirit_form_illuminate",
+                "title": "Illuminate",
+                "detail": "Channels a ball of light energy, building power the longer it's channeled.  Once released, the ball deals damage and gives vision in a line.  The longer it is channeled, the more damage dealt.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/keeper_of_the_light_spirit_form_illuminate_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/keeper_of_the_light_hphover.png"
+    },
+    {
+        "name": "axe",
+        "title": "Axe",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/axe_vert.jpg",
+        "abilities": [
+            {
+                "name": "axe_berserkers_call",
+                "title": "Berserker's Call",
+                "detail": "Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/axe_berserkers_call_hp1.png"
+            },
+            {
+                "name": "axe_battle_hunger",
+                "title": "Battle Hunger",
+                "detail": "Enrages an enemy unit, causing it to be slowed and take damage over time until it kills another unit or the duration ends. Axe gains movement speed for each unit affected with Battle Hunger.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/axe_battle_hunger_hp1.png"
+            },
+            {
+                "name": "axe_counter_helix",
+                "title": "Counter Helix",
+                "detail": "When attacked, Axe performs a helix counter attack, dealing damage to all nearby enemies.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/axe_counter_helix_hp1.png"
+            },
+            {
+                "name": "axe_culling_blade",
+                "title": "Culling Blade",
+                "detail": "Axe spots weakness and strikes, dealing moderate damage but instantly killing an enemy unit with low health.  When an enemy unit is killed in this way, Axe and nearby allied units gain bonus movement speed.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/axe_culling_blade_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/axe_hphover.png"
+    },
+    {
+        "name": "disruptor",
+        "title": "Disruptor",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/disruptor_vert.jpg",
+        "abilities": [
+            {
+                "name": "disruptor_thunder_strike",
+                "title": "Thunder Strike",
+                "detail": "Repeatedly strikes the targeted unit with lightning.  Each strike damages nearby enemy units in a small radius.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/disruptor_thunder_strike_hp1.png"
+            },
+            {
+                "name": "disruptor_glimpse",
+                "title": "Glimpse",
+                "detail": "Teleports the target hero back to where it was 4 seconds ago.  Instantly kills illusions.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/disruptor_glimpse_hp1.png"
+            },
+            {
+                "name": "disruptor_kinetic_field",
+                "title": "Kinetic Field",
+                "detail": "After a short formation time, creates a circular barrier of kinetic energy that enemies can't pass.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/disruptor_kinetic_field_hp1.png"
+            },
+            {
+                "name": "disruptor_static_storm",
+                "title": "Static Storm",
+                "detail": "Creates a damaging static storm that also silences all enemy units in the area for the duration.  The damage starts off weak, but increases in power over the duration.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/disruptor_static_storm_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/disruptor_hphover.png"
+    },
+    {
+        "name": "chaos_knight",
+        "title": "Chaos Knight",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/chaos_knight_vert.jpg",
+        "abilities": [
+            {
+                "name": "chaos_knight_chaos_bolt",
+                "title": "Chaos Bolt",
+                "detail": "Throws a mysterious bolt of energy at the target unit. It stuns for a random duration and deals random damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/chaos_knight_chaos_bolt_hp1.png"
+            },
+            {
+                "name": "chaos_knight_reality_rift",
+                "title": "Reality Rift",
+                "detail": "Teleports you, any images you have and the target unit to a random point along the line between the two of you. Gives you bonus attack damage for one attack.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/chaos_knight_reality_rift_hp1.png"
+            },
+            {
+                "name": "chaos_knight_chaos_strike",
+                "title": "Chaos Strike",
+                "detail": "Chaos Knight's mojo gives him a chance to deal bonus damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/chaos_knight_chaos_strike_hp1.png"
+            },
+            {
+                "name": "chaos_knight_phantasm",
+                "title": "Phantasm",
+                "detail": "Summons several copies of the Chaos Knight from alternate dimensions. The illusions deal full damage, but take double damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/chaos_knight_phantasm_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/chaos_knight_hphover.png"
+    },
+    {
+        "name": "faceless_void",
+        "title": "Faceless Void",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/faceless_void_vert.jpg",
+        "abilities": [
+            {
+                "name": "faceless_void_time_walk",
+                "title": "Time Walk",
+                "detail": "Rushes to a target location while slowing the movement and attack speed of all enemies along its path for 3 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/faceless_void_time_walk_hp1.png"
+            },
+            {
+                "name": "faceless_void_backtrack",
+                "title": "Backtrack",
+                "detail": "Faceless Void dodges damage by jumping backward in time, eluding both physical and magical attacks.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/faceless_void_backtrack_hp1.png"
+            },
+            {
+                "name": "faceless_void_time_lock",
+                "title": "Time Lock",
+                "detail": "Adds the chance for an attack to lock an enemy unit in time, stunning it and dealing bonus damage.  The duration is twice as long against creeps.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/faceless_void_time_lock_hp1.png"
+            },
+            {
+                "name": "faceless_void_chronosphere",
+                "title": "Chronosphere",
+                "detail": "Creates a blister in spacetime, trapping all units caught in its sphere of influence.  Only Faceless Void and any units he controls are unaffected.  Invisible units in the sphere will be revealed.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/faceless_void_chronosphere_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/faceless_void_hphover.png"
+    },
+    {
+        "name": "abaddon",
+        "title": "Abaddon",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_vert.jpg",
+        "abilities": [
+            {
+                "name": "abaddon_death_coil",
+                "title": "Mist Coil",
+                "detail": "Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/abaddon_death_coil_hp1.png"
+            },
+            {
+                "name": "abaddon_aphotic_shield",
+                "title": "Aphotic Shield",
+                "detail": "Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/abaddon_aphotic_shield_hp1.png"
+            },
+            {
+                "name": "abaddon_frostmourne",
+                "title": "Curse of Avernus",
+                "detail": "Abaddon strikes an enemy with chilling curse on each attack, causing all units who attack the slowed enemy to gain increased movement speed, along with faster attack speed, for a limited time.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/abaddon_frostmourne_hp1.png"
+            },
+            {
+                "name": "abaddon_borrowed_time",
+                "title": "Borrowed Time",
+                "detail": "When activated, most negative buffs will be removed and any damage you take will heal instead of damaging you. If the ability is not in cooldown, it will passively activate when your hitpoints drop below a certain threshold.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/abaddon_borrowed_time_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_hphover.png"
+    },
+    {
+        "name": "clinkz",
+        "title": "Clinkz",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/clinkz_vert.jpg",
+        "abilities": [
+            {
+                "name": "clinkz_strafe",
+                "title": "Strafe",
+                "detail": "Clinkz attacks with a barrage of arrows.  Dramatically increases attack speed for a short time.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/clinkz_strafe_hp1.png"
+            },
+            {
+                "name": "clinkz_searing_arrows",
+                "title": "Searing Arrows",
+                "detail": "Imbues Clinkz's arrows with fire for extra damage.\n\nSearing Arrows is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/clinkz_searing_arrows_hp1.png"
+            },
+            {
+                "name": "clinkz_wind_walk",
+                "title": "Skeleton Walk",
+                "detail": "Clinkz moves invisibly through units until the moment he attacks or uses an ability.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/clinkz_wind_walk_hp1.png"
+            },
+            {
+                "name": "clinkz_death_pact",
+                "title": "Death Pact",
+                "detail": "Clinkz consumes the target friendly or enemy creep, gaining a percent of its hitpoints as max health and damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/clinkz_death_pact_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/clinkz_hphover.png"
+    },
+    {
+        "name": "broodmother",
+        "title": "Broodmother",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/broodmother_vert.jpg",
+        "abilities": [
+            {
+                "name": "broodmother_spawn_spiderlings",
+                "title": "Spawn Spiderlings",
+                "detail": "Broodmother injects her young into an enemy unit, dealing damage. The spiderlings will hatch if the target is killed while under this influence.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/broodmother_spawn_spiderlings_hp1.png"
+            },
+            {
+                "name": "broodmother_spin_web",
+                "title": "Spin Web",
+                "detail": "Throws out a web that renders Broodmother invisible in its vicinity, while also boosting regeneration, and granting a passive movement speed increase.  Webs never expire, but when the maximum limit of webs is exceeded, the oldest web disappears.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/broodmother_spin_web_hp1.png"
+            },
+            {
+                "name": "broodmother_incapacitating_bite",
+                "title": "Incapacitating Bite",
+                "detail": "Broodmother's venom cripples enemy units, causing her attacks to slow and giving the affected unit a chance to miss its attacks.\n\nIncapacitating Bite is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/broodmother_incapacitating_bite_hp1.png"
+            },
+            {
+                "name": "broodmother_insatiable_hunger",
+                "title": "Insatiable Hunger",
+                "detail": "A violent lust for vital fluids increases Broodmother's attack damage and gives her a vampiric attack.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/broodmother_insatiable_hunger_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/broodmother_hphover.png"
+    },
+    {
+        "name": "enigma",
+        "title": "Enigma",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/enigma_vert.jpg",
+        "abilities": [
+            {
+                "name": "enigma_malefice",
+                "title": "Malefice",
+                "detail": "Focuses Enigma's power on a target, causing it to take damage and become repeatedly stunned for multiple instances.  An instance strikes every 2 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/enigma_malefice_hp1.png"
+            },
+            {
+                "name": "enigma_demonic_conversion",
+                "title": "Demonic Conversion",
+                "detail": "Transforms a creep into three fragments of Engima himself.  These eidolons are all under Enigma's control, and repeated successful attacks cause them to multiply.  When this happens, the eidolons have their health restored.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/enigma_demonic_conversion_hp1.png"
+            },
+            {
+                "name": "enigma_midnight_pulse",
+                "title": "Midnight Pulse",
+                "detail": "Steeps an area in dark resonance, damaging enemy units based on their max HP.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/enigma_midnight_pulse_hp1.png"
+            },
+            {
+                "name": "enigma_black_hole",
+                "title": "Black Hole",
+                "detail": "CHANNELED - Summons a vortex that sucks in nearby enemy units.  Enemies affected by Black Hole cannot move, attack, or cast spells.  The closer units get to the center, the more damage is dealt.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/enigma_black_hole_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/enigma_hphover.png"
+    },
+    {
+        "name": "death_prophet",
+        "title": "Death Prophet",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_vert.jpg",
+        "abilities": [
+            {
+                "name": "death_prophet_carrion_swarm",
+                "title": "Crypt Swarm",
+                "detail": "Sends a swarm of winged beasts to savage enemy units in front of Death Prophet.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/death_prophet_carrion_swarm_hp1.png"
+            },
+            {
+                "name": "death_prophet_silence",
+                "title": "Silence",
+                "detail": "Prevents enemy units in a target area from casting spells.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/death_prophet_silence_hp1.png"
+            },
+            {
+                "name": "death_prophet_witchcraft",
+                "title": "Witchcraft",
+                "detail": "Increases the potency of Death Prophet's spells, while providing a passive movement speed boost.  Reduces mana costs and cooldowns of Crypt Swarm and Silence, and adds additional spirits to Exorcism.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/death_prophet_witchcraft_hp1.png"
+            },
+            {
+                "name": "death_prophet_exorcism",
+                "title": "Exorcism",
+                "detail": "Unleashes evil spirits to drain the life of nearby enemy units and structures. At the end of the spell's duration, Death Prophet is healed in proportion to the damage dealt.  Lasts 30 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/death_prophet_exorcism_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_hphover.png"
+    },
+    {
+        "name": "dazzle",
+        "title": "Dazzle",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dazzle_vert.jpg",
+        "abilities": [
+            {
+                "name": "dazzle_poison_touch",
+                "title": "Poison Touch",
+                "detail": "Casts a poisonous spell on an enemy unit, causing damage and slowness over time, and eventual paralysis.  Poison Touch mini-stuns on impact.  \n\nAt level 2, the slow increases after 1 second, and at levels 3 and 4, the target is stunned for 1 second after the slow.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dazzle_poison_touch_hp1.png"
+            },
+            {
+                "name": "dazzle_shallow_grave",
+                "title": "Shallow Grave",
+                "detail": "An ally blessed with Shallow Grave, no matter how close to death, cannot die while under its protection.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dazzle_shallow_grave_hp1.png"
+            },
+            {
+                "name": "dazzle_shadow_wave",
+                "title": "Shadow Wave",
+                "detail": "Shadow Wave heals several allies, which in turn cause damage equal to their healing in a small area around them.  Dazzle is always healed by Shadow Wave, and it does not count toward the number of targets.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dazzle_shadow_wave_hp1.png"
+            },
+            {
+                "name": "dazzle_weave",
+                "title": "Weave",
+                "detail": "Applies a buff that increases allied hero armor or decreases enemy hero armor in the target area, changing armor by 1 every second.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dazzle_weave_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/dazzle_hphover.png"
+    },
+    {
+        "name": "dark_seer",
+        "title": "Dark Seer",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_seer_vert.jpg",
+        "abilities": [
+            {
+                "name": "dark_seer_vacuum",
+                "title": "Vacuum",
+                "detail": "Dark Seer creates a vacuum over the target area that sucks in enemy units, disrupting them and dealing damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dark_seer_vacuum_hp1.png"
+            },
+            {
+                "name": "dark_seer_ion_shell",
+                "title": "Ion Shell",
+                "detail": "Surrounds the target unit with a bristling shield that damages enemy units in an area around it.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dark_seer_ion_shell_hp1.png"
+            },
+            {
+                "name": "dark_seer_surge",
+                "title": "Surge",
+                "detail": "Charges a target friendly unit with power, giving it a brief burst of maximum movement speed.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dark_seer_surge_hp1.png"
+            },
+            {
+                "name": "dark_seer_wall_of_replica",
+                "title": "Wall of Replica",
+                "detail": "Raises a wall of warping light that damages and creates replicas of any enemy hero who crosses it. Enemy replicas serve at the Dark Seer's will.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/dark_seer_wall_of_replica_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_seer_hphover.png"
+    },
+    {
+        "name": "batrider",
+        "title": "Batrider",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/batrider_vert.jpg",
+        "abilities": [
+            {
+                "name": "batrider_sticky_napalm",
+                "title": "Sticky Napalm",
+                "detail": "Drenches an area in sticky oil, amplifying damage from Batrider's attacks and abilities and slowing the movement speed and turn rate of enemies in the area.  Additional casts of Sticky Napalm continue to increase damage, up to 10 stacks.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/batrider_sticky_napalm_hp1.png"
+            },
+            {
+                "name": "batrider_flamebreak",
+                "title": "Flamebreak",
+                "detail": "Hurls an explosive cocktail that explodes when it reaches the target location, knocking back and dealing damage to enemies in the area.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/batrider_flamebreak_hp1.png"
+            },
+            {
+                "name": "batrider_firefly",
+                "title": "Firefly",
+                "detail": "Batrider takes to the skies, laying down a flaming trail from the air.  While flying, the trail of fire destroys trees and damages enemies in its path, and Batrider gains the movement capabilities of a flying unit.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/batrider_firefly_hp1.png"
+            },
+            {
+                "name": "batrider_flaming_lasso",
+                "title": "Flaming Lasso",
+                "detail": "Lassoes an enemy and drags them in Batrider's wake.  Victims cannot be dragged over impassable terrain. Dragged units cannot move, attack, or use abilities.  Teleporting or blinking will break the lasso.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/batrider_flaming_lasso_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/batrider_hphover.png"
+    },
+    {
+        "name": "ancient_apparition",
+        "title": "Ancient Apparition",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/ancient_apparition_vert.jpg",
+        "abilities": [
+            {
+                "name": "ancient_apparition_cold_feet",
+                "title": "Cold Feet",
+                "detail": "Places a frozen hex on an enemy unit that deals damage over time, but can be dispelled by moving away from the initial cast point.  If the enemy unit doesn't move outside of the given range, it will be stunned and frozen in place after 4 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/ancient_apparition_cold_feet_hp1.png"
+            },
+            {
+                "name": "ancient_apparition_ice_vortex",
+                "title": "Ice Vortex",
+                "detail": "Creates a vortex of icy energy that slows movement speed and increases magic damage done in its range.  Lasts 12 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/ancient_apparition_ice_vortex_hp1.png"
+            },
+            {
+                "name": "ancient_apparition_chilling_touch",
+                "title": "Chilling Touch",
+                "detail": "A frigid gust enchants allied heroes, granting them bonus magical damage for a given number of physical attacks, while slowing their attack speed slightly.  Lasts 30 seconds.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/ancient_apparition_chilling_touch_hp1.png"
+            },
+            {
+                "name": "ancient_apparition_ice_blast",
+                "title": "Ice Blast",
+                "detail": "An explosive ball of icy hail that can be used to strike targets anywhere on the map. On first use, Kaldr launches a tracer towards the targeted location.  The second use marks the current location of the blast, upon which the actual projectile is launched - the greater the distance, the larger the radius affected. It deals damage to enemy units and applies a frostbite curse to units in and around the area that prevents regeneration or healing. Frostbitten units will take minor damage over time; if the units drop below a certain percentage of hitpoints, they'll instantly shatter.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/ancient_apparition_ice_blast_hp1.png"
+            },
+            {
+                "name": "ancient_apparition_ice_blast_release",
+                "title": "Release",
+                "detail": "Releases the ice blast early at its current location.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/ancient_apparition_ice_blast_release_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/ancient_apparition_hphover.png"
+    },
+    {
+        "name": "invoker",
+        "title": "Invoker",
+        "portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/invoker_vert.jpg",
+        "abilities": [
+            {
+                "name": "invoker_quas",
+                "title": "Quas",
+                "detail": "Allows manipulation of ice elements and grants a permanent strength bonus. Each Quas instance provides increased health regeneration.\n",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_quas_hp1.png"
+            },
+            {
+                "name": "invoker_wex",
+                "title": "Wex",
+                "detail": "Allows manipulation of storm elements and grants a permanent agility bonus. Each Wex instance provides increased attack speed and movement speed.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_wex_hp1.png"
+            },
+            {
+                "name": "invoker_exort",
+                "title": "Exort",
+                "detail": "Allows manipulation of fire elements and grants a permanent intelligence bonus. Each Exort instance provides increased attack damage.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_exort_hp1.png"
+            },
+            {
+                "name": "invoker_invoke",
+                "title": "Invoke",
+                "detail": "Combines the properties of the elements currently being manipulated, creating a new spell at the Invoker's disposal. Click the help button to see the list of possible spells.\n\nUpgradable by Aghanim's Scepter.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_invoke_hp1.png"
+            },
+            {
+                "name": "invoker_cold_snap",
+                "title": "Cold Snap",
+                "detail": "Invoker draws the heat from an enemy, chilling them to their very core for a duration based on the level of Quas. The enemy will take damage and be briefly frozen. Further damage taken in this state will freeze the enemy again, dealing bonus damage. The enemy can only be frozen so often, but the freeze cooldown decreases based on the level of Quas.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_cold_snap_hp1.png"
+            },
+            {
+                "name": "invoker_ghost_walk",
+                "title": "Ghost Walk",
+                "detail": "Invoker manipulates the ice and electrical energies around him, rendering his body invisible. The elemental imbalance created as a consequence slows nearby enemies based on the level of Quas, and slows Invoker as well based on the level of Wex.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_ghost_walk_hp1.png"
+            },
+            {
+                "name": "invoker_tornado",
+                "title": "Tornado",
+                "detail": "Unleashes a fast moving tornado that picks up enemy units in its path, suspending them helplessly in the air shortly before allowing them to plummet to their doom. Travels further based on the level of Wex. Holds enemies in the air for a duration based on the level of Quas. Deals damage based on the levels of Quas and Wex.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_tornado_hp1.png"
+            },
+            {
+                "name": "invoker_emp",
+                "title": "EMP",
+                "detail": "Invoker builds up a charge of electromagnetic energy at a targeted location which automatically detonates after a duration based on the level of Wex. The detonation covers an area, draining mana based on the level of Wex. Deals damage for each point of mana drained.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_emp_hp1.png"
+            },
+            {
+                "name": "invoker_alacrity",
+                "title": "Alacrity",
+                "detail": "Invoker infuses an ally with an immense surge of energy, increasing their attack speed based on the level of Wex and their damage based on the level of Exort.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_alacrity_hp1.png"
+            },
+            {
+                "name": "invoker_chaos_meteor",
+                "title": "Chaos Meteor",
+                "detail": "Invoker pulls a flaming meteor from space onto the targeted location. Upon landing, the meteor rolls forward, constantly dealing damage based on the level of Exort, and rolling further based on the level of Wex. Units hit by the meteor will also be set on fire for a short time, receiving additional damage based on the level of Exort.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_chaos_meteor_hp1.png"
+            },
+            {
+                "name": "invoker_sun_strike",
+                "title": "Sun Strike",
+                "detail": "Sends a catastrophic ray of fierce energy from the sun at any targeted location, incinerating all enemies standing beneath it once it reaches the Earth. Deals damage based on the level of Exort, however this damage is spread evenly over all enemies hit.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_sun_strike_hp1.png"
+            },
+            {
+                "name": "invoker_forge_spirit",
+                "title": "Forge Spirit",
+                "detail": "Invoker forges a spirit embodying the strength of fire and fortitude of ice. Damage, health, and armor are based on the level of Exort while attack range, mana, and duration are based on the level of Quas. The elemental's scorching attack is capable of melting the armor of enemy heroes. If both Quas and Exort are level 4 or higher, Invoker will create two spirits instead of one.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_forge_spirit_hp1.png"
+            },
+            {
+                "name": "invoker_ice_wall",
+                "title": "Ice Wall",
+                "detail": "Generates a wall of solid ice directly in front of Invoker for a duration based on the level of Quas. The bitter cold emanating from it greatly slows nearby enemies based on the level of Quas and deals damage each second based on the level of Exort.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_ice_wall_hp1.png"
+            },
+            {
+                "name": "invoker_deafening_blast",
+                "title": "Deafening Blast",
+                "detail": "Invoker unleashes a mighty sonic wave in front of him, dealing damage to any enemy unit it collides with based on the level of Exort. The sheer impact from the blast is enough to knock those enemy units back for a duration based on the level of Quas, then disarm their attacks for a duration based on the level of Wex.",
+                "icon": "http://cdn.dota2.com/apps/dota2/images/abilities/invoker_deafening_blast_hp1.png"
+            }
+        ],
+        "hover": "http://cdn.dota2.com/apps/dota2/images/heroes/invoker_hphover.png"
+    }
+]
