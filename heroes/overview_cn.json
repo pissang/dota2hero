@@ -32,6 +32,38 @@
         "hover": "http://www.dota2.com.cn/images/heroes/earthshaker_hphover.png"
     },
     {
+        "name": "beastmaster",
+        "title": "兽王",
+        "portrait": "http://www.dota2.com.cn/images/heroes/beastmaster_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "野性之斧",
+                "detail": "兽王投出他的斧头然后召回它们，切开飞过的敌人和树木。每把飞斧只对同一个敌人攻击一次。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_wild_axes_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "野性呼唤",
+                "detail": "兽王召唤战鹰和野猪作为友军。再次召唤时，之前召唤的野兽会被移除。 1级：召唤侦查战鹰。 2级：召唤侦查战鹰和小野猪。 3级：召唤高等战鹰和小野猪。 4级：召唤高等战鹰和高等野猪。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_call_of_the_wild_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "野性之心",
+                "detail": "唤起友军内心的狂怒，提高他们的攻击速度。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_inner_beast_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "原始咆哮",
+                "detail": "震耳欲聋的咆哮伤害并眩晕目标敌方单位，同时在兽王和他的猎物之间清出一条通道。附近的敌人也受到伤害并被降低移动和攻击速度。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_primal_roar_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/beastmaster_hphover.png"
+    },
+    {
         "name": "kunkka",
         "title": "昆卡",
         "portrait": "http://www.dota2.com.cn/images/heroes/kunkka_vert.jpg",
@@ -70,36 +102,42 @@
         "hover": "http://www.dota2.com.cn/images/heroes/kunkka_hphover.png"
     },
     {
-        "name": "beastmaster",
-        "title": "兽王",
-        "portrait": "http://www.dota2.com.cn/images/heroes/beastmaster_vert.jpg",
+        "name": "alchemist",
+        "title": "炼金术士",
+        "portrait": "http://www.dota2.com.cn/images/heroes/alchemist_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "野性之斧",
-                "detail": "兽王投出他的斧头然后召回它们，切开飞过的敌人和树木。每把飞斧只对同一个敌人攻击一次。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_wild_axes_hp1.png"
+                "title": "酸性喷雾",
+                "detail": "用高压枪向目标区域喷洒酸雾。穿过受污染地带的敌人每秒会受到混合伤害，同时护甲被削弱。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/alchemist_acid_spray_hp1.png"
             },
             {
                 "name": "",
-                "title": "野性呼唤",
-                "detail": "兽王召唤战鹰和野猪作为友军。再次召唤时，之前召唤的野兽会被移除。 1级：召唤侦查战鹰。 2级：召唤侦查战鹰和小野猪。 3级：召唤高等战鹰和小野猪。 4级：召唤高等战鹰和高等野猪。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_call_of_the_wild_hp1.png"
+                "title": "不稳定化合物",
+                "detail": "炼金术士调制一瓶不稳定的化合物，投向敌方英雄，对爆炸点周边范围的单位造成伤害并眩晕。调制的时间越久，伤害越大，眩晕时间也越长。调制5秒后达到最大伤害量和最长眩晕时间。然而，如果7秒后还不扔出去的话，则会在炼金术士自己手中爆炸。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/alchemist_unstable_concoction_hp1.png"
             },
             {
                 "name": "",
-                "title": "野性之心",
-                "detail": "唤起友军内心的狂怒，提高他们的攻击速度。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_inner_beast_hp1.png"
+                "title": "贪魔的贪婪",
+                "detail": "炼金术士将小兵的尸体转化成金币。一段时间内连杀小兵会获得更多额外金币，超时后计数将被重置。上限为30。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/alchemist_goblins_greed_hp1.png"
             },
             {
                 "name": "",
-                "title": "原始咆哮",
-                "detail": "震耳欲聋的咆哮伤害并眩晕目标敌方单位，同时在兽王和他的猎物之间清出一条通道。附近的敌人也受到伤害并被降低移动和攻击速度。 可用神杖升级。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_primal_roar_hp1.png"
+                "title": "化学狂暴",
+                "detail": "炼金术士诱发他的食人魔同伴进入化学狂暴，降低攻击间隔，提高移动速度、生命值和回复能力。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/alchemist_chemical_rage_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "投掷不稳定化合物",
+                "detail": "在爆炸前扔出去！",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/alchemist_unstable_concoction_throw_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/beastmaster_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/alchemist_hphover.png"
     },
     {
         "name": "dragon_knight",
@@ -166,42 +204,36 @@
         "hover": "http://www.dota2.com.cn/images/heroes/huskar_hphover.png"
     },
     {
-        "name": "alchemist",
-        "title": "炼金术士",
-        "portrait": "http://www.dota2.com.cn/images/heroes/alchemist_vert.jpg",
+        "name": "brewmaster",
+        "title": "酒仙",
+        "portrait": "http://www.dota2.com.cn/images/heroes/brewmaster_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "酸性喷雾",
-                "detail": "用高压枪向目标区域喷洒酸雾。穿过受污染地带的敌人每秒会受到混合伤害，同时护甲被削弱。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/alchemist_acid_spray_hp1.png"
+                "title": "雷霆一击",
+                "detail": "猛击地面,造成伤害,降低附近敌方地面单位的移动速度和攻击速度。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_thunder_clap_hp1.png"
             },
             {
                 "name": "",
-                "title": "不稳定化合物",
-                "detail": "炼金术士调制一瓶不稳定的化合物，投向敌方英雄，对爆炸点周边范围的单位造成伤害并眩晕。调制的时间越久，伤害越大，眩晕时间也越长。调制5秒后达到最大伤害量和最长眩晕时间。然而，如果7秒后还不扔出去的话，则会在炼金术士自己手中爆炸。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/alchemist_unstable_concoction_hp1.png"
+                "title": "醉酒云雾",
+                "detail": "用酒精浸透一个敌方单位，使其移动速度降低，并且攻击有一定概率不能命中。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_drunken_haze_hp1.png"
             },
             {
                 "name": "",
-                "title": "贪魔的贪婪",
-                "detail": "炼金术士将小兵的尸体转化成金币。一段时间内连杀小兵会获得更多额外金币，超时后计数将被重置。上限为30。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/alchemist_goblins_greed_hp1.png"
+                "title": "醉拳",
+                "detail": "有一定概率闪避攻击并能造成致命一击。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_drunken_brawler_hp1.png"
             },
             {
                 "name": "",
-                "title": "化学狂暴",
-                "detail": "炼金术士诱发他的食人魔同伴进入化学狂暴，降低攻击间隔，提高移动速度、生命值和回复能力。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/alchemist_chemical_rage_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "投掷不稳定化合物",
-                "detail": "在爆炸前扔出去！",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/alchemist_unstable_concoction_throw_hp1.png"
+                "title": "元素分离",
+                "detail": "酒仙分裂成元素，产生3个各有所长的战士，生存能力极强。只要其中任何一个在召唤时间结束后存活下来，酒仙就能重生。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_primal_split_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/alchemist_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/brewmaster_hphover.png"
     },
     {
         "name": "centaur",
@@ -234,38 +266,6 @@
             }
         ],
         "hover": "http://www.dota2.com.cn/images/heroes/centaur_hphover.png"
-    },
-    {
-        "name": "brewmaster",
-        "title": "酒仙",
-        "portrait": "http://www.dota2.com.cn/images/heroes/brewmaster_vert.jpg",
-        "abilities": [
-            {
-                "name": "",
-                "title": "雷霆一击",
-                "detail": "猛击地面,造成伤害,降低附近敌方地面单位的移动速度和攻击速度。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_thunder_clap_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "醉酒云雾",
-                "detail": "用酒精浸透一个敌方单位，使其移动速度降低，并且攻击有一定概率不能命中。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_drunken_haze_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "醉拳",
-                "detail": "有一定概率闪避攻击并能造成致命一击。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_drunken_brawler_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "元素分离",
-                "detail": "酒仙分裂成元素，产生3个各有所长的战士，生存能力极强。只要其中任何一个在召唤时间结束后存活下来，酒仙就能重生。 可用神杖升级。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_primal_split_hp1.png"
-            }
-        ],
-        "hover": "http://www.dota2.com.cn/images/heroes/brewmaster_hphover.png"
     },
     {
         "name": "bristleback",
@@ -338,6 +338,38 @@
         "hover": "http://www.dota2.com.cn/images/heroes/elder_titan_hphover.png"
     },
     {
+        "name": "juggernaut",
+        "title": "主宰",
+        "portrait": "http://www.dota2.com.cn/images/heroes/juggernaut_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "剑刃风暴",
+                "detail": "舞起具有破坏性力量的剑刃风暴，对主宰周围的敌方单位造成伤害，并使主宰对魔法免疫。持续5秒。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_blade_fury_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "治疗守卫",
+                "detail": "召唤一个治疗守卫，按周围友军单位最大生命值的一定比例治疗他们。治疗守卫可以移动，移动速度为300。持续25秒。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_healing_ward_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "剑舞",
+                "detail": "主宰有一定概率在攻击时造成双倍伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_blade_dance_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "无敌斩",
+                "detail": "主宰挥剑跃向敌人，随后再斩击附近的其它敌方单位，每次斩击造成175-250点伤害。可供攻击的敌人越少，他们承受的伤害就越高；如果只有一个敌人，那么他将承受全部伤害。主宰在无敌斩期间无敌，并对第一个目标造成短暂眩晕。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_omni_slash_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/juggernaut_hphover.png"
+    },
+    {
         "name": "antimage",
         "title": "敌法师",
         "portrait": "http://www.dota2.com.cn/images/heroes/antimage_vert.jpg",
@@ -402,38 +434,6 @@
         "hover": "http://www.dota2.com.cn/images/heroes/bounty_hunter_hphover.png"
     },
     {
-        "name": "juggernaut",
-        "title": "主宰",
-        "portrait": "http://www.dota2.com.cn/images/heroes/juggernaut_vert.jpg",
-        "abilities": [
-            {
-                "name": "",
-                "title": "剑刃风暴",
-                "detail": "舞起具有破坏性力量的剑刃风暴，对主宰周围的敌方单位造成伤害，并使主宰对魔法免疫。持续5秒。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_blade_fury_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "治疗守卫",
-                "detail": "召唤一个治疗守卫，按周围友军单位最大生命值的一定比例治疗他们。治疗守卫可以移动，移动速度为300。持续25秒。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_healing_ward_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "剑舞",
-                "detail": "主宰有一定概率在攻击时造成双倍伤害。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_blade_dance_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "无敌斩",
-                "detail": "主宰挥剑跃向敌人，随后再斩击附近的其它敌方单位，每次斩击造成175-250点伤害。可供攻击的敌人越少，他们承受的伤害就越高；如果只有一个敌人，那么他将承受全部伤害。主宰在无敌斩期间无敌，并对第一个目标造成短暂眩晕。 可用神杖升级。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_omni_slash_hp1.png"
-            }
-        ],
-        "hover": "http://www.dota2.com.cn/images/heroes/juggernaut_hphover.png"
-    },
-    {
         "name": "crystal_maiden",
         "title": "水晶室女",
         "portrait": "http://www.dota2.com.cn/images/heroes/crystal_maiden_vert.jpg",
@@ -464,44 +464,6 @@
             }
         ],
         "hover": "http://www.dota2.com.cn/images/heroes/crystal_maiden_hphover.png"
-    },
-    {
-        "name": "chen",
-        "title": "陈",
-        "portrait": "http://www.dota2.com.cn/images/heroes/chen_vert.jpg",
-        "abilities": [
-            {
-                "name": "",
-                "title": "赎罪",
-                "detail": "迫使一个敌方单位移动变慢，受到的攻击和技能伤害增加。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/chen_penitence_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "忠诚考验",
-                "detail": "对一个敌方单位造成随机伤害来考验他的忠诚。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/chen_test_of_faith_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "忠诚考验",
-                "detail": "将一个友方单位传送至基地。非英雄单位将被立刻传送，英雄单位将延迟一段时间传送。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/chen_test_of_faith_teleport_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "神圣劝化",
-                "detail": "控制一个敌方小兵或者中立生物，并提高它的生命值。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/chen_holy_persuasion_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "上帝之手\r\n\t\t\t\t\t\t\t  ",
-                "detail": "完全回复受陈控制的所有普通单位的生命，并治疗地图上的所有友军英雄。 神杖升级：降低冷却时间。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/chen_hand_of_god_hp1.png"
-            }
-        ],
-        "hover": "http://www.dota2.com.cn/images/heroes/chen_hphover.png"
     },
     {
         "name": "furion",
@@ -568,36 +530,112 @@
         "hover": "http://www.dota2.com.cn/images/heroes/enchantress_hphover.png"
     },
     {
-        "name": "disruptor",
-        "title": "干扰者",
-        "portrait": "http://www.dota2.com.cn/images/heroes/disruptor_vert.jpg",
+        "name": "chen",
+        "title": "陈",
+        "portrait": "http://www.dota2.com.cn/images/heroes/chen_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "雷霆之击",
-                "detail": "用闪电反复打击目标单位。每次打击会伤害附近小范围内的敌方单位。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/disruptor_thunder_strike_hp1.png"
+                "title": "赎罪",
+                "detail": "迫使一个敌方单位移动变慢，受到的攻击和技能伤害增加。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/chen_penitence_hp1.png"
             },
             {
                 "name": "",
-                "title": "恶念瞥视",
-                "detail": "将目标英雄传送回他4秒前所在位置。瞬间杀死幻象单位。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/disruptor_glimpse_hp1.png"
+                "title": "忠诚考验",
+                "detail": "对一个敌方单位造成随机伤害来考验他的忠诚。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/chen_test_of_faith_hp1.png"
             },
             {
                 "name": "",
-                "title": "动能力场",
-                "detail": "在短暂的构造时间后，创造一个敌人无法通过的环形动能屏障。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/disruptor_kinetic_field_hp1.png"
+                "title": "忠诚考验",
+                "detail": "将一个友方单位传送至基地。非英雄单位将被立刻传送，英雄单位将延迟一段时间传送。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/chen_test_of_faith_teleport_hp1.png"
             },
             {
                 "name": "",
-                "title": "静态风暴",
-                "detail": "创造一场静态风暴，在持续时间内伤害并沉默区域内的所有敌方单位。伤害刚开始时很低，但会在持续时间内逐渐增强。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/disruptor_static_storm_hp1.png"
+                "title": "神圣劝化",
+                "detail": "控制一个敌方小兵或者中立生物，并提高它的生命值。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/chen_holy_persuasion_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "上帝之手\r\n\t\t\t\t\t\t\t  ",
+                "detail": "完全回复受陈控制的所有普通单位的生命，并治疗地图上的所有友军英雄。 神杖升级：降低冷却时间。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/chen_hand_of_god_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/disruptor_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/chen_hphover.png"
+    },
+    {
+        "name": "ogre_magi",
+        "title": "食人魔魔法师",
+        "portrait": "http://www.dota2.com.cn/images/heroes/ogre_magi_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "火焰爆轰",
+                "detail": "以一波火焰轰击一个敌方单位，造成伤害并使目标眩晕。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/ogre_magi_fireblast_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "引燃",
+                "detail": "使目标浸透在挥发性化学物质中，导致其瞬间被火焰吞噬。目标处在极度痛苦之中，受到伤害并且移动缓慢。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/ogre_magi_ignite_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "嗜血术",
+                "detail": "激起一个友方单位的狂暴，增加其移动和攻击速度。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/ogre_magi_bloodlust_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "未精通的火焰爆轰",
+                "detail": "以一波火焰轰击一个敌方单位，造成伤害并使目标眩晕。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/ogre_magi_unrefined_fireblast_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "多重施法",
+                "detail": "使食人魔魔法师可以迅速施法，并提升法术的效力。有一定概率在一次施法中多次施放同一法术。增加火焰爆轰的魔法消耗并降低冷却时间，为引燃增加范围作用效果，降低嗜血术的冷却时间并使其有一定几率同时对食人魔魔法师附近的随机友军单位释放。 可用神杖升级。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/ogre_magi_multicast_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/ogre_magi_hphover.png"
+    },
+    {
+        "name": "axe",
+        "title": "斧王",
+        "portrait": "http://www.dota2.com.cn/images/heroes/axe_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "狂战士的怒吼",
+                "detail": "斧王嘲讽附近的敌方单位，强迫他们攻击自己，同时获得额外护甲。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/axe_berserkers_call_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "战斗饥渴",
+                "detail": "激怒一个敌方单位，使他受到减速和持续伤害，直到他杀死一个单位或者持续时间结束为止。斧王从每个受战斗饥渴影响的敌人身上获得移动速度加成。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/axe_battle_hunger_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "反击螺旋",
+                "detail": "受攻击时，斧王做出螺旋反击，对附近所有敌方单位造成伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/axe_counter_helix_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "淘汰之刃",
+                "detail": "斧王寻找弱点攻击，造成一定伤害，但会秒杀低血量的敌方单位。当一个敌方单位被此技能秒杀时，斧王和附近友军单位获得移动速度加成。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/axe_culling_blade_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/axe_hphover.png"
     },
     {
         "name": "keeper_of_the_light",
@@ -656,36 +694,36 @@
         "hover": "http://www.dota2.com.cn/images/heroes/keeper_of_the_light_hphover.png"
     },
     {
-        "name": "axe",
-        "title": "斧王",
-        "portrait": "http://www.dota2.com.cn/images/heroes/axe_vert.jpg",
+        "name": "disruptor",
+        "title": "干扰者",
+        "portrait": "http://www.dota2.com.cn/images/heroes/disruptor_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "狂战士的怒吼",
-                "detail": "斧王嘲讽附近的敌方单位，强迫他们攻击自己，同时获得额外护甲。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/axe_berserkers_call_hp1.png"
+                "title": "雷霆之击",
+                "detail": "用闪电反复打击目标单位。每次打击会伤害附近小范围内的敌方单位。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/disruptor_thunder_strike_hp1.png"
             },
             {
                 "name": "",
-                "title": "战斗饥渴",
-                "detail": "激怒一个敌方单位，使他受到减速和持续伤害，直到他杀死一个单位或者持续时间结束为止。斧王从每个受战斗饥渴影响的敌人身上获得移动速度加成。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/axe_battle_hunger_hp1.png"
+                "title": "恶念瞥视",
+                "detail": "将目标英雄传送回他4秒前所在位置。瞬间杀死幻象单位。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/disruptor_glimpse_hp1.png"
             },
             {
                 "name": "",
-                "title": "反击螺旋",
-                "detail": "受攻击时，斧王做出螺旋反击，对附近所有敌方单位造成伤害。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/axe_counter_helix_hp1.png"
+                "title": "动能力场",
+                "detail": "在短暂的构造时间后，创造一个敌人无法通过的环形动能屏障。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/disruptor_kinetic_field_hp1.png"
             },
             {
                 "name": "",
-                "title": "淘汰之刃",
-                "detail": "斧王寻找弱点攻击，造成一定伤害，但会秒杀低血量的敌方单位。当一个敌方单位被此技能秒杀时，斧王和附近友军单位获得移动速度加成。 可用神杖升级。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/axe_culling_blade_hp1.png"
+                "title": "静态风暴",
+                "detail": "创造一场静态风暴，在持续时间内伤害并沉默区域内的所有敌方单位。伤害刚开始时很低，但会在持续时间内逐渐增强。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/disruptor_static_storm_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/axe_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/disruptor_hphover.png"
     },
     {
         "name": "chaos_knight",
@@ -784,6 +822,38 @@
         "hover": "http://www.dota2.com.cn/images/heroes/faceless_void_hphover.png"
     },
     {
+        "name": "clinkz",
+        "title": "克林克兹",
+        "portrait": "http://www.dota2.com.cn/images/heroes/clinkz_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "扫射",
+                "detail": "克林克兹以密集的火力攻击。在短时间内极大提高攻击速度。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/clinkz_strafe_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "灼热之箭",
+                "detail": "让克林克兹的箭矢带有火焰，造成更多伤害。 灼热之箭是攻击特效，不与其他攻击特效叠加。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/clinkz_searing_arrows_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "骨隐步",
+                "detail": "使克林克兹能在隐形状态下移动，攻击或使用技能时现形。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/clinkz_wind_walk_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "死亡契约",
+                "detail": "克林克兹消化掉一个友方或敌方小兵，生命上限及攻击力增加，数值为目标一定百分比的生命值。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/clinkz_death_pact_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/clinkz_hphover.png"
+    },
+    {
         "name": "broodmother",
         "title": "育母蜘蛛",
         "portrait": "http://www.dota2.com.cn/images/heroes/broodmother_vert.jpg",
@@ -848,68 +918,36 @@
         "hover": "http://www.dota2.com.cn/images/heroes/enigma_hphover.png"
     },
     {
-        "name": "clinkz",
-        "title": "克林克兹",
-        "portrait": "http://www.dota2.com.cn/images/heroes/clinkz_vert.jpg",
+        "name": "death_prophet",
+        "title": "死亡先知",
+        "portrait": "http://www.dota2.com.cn/images/heroes/death_prophet_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "扫射",
-                "detail": "克林克兹以密集的火力攻击。在短时间内极大提高攻击速度。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/clinkz_strafe_hp1.png"
+                "title": "地穴虫群",
+                "detail": "召唤一群食腐虫在死亡先知面前的敌人中肆虐。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/death_prophet_carrion_swarm_hp1.png"
             },
             {
                 "name": "",
-                "title": "灼热之箭",
-                "detail": "让克林克兹的箭矢带有火焰，造成更多伤害。 灼热之箭是攻击特效，不与其他攻击特效叠加。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/clinkz_searing_arrows_hp1.png"
+                "title": "沉默魔法",
+                "detail": "阻止目标区域内的敌人施放魔法。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/death_prophet_silence_hp1.png"
             },
             {
                 "name": "",
-                "title": "骨隐步",
-                "detail": "使克林克兹能在隐形状态下移动，攻击或使用技能时现形。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/clinkz_wind_walk_hp1.png"
+                "title": "巫术精研",
+                "detail": "提升死亡先知魔法的效果，被动提升移动速度。降低地穴虫群和沉默魔法的魔法消耗以及冷却时间，增加驱使恶灵的恶灵数。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/death_prophet_witchcraft_hp1.png"
             },
             {
                 "name": "",
-                "title": "死亡契约",
-                "detail": "克林克兹消化掉一个友方或敌方小兵，生命上限及攻击力增加，数值为目标一定百分比的生命值。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/clinkz_death_pact_hp1.png"
+                "title": "驱使恶灵",
+                "detail": "释放恶灵偷走敌方单位和建筑的生命。持续时间结束后，死亡先知根据造成的伤害量，获得一定比例的治疗。持续30秒。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/death_prophet_exorcism_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/clinkz_hphover.png"
-    },
-    {
-        "name": "dazzle",
-        "title": "戴泽",
-        "portrait": "http://www.dota2.com.cn/images/heroes/dazzle_vert.jpg",
-        "abilities": [
-            {
-                "name": "",
-                "title": "剧毒之触",
-                "detail": "对一个敌方单位施放剧毒法术，造成持续伤害及减速，最终完全瘫痪。剧毒之触命中时造成短暂眩晕。 在2级时，减速效果会在1秒后更强，在3级和4级时，目标在减速结束后会被眩晕1秒。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/dazzle_poison_touch_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "薄葬",
-                "detail": "将薄葬施放于一名友军，使他在持续时间内无论受到多大伤害都不会死亡。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/dazzle_shallow_grave_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "暗影波",
-                "detail": "暗影波治疗数个友军，同时对他们附近小范围内的敌人造成和治疗量相同的伤害。暗影波一定会治疗戴泽，并且对戴泽的治疗不算在目标数量之内。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/dazzle_shadow_wave_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "编织",
-                "detail": "在目标区域内的所有英雄身上施加一个效果，提升友方英雄的护甲，降低敌方英雄的护甲，每秒提高或降低1点护甲。 可用神杖升级。\r\n ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/dazzle_weave_hp1.png"
-            }
-        ],
-        "hover": "http://www.dota2.com.cn/images/heroes/dazzle_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/death_prophet_hphover.png"
     },
     {
         "name": "dark_seer",
@@ -944,36 +982,36 @@
         "hover": "http://www.dota2.com.cn/images/heroes/dark_seer_hphover.png"
     },
     {
-        "name": "death_prophet",
-        "title": "死亡先知",
-        "portrait": "http://www.dota2.com.cn/images/heroes/death_prophet_vert.jpg",
+        "name": "dazzle",
+        "title": "戴泽",
+        "portrait": "http://www.dota2.com.cn/images/heroes/dazzle_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "地穴虫群",
-                "detail": "召唤一群食腐虫在死亡先知面前的敌人中肆虐。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/death_prophet_carrion_swarm_hp1.png"
+                "title": "剧毒之触",
+                "detail": "对一个敌方单位施放剧毒法术，造成持续伤害及减速，最终完全瘫痪。剧毒之触命中时造成短暂眩晕。 在2级时，减速效果会在1秒后更强，在3级和4级时，目标在减速结束后会被眩晕1秒。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/dazzle_poison_touch_hp1.png"
             },
             {
                 "name": "",
-                "title": "沉默魔法",
-                "detail": "阻止目标区域内的敌人施放魔法。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/death_prophet_silence_hp1.png"
+                "title": "薄葬",
+                "detail": "将薄葬施放于一名友军，使他在持续时间内无论受到多大伤害都不会死亡。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/dazzle_shallow_grave_hp1.png"
             },
             {
                 "name": "",
-                "title": "巫术精研",
-                "detail": "提升死亡先知魔法的效果，被动提升移动速度。降低地穴虫群和沉默魔法的魔法消耗以及冷却时间，增加驱使恶灵的恶灵数。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/death_prophet_witchcraft_hp1.png"
+                "title": "暗影波",
+                "detail": "暗影波治疗数个友军，同时对他们附近小范围内的敌人造成和治疗量相同的伤害。暗影波一定会治疗戴泽，并且对戴泽的治疗不算在目标数量之内。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/dazzle_shadow_wave_hp1.png"
             },
             {
                 "name": "",
-                "title": "驱使恶灵",
-                "detail": "释放恶灵偷走敌方单位和建筑的生命。持续时间结束后，死亡先知根据造成的伤害量，获得一定比例的治疗。持续30秒。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/death_prophet_exorcism_hp1.png"
+                "title": "编织",
+                "detail": "在目标区域内的所有英雄身上施加一个效果，提升友方英雄的护甲，降低敌方英雄的护甲，每秒提高或降低1点护甲。 可用神杖升级。\r\n ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/dazzle_weave_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/death_prophet_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/dazzle_hphover.png"
     },
     {
         "name": "batrider",

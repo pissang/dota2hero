@@ -37,6 +37,10 @@ glob('heroes/*', function(err, pathList) {
             vmtList.forEach(function(vmtFile) {
                 var res = vmt.parse(fs.readFileSync(vmtFile, 'utf-8'));
                 if (res.CustomHero) {
+                    // WTF
+                    if (res.CustomHero.$basetexture) {
+                        res.CustomHero.$baseTexture = res.CustomHero.$basetexture;
+                    }
                     matCandidates.push(res.CustomHero);
                 }
             });
@@ -79,9 +83,9 @@ glob('heroes/*', function(err, pathList) {
                     baseName = baseName.split(".")[0];
                     // Find the material;
                     var configs = matCandidates.filter(function(item) {
-                        if (item.$baseTexture) {
-                            return parseBaseName(item.$baseTexture) === baseName;
-                        }
+                        // if (item.$baseTexture) {
+                            return parseBaseName(item.$baseTexture).toLowerCase() === baseName;
+                        // }
                     })[0];
 
                     var material = {};
