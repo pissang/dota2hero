@@ -95,7 +95,7 @@ glob('heroes/*', function(err, pathList) {
                         ].forEach(function(item) {
                             if (configs[item[1]] !== undefined) {
                                 material[item[0]] = dir + '/textures/' +
-                                    parseBaseName(configs[item[1]]) + '.png';
+                                    parseBaseName(configs[item[1]]).toLowerCase() + '.png';
                             }
                         });
                         [
