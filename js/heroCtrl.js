@@ -193,7 +193,7 @@
                 }
                 for (var i = 0; i < meshes.length; i++) {
                     var mesh = meshes[i];
-                    var res = qtek3d.util.mesh.splitByJoints(mesh, 20, true);
+                    var res = qtek3d.util.mesh.splitByJoints(mesh, 30, true);
                 }
 
                 var frame = 0;
