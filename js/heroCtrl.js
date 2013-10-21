@@ -55,14 +55,28 @@
     }));
 
     var rockLoader = new qtek.loader.GLTF();
+    var heroFragShader;
     var rockNode;
-    rockLoader.load('assets/rock/rock.json');
     rockLoader.on('load', function(_scene) {
         rockNode = _scene.childAt(0);
         rockNode.rotation.rotateX(-Math.PI/2);
         rockNode.position.set(-5, -3.2, 0);
         rockNode.scale.set(0.15, 0.15, 0.15);
-        // rockNode.childAt(0).material.shader.disableTexture('diffuseMap');
+         var mat = rockNode.childAt(0).material;
+        var shader = mat.shader;
+        shader.setFragment(heroFragShader);
+        // reattach
+        mat.attachShader(shader);
+        shader.enableTexture('maskMap2');
+        shader.enableTexture('diffuseMap');
+        shader.define('vertex', 'IS_SPECULAR_MAP');
+        var specularTexture = new qtek3d.texture.Texture2D();
+        var diffuseTexture = new qtek3d.texture.Texture2D();
+        specularTexture.load('assets/rock/textures/badside_rocks001_spec.png');
+        diffuseTexture.load('assets/rock/textures/badside_rocks001.png');
+        mat.set('maskMap2', specularTexture);
+        mat.set('diffuseMap', diffuseTexture);
+
         rockNode.visible = false;
         scene.add(rockNode);
     });
@@ -101,7 +115,6 @@
 
         var heroRootPath = "heroes/" + heroName + "/";
         var materials = {};
-        var heroFragShader;
 
         $http.get(getResourcePath(heroRootPath + 'materials.json'))
         .then(function(result) {
@@ -110,6 +123,7 @@
         })
         .then(function(result) {
             heroFragShader = result.data;
+            rockLoader.load('assets/rock/rock.json');
             return $http.get(getResourcePath(heroRootPath + heroName + ".json"));
         })
         .then(function(result) {
@@ -134,11 +148,12 @@
                 for (var i = 0; i < children.length; i++) {
                     heroRootNode.add(children[i]);
                 }
-
+                var meshes = [];
                 heroRootNode.traverse(function(node) {
                     if (node.geometry) {
                         node.geometry = node.geometry.convertToGeometry();
                         node.geometry.generateTangents();
+                        meshes.push(node);
                     }
                     if (node.material && heroFragShader) {
                         var mat = node.material;
@@ -147,7 +162,7 @@
                         // reattach
                         mat.attachShader(shader);
                         shader.enableTexturesAll();
-                        // shader.define('fragment', 'RENDER_SPECULAR_INTENSITY');
+                        // shader.define('fragment', 'RENDER_FRESNEL');
                     }
                 });
                 for (var name in materials) {
@@ -175,6 +190,10 @@
                                 }
                             });
                     }
+                }
+                for (var i = 0; i < meshes.length; i++) {
+                    var mesh = meshes[i];
+                    var res = qtek3d.util.mesh.splitByJoints(mesh, 20, true);
                 }
 
                 var frame = 0;

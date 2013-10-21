@@ -85,14 +85,16 @@ void main(){
         vec4 mask2Tex = texture2D(maskMap2, v_Texcoord);
         // Mask2 r -> specular intensity
         specularIntensity *= mask2Tex.r;
-        // Mask2 g -> rim lightning
-        rimLightning = vec3(fresnelTerm.g * u_RimLightScale * mask2Tex.g) * u_RimLightColor;
-        // Masked by a 'sky light' 
-        rimLightning *= clamp(dot(normal, vec3(0.0, 1.0, 0.0)), 0.0, 1.0);
-        // Mask2 b -> tint specular by color
-        specularColor = mix(u_SpecularColor.rgb, finalColor.rgb, mask2Tex.b);
-        // Mask2 a -> specularExponentlar exponent
-        specularExponent *= mask2Tex.a;
+        #if ! defined(IS_SPECULAR_MAP)
+            // Mask2 g -> rim lightning
+            rimLightning = vec3(fresnelTerm.g * u_RimLightScale * mask2Tex.g) * u_RimLightColor;
+            // Masked by a 'sky light' 
+            rimLightning *= clamp(dot(normal, vec3(0.0, 1.0, 0.0)), 0.0, 1.0);
+            // Mask2 b -> tint specular by color
+            specularColor = mix(u_SpecularColor.rgb, finalColor.rgb, mask2Tex.b);
+            // Mask2 a -> specularExponentlar exponent
+            specularExponent *= mask2Tex.a;
+        #endif
     #endif
 
     #ifdef AMBIENT_LIGHT_NUMBER
@@ -119,6 +121,10 @@ void main(){
     #endif
     #ifdef RENDER_FRESNEL
         gl_FragColor = vec4(fresnelTerm, 1.0);
+        return;
+    #endif
+    #ifdef RENDER_RIMLIGHT
+        gl_FragColor = vec4(vec3(rimLightning), 1.0);
         return;
     #endif
 

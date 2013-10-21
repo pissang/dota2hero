@@ -2,7 +2,6 @@ var glob = require('glob');
 var path = require('path');
 var spawn = require('child_process').spawn;
 var fs = require('fs');
-var merge = require('deepmerge');
 var vmt = require('./vmt');
 
 var fixImagePath = true;
@@ -83,9 +82,7 @@ glob('heroes/*', function(err, pathList) {
                     baseName = baseName.split(".")[0];
                     // Find the material;
                     var configs = matCandidates.filter(function(item) {
-                        // if (item.$baseTexture) {
-                            return parseBaseName(item.$baseTexture).toLowerCase() === baseName;
-                        // }
+                        return parseBaseName(item.$baseTexture).toLowerCase() === baseName;
                     })[0];
 
                     var material = {};

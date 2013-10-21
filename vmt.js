@@ -89,7 +89,7 @@ function removeQuote(str) {
 
 function parseValue(val) {
     // is a number
-    if (!isNaN(parseFloat(val))) {
+    if (!isNaN(parseFloat(val)) && val.match(/^[0-9.\-]*$/)) {
         return parseFloat(val);
     } else {
         var arrayRegex = /\[\s*(.*?)\s*\]/;
@@ -97,6 +97,11 @@ function parseValue(val) {
         if (res) {
             // array
             return res[1].split(/[\s\t]+/).map(function(item) {
+                return parseFloat(item);
+            });
+        } else if(val.indexOf(' ') >= 0) {
+            // Array can be write as "1 1 1"
+            return val.split(/[\s\t]+/).map(function(item) {
                 return parseFloat(item);
             });
         } else {
