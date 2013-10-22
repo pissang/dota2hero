@@ -3,7 +3,7 @@
     "asset": {},
     "attributes": {
         "attribute_1": {
-            "bufferView": "bufferView_29",
+            "bufferView": "bufferView_31",
             "byteOffset": 0,
             "byteStride": 12,
             "count": 11037,
@@ -19,11 +19,11 @@
             ],
             "type": "FLOAT_VEC3"
         },
-        "attribute_11": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 448224,
-            "byteStride": 12,
-            "count": 885,
+        "attribute_10": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 712908,
+            "byteStride": 16,
+            "count": 1584,
             "max": [
                 1,
                 1,
@@ -34,13 +34,13 @@
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": "FLOAT_VEC4"
         },
-        "attribute_12": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 458844,
+        "attribute_11": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 738252,
             "byteStride": 12,
-            "count": 885,
+            "count": 1584,
             "max": [
                 1,
                 1,
@@ -54,8 +54,42 @@
             "type": "FLOAT_VEC3"
         },
         "attribute_13": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 469464,
+            "bufferView": "bufferView_31",
+            "byteOffset": 757260,
+            "byteStride": 12,
+            "count": 885,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_14": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 767880,
+            "byteStride": 12,
+            "count": 885,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_15": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 778500,
             "byteStride": 8,
             "count": 885,
             "max": [
@@ -70,9 +104,9 @@
             ],
             "type": "FLOAT_VEC2"
         },
-        "attribute_14": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 476544,
+        "attribute_16": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 785580,
             "byteStride": 16,
             "count": 885,
             "max": [
@@ -87,9 +121,9 @@
             ],
             "type": "FLOAT_VEC4"
         },
-        "attribute_15": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 490704,
+        "attribute_17": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 799740,
             "byteStride": 12,
             "count": 885,
             "max": [
@@ -104,44 +138,10 @@
             ],
             "type": "FLOAT_VEC3"
         },
-        "attribute_17": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 501324,
-            "byteStride": 12,
-            "count": 2295,
-            "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
-                0
-            ],
-            "type": "FLOAT_VEC3"
-        },
-        "attribute_18": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 528864,
-            "byteStride": 12,
-            "count": 2295,
-            "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
-                0
-            ],
-            "type": "FLOAT_VEC3"
-        },
         "attribute_19": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 556404,
-            "byteStride": 8,
+            "bufferView": "bufferView_31",
+            "byteOffset": 810360,
+            "byteStride": 12,
             "count": 2295,
             "max": [
                 1,
@@ -153,10 +153,10 @@
                 0,
                 0
             ],
-            "type": "FLOAT_VEC2"
+            "type": "FLOAT_VEC3"
         },
         "attribute_2": {
-            "bufferView": "bufferView_29",
+            "bufferView": "bufferView_31",
             "byteOffset": 132444,
             "byteStride": 12,
             "count": 11037,
@@ -173,8 +173,42 @@
             "type": "FLOAT_VEC3"
         },
         "attribute_20": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 574764,
+            "bufferView": "bufferView_31",
+            "byteOffset": 837900,
+            "byteStride": 12,
+            "count": 2295,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_21": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 865440,
+            "byteStride": 8,
+            "count": 2295,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC2"
+        },
+        "attribute_22": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 883800,
             "byteStride": 16,
             "count": 2295,
             "max": [
@@ -189,9 +223,9 @@
             ],
             "type": "FLOAT_VEC4"
         },
-        "attribute_21": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 611484,
+        "attribute_23": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 920520,
             "byteStride": 12,
             "count": 2295,
             "max": [
@@ -206,43 +240,43 @@
             ],
             "type": "FLOAT_VEC3"
         },
-        "attribute_23": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 639024,
-            "byteStride": 12,
-            "count": 1422,
-            "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
-                0
-            ],
-            "type": "FLOAT_VEC3"
-        },
-        "attribute_24": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 656088,
-            "byteStride": 12,
-            "count": 1422,
-            "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
-                0
-            ],
-            "type": "FLOAT_VEC3"
-        },
         "attribute_25": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 673152,
+            "bufferView": "bufferView_31",
+            "byteOffset": 948060,
+            "byteStride": 12,
+            "count": 1422,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_26": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 965124,
+            "byteStride": 12,
+            "count": 1422,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_27": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 982188,
             "byteStride": 8,
             "count": 1422,
             "max": [
@@ -257,9 +291,9 @@
             ],
             "type": "FLOAT_VEC2"
         },
-        "attribute_26": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 684528,
+        "attribute_28": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 993564,
             "byteStride": 16,
             "count": 1422,
             "max": [
@@ -274,9 +308,9 @@
             ],
             "type": "FLOAT_VEC4"
         },
-        "attribute_27": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 707280,
+        "attribute_29": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 1016316,
             "byteStride": 12,
             "count": 1422,
             "max": [
@@ -292,7 +326,7 @@
             "type": "FLOAT_VEC3"
         },
         "attribute_3": {
-            "bufferView": "bufferView_29",
+            "bufferView": "bufferView_31",
             "byteOffset": 264888,
             "byteStride": 8,
             "count": 11037,
@@ -308,11 +342,11 @@
             ],
             "type": "FLOAT_VEC2"
         },
-        "attribute_5": {
-            "bufferView": "bufferView_29",
+        "attribute_4": {
+            "bufferView": "bufferView_31",
             "byteOffset": 353184,
-            "byteStride": 12,
-            "count": 1584,
+            "byteStride": 16,
+            "count": 11037,
             "max": [
                 1,
                 1,
@@ -323,13 +357,13 @@
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": "FLOAT_VEC4"
         },
-        "attribute_6": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 372192,
+        "attribute_5": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 529776,
             "byteStride": 12,
-            "count": 1584,
+            "count": 11037,
             "max": [
                 1,
                 1,
@@ -343,42 +377,8 @@
             "type": "FLOAT_VEC3"
         },
         "attribute_7": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 391200,
-            "byteStride": 8,
-            "count": 1584,
-            "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
-                0
-            ],
-            "type": "FLOAT_VEC2"
-        },
-        "attribute_8": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 403872,
-            "byteStride": 16,
-            "count": 1584,
-            "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
-                0
-            ],
-            "type": "FLOAT_VEC4"
-        },
-        "attribute_9": {
-            "bufferView": "bufferView_29",
-            "byteOffset": 429216,
+            "bufferView": "bufferView_31",
+            "byteOffset": 662220,
             "byteStride": 12,
             "count": 1584,
             "max": [
@@ -392,25 +392,59 @@
                 0
             ],
             "type": "FLOAT_VEC3"
+        },
+        "attribute_8": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 681228,
+            "byteStride": 12,
+            "count": 1584,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_9": {
+            "bufferView": "bufferView_31",
+            "byteOffset": 700236,
+            "byteStride": 8,
+            "count": 1584,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC2"
         }
     },
     "bufferViews": {
-        "bufferView_29": {
+        "bufferView_31": {
             "buffer": "bounty_hunter.bin",
-            "byteLength": 724344,
+            "byteLength": 1033380,
             "byteOffset": 0,
             "target": "ARRAY_BUFFER"
         },
-        "bufferView_30": {
+        "bufferView_32": {
             "buffer": "bounty_hunter.bin",
             "byteLength": 34446,
-            "byteOffset": 724344,
+            "byteOffset": 1033380,
             "target": "ELEMENT_ARRAY_BUFFER"
         }
     },
     "buffers": {
         "bounty_hunter.bin": {
-            "byteLength": 758790,
+            "byteLength": 1067826,
             "path": "bounty_hunter.bin"
         }
     },
@@ -430,32 +464,32 @@
         }
     },
     "indices": {
-        "indices_10": {
-            "bufferView": "bufferView_30",
+        "indices_12": {
+            "bufferView": "bufferView_32",
             "byteOffset": 22074,
             "count": 1584,
             "type": "UNSIGNED_SHORT"
         },
-        "indices_16": {
-            "bufferView": "bufferView_30",
+        "indices_18": {
+            "bufferView": "bufferView_32",
             "byteOffset": 25242,
             "count": 885,
             "type": "UNSIGNED_SHORT"
         },
-        "indices_22": {
-            "bufferView": "bufferView_30",
+        "indices_24": {
+            "bufferView": "bufferView_32",
             "byteOffset": 27012,
             "count": 2295,
             "type": "UNSIGNED_SHORT"
         },
-        "indices_28": {
-            "bufferView": "bufferView_30",
+        "indices_30": {
+            "bufferView": "bufferView_32",
             "byteOffset": 31602,
             "count": 1422,
             "type": "UNSIGNED_SHORT"
         },
-        "indices_4": {
-            "bufferView": "bufferView_30",
+        "indices_6": {
+            "bufferView": "bufferView_32",
             "byteOffset": 0,
             "count": 11037,
             "type": "UNSIGNED_SHORT"
@@ -669,16 +703,16 @@
             "name": "bounty_hunter_Lweapon_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_16",
+                    "indices": "indices_18",
                     "material": "Material #158",
                     "semantics": {
-                        "JOINT": "attribute_14",
-                        "NORMAL": "attribute_12",
-                        "POSITION": "attribute_11",
-                        "TEXCOORD_0": "attribute_13",
-                        "WEIGHT": "attribute_15"
+                        "JOINT": "attribute_16",
+                        "NORMAL": "attribute_14",
+                        "POSITION": "attribute_13",
+                        "TEXCOORD_0": "attribute_15",
+                        "WEIGHT": "attribute_17"
                     },
-                    "skin": "skin_1"
+                    "skin": "skin_2"
                 }
             ]
         },
@@ -686,16 +720,16 @@
             "name": "bounty_hunter_Rweapon_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_28",
+                    "indices": "indices_30",
                     "material": "Material #191",
                     "semantics": {
-                        "JOINT": "attribute_26",
-                        "NORMAL": "attribute_24",
-                        "POSITION": "attribute_23",
-                        "TEXCOORD_0": "attribute_25",
-                        "WEIGHT": "attribute_27"
+                        "JOINT": "attribute_28",
+                        "NORMAL": "attribute_26",
+                        "POSITION": "attribute_25",
+                        "TEXCOORD_0": "attribute_27",
+                        "WEIGHT": "attribute_29"
                     },
-                    "skin": "skin_3"
+                    "skin": "skin_4"
                 }
             ]
         },
@@ -703,16 +737,16 @@
             "name": "bounty_hunter_backpack_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_10",
+                    "indices": "indices_12",
                     "material": "Material #136",
                     "semantics": {
-                        "JOINT": "attribute_8",
-                        "NORMAL": "attribute_6",
-                        "POSITION": "attribute_5",
-                        "TEXCOORD_0": "attribute_7",
-                        "WEIGHT": "attribute_9"
+                        "JOINT": "attribute_10",
+                        "NORMAL": "attribute_8",
+                        "POSITION": "attribute_7",
+                        "TEXCOORD_0": "attribute_9",
+                        "WEIGHT": "attribute_11"
                     },
-                    "skin": "skin_0"
+                    "skin": "skin_1"
                 }
             ]
         },
@@ -720,13 +754,16 @@
             "name": "bounty_hunter_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_4",
+                    "indices": "indices_6",
                     "material": "Material #124",
                     "semantics": {
+                        "JOINT": "attribute_4",
                         "NORMAL": "attribute_2",
                         "POSITION": "attribute_1",
-                        "TEXCOORD_0": "attribute_3"
-                    }
+                        "TEXCOORD_0": "attribute_3",
+                        "WEIGHT": "attribute_5"
+                    },
+                    "skin": "skin_0"
                 }
             ]
         },
@@ -734,16 +771,16 @@
             "name": "bounty_hunter_pads_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_22",
+                    "indices": "indices_24",
                     "material": "Material #169",
                     "semantics": {
-                        "JOINT": "attribute_20",
-                        "NORMAL": "attribute_18",
-                        "POSITION": "attribute_17",
-                        "TEXCOORD_0": "attribute_19",
-                        "WEIGHT": "attribute_21"
+                        "JOINT": "attribute_22",
+                        "NORMAL": "attribute_20",
+                        "POSITION": "attribute_19",
+                        "TEXCOORD_0": "attribute_21",
+                        "WEIGHT": "attribute_23"
                     },
-                    "skin": "skin_2"
+                    "skin": "skin_3"
                 }
             ]
         }
@@ -2171,6 +2208,61 @@
             "bindShapeMatrix": [],
             "inverseBindMatrices": {},
             "joints": [
+                "Jaw2_0",
+                "Head_1",
+                "Ear1_0_R",
+                "ShoulderPad8_0",
+                "Head_0",
+                "Mohawk1_0",
+                "Ear0_0_L",
+                "ShoulderPad7_0",
+                "clavicle_L",
+                "Spine_3",
+                "clavicle_R",
+                "bicep_L",
+                "Spine_0",
+                "Root_0",
+                "LoinCloth6_0",
+                "ThighPad3_0_A_R",
+                "elbow_L",
+                "ThighPad2_0_A_L",
+                "LoinCloth5_0",
+                "thigh_L",
+                "knee_L",
+                "BackPack4_0",
+                "mid_1_L",
+                "ankle_L",
+                "thigh_R",
+                "knee_R",
+                "ankle_R",
+                "mid_1_R",
+                "toeBall_L",
+                "toeBall_R",
+                "bicep_R",
+                "elbow_R",
+                "wrist_R",
+                "thumb_1_R",
+                "thumb_0_R",
+                "mid_0_R",
+                "index_0_R",
+                "index_1_R",
+                "index_2_R",
+                "wrist_L",
+                "thumb_1_L",
+                "thumb_0_L",
+                "mid_0_L",
+                "index_0_L",
+                "index_1_L",
+                "index_2_L"
+            ],
+            "roots": [
+                "Root_0"
+            ]
+        },
+        "skin_1": {
+            "bindShapeMatrix": [],
+            "inverseBindMatrices": {},
+            "joints": [
                 "BackPack4_0",
                 "clavicle_R",
                 "Spine_0",
@@ -2187,7 +2279,7 @@
                 "Root_0"
             ]
         },
-        "skin_1": {
+        "skin_2": {
             "bindShapeMatrix": [],
             "inverseBindMatrices": {},
             "joints": [
@@ -2195,7 +2287,7 @@
             ],
             "roots": []
         },
-        "skin_2": {
+        "skin_3": {
             "bindShapeMatrix": [],
             "inverseBindMatrices": {},
             "joints": [
@@ -2214,7 +2306,7 @@
                 "Root_0"
             ]
         },
-        "skin_3": {
+        "skin_4": {
             "bindShapeMatrix": [],
             "inverseBindMatrices": {},
             "joints": [

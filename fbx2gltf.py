@@ -584,10 +584,11 @@ def ConvertCamera(pCamera):
 
 def FindSkeletonNodes(pNode):
     lAttribute = pNode.GetNodeAttribute()
-    lAttributeType = lAttribute.GetAttributeType()
-    lNodeName = pNode.GetName()
-    if lAttributeType == FbxNodeAttribute.eSkeleton:
-        lib_joints[lNodeName] = pNode
+    if not lAttribute == None:
+        lAttributeType = lAttribute.GetAttributeType()
+        lNodeName = pNode.GetName()
+        if lAttributeType == FbxNodeAttribute.eSkeleton:
+            lib_joints[lNodeName] = pNode
 
     for i in range(pNode.GetChildCount()):
         FindSkeletonNodes(pNode.GetChild(i))
@@ -617,7 +618,8 @@ def TraverseSceneNode(pNode):
         lGLTFMesh = lib_meshes[lMeshKey] = {'name' : lMeshName, 'primitives' : []}
 
         lGeometry = converter.Triangulate(lGeometry, True)
-        lResult = converter.SplitMeshPerMaterial(lGeometry, True)
+        # FIXME SplitMeshPerMaterial may loss deformer in mesh
+        # lResult = converter.SplitMeshPerMaterial(lGeometry, True)
 
         for i in range(pNode.GetNodeAttributeCount()):
             lNodeAttribute = pNode.GetNodeAttributeByIndex(i)
@@ -630,13 +632,14 @@ def TraverseSceneNode(pNode):
     else:
         # Camera and light node attribute
         lNodeAttribute = pNode.GetNodeAttribute()
-        lAttributeType = lNodeAttribute.GetAttributeType()
-        if lAttributeType == FbxNodeAttribute.eCamera:
-            lCameraKey = ConvertCamera(lNodeAttribute)
-            lGLTFNode['camera'] = lCameraKey
-        elif lAttributeType == FbxNodeAttribute.eLight:
-            lLightKey = ConvertLight(lNodeAttribute)
-            lGLTFNode['lights'] = [lLightKey]
+        if not lNodeAttribute == None:
+            lAttributeType = lNodeAttribute.GetAttributeType()
+            if lAttributeType == FbxNodeAttribute.eCamera:
+                lCameraKey = ConvertCamera(lNodeAttribute)
+                lGLTFNode['camera'] = lCameraKey
+            elif lAttributeType == FbxNodeAttribute.eLight:
+                lLightKey = ConvertLight(lNodeAttribute)
+                lGLTFNode['lights'] = [lLightKey]
 
     lGLTFNode['children'] = []
     for i in range(pNode.GetChildCount()):

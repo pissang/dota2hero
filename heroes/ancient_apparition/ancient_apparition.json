@@ -3,7 +3,7 @@
     "asset": {},
     "attributes": {
         "attribute_1": {
-            "bufferView": "bufferView_9",
+            "bufferView": "bufferView_13",
             "byteOffset": 0,
             "byteStride": 12,
             "count": 2268,
@@ -19,8 +19,42 @@
             ],
             "type": "FLOAT_VEC3"
         },
+        "attribute_10": {
+            "bufferView": "bufferView_13",
+            "byteOffset": 563376,
+            "byteStride": 16,
+            "count": 13353,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC4"
+        },
+        "attribute_11": {
+            "bufferView": "bufferView_13",
+            "byteOffset": 777024,
+            "byteStride": 12,
+            "count": 13353,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
         "attribute_2": {
-            "bufferView": "bufferView_9",
+            "bufferView": "bufferView_13",
             "byteOffset": 27216,
             "byteStride": 12,
             "count": 2268,
@@ -37,7 +71,7 @@
             "type": "FLOAT_VEC3"
         },
         "attribute_3": {
-            "bufferView": "bufferView_9",
+            "bufferView": "bufferView_13",
             "byteOffset": 54432,
             "byteStride": 8,
             "count": 2268,
@@ -53,11 +87,11 @@
             ],
             "type": "FLOAT_VEC2"
         },
-        "attribute_5": {
-            "bufferView": "bufferView_9",
+        "attribute_4": {
+            "bufferView": "bufferView_13",
             "byteOffset": 72576,
-            "byteStride": 12,
-            "count": 13353,
+            "byteStride": 16,
+            "count": 2268,
             "max": [
                 1,
                 1,
@@ -68,13 +102,13 @@
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": "FLOAT_VEC4"
         },
-        "attribute_6": {
-            "bufferView": "bufferView_9",
-            "byteOffset": 232812,
+        "attribute_5": {
+            "bufferView": "bufferView_13",
+            "byteOffset": 108864,
             "byteStride": 12,
-            "count": 13353,
+            "count": 2268,
             "max": [
                 1,
                 1,
@@ -88,8 +122,42 @@
             "type": "FLOAT_VEC3"
         },
         "attribute_7": {
-            "bufferView": "bufferView_9",
-            "byteOffset": 393048,
+            "bufferView": "bufferView_13",
+            "byteOffset": 136080,
+            "byteStride": 12,
+            "count": 13353,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_8": {
+            "bufferView": "bufferView_13",
+            "byteOffset": 296316,
+            "byteStride": 12,
+            "count": 13353,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_9": {
+            "bufferView": "bufferView_13",
+            "byteOffset": 456552,
             "byteStride": 8,
             "count": 13353,
             "max": [
@@ -106,22 +174,22 @@
         }
     },
     "bufferViews": {
-        "bufferView_10": {
+        "bufferView_13": {
             "buffer": "ancient_apparition.bin",
-            "byteLength": 31242,
-            "byteOffset": 499872,
-            "target": "ELEMENT_ARRAY_BUFFER"
-        },
-        "bufferView_9": {
-            "buffer": "ancient_apparition.bin",
-            "byteLength": 499872,
+            "byteLength": 937260,
             "byteOffset": 0,
             "target": "ARRAY_BUFFER"
+        },
+        "bufferView_14": {
+            "buffer": "ancient_apparition.bin",
+            "byteLength": 31242,
+            "byteOffset": 937260,
+            "target": "ELEMENT_ARRAY_BUFFER"
         }
     },
     "buffers": {
         "ancient_apparition.bin": {
-            "byteLength": 531114,
+            "byteLength": 968502,
             "path": "ancient_apparition.bin"
         }
     },
@@ -138,16 +206,16 @@
         }
     },
     "indices": {
-        "indices_4": {
-            "bufferView": "bufferView_10",
-            "byteOffset": 0,
-            "count": 2268,
-            "type": "UNSIGNED_SHORT"
-        },
-        "indices_8": {
-            "bufferView": "bufferView_10",
+        "indices_12": {
+            "bufferView": "bufferView_14",
             "byteOffset": 4536,
             "count": 13353,
+            "type": "UNSIGNED_SHORT"
+        },
+        "indices_6": {
+            "bufferView": "bufferView_14",
+            "byteOffset": 0,
+            "count": 2268,
             "type": "UNSIGNED_SHORT"
         }
     },
@@ -243,13 +311,16 @@
             "name": "ancient_apparition_model_LOD0_0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_4",
+                    "indices": "indices_6",
                     "material": "Material #35",
                     "semantics": {
+                        "JOINT": "attribute_4",
                         "NORMAL": "attribute_2",
                         "POSITION": "attribute_1",
-                        "TEXCOORD_0": "attribute_3"
-                    }
+                        "TEXCOORD_0": "attribute_3",
+                        "WEIGHT": "attribute_5"
+                    },
+                    "skin": "skin_0"
                 }
             ]
         },
@@ -257,13 +328,16 @@
             "name": "ancient_apparition_model_LOD0_1-mesh",
             "primitives": [
                 {
-                    "indices": "indices_8",
+                    "indices": "indices_12",
                     "material": "Material #36",
                     "semantics": {
-                        "NORMAL": "attribute_6",
-                        "POSITION": "attribute_5",
-                        "TEXCOORD_0": "attribute_7"
-                    }
+                        "JOINT": "attribute_10",
+                        "NORMAL": "attribute_8",
+                        "POSITION": "attribute_7",
+                        "TEXCOORD_0": "attribute_9",
+                        "WEIGHT": "attribute_11"
+                    },
+                    "skin": "skin_1"
                 }
             ]
         }
@@ -1297,7 +1371,92 @@
         }
     },
     "shaders": {},
-    "skins": {},
+    "skins": {
+        "skin_0": {
+            "bindShapeMatrix": [],
+            "inverseBindMatrices": {},
+            "joints": [
+                "Index_0_L",
+                "wrist_L",
+                "Index_1_L",
+                "Index_2_L",
+                "Mid_2_L",
+                "bicep_R",
+                "R_shldr_top2_0",
+                "elbow_R",
+                "wrist_R",
+                "Ring_1_R",
+                "Ring_2_R",
+                "Ring_0_R",
+                "Mid_0_R",
+                "Thumb_0_R",
+                "Thumb_1_R",
+                "Thumb_2_R",
+                "Index_0_R",
+                "Index_1_R",
+                "Mid_2_R",
+                "Mid_1_R",
+                "Index_2_R",
+                "bicep_L",
+                "L_shldr_top1_0",
+                "elbow_L",
+                "Thumb_1_L",
+                "Thumb_2_L",
+                "Thumb_0_L",
+                "Ring_0_L",
+                "Ring_1_L",
+                "Mid_1_L",
+                "Mid_0_L",
+                "Ring_2_L"
+            ],
+            "roots": []
+        },
+        "skin_1": {
+            "bindShapeMatrix": [],
+            "inverseBindMatrices": {},
+            "joints": [
+                "head",
+                "neck1",
+                "clavicle_R",
+                "L_shldr_top1_0",
+                "spine1",
+                "R_shldr_top2_0",
+                "bicep_R",
+                "clavicle_L",
+                "bicep_L",
+                "root",
+                "Index_2_R",
+                "Index_1_R",
+                "Mid_2_R",
+                "Index_0_R",
+                "Index_2_L",
+                "Index_1_L",
+                "Mid_2_L",
+                "Index_0_L",
+                "Mid_1_L",
+                "Mid_0_L",
+                "Ring_2_L",
+                "Ring_1_L",
+                "Ring_0_L",
+                "Thumb_1_L",
+                "Thumb_0_L",
+                "Thumb_2_L",
+                "Ring_2_R",
+                "Ring_1_R",
+                "Ring_0_R",
+                "Mid_1_R",
+                "Mid_0_R",
+                "Thumb_2_R",
+                "Thumb_1_R",
+                "Thumb_0_R",
+                "leg0_1",
+                "leg0_0"
+            ],
+            "roots": [
+                "root"
+            ]
+        }
+    },
     "techniques": {
         "technique_0": {
             "parameters": {},

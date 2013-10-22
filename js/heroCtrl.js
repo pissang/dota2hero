@@ -51,7 +51,7 @@
 
     scene.add(light);
     scene.add(new qtek3d.light.Ambient({
-        intensity : 0.2
+        intensity : 0.3
     }));
 
     var rockLoader = new qtek.loader.GLTF();
@@ -162,7 +162,7 @@
                         // reattach
                         mat.attachShader(shader);
                         shader.enableTexturesAll();
-                        // shader.define('fragment', 'RENDER_FRESNEL');
+                        // shader.define('fragment', 'RENDER_SELF_ILLUMINATION');
                     }
                 });
                 for (var name in materials) {
@@ -220,8 +220,10 @@
                             .success(function(data) {
                                 var frames = SMDParser(data);
                                 for (var name in frames) {
-                                    joints[name].poses = frames[name];
-                                    frameLen = frames[name].length;
+                                    if (joints[name]) {
+                                        joints[name].poses = frames[name];
+                                        frameLen = frames[name].length;   
+                                    }
                                 }
                             });
                     });

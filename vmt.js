@@ -49,9 +49,9 @@ function parse(str) {
             next();
             continue;
         } else if (currentLine.indexOf('//') === 0) { // comment
-            // next();
-            // continue;
-            currentLine = trim(currentLine.substr(2));
+            next();
+            continue;
+            // currentLine = trim(currentLine.substr(2));
         }
 
         var items = currentLine.split(/[\s\t]+/g);

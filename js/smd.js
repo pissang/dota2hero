@@ -15,7 +15,10 @@
 
         var handleJoint = function(line) {
             var items = line.split(/\s+/);
-            if (items.length == 3) {
+            if (items.length > 3) {
+                items = [items[0], items.slice(1, items.length-1).join(' '), items[items.length-1]];
+            }
+            if (items.length === 3) {
                 var idx = parseInt(items[0]);
                 var name = items[1].replace(/"/g, '');
                 var parentIdx = parseInt(items[2]);

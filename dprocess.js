@@ -3,6 +3,14 @@ var path = require('path');
 var spawn = require('child_process').spawn;
 var fs = require('fs');
 var vmt = require('./vmt');
+var colors = require('colors');
+
+var hero = process.argv[2] || '';
+if (hero) {
+    var pattern = 'heroes/' + hero;
+} else {
+    var pattern = 'heroes/*';
+}
 
 var fixImagePath = true;
 var updateAnimation = true;
@@ -18,7 +26,7 @@ function parseBaseName(path) {
     return baseName;
 }
 
-glob('heroes/*', function(err, pathList) {
+glob(pattern, function(err, pathList) {
     pathList = pathList.filter(function(path) {
         return path !== 'heroes/heroes.json' &&
                 path !== 'heroes/overview_cn.json' &&
@@ -44,7 +52,9 @@ glob('heroes/*', function(err, pathList) {
                 }
             });
             var py = spawn('python3.2', ['fbx2gltf.py', fbxPath]);
-            py.on('close', afterCloseConvert);
+            py.on('close', function() {
+                setTimeout(afterCloseConvert, 100);
+            });
         });
 
         // Converting fbx to gltf
@@ -90,7 +100,7 @@ glob('heroes/*', function(err, pathList) {
                         [
                             ['diffuseMap', '$baseTexture'],
                             ['normalMap', '$normalmap'],
-                            ['maskMap1', '$masknmap1'],
+                            ['maskMap1', '$maskmap1'],
                             ['maskMap2', '$maskmap2']
                         ].forEach(function(item) {
                             if (configs[item[1]] !== undefined) {
@@ -167,7 +177,6 @@ glob('heroes/*', function(err, pathList) {
                     name : heroName,
                     root : dir,
                     model : heroName + '.json',
-                    fix : heroName + '_fix.json',
                     animations : 'animations.json'
                 });
 

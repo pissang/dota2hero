@@ -49,10 +49,12 @@ void main(){
     #endif
 
     vec4 finalColor = vec4(1.0);
+    vec3 texColor = vec3(0.0);
     vec3 diffuseItem = vec3(0.0, 0.0, 0.0);
     vec3 specularItem = vec3(0.0, 0.0, 0.0);
     vec3 fresnelTerm = vec3(0.0, 0.0, 0.0);
     vec3 rimLightning = vec3(0.0, 0.0, 0.0);
+    float selfIllumination = 0.0;
 
     vec3 eyePos = viewInverse[3].xyz;
     vec3 V = normalize(eyePos - v_WorldPosition);
@@ -75,11 +77,12 @@ void main(){
     fresnelTerm.g *= fresnelTerm.g;
 
     #ifdef DIFFUSEMAP_ENABLED
-        vec4 tex = texture2D(diffuseMap, v_Texcoord);
-        finalColor.rgb *= tex.rgb;
+        texColor = texture2D(diffuseMap, v_Texcoord).rgb;
+        finalColor.rgb *= texColor;
     #endif
     #ifdef MASKMAP1_ENABLED
-
+        vec4 mask1Tex = texture2D(maskMap1, v_Texcoord);
+        selfIllumination += mask1Tex.a;
     #endif
     #ifdef MASKMAP2_ENABLED
         vec4 mask2Tex = texture2D(maskMap2, v_Texcoord);
@@ -91,8 +94,8 @@ void main(){
             // Masked by a 'sky light' 
             rimLightning *= clamp(dot(normal, vec3(0.0, 1.0, 0.0)), 0.0, 1.0);
             // Mask2 b -> tint specular by color
-            specularColor = mix(u_SpecularColor.rgb, finalColor.rgb, mask2Tex.b);
-            // Mask2 a -> specularExponentlar exponent
+            specularColor = mix(u_SpecularColor.rgb, texColor, mask2Tex.b);
+            // Mask2 a -> specularExponent
             specularExponent *= mask2Tex.a;
         #endif
     #endif
@@ -112,7 +115,7 @@ void main(){
         return;
     #endif    
     #ifdef RENDER_SPECULAR_COLOR
-        gl_FragColor = vec4(vec3(specularColor), 1.0);
+        gl_FragColor = vec4(specularColor, 1.0);
         return;
     #endif
     #ifdef RENDER_NORMAL
@@ -125,6 +128,10 @@ void main(){
     #endif
     #ifdef RENDER_RIMLIGHT
         gl_FragColor = vec4(vec3(rimLightning), 1.0);
+        return;
+    #endif
+    #ifdef RENDER_SELF_ILLUMINATION
+        gl_FragColor = vec4(texColor * selfIllumination, 1.0);
         return;
     #endif
 
@@ -167,7 +174,7 @@ void main(){
             #endif
 
             diffuseItem += lightColor * ndl * attenuation * shadowContrib;
-            specularItem += lightColor * pow(ndh, specularExponent) * attenuation * shadowContrib;
+            specularItem += lightColor * ndl * pow(ndh, specularExponent) * attenuation * shadowContrib;
         }
     #endif
 
@@ -199,7 +206,7 @@ void main(){
             #endif
 
             diffuseItem += lightColor * ndl * shadowContrib;
-            specularItem += lightColor * pow(ndh, specularExponent) * shadowContrib;
+            specularItem += lightColor * ndl * pow(ndh, specularExponent) * shadowContrib;
         }
     #endif
 
@@ -251,7 +258,7 @@ void main(){
 
             diffuseItem += lightColor * ndl * attenuation * (1.0-falloff) * shadowContrib;
 
-            specularItem += lightColor * pow(ndh, specularExponent) * attenuation * (1.0-falloff) * shadowContrib;
+            specularItem += lightColor * ndl * pow(ndh, specularExponent) * attenuation * (1.0-falloff) * shadowContrib;
         }
     #endif
 
@@ -259,6 +266,9 @@ void main(){
     finalColor.rgb += specularItem * specularIntensity * specularColor;
     // Rim lightning
     finalColor.rgb += rimLightning;
+    // finalColor.rgb += selfIllumination * texColor;
 
-    gl_FragColor = finalColor;
+    // gl_FragColor = finalColor;
+
+    gl_FragColor = vec4(mix(finalColor.rgb, texColor, selfIllumination), 1.0);
 }

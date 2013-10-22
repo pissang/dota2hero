@@ -2,6 +2,7 @@ var jsdom = require('jsdom');
 var async = require('async');
 var fs = require('fs');
 var http = require('http');
+var colors = require('colors');
 
 var lang = process.argv[2] || 'en';
 var website, output;
@@ -26,6 +27,14 @@ function resolve(window, href) {
     );
 }
 
+var HERO_ALIAS = {
+    'templar_assassin' : 'lanaya',
+    'gyrocopter' : 'gyro',
+    'nyx_assassin' : 'nerubian_assassin',
+    'bloodseeker' : 'blood_seeker',
+    'drow_ranger' : 'drow'
+}
+
 jsdom.env(
     website,
     ['http://code.jquery.com/jquery.js'],
@@ -41,10 +50,13 @@ jsdom.env(
                 var id = $item.attr('id');
                 var href = resolve(window, $item.attr('href'));
                 var heroName = id.substr('link_'.length);
+                if (HERO_ALIAS[heroName]) {
+                    heroName = HERO_ALIAS[heroName];
+                }
                 var heroRoot = 'heroes/' + heroName;
 
                 if (!fs.existsSync(heroRoot)) {
-                    console.log('Skipped..' + heroName);
+                    console.log('[Skipped] '.red + heroName);
                     callback();
                     return;
                 }
@@ -146,7 +158,7 @@ function fetchHero(name, href, callback) {
         href,
         ['http://code.jquery.com/jquery.js'],
         function(err, window) {
-            console.log('Fetched..' + name);
+            console.log('[Fetched] '.green + name);
             callback({
                 name : name,
                 title : getTitle(window),
