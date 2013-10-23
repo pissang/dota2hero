@@ -43,12 +43,8 @@ glob(pattern, function(err, pathList) {
         glob(dir + '/textures/*.vmt', function(err, vmtList) {
             vmtList.forEach(function(vmtFile) {
                 var res = vmt.parse(fs.readFileSync(vmtFile, 'utf-8'));
-                if (res.CustomHero) {
-                    // WTF
-                    if (res.CustomHero.$basetexture) {
-                        res.CustomHero.$baseTexture = res.CustomHero.$basetexture;
-                    }
-                    matCandidates.push(res.CustomHero);
+                if (res.customhero) {
+                    matCandidates.push(res.customhero);
                 }
             });
             var py = spawn('python3.2', ['fbx2gltf.py', fbxPath]);
@@ -92,13 +88,13 @@ glob(pattern, function(err, pathList) {
                     baseName = baseName.split(".")[0];
                     // Find the material;
                     var configs = matCandidates.filter(function(item) {
-                        return parseBaseName(item.$baseTexture).toLowerCase() === baseName;
+                        return parseBaseName(item.$basetexture).toLowerCase() === baseName;
                     })[0];
 
                     var material = {};
                     if (configs) {
                         [
-                            ['diffuseMap', '$baseTexture'],
+                            ['diffuseMap', '$basetexture'],
                             ['normalMap', '$normalmap'],
                             ['maskMap1', '$maskmap1'],
                             ['maskMap2', '$maskmap2']
@@ -109,11 +105,11 @@ glob(pattern, function(err, pathList) {
                             }
                         });
                         [
-                            ['u_SpecularExponent', '$SPECULAREXPONENT'], 
-                            ['u_SpecularScale', '$SPECULARSCALE'], 
-                            ['u_SpecularColor', '$SPECULARCOLOR'], 
-                            ['u_RimLightScale', '$RIMLIGHTSCALE'],
-                            ['u_RimLightColor', '$RIMLIGHTCOLOR']
+                            ['u_SpecularExponent', '$specularexponent'], 
+                            ['u_SpecularScale', '$specularscale'], 
+                            ['u_SpecularColor', '$specularcolor'], 
+                            ['u_RimLightScale', '$rimlightscale'],
+                            ['u_RimLightColor', '$rimlightcolor']
                         ]
                         .forEach(function(item) {
                             if (configs[item[1]] !== undefined) {

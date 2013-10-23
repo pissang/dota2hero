@@ -1,3 +1,5 @@
+// VMT Parser
+// https://github.com/pissang
 function parse(str) {
     var config = {};
 
@@ -51,11 +53,11 @@ function parse(str) {
         } else if (currentLine.indexOf('//') === 0) { // comment
             next();
             continue;
-            // currentLine = trim(currentLine.substr(2));
         }
 
         var items = currentLine.split(/[\s\t]+/g);
-        var key = removeQuote(items[0]);
+        // Not case sensitive
+        var key = removeQuote(items[0]).toLowerCase();
         var value = removeQuote(items.slice(1).join(' '));
 
         if (!value) {

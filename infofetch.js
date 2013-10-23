@@ -5,7 +5,7 @@ var http = require('http');
 var colors = require('colors');
 
 var lang = process.argv[2] || 'en';
-var website, output;
+var website, output; 
 if (lang === 'cn') {
     website = 'http://www.dota2.com.cn/heroes';
 } else if (lang === 'en') {
@@ -32,7 +32,8 @@ var HERO_ALIAS = {
     'gyrocopter' : 'gyro',
     'nyx_assassin' : 'nerubian_assassin',
     'bloodseeker' : 'blood_seeker',
-    'drow_ranger' : 'drow'
+    'drow_ranger' : 'drow',
+    'riki' : 'rikimaru'
 }
 
 jsdom.env(
@@ -60,14 +61,6 @@ jsdom.env(
                     callback();
                     return;
                 }
-                // if (!fs.existsSync(heroRoot + '/imgs')) {
-                //     fs.mkdirSync(heroRoot + '/imgs');
-                // }
-                // Download images
-                // download(
-                //     $item.find("img.heroHoverLarge").attr("src"),
-                //     heroRoot + '/imgs/hover.png'
-                // );
                 fetchHero(heroName, href, function(overview) {
                     if (overview) {
                         overview['hover'] = resolve(

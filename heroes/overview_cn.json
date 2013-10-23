@@ -1,37 +1,5 @@
 [
     {
-        "name": "beastmaster",
-        "title": "兽王",
-        "portrait": "http://www.dota2.com.cn/images/heroes/beastmaster_vert.jpg",
-        "abilities": [
-            {
-                "name": "",
-                "title": "野性之斧",
-                "detail": "兽王投出他的斧头然后召回它们，切开飞过的敌人和树木。每把飞斧只对同一个敌人攻击一次。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_wild_axes_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "野性呼唤",
-                "detail": "兽王召唤战鹰和野猪作为友军。再次召唤时，之前召唤的野兽会被移除。 1级：召唤侦查战鹰。 2级：召唤侦查战鹰和小野猪。 3级：召唤高等战鹰和小野猪。 4级：召唤高等战鹰和高等野猪。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_call_of_the_wild_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "野性之心",
-                "detail": "唤起友军内心的狂怒，提高他们的攻击速度。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_inner_beast_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "原始咆哮",
-                "detail": "震耳欲聋的咆哮伤害并眩晕目标敌方单位，同时在兽王和他的猎物之间清出一条通道。附近的敌人也受到伤害并被降低移动和攻击速度。 可用神杖升级。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_primal_roar_hp1.png"
-            }
-        ],
-        "hover": "http://www.dota2.com.cn/images/heroes/beastmaster_hphover.png"
-    },
-    {
         "name": "earthshaker",
         "title": "撼地者",
         "portrait": "http://www.dota2.com.cn/images/heroes/earthshaker_vert.jpg",
@@ -64,6 +32,76 @@
         "hover": "http://www.dota2.com.cn/images/heroes/earthshaker_hphover.png"
     },
     {
+        "name": "kunkka",
+        "title": "昆卡",
+        "portrait": "http://www.dota2.com.cn/images/heroes/kunkka_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "洪流",
+                "detail": "召唤喷涌的洪流，短暂延迟后，将敌人冲上天，造成伤害、眩晕和减速。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/kunkka_torrent_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "潮汐使者",
+                "detail": "昆卡的传奇之剑使他的下一次攻击附加额外的攻击力并在前方造成大范围的分裂攻击伤害。 非主要目标受到的分裂攻击伤害不受护甲值的影响。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/kunkka_tidebringer_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "X标记",
+                "detail": "对友方或敌方英雄使用，用 X 标记他们当前位置，数秒后将他们送回 X 标记处。在技能持续时间内，昆卡可以手动触发送回。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/kunkka_x_marks_the_spot_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "幽灵船",
+                "detail": "召唤一艘幽灵船穿过战场，对冲撞到的敌人造成伤害并眩晕。友军被泡在昆卡的朗姆酒中，移动速度提升并对受到的伤害反应麻木。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/kunkka_ghostship_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "送回",
+                "detail": "将标记的英雄送回X位置。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/kunkka_return_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/kunkka_hphover.png"
+    },
+    {
+        "name": "beastmaster",
+        "title": "兽王",
+        "portrait": "http://www.dota2.com.cn/images/heroes/beastmaster_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "野性之斧",
+                "detail": "兽王投出他的斧头然后召回它们，切开飞过的敌人和树木。每把飞斧只对同一个敌人攻击一次。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_wild_axes_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "野性呼唤",
+                "detail": "兽王召唤战鹰和野猪作为友军。再次召唤时，之前召唤的野兽会被移除。 1级：召唤侦查战鹰。 2级：召唤侦查战鹰和小野猪。 3级：召唤高等战鹰和小野猪。 4级：召唤高等战鹰和高等野猪。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_call_of_the_wild_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "野性之心",
+                "detail": "唤起友军内心的狂怒，提高他们的攻击速度。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_inner_beast_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "原始咆哮",
+                "detail": "震耳欲聋的咆哮伤害并眩晕目标敌方单位，同时在兽王和他的猎物之间清出一条通道。附近的敌人也受到伤害并被降低移动和攻击速度。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/beastmaster_primal_roar_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/beastmaster_hphover.png"
+    },
+    {
         "name": "dragon_knight",
         "title": "龙骑士",
         "portrait": "http://www.dota2.com.cn/images/heroes/dragon_knight_vert.jpg",
@@ -94,6 +132,38 @@
             }
         ],
         "hover": "http://www.dota2.com.cn/images/heroes/dragon_knight_hphover.png"
+    },
+    {
+        "name": "omniknight",
+        "title": "全能骑士",
+        "portrait": "http://www.dota2.com.cn/images/heroes/omniknight_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "洗礼",
+                "detail": "立即治疗一个友方单位，并对周围的敌军造成伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/omniknight_purification_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "驱逐",
+                "detail": "创造出一个强大的神圣守卫，使目标免疫大多数魔法。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/omniknight_repel_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "退化光环",
+                "detail": "极大程度的减缓附近敌人的移动速度和攻击速度。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/omniknight_degen_aura_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "守护天使",
+                "detail": "全能骑士召唤出守护天使，使附近的友方单位对物理伤害免疫，并极大地提高生命回复速率。 可用神杖升级",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/omniknight_guardian_angel_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/omniknight_hphover.png"
     },
     {
         "name": "huskar",
@@ -166,42 +236,36 @@
         "hover": "http://www.dota2.com.cn/images/heroes/alchemist_hphover.png"
     },
     {
-        "name": "kunkka",
-        "title": "昆卡",
-        "portrait": "http://www.dota2.com.cn/images/heroes/kunkka_vert.jpg",
+        "name": "brewmaster",
+        "title": "酒仙",
+        "portrait": "http://www.dota2.com.cn/images/heroes/brewmaster_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "洪流",
-                "detail": "召唤喷涌的洪流，短暂延迟后，将敌人冲上天，造成伤害、眩晕和减速。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/kunkka_torrent_hp1.png"
+                "title": "雷霆一击",
+                "detail": "猛击地面,造成伤害,降低附近敌方地面单位的移动速度和攻击速度。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_thunder_clap_hp1.png"
             },
             {
                 "name": "",
-                "title": "潮汐使者",
-                "detail": "昆卡的传奇之剑使他的下一次攻击附加额外的攻击力并在前方造成大范围的分裂攻击伤害。 非主要目标受到的分裂攻击伤害不受护甲值的影响。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/kunkka_tidebringer_hp1.png"
+                "title": "醉酒云雾",
+                "detail": "用酒精浸透一个敌方单位，使其移动速度降低，并且攻击有一定概率不能命中。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_drunken_haze_hp1.png"
             },
             {
                 "name": "",
-                "title": "X标记",
-                "detail": "对友方或敌方英雄使用，用 X 标记他们当前位置，数秒后将他们送回 X 标记处。在技能持续时间内，昆卡可以手动触发送回。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/kunkka_x_marks_the_spot_hp1.png"
+                "title": "醉拳",
+                "detail": "有一定概率闪避攻击并能造成致命一击。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_drunken_brawler_hp1.png"
             },
             {
                 "name": "",
-                "title": "幽灵船",
-                "detail": "召唤一艘幽灵船穿过战场，对冲撞到的敌人造成伤害并眩晕。友军被泡在昆卡的朗姆酒中，移动速度提升并对受到的伤害反应麻木。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/kunkka_ghostship_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "送回",
-                "detail": "将标记的英雄送回X位置。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/kunkka_return_hp1.png"
+                "title": "元素分离",
+                "detail": "酒仙分裂成元素，产生3个各有所长的战士，生存能力极强。只要其中任何一个在召唤时间结束后存活下来，酒仙就能重生。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_primal_split_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/kunkka_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/brewmaster_hphover.png"
     },
     {
         "name": "centaur",
@@ -236,36 +300,36 @@
         "hover": "http://www.dota2.com.cn/images/heroes/centaur_hphover.png"
     },
     {
-        "name": "brewmaster",
-        "title": "酒仙",
-        "portrait": "http://www.dota2.com.cn/images/heroes/brewmaster_vert.jpg",
+        "name": "antimage",
+        "title": "敌法师",
+        "portrait": "http://www.dota2.com.cn/images/heroes/antimage_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "雷霆一击",
-                "detail": "猛击地面,造成伤害,降低附近敌方地面单位的移动速度和攻击速度。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_thunder_clap_hp1.png"
+                "title": "法力损毁",
+                "detail": "每次攻击损毁目标一定量的魔法值，并额外造成相当于损毁魔法值60%的伤害。 法力损毁是攻击特效，不与其它攻击特效叠加。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/antimage_mana_break_hp1.png"
             },
             {
                 "name": "",
-                "title": "醉酒云雾",
-                "detail": "用酒精浸透一个敌方单位，使其移动速度降低，并且攻击有一定概率不能命中。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_drunken_haze_hp1.png"
+                "title": "闪烁",
+                "detail": "让敌法师自由出入战场的短距离传送。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/antimage_blink_hp1.png"
             },
             {
                 "name": "",
-                "title": "醉拳",
-                "detail": "有一定概率闪避攻击并能造成致命一击。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_drunken_brawler_hp1.png"
+                "title": "法术护盾",
+                "detail": "提高敌法师的魔法抗性。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/antimage_spell_shield_hp1.png"
             },
             {
                 "name": "",
-                "title": "元素分离",
-                "detail": "酒仙分裂成元素，产生3个各有所长的战士，生存能力极强。只要其中任何一个在召唤时间结束后存活下来，酒仙就能重生。 可用神杖升级。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/brewmaster_primal_split_hp1.png"
+                "title": "法力虚空",
+                "detail": "根据目标损失的魔法值，对目标和其周围的敌人造成伤害。主要目标受到短暂眩晕。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/antimage_mana_void_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/brewmaster_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/antimage_hphover.png"
     },
     {
         "name": "bristleback",
@@ -338,38 +402,6 @@
         "hover": "http://www.dota2.com.cn/images/heroes/elder_titan_hphover.png"
     },
     {
-        "name": "antimage",
-        "title": "敌法师",
-        "portrait": "http://www.dota2.com.cn/images/heroes/antimage_vert.jpg",
-        "abilities": [
-            {
-                "name": "",
-                "title": "法力损毁",
-                "detail": "每次攻击损毁目标一定量的魔法值，并额外造成相当于损毁魔法值60%的伤害。 法力损毁是攻击特效，不与其它攻击特效叠加。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/antimage_mana_break_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "闪烁",
-                "detail": "让敌法师自由出入战场的短距离传送。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/antimage_blink_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "法术护盾",
-                "detail": "提高敌法师的魔法抗性。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/antimage_spell_shield_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "法力虚空",
-                "detail": "根据目标损失的魔法值，对目标和其周围的敌人造成伤害。主要目标受到短暂眩晕。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/antimage_mana_void_hp1.png"
-            }
-        ],
-        "hover": "http://www.dota2.com.cn/images/heroes/antimage_hphover.png"
-    },
-    {
         "name": "drow",
         "title": "卓尔游侠",
         "portrait": "http://www.dota2.com.cn/images/heroes/drow_ranger_vert.jpg",
@@ -400,6 +432,38 @@
             }
         ],
         "hover": "http://www.dota2.com.cn/images/heroes/drow_ranger_hphover.png"
+    },
+    {
+        "name": "juggernaut",
+        "title": "主宰",
+        "portrait": "http://www.dota2.com.cn/images/heroes/juggernaut_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "剑刃风暴",
+                "detail": "舞起具有破坏性力量的剑刃风暴，对主宰周围的敌方单位造成伤害，并使主宰对魔法免疫。持续5秒。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_blade_fury_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "治疗守卫",
+                "detail": "召唤一个治疗守卫，按周围友军单位最大生命值的一定比例治疗他们。治疗守卫可以移动，移动速度为300。持续25秒。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_healing_ward_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "剑舞",
+                "detail": "主宰有一定概率在攻击时造成双倍伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_blade_dance_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "无敌斩",
+                "detail": "主宰挥剑跃向敌人，随后再斩击附近的其它敌方单位，每次斩击造成175-250点伤害。可供攻击的敌人越少，他们承受的伤害就越高；如果只有一个敌人，那么他将承受全部伤害。主宰在无敌斩期间无敌，并对第一个目标造成短暂眩晕。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_omni_slash_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/juggernaut_hphover.png"
     },
     {
         "name": "mirana",
@@ -434,36 +498,68 @@
         "hover": "http://www.dota2.com.cn/images/heroes/mirana_hphover.png"
     },
     {
-        "name": "juggernaut",
-        "title": "主宰",
-        "portrait": "http://www.dota2.com.cn/images/heroes/juggernaut_vert.jpg",
+        "name": "phantom_lancer",
+        "title": "幻影长矛手",
+        "portrait": "http://www.dota2.com.cn/images/heroes/phantom_lancer_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "剑刃风暴",
-                "detail": "舞起具有破坏性力量的剑刃风暴，对主宰周围的敌方单位造成伤害，并使主宰对魔法免疫。持续5秒。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_blade_fury_hp1.png"
+                "title": "灵魂之矛",
+                "detail": "对目标敌方单位投出一支有魔力的灵魂之矛，造成伤害并减速，同时召唤一个幻象攻击该单位。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/phantom_lancer_spirit_lance_hp1.png"
             },
             {
                 "name": "",
-                "title": "治疗守卫",
-                "detail": "召唤一个治疗守卫，按周围友军单位最大生命值的一定比例治疗他们。治疗守卫可以移动，移动速度为300。持续25秒。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_healing_ward_hp1.png"
+                "title": "神出鬼没",
+                "detail": "幻影长矛手进入隐身，同时留下一个幻象迷惑敌人。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/phantom_lancer_doppelwalk_hp1.png"
             },
             {
                 "name": "",
-                "title": "剑舞",
-                "detail": "主宰有一定概率在攻击时造成双倍伤害。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_blade_dance_hp1.png"
+                "title": "并列",
+                "detail": "幻影长矛手的攻击有一定概率创造幻象来迷惑敌人。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/phantom_lancer_juxtapose_hp1.png"
             },
             {
                 "name": "",
-                "title": "无敌斩",
-                "detail": "主宰挥剑跃向敌人，随后再斩击附近的其它敌方单位，每次斩击造成175-250点伤害。可供攻击的敌人越少，他们承受的伤害就越高；如果只有一个敌人，那么他将承受全部伤害。主宰在无敌斩期间无敌，并对第一个目标造成短暂眩晕。 可用神杖升级。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/juggernaut_omni_slash_hp1.png"
+                "title": "幻化之锋",
+                "detail": "幻影长矛手磨练他的技能。提高并列的概率，并列的幻象现在也能创造自己的幻象。幻化之锋也能提高幻影长矛手的魔法抗性。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/phantom_lancer_phantom_edge_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/juggernaut_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/phantom_lancer_hphover.png"
+    },
+    {
+        "name": "rikimaru",
+        "title": "力丸",
+        "portrait": "http://www.dota2.com.cn/images/heroes/riki_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "烟幕",
+                "detail": "丢下一个烟雾弹，沉默并减速处于范围内的敌方单位，同时使他们的大多数攻击不能命中。持续6秒。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/riki_smoke_screen_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "闪烁突袭",
+                "detail": "传送到一个目标背后，如果是敌人则对其造成额外伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/riki_blink_strike_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "背刺",
+                "detail": "如果力丸从背后攻击，将会附加正比于其敏捷值的额外伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/riki_backstab_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "永久隐身",
+                "detail": "力丸遁入阴影，除非攻击或使用技能，否则永久保持隐身状态。当被沉默时，力丸将会显形。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/riki_permanent_invisibility_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/riki_hphover.png"
     },
     {
         "name": "morphling",
@@ -510,38 +606,6 @@
         "hover": "http://www.dota2.com.cn/images/heroes/morphling_hphover.png"
     },
     {
-        "name": "luna",
-        "title": "露娜",
-        "portrait": "http://www.dota2.com.cn/images/heroes/luna_vert.jpg",
-        "abilities": [
-            {
-                "name": "",
-                "title": "月光",
-                "detail": "露娜引导一道聚集的月光能量打击敌人，造成眩晕和伤害。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/luna_lucent_beam_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "月刃",
-                "detail": "使露娜的月刃可以弹射到目标附近的敌方单位身上。每次弹射造成的伤害都会减少。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/luna_moon_glaive_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "月之祝福",
-                "detail": "为附近的友军提升攻击力，同时提高露娜在夜间的视野。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/luna_lunar_blessing_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "月蚀",
-                "detail": "召唤一次跟随露娜的月蚀，以她当前技能等级的月光打击敌人。单一目标只能受到有限次数的打击。与单独施放的月光不同，月蚀不能造成眩晕。月蚀会暂时将白天变为黑夜，持续10秒。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/luna_eclipse_hp1.png"
-            }
-        ],
-        "hover": "http://www.dota2.com.cn/images/heroes/luna_hphover.png"
-    },
-    {
         "name": "lanaya",
         "title": "圣堂刺客",
         "portrait": "http://www.dota2.com.cn/images/heroes/templar_assassin_vert.jpg",
@@ -578,6 +642,38 @@
             }
         ],
         "hover": "http://www.dota2.com.cn/images/heroes/templar_assassin_hphover.png"
+    },
+    {
+        "name": "luna",
+        "title": "露娜",
+        "portrait": "http://www.dota2.com.cn/images/heroes/luna_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "月光",
+                "detail": "露娜引导一道聚集的月光能量打击敌人，造成眩晕和伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/luna_lucent_beam_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "月刃",
+                "detail": "使露娜的月刃可以弹射到目标附近的敌方单位身上。每次弹射造成的伤害都会减少。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/luna_moon_glaive_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "月之祝福",
+                "detail": "为附近的友军提升攻击力，同时提高露娜在夜间的视野。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/luna_lunar_blessing_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "月蚀",
+                "detail": "召唤一次跟随露娜的月蚀，以她当前技能等级的月光打击敌人。单一目标只能受到有限次数的打击。与单独施放的月光不同，月蚀不能造成眩晕。月蚀会暂时将白天变为黑夜，持续10秒。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/luna_eclipse_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/luna_hphover.png"
     },
     {
         "name": "bounty_hunter",
@@ -688,36 +784,42 @@
         "hover": "http://www.dota2.com.cn/images/heroes/lone_druid_hphover.png"
     },
     {
-        "name": "crystal_maiden",
-        "title": "水晶室女",
-        "portrait": "http://www.dota2.com.cn/images/heroes/crystal_maiden_vert.jpg",
+        "name": "puck",
+        "title": "帕克",
+        "portrait": "http://www.dota2.com.cn/images/heroes/puck_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "冰霜新星",
-                "detail": "破坏性的冰霜爆发，降低目标区域内的敌人的移动和攻击攻速。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/crystal_maiden_crystal_nova_hp1.png"
+                "title": "幻象法球",
+                "detail": "帕克向直线方向发出一个魔法球，对经过路径上的敌人造成伤害。在幻象法球飞行过程中，帕克可以使用灵动之翼来传送到法球所在的位置。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/puck_illusory_orb_hp1.png"
             },
             {
                 "name": "",
-                "title": "冰封禁制",
-                "detail": "用冰包围一个敌方单位，禁止移动和攻击，同时每秒造成伤害。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/crystal_maiden_frostbite_hp1.png"
+                "title": "新月之痕",
+                "detail": "帕克洒出它神秘的仙女粉尘，对周围的敌人造成伤害并使其沉默。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/puck_waning_rift_hp1.png"
             },
             {
                 "name": "",
-                "title": "奥术光环",
-                "detail": "提升地图上所有友方单位的魔法回复速度。水晶室女享受双倍加成。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/crystal_maiden_brilliance_aura_hp1.png"
+                "title": "相位转移",
+                "detail": "帕克暂时将自己转移到另一个位面，从而免疫伤害。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/puck_phase_shift_hp1.png"
             },
             {
                 "name": "",
-                "title": "极寒领域",
-                "detail": "持续施法 - 以水晶室女为中心召唤冰晶轰炸敌人，将其减速并造成大量伤害。持续7秒。 可用神杖升级。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/crystal_maiden_freezing_field_hp1.png"
+                "title": "灵动之翼",
+                "detail": "让帕克能传送到幻象法球所在的位置。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/puck_ethereal_jaunt_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "梦境缠绕",
+                "detail": "创造一个变化无常的的魔法梦境来困住敌方英雄，对他们造成0.5秒的眩晕和伤害。如果被困住的敌方英雄试图走出梦境挣脱缠绕，将因为梦境破碎而再次受到伤害和眩晕。   神杖升级：提升梦境破碎的伤害，增加梦境持续时间。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/puck_dream_coil_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/crystal_maiden_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/puck_hphover.png"
     },
     {
         "name": "lina",
@@ -752,36 +854,36 @@
         "hover": "http://www.dota2.com.cn/images/heroes/lina_hphover.png"
     },
     {
-        "name": "enchantress",
-        "title": "魅惑魔女",
-        "portrait": "http://www.dota2.com.cn/images/heroes/enchantress_vert.jpg",
+        "name": "crystal_maiden",
+        "title": "水晶室女",
+        "portrait": "http://www.dota2.com.cn/images/heroes/crystal_maiden_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "不可侵犯",
-                "detail": "魅惑魔女让她的敌人神魂颠倒，降低他们的攻击速度。持续3秒。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/enchantress_untouchable_hp1.png"
+                "title": "冰霜新星",
+                "detail": "破坏性的冰霜爆发，降低目标区域内的敌人的移动和攻击攻速。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/crystal_maiden_crystal_nova_hp1.png"
             },
             {
                 "name": "",
-                "title": "魅惑",
-                "detail": "魅惑魔女诱惑一个敌人，使其为己所用（非英雄单位）或者减速（英雄单位）。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/enchantress_enchant_hp1.png"
+                "title": "冰封禁制",
+                "detail": "用冰包围一个敌方单位，禁止移动和攻击，同时每秒造成伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/crystal_maiden_frostbite_hp1.png"
             },
             {
                 "name": "",
-                "title": "自然之助",
-                "detail": "召唤一群小精灵治疗魅惑魔女以及身边的友方单位，持续10秒。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/enchantress_natures_attendants_hp1.png"
+                "title": "奥术光环",
+                "detail": "提升地图上所有友方单位的魔法回复速度。水晶室女享受双倍加成。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/crystal_maiden_brilliance_aura_hp1.png"
             },
             {
                 "name": "",
-                "title": "推进\r\n\t\t\t\t\t\t\t  ",
-                "detail": "激活后每次攻击都有附魔效果，根据与目标的距离造成额外伤害。目标越远，伤害越高。 推进是攻击特效，不与其他攻击特效叠加。 神杖升级: 增加攻击距离。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/enchantress_impetus_hp1.png"
+                "title": "极寒领域",
+                "detail": "持续施法 - 以水晶室女为中心召唤冰晶轰炸敌人，将其减速并造成大量伤害。持续7秒。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/crystal_maiden_freezing_field_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/enchantress_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/crystal_maiden_hphover.png"
     },
     {
         "name": "furion",
@@ -814,6 +916,38 @@
             }
         ],
         "hover": "http://www.dota2.com.cn/images/heroes/furion_hphover.png"
+    },
+    {
+        "name": "enchantress",
+        "title": "魅惑魔女",
+        "portrait": "http://www.dota2.com.cn/images/heroes/enchantress_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "不可侵犯",
+                "detail": "魅惑魔女让她的敌人神魂颠倒，降低他们的攻击速度。持续3秒。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/enchantress_untouchable_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "魅惑",
+                "detail": "魅惑魔女诱惑一个敌人，使其为己所用（非英雄单位）或者减速（英雄单位）。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/enchantress_enchant_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "自然之助",
+                "detail": "召唤一群小精灵治疗魅惑魔女以及身边的友方单位，持续10秒。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/enchantress_natures_attendants_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "推进\r\n\t\t\t\t\t\t\t  ",
+                "detail": "激活后每次攻击都有附魔效果，根据与目标的距离造成额外伤害。目标越远，伤害越高。 推进是攻击特效，不与其他攻击特效叠加。 神杖升级: 增加攻击距离。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/enchantress_impetus_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/enchantress_hphover.png"
     },
     {
         "name": "chen",
@@ -890,6 +1024,44 @@
             }
         ],
         "hover": "http://www.dota2.com.cn/images/heroes/ogre_magi_hphover.png"
+    },
+    {
+        "name": "rubick",
+        "title": "拉比克",
+        "portrait": "http://www.dota2.com.cn/images/heroes/rubick_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "隔空取物",
+                "detail": "拉比克利用它的隔空取物能力，将敌人短暂抬到空中，然后猛投向地面。被投下的单位会砸晕落地点附近的敌人。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/rubick_telekinesis_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "隔空取物着陆",
+                "detail": "选择隔空取物结束时目标的落地点。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/rubick_telekinesis_land_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "弱化能流",
+                "detail": "拉比克制造一道强大的奥术能量流，在多个敌方单位之间流动，造成伤害并降低他们的攻击力。每次弹跳造成的伤害递减。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/rubick_fade_bolt_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "失效力场",
+                "detail": "拉比克对奥术的精通保护他的友军免受弱小魔法的伤害，给他们带来魔法抗性。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/rubick_null_field_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "技能窃取",
+                "detail": "拉比克钻研一个敌方英雄的魔法精华之痕，学习这个英雄最后释放的技能的秘密。拉比克将可以使用这个技能，维持几分钟或直到他死亡。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/rubick_spell_steal_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/rubick_hphover.png"
     },
     {
         "name": "disruptor",
@@ -1012,36 +1184,68 @@
         "hover": "http://www.dota2.com.cn/images/heroes/axe_hphover.png"
     },
     {
-        "name": "lycan",
-        "title": "狼人",
-        "portrait": "http://www.dota2.com.cn/images/heroes/lycan_vert.jpg",
+        "name": "pudge",
+        "title": "帕吉",
+        "portrait": "http://www.dota2.com.cn/images/heroes/pudge_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "召狼",
-                "detail": "召唤两头狼为狼人而战。等级2-4的狼拥有致命一击技能，等级4的狼还拥有永久隐身技能。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/lycan_summon_wolves_hp1.png"
+                "title": "肉钩",
+                "detail": "向一个单位或方向射出血腥的肉钩。勾住第一个遭遇的单位，并将它拖到帕吉身边，如果是敌人的话将造成伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/pudge_meat_hook_hp1.png"
             },
             {
                 "name": "",
-                "title": "嗥叫",
-                "detail": "给予狼人、所有友方英雄及所有玩家控制的单位攻击力加成。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/lycan_howl_hp1.png"
+                "title": "腐烂",
+                "detail": "能够造成持续伤害并减缓敌人移动速度的毒性云雾——同时对敌军和自身造成伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/pudge_rot_hp1.png"
             },
             {
                 "name": "",
-                "title": "野性驱使",
-                "detail": "提升狼人和所有他控制的单位的攻击力和攻击速度。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/lycan_feral_impulse_hp1.png"
+                "title": "腐肉堆积",
+                "detail": "给予帕吉对魔法伤害的抗性，并且帕吉每次杀死一个敌方英雄，或者附近有敌方英雄死亡时，帕吉将获得额外的力量。腐肉堆积在学习之前就可以积累力量，但是学习之后才能获得这部分力量。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/pudge_flesh_heap_hp1.png"
             },
             {
                 "name": "",
-                "title": "变形",
-                "detail": "狼人展现出他真实的形态，提升战斗能力。在变形持续时间中，狼人和他控制的所有单位达到最大移动速度，并且不能被减速。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/lycan_shapeshift_hp1.png"
+                "title": "肢解",
+                "detail": "持续施法 - 帕吉撕咬一个敌方单位，使其失去行动能力并受到持续伤害。对英雄持续3秒，对普通单位持续6秒。 神杖升级：增加基于力量值的额外伤害，并且帕吉恢复和肢解造成的伤害等量的生命值。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/pudge_dismember_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/lycan_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/pudge_hphover.png"
+    },
+    {
+        "name": "sand_king",
+        "title": "沙王",
+        "portrait": "http://www.dota2.com.cn/images/heroes/sand_king_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "掘地穿刺",
+                "detail": "沙王钻入地面挖掘隧道前进，穿出地面时伤害并眩晕上方的敌方单位。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/sandking_burrowstrike_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "沙尘暴",
+                "detail": "持续施法 - 沙王制造一起可怕的沙尘暴，伤害敌方单位的同时隐匿沙王自身。沙尘暴结束后，沙王会短暂保持隐身状态。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/sandking_sand_storm_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "腐尸毒",
+                "detail": "沙王的攻击会给敌方单位注入毒液，中毒单位死亡时发生剧烈爆炸，造成范围伤害。 腐尸毒是攻击特效，不与其它攻击特效叠加。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/sandking_caustic_finale_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "地震",
+                "detail": "持续施法 - 在2秒吟唱后，沙王向地中发送扰动，引起大地剧烈震动。所有范围内的敌人会受到伤害并被减速。每次后续震击都会提高伤害传播半径。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/sandking_epicenter_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/sand_king_hphover.png"
     },
     {
         "name": "chaos_knight",
@@ -1074,6 +1278,38 @@
             }
         ],
         "hover": "http://www.dota2.com.cn/images/heroes/chaos_knight_hphover.png"
+    },
+    {
+        "name": "lycan",
+        "title": "狼人",
+        "portrait": "http://www.dota2.com.cn/images/heroes/lycan_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "召狼",
+                "detail": "召唤两头狼为狼人而战。等级2-4的狼拥有致命一击技能，等级4的狼还拥有永久隐身技能。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/lycan_summon_wolves_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "嗥叫",
+                "detail": "给予狼人、所有友方英雄及所有玩家控制的单位攻击力加成。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/lycan_howl_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "野性驱使",
+                "detail": "提升狼人和所有他控制的单位的攻击力和攻击速度。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/lycan_feral_impulse_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "变形",
+                "detail": "狼人展现出他真实的形态，提升战斗能力。在变形持续时间中，狼人和他控制的所有单位达到最大移动速度，并且不能被减速。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/lycan_shapeshift_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/lycan_hphover.png"
     },
     {
         "name": "magnataur",
@@ -1140,6 +1376,38 @@
         "hover": "http://www.dota2.com.cn/images/heroes/abaddon_hphover.png"
     },
     {
+        "name": "blood_seeker",
+        "title": "血魔",
+        "portrait": "http://www.dota2.com.cn/images/heroes/bloodseeker_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "血之狂暴",
+                "detail": "让一个单位陷入渴望鲜血的狂怒中，使其在持续时间内提升攻击力，但无法施法，并且每秒受到伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/bloodseeker_bloodrage_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "屠戮",
+                "detail": "血魔沉浸在战斗中，每杀死一个单位回复一定生命值。回复的生命值为被杀死单位的最大生命值的一部分。如果血魔周围325范围内有英雄死亡，但击杀者不是血魔，则获得正常英雄击杀效果一半的治疗量。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/bloodseeker_blood_bath_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "嗜血渴望",
+                "detail": "血魔能够感知到生命值低于40%的英雄，获得其视野并提升血魔的移动速度。血魔获得生命值低于20%的敌方英雄的真实视域。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/bloodseeker_thirst_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "割裂",
+                "detail": "让一个敌方单位皮开肉绽，造成大量伤害。若受到割裂的单位移动，将按移动距离的一定百分比受到伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/bloodseeker_rupture_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/bloodseeker_hphover.png"
+    },
+    {
         "name": "nevermore",
         "title": "影魔",
         "portrait": "http://www.dota2.com.cn/images/heroes/nevermore_vert.jpg",
@@ -1202,6 +1470,102 @@
             }
         ],
         "hover": "http://www.dota2.com.cn/images/heroes/faceless_void_hphover.png"
+    },
+    {
+        "name": "razor",
+        "title": "剃刀",
+        "portrait": "http://www.dota2.com.cn/images/heroes/razor_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "等离子场",
+                "detail": "释放一波威力随扩张程度提升的等离子能量场，收缩时也会对经过的敌人造成伤害。距离剃刀越远，伤害越大。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/razor_plasma_field_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "静电连接",
+                "detail": "在剃刀和一个敌方英雄之间创造静电连接，偷取目标的攻击力并将其转移给剃刀。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/razor_static_link_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "不稳定电流",
+                "detail": "提升剃刀的移动速度，并且对剃刀使用指向性技能的施法者会立刻受到电流的反击伤害，并被减速。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/razor_unstable_current_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "风暴之眼",
+                "detail": "强大的闪电风暴，打击生命值最低的敌方单位，造成伤害并削弱护甲。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/razor_eye_of_the_storm_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/razor_hphover.png"
+    },
+    {
+        "name": "phantom_assassin",
+        "title": "幻影刺客",
+        "portrait": "http://www.dota2.com.cn/images/heroes/phantom_assassin_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "窒息之刃",
+                "detail": "对敌方单位造成少量神圣伤害并减缓其速度。对英雄造成的伤害减半。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/phantom_assassin_stifling_dagger_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "幻影突袭",
+                "detail": "闪烁到一个友方或敌方单位身边，如果是敌方单位则在攻击该目标时获得攻击速度加成。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/phantom_assassin_phantom_strike_hp1.png"
+            },
+            {
+                "name": "",
+                "title": " 模糊 ",
+                "detail": "当接近敌方英雄时，幻影刺客的身形变得模糊从而难以看清，并从敌方小地图上消失。部分敌人的攻击不能命中。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/phantom_assassin_blur_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "恩赐解脱",
+                "detail": "幻影刺客修炼她的战斗技巧，有一定概率对敌方单位造成毁灭性的致命一击。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/phantom_assassin_coup_de_grace_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/phantom_assassin_hphover.png"
+    },
+    {
+        "name": "meepo",
+        "title": "米波",
+        "portrait": "http://www.dota2.com.cn/images/heroes/meepo_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "地之束缚",
+                "detail": "向目标地点扔出一张网，困住所有敌方单位。地之束缚阻止隐身，闪烁，并打断持续施法。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/meepo_earthbind_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "忽悠",
+                "detail": "通过从大地中汲取神秘的能量，一个米波可以在持续施法1.5秒后传送至另一个米波或自身所在之处，在离开和到达的区域都造成伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/meepo_poof_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "地之突袭",
+                "detail": "米波强化他的武器，对敌人造成每秒伤害，同时降低受攻击单位的移动速度。多个米波的地之突袭可以叠加。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/meepo_geostrike_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "分则能成",
+                "detail": "米波召唤一个不完美的半自主性自身复制体，可以像本体一样获得金钱和经验，并拥有本体的经验和技能。但是，克隆只能使用本体装备的鞋类物品。克隆同时额外获得本体全部附加属性的30%。任何一个克隆死亡都会导致所有米波全体死亡。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/meepo_divided_we_stand_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/meepo_hphover.png"
     },
     {
         "name": "clinkz",
@@ -1300,36 +1664,36 @@
         "hover": "http://www.dota2.com.cn/images/heroes/nyx_assassin_hphover.png"
     },
     {
-        "name": "meepo",
-        "title": "米波",
-        "portrait": "http://www.dota2.com.cn/images/heroes/meepo_vert.jpg",
+        "name": "medusa",
+        "title": "美杜莎",
+        "portrait": "http://www.dota2.com.cn/images/heroes/medusa_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "地之束缚",
-                "detail": "向目标地点扔出一张网，困住所有敌方单位。地之束缚阻止隐身，闪烁，并打断持续施法。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/meepo_earthbind_hp1.png"
+                "title": "分裂箭",
+                "detail": "美杜莎用魔法将她的箭分裂成五支。分裂箭造成的伤害比正常攻击要低。 额外目标不会受到其他攻击附加效果（比如致命一击）和攻击特效。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/medusa_split_shot_hp1.png"
             },
             {
                 "name": "",
-                "title": "忽悠",
-                "detail": "通过从大地中汲取神秘的能量，一个米波可以在持续施法1.5秒后传送至另一个米波或自身所在之处，在离开和到达的区域都造成伤害。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/meepo_poof_hp1.png"
+                "title": "秘术异蛇",
+                "detail": "一条秘术异蛇在敌人之间跳跃，造成伤害并偷取魔法值。抵达最后一个目标后，它会跳回美杜莎身边为其恢复魔法值。每次跳跃造成的伤害和魔法偷取都会增加。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/medusa_mystic_snake_hp1.png"
             },
             {
                 "name": "",
-                "title": "地之突袭",
-                "detail": "米波强化他的武器，对敌人造成每秒伤害，同时降低受攻击单位的移动速度。多个米波的地之突袭可以叠加。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/meepo_geostrike_hp1.png"
+                "title": "魔法护盾",
+                "detail": "创造一个魔法护盾，消耗美杜莎的魔法值以吸收50%的伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/medusa_mana_shield_hp1.png"
             },
             {
                 "name": "",
-                "title": "分则能成",
-                "detail": "米波召唤一个不完美的半自主性自身复制体，可以像本体一样获得金钱和经验，并拥有本体的经验和技能。但是，克隆只能使用本体装备的鞋类物品。克隆同时额外获得本体全部附加属性的30%。任何一个克隆死亡都会导致所有米波全体死亡。 可用神杖升级。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/meepo_divided_we_stand_hp1.png"
+                "title": "石化凝视",
+                "detail": "任何凝视着蛇发女妖的敌方单位都会缓慢石化，移除状态并降低所有速度。对召唤单位和幻象造成伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/medusa_stone_gaze_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/meepo_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/medusa_hphover.png"
     },
     {
         "name": "lich",
@@ -1364,36 +1728,36 @@
         "hover": "http://www.dota2.com.cn/images/heroes/lich_hphover.png"
     },
     {
-        "name": "medusa",
-        "title": "美杜莎",
-        "portrait": "http://www.dota2.com.cn/images/heroes/medusa_vert.jpg",
+        "name": "necrolyte",
+        "title": "瘟疫法师",
+        "portrait": "http://www.dota2.com.cn/images/heroes/necrolyte_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "分裂箭",
-                "detail": "美杜莎用魔法将她的箭分裂成五支。分裂箭造成的伤害比正常攻击要低。 额外目标不会受到其他攻击附加效果（比如致命一击）和攻击特效。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/medusa_split_shot_hp1.png"
+                "title": "死亡脉冲",
+                "detail": "瘟疫法师在他周围释放死亡波动，伤害敌方单位并治疗友军单位。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/necrolyte_death_pulse_hp1.png"
             },
             {
                 "name": "",
-                "title": "秘术异蛇",
-                "detail": "一条秘术异蛇在敌人之间跳跃，造成伤害并偷取魔法值。抵达最后一个目标后，它会跳回美杜莎身边为其恢复魔法值。每次跳跃造成的伤害和魔法偷取都会增加。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/medusa_mystic_snake_hp1.png"
+                "title": "竭心光环",
+                "detail": "瘟疫法师让敌人的心脏停跳，使附近敌方单位按最大生命值一定比率持续受到伤害。\r\n\r\n",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/necrolyte_heartstopper_aura_hp1.png"
             },
             {
                 "name": "",
-                "title": "魔法护盾",
-                "detail": "创造一个魔法护盾，消耗美杜莎的魔法值以吸收50%的伤害。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/medusa_mana_shield_hp1.png"
+                "title": "施虐之心",
+                "detail": "每杀死一个单位，瘟疫法师的生命和魔法回复速率都会得到提升。击杀英雄后将获得10倍的回复效果。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/necrolyte_sadist_hp1.png"
             },
             {
                 "name": "",
-                "title": "石化凝视",
-                "detail": "任何凝视着蛇发女妖的敌方单位都会缓慢石化，移除状态并降低所有速度。对召唤单位和幻象造成伤害。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/medusa_stone_gaze_hp1.png"
+                "title": "死神镰刀",
+                "detail": "眩晕目标敌方英雄，然后造成基于他当前损失生命值的伤害。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/necrolyte_reapers_scythe_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/medusa_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/necrolyte_hphover.png"
     },
     {
         "name": "lion",
@@ -1428,38 +1792,6 @@
         "hover": "http://www.dota2.com.cn/images/heroes/lion_hphover.png"
     },
     {
-        "name": "blood_seeker",
-        "title": "血魔",
-        "portrait": "http://www.dota2.com.cn/images/heroes/bloodseeker_vert.jpg",
-        "abilities": [
-            {
-                "name": "",
-                "title": "血之狂暴",
-                "detail": "让一个单位陷入渴望鲜血的狂怒中，使其在持续时间内提升攻击力，但无法施法，并且每秒受到伤害。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/bloodseeker_bloodrage_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "屠戮",
-                "detail": "血魔沉浸在战斗中，每杀死一个单位回复一定生命值。回复的生命值为被杀死单位的最大生命值的一部分。如果血魔周围325范围内有英雄死亡，但击杀者不是血魔，则获得正常英雄击杀效果一半的治疗量。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/bloodseeker_blood_bath_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "嗜血渴望",
-                "detail": "血魔能够感知到生命值低于40%的英雄，获得其视野并提升血魔的移动速度。血魔获得生命值低于20%的敌方英雄的真实视域。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/bloodseeker_thirst_hp1.png"
-            },
-            {
-                "name": "",
-                "title": "割裂",
-                "detail": "让一个敌方单位皮开肉绽，造成大量伤害。若受到割裂的单位移动，将按移动距离的一定百分比受到伤害。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/bloodseeker_rupture_hp1.png"
-            }
-        ],
-        "hover": "http://www.dota2.com.cn/images/heroes/bloodseeker_hphover.png"
-    },
-    {
         "name": "enigma",
         "title": "谜团",
         "portrait": "http://www.dota2.com.cn/images/heroes/enigma_vert.jpg",
@@ -1492,68 +1824,68 @@
         "hover": "http://www.dota2.com.cn/images/heroes/enigma_hphover.png"
     },
     {
-        "name": "necrolyte",
-        "title": "瘟疫法师",
-        "portrait": "http://www.dota2.com.cn/images/heroes/necrolyte_vert.jpg",
+        "name": "pugna",
+        "title": "帕格纳",
+        "portrait": "http://www.dota2.com.cn/images/heroes/pugna_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "死亡脉冲",
-                "detail": "瘟疫法师在他周围释放死亡波动，伤害敌方单位并治疗友军单位。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/necrolyte_death_pulse_hp1.png"
+                "title": "幽冥爆轰",
+                "detail": "一个爆炸性脉冲，对敌方单位造成伤害。对建筑物造成33%伤害。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/pugna_nether_blast_hp1.png"
             },
             {
                 "name": "",
-                "title": "竭心光环",
-                "detail": "瘟疫法师让敌人的心脏停跳，使附近敌方单位按最大生命值一定比率持续受到伤害。\r\n\r\n",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/necrolyte_heartstopper_aura_hp1.png"
+                "title": "衰老",
+                "detail": "一个强大的驱逐咒语，能降低一个单位的速度并使其无法攻击/受到攻击。受影响的单位承受额外魔法伤害。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/pugna_decrepify_hp1.png"
             },
             {
                 "name": "",
-                "title": "施虐之心",
-                "detail": "每杀死一个单位，瘟疫法师的生命和魔法回复速率都会得到提升。击杀英雄后将获得10倍的回复效果。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/necrolyte_sadist_hp1.png"
+                "title": "幽冥守卫",
+                "detail": "帕格纳放置一个幽冥守卫，对胆敢施法的敌方英雄发射魔力闪光，同时也能阻止敌人恢复魔法。幽冥守卫造成的伤害与施法消耗的魔法值成正比。持续25秒。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/pugna_nether_ward_hp1.png"
             },
             {
                 "name": "",
-                "title": "死神镰刀",
-                "detail": "眩晕目标敌方英雄，然后造成基于他当前损失生命值的伤害。 可用神杖升级。",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/necrolyte_reapers_scythe_hp1.png"
+                "title": "生命汲取",
+                "detail": "持续施法 - 使用生命汲取时，帕格纳吸取目标敌方单位的生命值。持续10秒。 神杖升级：提升每秒吸取量，增加施法距离并移除冷却时间。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/pugna_life_drain_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/necrolyte_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/pugna_hphover.png"
     },
     {
-        "name": "leshrac",
-        "title": "拉席克",
-        "portrait": "http://www.dota2.com.cn/images/heroes/leshrac_vert.jpg",
+        "name": "queenofpain",
+        "title": "痛苦女王",
+        "portrait": "http://www.dota2.com.cn/images/heroes/queenofpain_vert.jpg",
         "abilities": [
             {
                 "name": "",
-                "title": "撕裂大地",
-                "detail": "撕裂敌人脚下的大地。造成伤害和短暂的眩晕。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/leshrac_split_earth_hp1.png"
+                "title": "暗影突袭",
+                "detail": "猛投一把淬毒匕首造成大量初始伤害，并造成3秒一次的后续伤害。中毒单位移动速度降低15秒。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/queenofpain_shadow_strike_hp1.png"
             },
             {
                 "name": "",
-                "title": "恶魔赦令",
-                "detail": "使拉席克周围的区域充满魔法爆炸，对敌方单位和建筑造成混合伤害。范围内的敌人越少，他们受到的伤害就越大。持续8秒。。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/leshrac_diabolic_edict_hp1.png"
+                "title": "闪烁",
+                "detail": "让痛苦女王自由出入战场的短距离传送。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/queenofpain_blink_hp1.png"
             },
             {
                 "name": "",
-                "title": "闪电风暴",
-                "detail": "召唤一片闪电风暴攻击目标敌方单位，并跳跃到附近的敌方单位。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/leshrac_lightning_storm_hp1.png"
+                "title": "痛苦尖叫",
+                "detail": "痛苦女王放出锐利的尖叫，对周围敌人造成伤害。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/queenofpain_scream_of_pain_hp1.png"
             },
             {
                 "name": "",
-                "title": "脉冲新星\r\n\t\t\t\t\t\t\t  ",
-                "detail": "拉席克在他周围创造破坏性的能量波，每秒对附近敌方单位造成伤害。 可用神杖升级。 ",
-                "icon": "http://www.dota2.com.cn/images/heroes/abilities/leshrac_pulse_nova_hp1.png"
+                "title": "超声冲击波",
+                "detail": "痛苦女王在她面前制造出强大的声波，对其轨迹上的所有敌人造成大量伤害。 可用神杖升级。",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/queenofpain_sonic_wave_hp1.png"
             }
         ],
-        "hover": "http://www.dota2.com.cn/images/heroes/leshrac_hphover.png"
+        "hover": "http://www.dota2.com.cn/images/heroes/queenofpain_hphover.png"
     },
     {
         "name": "death_prophet",
@@ -1618,6 +1950,38 @@
             }
         ],
         "hover": "http://www.dota2.com.cn/images/heroes/dazzle_hphover.png"
+    },
+    {
+        "name": "leshrac",
+        "title": "拉席克",
+        "portrait": "http://www.dota2.com.cn/images/heroes/leshrac_vert.jpg",
+        "abilities": [
+            {
+                "name": "",
+                "title": "撕裂大地",
+                "detail": "撕裂敌人脚下的大地。造成伤害和短暂的眩晕。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/leshrac_split_earth_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "恶魔赦令",
+                "detail": "使拉席克周围的区域充满魔法爆炸，对敌方单位和建筑造成混合伤害。范围内的敌人越少，他们受到的伤害就越大。持续8秒。。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/leshrac_diabolic_edict_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "闪电风暴",
+                "detail": "召唤一片闪电风暴攻击目标敌方单位，并跳跃到附近的敌方单位。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/leshrac_lightning_storm_hp1.png"
+            },
+            {
+                "name": "",
+                "title": "脉冲新星\r\n\t\t\t\t\t\t\t  ",
+                "detail": "拉席克在他周围创造破坏性的能量波，每秒对附近敌方单位造成伤害。 可用神杖升级。 ",
+                "icon": "http://www.dota2.com.cn/images/heroes/abilities/leshrac_pulse_nova_hp1.png"
+            }
+        ],
+        "hover": "http://www.dota2.com.cn/images/heroes/leshrac_hphover.png"
     },
     {
         "name": "dark_seer",

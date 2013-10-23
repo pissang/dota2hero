@@ -4,7 +4,12 @@
         "normalMap": "heroes/ancient_apparition/textures/flatnormal.png",
         "u_SpecularExponent": 50,
         "u_SpecularScale": 0,
-        "u_RimLightScale": 2
+        "u_RimLightScale": 2,
+        "u_RimLightColor": [
+            0,
+            0.4,
+            1
+        ]
     },
     "Material #36": {
         "diffuseMap": "heroes/ancient_apparition/textures/ancientapparition_colors.png",
