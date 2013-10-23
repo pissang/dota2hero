@@ -1,5 +1,13 @@
 {
-    "Material #35": {},
+    "Material #35": {
+        "diffuseMap": "heroes/razor/textures/revrazor_color.png",
+        "normalMap": "heroes/razor/textures/razor_normal.png",
+        "maskMap1": "heroes/razor/textures/razor_masks1.png",
+        "maskMap2": "heroes/razor/textures/razor_masks2.png",
+        "u_SpecularExponent": 15,
+        "u_SpecularScale": 1.5,
+        "u_RimLightScale": 1
+    },
     "Material #46": {
         "diffuseMap": "heroes/razor/textures/razor_armor_color.png",
         "normalMap": "heroes/razor/textures/razor_armor_normal.png",

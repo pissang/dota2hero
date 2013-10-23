@@ -1,0 +1,66 @@
+{
+    "Material #35": {
+        "diffuseMap": "heroes/sniper/textures/sniper_color.png",
+        "normalMap": "heroes/sniper/textures/sniper_normal.png",
+        "maskMap1": "heroes/sniper/textures/sniper_masks1.png",
+        "maskMap2": "heroes/sniper/textures/sniper_masks2.png",
+        "u_SpecularExponent": 5,
+        "u_SpecularScale": 4,
+        "u_RimLightScale": 1
+    },
+    "Material #46": {
+        "diffuseMap": "heroes/sniper/textures/sniper_cape_color.png",
+        "normalMap": "heroes/sniper/textures/sniper_cape_normal.png",
+        "maskMap1": "heroes/sniper/textures/sniper_cape_masks1.png",
+        "maskMap2": "heroes/sniper/textures/sniper_cape_masks2.png",
+        "u_SpecularExponent": 50,
+        "u_SpecularScale": 25,
+        "u_SpecularColor": [
+            0.5,
+            1,
+            1
+        ],
+        "u_RimLightScale": 1
+    },
+    "Material #57": {
+        "diffuseMap": "heroes/sniper/textures/headitem_color.png",
+        "normalMap": "heroes/sniper/textures/headitem_normal.png",
+        "maskMap1": "heroes/sniper/textures/headitem_masks1.png",
+        "maskMap2": "heroes/sniper/textures/headitem_masks2.png",
+        "u_SpecularExponent": 5,
+        "u_SpecularScale": 4,
+        "u_RimLightScale": 1
+    },
+    "Material #68": {
+        "diffuseMap": "heroes/sniper/textures/shoulder_color.png",
+        "normalMap": "heroes/sniper/textures/shoulder_normal.png",
+        "maskMap1": "heroes/sniper/textures/shoulder_masks1.png",
+        "maskMap2": "heroes/sniper/textures/shoulder_masks2.png",
+        "u_SpecularExponent": 5,
+        "u_SpecularScale": 4,
+        "u_RimLightScale": 1
+    },
+    "Material #79": {
+        "diffuseMap": "heroes/sniper/textures/sniper_gun_color.png",
+        "normalMap": "heroes/sniper/textures/sniper_gun_normal.png",
+        "maskMap1": "heroes/sniper/textures/sniper_gun_masks1.png",
+        "maskMap2": "heroes/sniper/textures/sniper_gun_masks2.png",
+        "u_SpecularExponent": 50,
+        "u_SpecularScale": 25,
+        "u_SpecularColor": [
+            0.5,
+            1,
+            1
+        ],
+        "u_RimLightScale": 1
+    },
+    "Material #90": {
+        "diffuseMap": "heroes/sniper/textures/bracer_color.png",
+        "normalMap": "heroes/sniper/textures/bracer_normal.png",
+        "maskMap1": "heroes/sniper/textures/bracer_masks1.png",
+        "maskMap2": "heroes/sniper/textures/bracer_masks2.png",
+        "u_SpecularExponent": 5,
+        "u_SpecularScale": 4,
+        "u_RimLightScale": 1
+    }
+}
