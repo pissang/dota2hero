@@ -49,7 +49,15 @@
         ],
         "u_RimLightScale": 0.21
     },
-    "Material #79": {},
+    "Material #79": {
+        "diffuseMap": "heroes/pugna/textures/pugna_head_diffuse.png",
+        "normalMap": "heroes/pugna/textures/pugna_head_normal.png",
+        "maskMap1": "heroes/pugna/textures/pugna_head_masks1.png",
+        "maskMap2": "heroes/pugna/textures/pugna_head_masks2.png",
+        "u_SpecularExponent": 5,
+        "u_SpecularScale": 0.1,
+        "u_RimLightScale": 0.21
+    },
     "Material #90": {
         "diffuseMap": "heroes/pugna/textures/pugna_shoulder_color.png",
         "normalMap": "heroes/pugna/textures/pugna_shoulder_normal.png",

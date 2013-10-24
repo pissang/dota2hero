@@ -633,7 +633,7 @@
             "path": "textures/pugna_cape_diffuse.png"
         },
         "image_4": {
-            "path": "textures/pugna_head_color.png"
+            "path": "textures/pugna_head_diffuse.png"
         },
         "image_5": {
             "path": "textures/pugna_shoulder_color.png"
@@ -910,7 +910,7 @@
                     },
                     {
                         "parameter": "diffuse",
-                        "value": "Map #14"
+                        "value": "Map #17"
                     },
                     {
                         "parameter": "shininess",
@@ -2994,13 +2994,6 @@
             "source": "image_3",
             "target": "TEXTURE_2D"
         },
-        "Map #14": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
-            "sampler": "sampler_4",
-            "source": "image_4",
-            "target": "TEXTURE_2D"
-        },
         "Map #15": {
             "format": "RGBA",
             "internalFormat": "RGBA",
@@ -3013,6 +3006,13 @@
             "internalFormat": "RGBA",
             "sampler": "sampler_6",
             "source": "image_6",
+            "target": "TEXTURE_2D"
+        },
+        "Map #17": {
+            "format": "RGBA",
+            "internalFormat": "RGBA",
+            "sampler": "sampler_4",
+            "source": "image_4",
             "target": "TEXTURE_2D"
         }
     }

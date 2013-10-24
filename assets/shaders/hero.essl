@@ -42,14 +42,14 @@ uniform vec3 u_RimLightColor : [1.0, 1.0, 1.0];
 @import buildin.plugin.compute_shadow_map
 
 void main(){
-    
+
     #ifdef RENDER_WEIGHT
         gl_FragColor = vec4(v_Weight.xyz, 1.0);
         return;
     #endif
 
     vec4 finalColor = vec4(1.0);
-    vec3 texColor = vec3(0.0);
+    vec4 texColor = vec4(0.0);
     vec3 diffuseItem = vec3(0.0, 0.0, 0.0);
     vec3 specularItem = vec3(0.0, 0.0, 0.0);
     vec3 fresnelTerm = vec3(0.0, 0.0, 0.0);
@@ -77,8 +77,12 @@ void main(){
     fresnelTerm.g *= fresnelTerm.g;
 
     #ifdef DIFFUSEMAP_ENABLED
-        texColor = texture2D(diffuseMap, v_Texcoord).rgb;
-        finalColor.rgb *= texColor;
+        texColor = texture2D(diffuseMap, v_Texcoord);
+        if (texColor.a < 0.5) {
+            gl_FragColor = vec4(0.0);
+            return;
+        }
+        finalColor *= texColor;
     #endif
     #ifdef MASKMAP1_ENABLED
         vec4 mask1Tex = texture2D(maskMap1, v_Texcoord);
@@ -94,7 +98,7 @@ void main(){
             // Masked by a 'sky light' 
             rimLightning *= clamp(dot(normal, vec3(0.0, 1.0, 0.0)), 0.0, 1.0);
             // Mask2 b -> tint specular by color
-            specularColor = mix(u_SpecularColor.rgb, texColor, mask2Tex.b);
+            specularColor = mix(u_SpecularColor.rgb, texColor.rgb, mask2Tex.b);
             // Mask2 a -> specularExponent
             specularExponent *= mask2Tex.a;
         #endif
@@ -131,7 +135,7 @@ void main(){
         return;
     #endif
     #ifdef RENDER_SELF_ILLUMINATION
-        gl_FragColor = vec4(texColor * selfIllumination, 1.0);
+        gl_FragColor = vec4(texColor.rgb * selfIllumination, 1.0);
         return;
     #endif
 
@@ -266,9 +270,8 @@ void main(){
     finalColor.rgb += specularItem * specularIntensity * specularColor;
     // Rim lightning
     finalColor.rgb += rimLightning;
-    // finalColor.rgb += selfIllumination * texColor;
-
+    // finalColor.rgb += selfIllumination * texColor.rgb;
     // gl_FragColor = finalColor;
 
-    gl_FragColor = vec4(mix(finalColor.rgb, texColor, selfIllumination), 1.0);
+    gl_FragColor = vec4(mix(finalColor.rgb, texColor.rgb, selfIllumination), finalColor.a);
 }

@@ -116,6 +116,9 @@
         var heroRootPath = "heroes/" + heroName + "/";
         var materials = {};
 
+        if (heroRootNode) {
+            renderer.disposeNode(heroRootNode);
+        }
         $http.get(getResourcePath(heroRootPath + 'materials.json'))
         .then(function(result) {
             materials = result.data;
@@ -141,9 +144,6 @@
             }
 
             heroLoader.parse(data, function(_scene, cameras, skeleton) {
-                if (heroRootNode) {
-                    renderer.disposeNode(heroRootNode);
-                }
                 var children = _scene.children();
                 for (var i = 0; i < children.length; i++) {
                     heroRootNode.add(children[i]);
@@ -189,6 +189,10 @@
                                     mat.set(name, params[name]);
                                 }
                             });
+                        if (params.transparent) {
+                            mat.transparent = true;
+                            mat.depthMask = false;
+                        }
                     }
                 }
                 for (var i = 0; i < meshes.length; i++) {

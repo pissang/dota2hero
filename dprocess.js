@@ -31,6 +31,7 @@ animationPrefix = {
     "tiny_02" : "tiny_02",
     "tiny_03" : "tiny_03",
     "tiny_04" : "tiny_04",
+    'nevermore' : 'nevermore',
     "zuus" : "zuus"
 }
 
@@ -46,6 +47,11 @@ defaultAnimation = {
     "sand_king" : "run",
     "sniper" : "run",
     "troll_warlord" : "idle_melee_alt"
+}
+
+var transparentMat = {
+    'treant_protector' : ['Material #57'],
+    "ogre_magi" : ['ogre_magi_cape']
 }
 
 function parseBaseName(path) {
@@ -149,7 +155,15 @@ glob(pattern, function(err, pathList) {
                                 material[item[0]] = configs[item[1]];
                             }
                         });
+                        if (transparentMat[heroName]) {
+                            for (var i = 0; i < transparentMat[heroName].length; i++) {
+                                if (transparentMat[heroName][i] === matName) {
+                                    material.transparent = true;
+                                }
+                            }
+                        }
                     }
+
                     materials[matName] = material;
                 } catch(e) {
                     console.warn("can't find diffuse texture " + diffuseTextureName);

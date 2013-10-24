@@ -6,7 +6,7 @@
             "bufferView": "bufferView_7",
             "byteOffset": 0,
             "byteStride": 12,
-            "count": 27873,
+            "count": 27159,
             "max": [
                 1,
                 1,
@@ -21,9 +21,9 @@
         },
         "attribute_2": {
             "bufferView": "bufferView_7",
-            "byteOffset": 334476,
+            "byteOffset": 325908,
             "byteStride": 12,
-            "count": 27873,
+            "count": 27159,
             "max": [
                 1,
                 1,
@@ -38,9 +38,9 @@
         },
         "attribute_3": {
             "bufferView": "bufferView_7",
-            "byteOffset": 668952,
+            "byteOffset": 651816,
             "byteStride": 8,
-            "count": 27873,
+            "count": 27159,
             "max": [
                 1,
                 1,
@@ -55,9 +55,9 @@
         },
         "attribute_4": {
             "bufferView": "bufferView_7",
-            "byteOffset": 891936,
+            "byteOffset": 869088,
             "byteStride": 16,
-            "count": 27873,
+            "count": 27159,
             "max": [
                 1,
                 1,
@@ -72,9 +72,9 @@
         },
         "attribute_5": {
             "bufferView": "bufferView_7",
-            "byteOffset": 1337904,
+            "byteOffset": 1303632,
             "byteStride": 12,
-            "count": 27873,
+            "count": 27159,
             "max": [
                 1,
                 1,
@@ -91,20 +91,20 @@
     "bufferViews": {
         "bufferView_7": {
             "buffer": "tiny_04.bin",
-            "byteLength": 1672380,
+            "byteLength": 1629540,
             "byteOffset": 0,
             "target": "ARRAY_BUFFER"
         },
         "bufferView_8": {
             "buffer": "tiny_04.bin",
-            "byteLength": 55746,
-            "byteOffset": 1672380,
+            "byteLength": 54318,
+            "byteOffset": 1629540,
             "target": "ELEMENT_ARRAY_BUFFER"
         }
     },
     "buffers": {
         "tiny_04.bin": {
-            "byteLength": 1728126,
+            "byteLength": 1683858,
             "path": "tiny_04.bin"
         }
     },
@@ -118,7 +118,7 @@
         "indices_6": {
             "bufferView": "bufferView_8",
             "byteOffset": 0,
-            "count": 27873,
+            "count": 27159,
             "type": "UNSIGNED_SHORT"
         }
     },
@@ -1437,7 +1437,6 @@
                 "jaw0_0",
                 "mountain_A",
                 "beard_LF",
-                "beard_RT",
                 "head",
                 "mountain_H",
                 "mountain_D",

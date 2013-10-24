@@ -551,7 +551,7 @@
             "path": "textures/enchantress_necklace_color.png"
         },
         "image_5": {
-            "path": "textures/enchantress_weapon_color.png"
+            "path": "textures/enchantress_weapon_color_1.png"
         }
     },
     "indices": {
@@ -816,7 +816,7 @@
                     },
                     {
                         "parameter": "diffuse",
-                        "value": "Map #12"
+                        "value": "Map #13"
                     },
                     {
                         "parameter": "shininess",
@@ -2550,7 +2550,7 @@
             "source": "image_4",
             "target": "TEXTURE_2D"
         },
-        "Map #12": {
+        "Map #13": {
             "format": "RGBA",
             "internalFormat": "RGBA",
             "sampler": "sampler_5",
