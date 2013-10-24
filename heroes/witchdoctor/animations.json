@@ -1,0 +1,36 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/witchdoctor/smd/witchdoctor_idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/witchdoctor/smd/witchdoctor_idle_alt.smd"
+        },
+        {
+            "name": "idle_portrait",
+            "path": "heroes/witchdoctor/smd/witchdoctor_idle_portrait.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/witchdoctor/smd/witchdoctor_attack.smd"
+        },
+        {
+            "name": "attack_alt",
+            "path": "heroes/witchdoctor/smd/witchdoctor_attack_alt.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/witchdoctor/smd/witchdoctor_run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/witchdoctor/smd/witchdoctor_idle.smd"
+    }
+}

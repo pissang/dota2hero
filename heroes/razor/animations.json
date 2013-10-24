@@ -1,10 +1,19 @@
 {
-    "idle": [],
-    "attack": [],
-    "run": [
+    "idle": [
         {
-            "name": "run_forward",
-            "path": "heroes/razor/smd/run_forward.smd"
+            "name": "idle",
+            "path": "heroes/razor/smd/razor_idle.smd"
         }
-    ]
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/razor/smd/razor_attack.smd"
+        }
+    ],
+    "run": [],
+    "default": {
+        "name": "idle",
+        "path": "heroes/razor/smd/razor_idle.smd"
+    }
 }

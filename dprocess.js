@@ -12,8 +12,41 @@ if (hero) {
     var pattern = 'heroes/*';
 }
 
-var fixImagePath = true;
-var updateAnimation = true;
+animationPrefix = {
+    "razor" : "razor",
+    "pudge" : "pudge",
+    "phantom_assassin" : "phantom_assassin",
+    "rubick" : "rubick",
+    "sand_king" : "sand_king",
+    "luna" : "luna",
+    "siren" : "siren",
+    "skywrath_mage" : "skywrath_mage",
+    "sniper" : "sniper",
+    "troll_warlord" : "tw",
+    "undying" : "undying",
+    "visage" : "visage",
+    "warlock" : "warlock",
+    "witchdoctor" : "witchdoctor",
+    "tiny_01" : "tiny_1",
+    "tiny_02" : "tiny_02",
+    "tiny_03" : "tiny_03",
+    "tiny_04" : "tiny_04",
+    "zuus" : "zuus"
+}
+
+defaultAnimation = {
+    "puck" : "portrait",
+    "nerubian_assassin" : "idleMix3",
+    "lich" : "run",
+    "leshrac" : "idlePawGround",
+    "shredder" : "portrait",
+    "treant_protector" : "idle_allt_shake",
+    "bane" : "run_alt",
+    "zuus" : "idle_aggro",
+    "sand_king" : "run",
+    "sniper" : "run",
+    "troll_warlord" : "idle_melee_alt"
+}
 
 function parseBaseName(path) {
     if (path.indexOf('/') >= 0) {
@@ -135,39 +168,44 @@ glob(pattern, function(err, pathList) {
                 'utf-8'
             );
 
-            var defaultAnimation = '';
             glob(dir + '/smd/**.smd', function(err, smdFiles) {
-                if (updateAnimation) {
-                    var animations = {
-                        idle : [],
-                        attack : [],
-                        run : []
-                    }
-                    smdFiles.forEach(function(file) {
-                        var animName = path.basename(file).split('.')[0];
-                        if (animName.toLowerCase().indexOf('idle') == 0) {
-                            animations.idle.push({
-                                name : animName,
-                                path : file
-                            });
-                        } else if(animName.toLowerCase().indexOf('run') == 0) {
-                            animations.run.push({
-                                name : animName,
-                                path : file
-                            });
-                        } else if(animName.toLowerCase().indexOf('attack') == 0) {
-                            animations.attack.push({
-                                name : animName,
-                                path : file
-                            })
-                        }
-                    });
-                    fs.writeFileSync(
-                        dir + '/animations.json',
-                        JSON.stringify(animations, false, 4),
-                        'utf-8'
-                    );
+                var animations = {
+                    idle : [],
+                    attack : [],
+                    run : [],
+                    'default' : null
                 }
+                smdFiles.forEach(function(file) {
+                    var animName = path.basename(file).split('.')[0];
+                    if (animationPrefix[heroName]) {
+                        animName = animName.substr((animationPrefix[heroName] + '-').length);
+                    }
+                    var anim = {
+                        name : animName,
+                        path : file
+                    }
+                    if (animName.toLowerCase().indexOf('idle') == 0) {
+                        animations.idle.push(anim);
+                    } else if(animName.toLowerCase().indexOf('run') == 0) {
+                        animations.run.push(anim);
+                    } else if(animName.toLowerCase().indexOf('attack') == 0) {
+                        animations.attack.push(anim)
+                    }
+                    if (
+                        defaultAnimation[heroName] 
+                        && animName === defaultAnimation[heroName]
+                    ) {
+                        animations.default = anim;
+                    }
+                });
+                if (! animations['default']) {
+                    animations['default'] = animations.idle[0];
+                }
+                fs.writeFileSync(
+                    dir + '/animations.json',
+                    JSON.stringify(animations, false, 4),
+                    'utf-8'
+                );
 
                 heroesList.push({
                     name : heroName,

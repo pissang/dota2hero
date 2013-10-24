@@ -1,0 +1,56 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/life_stealer/smd/idle.smd"
+        },
+        {
+            "name": "idle_aggressive",
+            "path": "heroes/life_stealer/smd/idle_aggressive.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/life_stealer/smd/idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/life_stealer/smd/attack.smd"
+        },
+        {
+            "name": "attack3",
+            "path": "heroes/life_stealer/smd/attack3.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/life_stealer/smd/run.smd"
+        },
+        {
+            "name": "run_aggressive",
+            "path": "heroes/life_stealer/smd/run_aggressive.smd"
+        },
+        {
+            "name": "run_haste_rune",
+            "path": "heroes/life_stealer/smd/run_haste_rune.smd"
+        },
+        {
+            "name": "run_hop",
+            "path": "heroes/life_stealer/smd/run_hop.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/life_stealer/smd/run_injured.smd"
+        },
+        {
+            "name": "run_murder_lust",
+            "path": "heroes/life_stealer/smd/run_murder_lust.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/life_stealer/smd/idle.smd"
+    }
+}

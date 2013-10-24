@@ -34,7 +34,7 @@
     heroRootNode.scale.set(0.1, 0.1, 0.1);
     scene.add(heroRootNode);
     var light = new qtek3d.light.Directional({
-        intensity : 0.6,
+        intensity : 0.7,
         shadowCamera : {
             left : -25,
             right : 25,
@@ -51,7 +51,7 @@
 
     scene.add(light);
     scene.add(new qtek3d.light.Ambient({
-        intensity : 0.3
+        intensity : 0.2
     }));
 
     var rockLoader = new qtek.loader.GLTF();
@@ -214,15 +214,19 @@
                 }
                 $http.get(getResourcePath(heroRootPath + 'animations.json'))
                     .success(function(animations) {
-                        var idleAnimPath = animations.idle[0].path;
+                        var defaultAnim = animations['default'] || animations['idle'][0];
 
-                        $http.get(getResourcePath(idleAnimPath))
+                        $http.get(getResourcePath(defaultAnim.path))
                             .success(function(data) {
                                 var frames = SMDParser(data);
                                 for (var name in frames) {
                                     if (joints[name]) {
                                         joints[name].poses = frames[name];
-                                        frameLen = frames[name].length;   
+                                        if (defaultAnim.frameLength) {
+                                            frameLen = defaultAnim.frameLength;
+                                        } else {
+                                            frameLen = frames[name].length;
+                                        }
                                     }
                                 }
                             });

@@ -33,13 +33,24 @@ var HERO_ALIAS = {
     'nyx_assassin' : 'nerubian_assassin',
     'bloodseeker' : 'blood_seeker',
     'drow_ranger' : 'drow',
-    'riki' : 'rikimaru'
+    'riki' : 'rikimaru',
+    'tiny' : 'tiny_01',
+    'naga_siren' : 'siren',
+    'treant' : 'treant_protector',
+    'tusk' : 'tuskarr',
+    'vengefulspirit' : 'vengeful',
+    'shadow_shaman' : 'shadowshaman',
+    'doom_bringer' : 'doom',
+    'night_stalker' : 'nightstalker',
+    'jakiro' : 'twin_headed_dragon',
+    'witch_doctor' : 'witchdoctor'
 }
 
-jsdom.env(
-    website,
-    ['http://code.jquery.com/jquery.js'],
-    function(err, window) {
+var jquery = fs.readFileSync("./lib/jquery.js", "utf-8");
+jsdom.env({
+    url : website,
+    src : [jquery],
+    done : function(err, window) {
         var $ = window.$;
         var heroOverviews = [];
 
@@ -81,7 +92,7 @@ jsdom.env(
             }
         );
     }
-);
+});
 
 function getTitle(window) {
     var $ = window.$;
@@ -147,10 +158,10 @@ function getAbilities(window) {
 }
 
 function fetchHero(name, href, callback) {
-    jsdom.env(
-        href,
-        ['http://code.jquery.com/jquery.js'],
-        function(err, window) {
+    jsdom.env({
+        url : href,
+        src : [jquery],
+        done : function(err, window) {
             console.log('[Fetched] '.green + name);
             callback({
                 name : name,
@@ -159,5 +170,5 @@ function fetchHero(name, href, callback) {
                 abilities : getAbilities(window)
             });
         }
-    );
+    });
 }

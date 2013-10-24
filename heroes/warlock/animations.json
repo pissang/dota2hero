@@ -1,0 +1,28 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/warlock/smd/warlock_idle.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack2",
+            "path": "heroes/warlock/smd/warlock_attack2.smd"
+        },
+        {
+            "name": "attack3",
+            "path": "heroes/warlock/smd/warlock_attack3.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/warlock/smd/warlock_run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/warlock/smd/warlock_idle.smd"
+    }
+}
