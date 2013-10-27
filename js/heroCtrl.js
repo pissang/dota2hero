@@ -25,7 +25,7 @@
     });
     control.enable();
 
-    var shadowMapPass = new qtek3d.prepass.ShadowMap();
+    var shadowMapPass = new qtek3d.prePass.ShadowMap();
 
     // Create scene
     var scene = new qtek3d.Scene();
@@ -105,6 +105,10 @@
                 }
             });
         }
+        $scope.showAbout = function() {
+            $("#About").toggleClass('show');
+        }
+
         if (rockNode) {
             rockNode.visible = true;
         } else {
@@ -162,7 +166,6 @@
                         // reattach
                         mat.attachShader(shader);
                         shader.enableTexturesAll();
-                        // shader.define('fragment', 'RENDER_SELF_ILLUMINATION');
                     }
                 });
                 for (var name in materials) {

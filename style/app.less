@@ -1,7 +1,12 @@
+@font-face{
+    font-family: 'Vermin Vibes';
+    src: url("./vermin_vibes_2.otf");
+}
+
 body {
     margin:0px;
     background-image: url(../imgs/wallpaper.jpg);
-    background-size: cover
+    background-size: cover;
 }
 #App {
     width : 100%;
@@ -30,22 +35,27 @@ li {
 
 #HeroList{
     
-    width:900px;
+    width:84%;
 
     position: absolute;
     left : 50%;
-    margin-left: -450px;
-    top : 50px;
+    margin-left: -42%;
+    
+    h2 {
+        height: 30px;
+        text-align: center;
+        color: #9E9E9E;
+    }
 
     li {
         float: left;
-        margin:2px;
+        margin:3px;
         cursor: pointer;
-        width: 100px;
+        width: 8%;
 
         img {
             box-shadow: 0px 0px 5px black;
-            width: 100px;
+            width: 100%;
             z-index: 0;
             position: relative;
             -webkit-transition : -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -115,5 +125,55 @@ li {
                 }
             }
         }
+    }
+}
+
+#Toolbar {
+    position: fixed;
+    z-index: 1000;
+    right: 50px;
+    top: 10px;
+    
+    .button {
+        padding:0.5em;
+        margin: 0.4em;
+    }
+}
+
+#About,
+#Settings{
+    width: 500px;
+    min-height: 100px;
+    margin-left: -250px;
+    position: absolute;
+
+    left: 50%;
+    top: -400px;
+    background: -webkit-linear-gradient(top, #E7E7E7 0%, #B3B3B3 100%);
+    background: -moz-linear-gradient(top, #E7E7E7 0%, #B3B3B3 100%);
+    background: -o-linear-gradient(top, #E7E7E7 0%, #B3B3B3 100%);
+    background: -linear-gradient(top, #E7E7E7 0%, #B3B3B3 100%);
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px #363636;
+    
+    -webkit-transition:1s cubic-bezier(0.23, 1, 0.32, 1) all;
+       -moz-transition:1s cubic-bezier(0.23, 1, 0.32, 1) all;
+         -o-transition:1s cubic-bezier(0.23, 1, 0.32, 1) all;
+            transition:1s cubic-bezier(0.23, 1, 0.32, 1) all;
+    
+    &.show {
+        top : 50px;
+    }
+}
+
+#About {
+    .avatar {
+        width : 80px;
+        border-radius : 40px;
+        margin:20px;
+    }
+    h2 {
+        font-family: "Vermin Vibes";
+        font-size: 28px;
     }
 }

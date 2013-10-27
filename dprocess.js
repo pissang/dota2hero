@@ -51,7 +51,9 @@ defaultAnimation = {
 
 var transparentMat = {
     'treant_protector' : ['Material #57'],
-    "ogre_magi" : ['ogre_magi_cape']
+    "ogre_magi" : ['ogre_magi_cape'],
+    "medusa" : ['Material #90'],
+    "enchantress" : ['Material #57']
 }
 
 function parseBaseName(path) {

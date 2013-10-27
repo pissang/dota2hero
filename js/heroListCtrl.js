@@ -20,6 +20,17 @@
             $scope.heroList = cache.get('overview');
         }
 
+        $scope.hoverHero = {
+            title : ""
+        }
+
+        $scope.showHeroName = function(hero) {
+            $scope.hoverHero.title = hero.title;
+        }
+        $scope.hideHeroName = function(hero) {
+            $scope.hoverHero.title = "";
+        }
+
         // Render sparkle effect
         animation.onframe = function(deltaTime) {
             sparkle.render(renderer, deltaTime);
