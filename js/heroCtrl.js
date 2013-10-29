@@ -19,13 +19,15 @@
     
     // Mouse control
     var control = new qtek3d.plugin.OrbitControl({
-        camera : camera,
-        canvas : document.getElementById("ViewPort"),
+        target : camera,
+        domElement : document.getElementById("ViewPort"),
         sensitivity : 0.4
     });
     control.enable();
 
-    var shadowMapPass = new qtek3d.prePass.ShadowMap();
+    var shadowMapPass = new qtek3d.prePass.ShadowMap({
+        useVSM : true
+    });
 
     // Create scene
     var scene = new qtek3d.Scene();
@@ -43,7 +45,7 @@
             near : 0,
             far : 50,
         },
-        shadowResolution : 1024,
+        shadowResolution : 512,
         shadowBias : 0.02
     });
     light.position.set(10, 20, 5);
