@@ -81,6 +81,7 @@
         'ui_underscore1.mp3',
         'world_map.mp3'
     ];
+    var isPlay = true;
     var audio = document.createElement('audio');
     audio.addEventListener('ended', pick);
     function pick() {
@@ -88,4 +89,14 @@
         audio.play();
     }
     pick();
+
+    $("#PlayPause").click(function() {
+        isPlay 
+            ? $(this).children('i').removeClass('pause').addClass('play')
+            : $(this).children('i').removeClass('play').addClass('pause');
+        isPlay ? audio.pause() : audio.play();
+        isPlay = !isPlay;
+    });
+
+    $("#Shuffle").click(pick);
 })();
