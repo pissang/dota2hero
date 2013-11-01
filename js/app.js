@@ -72,4 +72,20 @@
                 redirectTo: '/heroes'
             });
     });
+
+    // Sound
+    var soundList = [
+        'gamestartup1.mp3',
+        'gamestartup2.mp3',
+        'gamestartup3.mp3',
+        'ui_underscore1.mp3',
+        'world_map.mp3'
+    ];
+    var audio = document.createElement('audio');
+    audio.addEventListener('ended', pick);
+    function pick() {
+        audio.src = 'sounds/' + soundList[Math.floor(Math.random() * 5)];
+        audio.play();
+    }
+    pick();
 })();
