@@ -4,11 +4,9 @@
 
     var app = angular.module("heroViewer");
     var loader = new qtek.loader.GLTF();
-    var animation = new qtek.animation.Animation();
-    animation.start();
     
     app.controller('heroList', function(
-        $scope, $http, getResourcePath, cache, sparkle, renderer
+        $scope, $http, getResourcePath, cache, sparkle, renderer, animation
     ) {
         if (!cache.has('overview')) {
             $http.get(getResourcePath('heroes/overview_cn.json'))
@@ -19,6 +17,10 @@
         } else {
             $scope.heroList = cache.get('overview');
         }
+        animation.off('frame');
+        animation.on('frame', function(deltaTime) {
+            sparkle.render(renderer, deltaTime);
+        });
 
         $scope.hoverHero = {
             title : ""

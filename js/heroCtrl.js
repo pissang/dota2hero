@@ -4,8 +4,6 @@
 
     var qtek3d = qtek['3d'];
     var heroLoader = new qtek.loader.GLTF();
-    var animation = new qtek.animation.Animation();
-    animation.start();
 
     var app = angular.module("heroViewer");
 
@@ -85,7 +83,7 @@
 
     app.controller('hero', function(
         $scope, $http, $routeParams,
-        renderer, SMDParser, getResourcePath, cache
+        renderer, SMDParser, getResourcePath, cache, animation
     ) {
         var heroName = $routeParams.name;
         if (!cache.has('overview')) {
@@ -207,7 +205,8 @@
 
                 var frame = 0;
                 var frameLen = 0;
-                animation.onframe = function(deltaTime) {
+                animation.off('frame');
+                animation.on('frame', function(deltaTime) {
                     // 30fps
                     frame += deltaTime / 1000 * 30;
                     if (frameLen) {
@@ -215,7 +214,7 @@
                     }
                     shadowMapPass.render(renderer, scene);
                     renderer.render(scene, camera);
-                }
+                });
                 // Loading animations
                 var joints = {};
                 for (var i = 0; i < skeleton.joints.length; i++) {

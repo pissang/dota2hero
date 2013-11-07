@@ -3,10 +3,11 @@
     'use strict';
 
     var qtek3d = qtek['3d'];
+    var Shader = qtek3d.Shader;
     var app = angular.module("heroViewer");
     var SIZE = 32;
 
-    function generateSprite(color){
+    function generateSprite(){
         var size = 128;
 
         var canvas = document.createElement('canvas');
@@ -22,68 +23,65 @@
         var gradient = ctx.createRadialGradient(
             size/2, size/2, 0, size/2, size/2, size/2
         );
-        gradient.addColorStop(0, 'rgba(255,255,255,1)');
-        gradient.addColorStop(1, 'rgba(255,255,255,0.0)');
+        gradient.addColorStop(0, 'rgba(255,239,179,1)');
+        gradient.addColorStop(0.34, 'rgba(255,212,157,1)');
+        gradient.addColorStop(0.7, 'rgba(130,55,55,0.51)');
+        gradient.addColorStop(1.0, 'rgba(130,55,55,0.0)');
         ctx.fillStyle = gradient;
         ctx.fill();
 
         return canvas;
     }
-    
-    var compositor;
+
+    var Value = qtek.core.Value;
+    var Vector3 = qtek.core.Vector3;
+    var particleSystem = new qtek3d.particleSystem.ParticleSystem();
+    var emitter = new qtek3d.particleSystem.Emitter({
+        max : 5000,
+        amount : 10,
+        life : Value.constant(2),
+        spriteSize : Value.constant(400),
+        position : Value.random3D(new Vector3(-100, -30, 50), new Vector3(100, -40, 90)),
+        velocity : Value.random3D(new Vector3(-20, 0, -10), new Vector3(20, 20, 10))
+    });
+    particleSystem.addEmitter(emitter);
+    particleSystem.material.set('color', [1, 1, 1]);
+    particleSystem.material.shader.enableTexture('sprite');
+    particleSystem.material.set('sprite', new qtek3d.texture.Texture2D({
+        image : generateSprite()
+    }));
+
     var scene = new qtek3d.Scene();
     var camera = new qtek3d.camera.Perspective({
-        aspect : window.innerWidth / window.innerHeight
+        aspect : window.innerWidth / window.innerHeight,
+        far : 1000,
+        near : 1
     });
-    camera.position.z = 1;
+    camera.position.set(0, 0, 120);
+    scene.add(particleSystem);
 
-    var updatePositionNode;
-    var fxLoader = new qtek.loader.FX();
-    fxLoader.load('assets/fx/sparkle.json');
-    fxLoader.on('load', function(_compositor) {
-        compositor = _compositor;
-        updatePositionNode = compositor.findNode('updatePosition');
-
-        // // Scene
-        // var geo = new qtek3d.Geometry();
-        // for (var i = 0; i < SIZE; i++) {
-        //     for (var j = 0; j < SIZE; j++) {
-        //         geo.attributes.position.value.push([i / SIZE, j / SIZE, 0]);
-        //     }
-        // }
-        // var mat = new qtek3d.Material({
-        //     shader : new qtek3d.Shader({
-        //         vertex : Shader.source("sparkle.vertex"),
-        //         fragment : Shader.source("sparkle.fragment")
-        //     }),
-        //     transparent : true,
-        //     depthTest : false,
-        //     blend : function(_gl){
-        //         _gl.blendEquation(_gl.FUNC_ADD);
-        //         _gl.blendFunc(_gl.SRC_ALPHA, _gl.ONE);
-        //     }
-        // });
-        // var spiritTexture = new qtek3d.texture.Texture2D();
-        // spiritTexture.image = generateSprite();
-        // mat.set("spiritTexture", spiritTexture);
-        // mat.set("color", [0.5, 0.3, 0.1]);
-
-        // var particleSystem = new qtek3d.Mesh({
-        //     geometry : geo,
-        //     material : mat,
-        //     mode : qtek3d.Mesh.POINTS
-        // });
-        // scene.add(particleSystem);
+    var planeMesh = new qtek3d.Mesh({
+        geometry : new qtek3d.geometry.Plane(),
+        material : new qtek3d.Material({
+            shader : qtek3d.shader.library.get('buildin.lambert')
+        })
     });
+    planeMesh.material.set('color', [0.3, 0, 0]);
+    planeMesh.scale.set(10000, 10000, 1);
+    scene.add(planeMesh);
 
+    var light = new qtek3d.light.Point({
+        range : 300
+    });
+    light.position.z = 50;
+    light.position.y = -40;
+    scene.add(light);
+    
     app.provider("sparkle", function() {
         var sparkle = {
             render : function(renderer, deltaTime) {
-                if (compositor) {
-                    updatePositionNode.setParameter('deltaTime', deltaTime);
-                    // compositor.render(renderer);
-                    // renderer.render(scene, )
-                }
+                particleSystem.updateParticles(deltaTime);
+                renderer.render(scene, camera);
             }
         };
         

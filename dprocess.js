@@ -53,7 +53,8 @@ var transparentMat = {
     'treant_protector' : ['Material #57'],
     "ogre_magi" : ['ogre_magi_cape'],
     "medusa" : ['Material #90'],
-    "enchantress" : ['Material #57']
+    "enchantress" : ['Material #57'],
+    'abaddon' : ['Material #118', 'Material #129']
 }
 
 function parseBaseName(path) {
