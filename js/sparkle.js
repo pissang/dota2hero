@@ -40,7 +40,7 @@
         max : 5000,
         amount : 10,
         life : Value.constant(2),
-        spriteSize : Value.constant(400),
+        spriteSize : Value.constant(200 * window.devicePixelRatio || 1),
         position : Value.random3D(new Vector3(-100, -30, 50), new Vector3(100, -40, 90)),
         velocity : Value.random3D(new Vector3(-20, 0, -10), new Vector3(20, 20, 10))
     });
