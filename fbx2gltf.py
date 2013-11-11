@@ -469,27 +469,42 @@ def ConvertMesh(pMesh, pNode):
 
         if lNormalSplitted or lUVSPlitted:
             lCount = 0
+            lVertexCount = 0
             lNormalsTmp = []
             lTexcoordsTmp = []
             lJointsTmp = []
             lWeightsTmp = []
+            lVertexMap = {}
+
             for idx in pMesh.GetPolygonVertices():
-                lPositions.append(pMesh.GetControlPointAt(idx))
+                lPosition = pMesh.GetControlPointAt(idx)
                 if not lNormalSplitted:
                     # Split normal data
-                    lNormalsTmp.append(lNormals[idx])
+                    lNormal = lNormals[idx]
+                else:
+                    lNormal = lNormals[lCount]
                 if not lUVSPlitted:
-                    # Split uv data
-                    lTexcoordsTmp.append(lTexcoords[idx])
-                if hasSkin:
-                    lJointsTmp.append(lJoints[idx])
-                    lWeightsTmp.append(lWeights[idx])
-                lIndices.append(lCount)
+                    lTexcoord = lTexcoords[idx]
+                else:
+                    lTexcoord = lTexcoords[lCount]
                 lCount += 1
-            if not lNormalSplitted:
-                lNormals = lNormalsTmp
-            if not lUVSPlitted:
-                lTexcoords = lTexcoordsTmp
+                #Compress vertex, hashed with position and normal
+                lKey = ','.join(str(e) for e in (lPosition + lNormal))
+                if lKey in lVertexMap:
+                    lIndices.append(lVertexMap[lKey])
+                else:
+                    lPositions.append(lPosition)
+                    lNormalsTmp.append(lNormal)
+                    lTexcoordsTmp.append(lTexcoord)
+                    if hasSkin:
+                        lWeightsTmp.append(lWeights[idx])
+                        lJointsTmp.append(lJoints[idx])
+                    lIndices.append(lVertexCount)
+                    lVertexMap[lKey] = lVertexCount
+                    lVertexCount += 1
+
+            lNormals = lNormalsTmp
+            lTexcoords = lTexcoordsTmp
             if hasSkin:
                 lWeights = lWeightsTmp
                 lJoints = lJointsTmp

@@ -6,7 +6,7 @@
             "bufferView": "bufferView_7",
             "byteOffset": 0,
             "byteStride": 12,
-            "count": 20976,
+            "count": 3577,
             "max": [
                 1,
                 1,
@@ -21,9 +21,9 @@
         },
         "attribute_2": {
             "bufferView": "bufferView_7",
-            "byteOffset": 251712,
+            "byteOffset": 42924,
             "byteStride": 12,
-            "count": 20976,
+            "count": 3577,
             "max": [
                 1,
                 1,
@@ -38,9 +38,9 @@
         },
         "attribute_3": {
             "bufferView": "bufferView_7",
-            "byteOffset": 503424,
+            "byteOffset": 85848,
             "byteStride": 8,
-            "count": 20976,
+            "count": 3577,
             "max": [
                 1,
                 1,
@@ -55,9 +55,9 @@
         },
         "attribute_4": {
             "bufferView": "bufferView_7",
-            "byteOffset": 671232,
+            "byteOffset": 114464,
             "byteStride": 16,
-            "count": 20976,
+            "count": 3577,
             "max": [
                 1,
                 1,
@@ -72,9 +72,9 @@
         },
         "attribute_5": {
             "bufferView": "bufferView_7",
-            "byteOffset": 1006848,
+            "byteOffset": 171696,
             "byteStride": 12,
-            "count": 20976,
+            "count": 3577,
             "max": [
                 1,
                 1,
@@ -91,20 +91,20 @@
     "bufferViews": {
         "bufferView_7": {
             "buffer": "tiny_03.bin",
-            "byteLength": 1258560,
+            "byteLength": 214620,
             "byteOffset": 0,
             "target": "ARRAY_BUFFER"
         },
         "bufferView_8": {
             "buffer": "tiny_03.bin",
             "byteLength": 41952,
-            "byteOffset": 1258560,
+            "byteOffset": 214620,
             "target": "ELEMENT_ARRAY_BUFFER"
         }
     },
     "buffers": {
         "tiny_03.bin": {
-            "byteLength": 1300512,
+            "byteLength": 256572,
             "path": "tiny_03.bin"
         }
     },

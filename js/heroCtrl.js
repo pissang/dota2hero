@@ -177,6 +177,7 @@
                         // reattach
                         mat.attachShader(shader);
                         shader.enableTexturesAll();
+                        // shader.define('fragment', 'RENDER_TEXCOORD')
                     }
                 });
                 for (var name in materials) {
