@@ -16,12 +16,19 @@
     </div>
 </div>
 <div id="Toolbar">
-    <div class="ui circular icon button">
+    <div class="mini ui black button icon" ng-click="toggleSettings()">
         <i class="icon settings"></i>
     </div>
-    <div class="ui circular icon button" ng-click="showAbout()">
+    <div class="mini ui black button icon" ng-click="showAbout()">
         <i class="icon info letter"></i>
     </div>
 </div>
-
+<div id="Log">
+    <div>FPS : {{log.fps}}</div>
+    <div>Frame time : {{log.frameTime}}</div>
+    <div>Vertices : {{log.vertexNumber}}</div>
+    <div>Faces : {{log.faceNumber}}</div>
+    <div>Draw calls : {{log.drawCallNumber}}</div>
+</div>
+<div ng-include="'partials/settings.html'"></div>
 <div ng-include="'partials/about.html'"></div>

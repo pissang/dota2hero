@@ -40,7 +40,9 @@
             canvas : document.getElementById("ViewPort")
         });
         renderer.resize(window.innerWidth, window.innerHeight);
-
+        $(window).resize(function() {
+            renderer.resize(window.innerWidth, window.innerHeight);
+        });
         this.$get = function() {
             return renderer;
         }
@@ -53,6 +55,17 @@
             return animation;
         }
     });
+
+    app.directive('buttonDropdown', function($compile, $controller) {
+      return {
+        restrict: 'EA',
+        compile: function($element, $attr, $transclude) {
+            $($element[0]).dropdown({
+                action : 'active'
+            });
+        }
+      };
+    })
 
 
     app.config(function($routeProvider){

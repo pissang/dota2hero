@@ -19,7 +19,11 @@
     var control = new qtek3d.plugin.OrbitControl({
         target : camera,
         domElement : document.getElementById("ViewPort"),
-        sensitivity : 0.4
+        sensitivity : 0.4,
+        minDistance : 40,
+        maxDistance : 70,
+        maxRollAngle : Math.PI / 4,
+        minRollAngle : -0.1
     });
     control.enable();
 
@@ -83,7 +87,7 @@
 
     app.controller('hero', function(
         $scope, $http, $routeParams,
-        renderer, SMDParser, getResourcePath, cache, animation
+        renderer, SMDParser, getResourcePath, cache, animation, background
     ) {
         var heroName = $routeParams.name;
         if (!cache.has('overview')) {
@@ -108,7 +112,14 @@
         $scope.showAbout = function() {
             $("#About").toggleClass('show');
         }
-
+        $scope.toggleSettings = function() {
+            $("#Settings").sidebar('toggle');
+        }
+        $scope.resetView = function() {
+            camera.position.set(40, 10, 40);
+            camera.lookAt(new qtek.core.Vector3(0, 8, 0), new qtek.core.Vector3(0, 1, 0));
+        }
+        
         if (rockNode) {
             rockNode.visible = true;
         } else {
@@ -207,14 +218,23 @@
                 var frameLen = 0;
                 animation.off('frame');
                 animation.on('frame', function(deltaTime) {
-                    // 30fps
+                    var start = new Date().getTime();
+                    // // 30fps
                     frame += deltaTime / 1000 * 30;
                     if (frameLen) {
                         skeleton.setPose(frame % frameLen);
                     }
                     shadowMapPass.render(renderer, scene);
-                    renderer.render(scene, camera);
+                    background.render(renderer);
+                    camera.aspect = renderer.canvas.width / renderer.canvas.height;
+                    $scope.log = renderer.render(scene, camera);
+                    var end = new Date().getTime();
+                    $scope.log.frameTime = (end-start).toFixed(1) + 'ms';
+                    $scope.log.fps = parseInt(1000 / deltaTime);
                 });
+                setInterval(function() {
+                    $scope.$apply();
+                }, 500);
                 // Loading animations
                 var joints = {};
                 for (var i = 0; i < skeleton.joints.length; i++) {
@@ -241,7 +261,7 @@
                     });
                 // http://stackoverflow.com/questions/17039998/angular-not-making-http-requests-immediately
                 $scope.$apply();
-            })
+            });
          });
     });
 })();

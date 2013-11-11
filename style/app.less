@@ -2,12 +2,22 @@
     font-family: 'Vermin Vibes';
     src: url("./vermin_vibes_2.otf");
 }
-
+html{
+    height: 100%;
+}
 body {
     margin:0px;
     background-image: url(../imgs/wallpaper.jpg);
     background-size: cover;
+    height: 100%;
+    position: relative;
+
+    &.pushed{
+        margin-right: 200px;
+    }
+    overflow: hidden;
 }
+
 #App {
     width : 100%;
 }
@@ -129,19 +139,30 @@ li {
 }
 
 #Toolbar {
-    position: fixed;
+    position: absolute;
     z-index: 1000;
     right: 50px;
     top: 10px;
     
     .button {
-        padding:0.5em;
-        margin: 0.4em;
+        // padding:0.5em;
     }
 }
 
-#About,
-#Settings{
+#Log {
+    position: absolute;
+    z-index: 100;
+    right:50px;
+    top : 60px;
+    color:white;
+    width:200px;
+
+    text-align: right;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#About{
     width: 500px;
     min-height: 100px;
     margin-left: -250px;
@@ -182,4 +203,25 @@ li {
     position: absolute;
     right : 50px;
     bottom: 40px;
+
+    .button{
+        padding:0.5em;
+    }
+}
+
+#Settings{
+    background-color: #300808;
+    box-shadow: inset 0px 0px 30px #000;
+
+    .button {
+        margin:10px;
+        display: block;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    width:200px!important;
+    &.active{
+        margin-left: -200px!important;
+    }
 }

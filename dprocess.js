@@ -93,6 +93,10 @@ glob(pattern, function(err, pathList) {
             py.on('close', function() {
                 setTimeout(afterCloseConvert, 100);
             });
+            py.stdout.setEncoding('utf-8');
+            py.stdout.on('data', function(data) {
+                console.log(data);
+            });
         });
 
         // Converting fbx to gltf
