@@ -56,18 +56,6 @@
         }
     });
 
-    app.directive('buttonDropdown', function($compile, $controller) {
-      return {
-        restrict: 'EA',
-        compile: function($element, $attr, $transclude) {
-            $($element[0]).dropdown({
-                action : 'active'
-            });
-        }
-      };
-    })
-
-
     app.config(function($routeProvider){
         $routeProvider
             .when("/heroes", {

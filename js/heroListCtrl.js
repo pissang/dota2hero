@@ -32,5 +32,7 @@
         $scope.hideHeroName = function(hero) {
             $scope.hoverHero.title = "";
         }
+
+        $("#Settings").sidebar('hide');
     });
 })();

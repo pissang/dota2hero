@@ -87,7 +87,7 @@
 
     app.controller('hero', function(
         $scope, $http, $routeParams,
-        renderer, SMDParser, getResourcePath, cache, animation, background
+        renderer, SMDParser, getResourcePath, cache, animation, background, config
     ) {
         var heroName = $routeParams.name;
         if (!cache.has('overview')) {
@@ -119,7 +119,14 @@
             camera.position.set(40, 10, 40);
             camera.lookAt(new qtek.core.Vector3(0, 8, 0), new qtek.core.Vector3(0, 1, 0));
         }
-        
+        $scope.config = config;
+
+        $scope.$watch('config.shadow', function(obj) {
+            shadowMapPass.dispose(renderer);
+            shadowMapPass.useVSM = obj.softShadow === 'vsm';
+            light.shadowResolution = obj.resolution;
+        }, true);
+
         if (rockNode) {
             rockNode.visible = true;
         } else {
@@ -225,7 +232,9 @@
                     if (frameLen) {
                         skeleton.setPose(frame % frameLen);
                     }
-                    shadowMapPass.render(renderer, scene);
+                    if (config.shadow.enabled) {
+                        shadowMapPass.render(renderer, scene);
+                    }
                     background.render(renderer);
                     camera.aspect = renderer.canvas.width / renderer.canvas.height;
                     $scope.log = renderer.render(scene, camera);
@@ -234,7 +243,7 @@
                     $scope.log.fps = parseInt(1000 / deltaTime);
                 });
                 setInterval(function() {
-                    $scope.$apply();
+                    $scope.$digest();
                 }, 500);
                 // Loading animations
                 var joints = {};
@@ -261,7 +270,8 @@
                             });
                     });
                 // http://stackoverflow.com/questions/17039998/angular-not-making-http-requests-immediately
-                $scope.$apply();
+                // http://www.benlesh.com/2013/08/angularjs-watch-digest-and-apply-oh-my.html
+                $scope.$digest();
             });
          });
     });

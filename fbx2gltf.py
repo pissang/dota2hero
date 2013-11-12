@@ -485,17 +485,18 @@ def ConvertMesh(pMesh, pNode):
                     lNormal = lNormals[lCount]
                 if not lUVSPlitted:
                     lTexcoord = lTexcoords[idx]
-                else:
+                elif not lLayerUV == None:
                     lTexcoord = lTexcoords[lCount]
                 lCount += 1
                 #Compress vertex, hashed with position and normal
-                lKey = ','.join(str(e) for e in (lPosition + lNormal))
+                lKey = (lPosition[0], lPosition[1], lPosition[2], lNormal[0], lNormal[1], lNormal[2])
                 if lKey in lVertexMap:
                     lIndices.append(lVertexMap[lKey])
                 else:
                     lPositions.append(lPosition)
                     lNormalsTmp.append(lNormal)
-                    lTexcoordsTmp.append(lTexcoord)
+                    if not lLayerUV == None:
+                        lTexcoordsTmp.append(lTexcoord)
                     if hasSkin:
                         lWeightsTmp.append(lWeights[idx])
                         lJointsTmp.append(lJoints[idx])
