@@ -1,65 +1,58 @@
 {
-    "Material #107": {
-        "diffuseMap": "heroes/storm_spirit/textures/storm_spirit_beard_jewelry_color.png",
-        "normalMap": "heroes/storm_spirit/textures/storm_spirit_beard_jewelry_normal.png",
-        "maskMap1": "heroes/storm_spirit/textures/storm_spirit_beard_jewelry_masks1.png",
-        "maskMap2": "heroes/storm_spirit/textures/storm_spirit_beard_jewelry_masks2.png",
-        "u_SpecularExponent": 75,
-        "u_SpecularScale": 1.3,
-        "u_RimLightScale": 1.3
+    "Material #103": {
+        "diffuseMap": "heroes/storm_spirit/textures/storm_v2_base_color.png",
+        "normalMap": "heroes/storm_spirit/textures/storm_v2_base_normal.png",
+        "maskMap1": "heroes/storm_spirit/textures/storm_v2_base_masks1.png",
+        "maskMap2": "heroes/storm_spirit/textures/storm_v2_base_masks2.png",
+        "u_SpecularExponent": 32,
+        "u_SpecularScale": 1,
+        "u_SpecularColor": [
+            0,
+            0.5,
+            1
+        ],
+        "u_RimLightScale": 3
     },
-    "Material #35": {
-        "diffuseMap": "heroes/storm_spirit/textures/storm_spirit_base_color.png",
-        "normalMap": "heroes/storm_spirit/textures/storm_spirit_base_normal.png",
-        "maskMap1": "heroes/storm_spirit/textures/storm_spirit_base_masks1.png",
-        "maskMap2": "heroes/storm_spirit/textures/storm_spirit_base_masks2.png",
-        "u_SpecularExponent": 75,
-        "u_SpecularScale": 1.3,
-        "u_RimLightScale": 1.3
+    "Material #114": {
+        "diffuseMap": "heroes/storm_spirit/textures/storm_v2_shoulders_necklace_color.png",
+        "normalMap": "heroes/storm_spirit/textures/storm_v2_shoulders_necklace_normal.png",
+        "maskMap1": "heroes/storm_spirit/textures/storm_v2_shoulders_necklace_masks1.png",
+        "maskMap2": "heroes/storm_spirit/textures/storm_v2_shoulders_necklace_masks2.png",
+        "u_SpecularExponent": 32,
+        "u_SpecularScale": 3,
+        "u_SpecularColor": [
+            0,
+            0.5,
+            1
+        ],
+        "u_RimLightScale": 3
     },
-    "Material #47": {
-        "diffuseMap": "heroes/storm_spirit/textures/storm_spirit_sleeves_color.png",
-        "normalMap": "heroes/storm_spirit/textures/storm_spirit_sleeves_normal.png",
-        "maskMap1": "heroes/storm_spirit/textures/storm_spirit_sleeves_masks1.png",
-        "maskMap2": "heroes/storm_spirit/textures/storm_spirit_sleeves_masks2.png",
-        "u_SpecularExponent": 75,
-        "u_SpecularScale": 1.3,
-        "u_RimLightScale": 1.3
+    "Material #125": {
+        "diffuseMap": "heroes/storm_spirit/textures/storm_v2_armor_belt_color.png",
+        "normalMap": "heroes/storm_spirit/textures/storm_v2_armor_belt_normal.png",
+        "maskMap1": "heroes/storm_spirit/textures/storm_v2_armor_belt_masks1.png",
+        "maskMap2": "heroes/storm_spirit/textures/storm_v2_armor_belt_masks2.png",
+        "u_SpecularExponent": 32,
+        "u_SpecularScale": 3,
+        "u_SpecularColor": [
+            0,
+            0.5,
+            1
+        ],
+        "u_RimLightScale": 3
     },
-    "Material #59": {
-        "diffuseMap": "heroes/storm_spirit/textures/storm_spirit_shirt_color.png",
-        "normalMap": "heroes/storm_spirit/textures/storm_spirit_shirt_normal.png",
-        "maskMap1": "heroes/storm_spirit/textures/storm_spirit_shirt_masks1.png",
-        "maskMap2": "heroes/storm_spirit/textures/storm_spirit_shirt_masks2.png",
-        "u_SpecularExponent": 75,
-        "u_SpecularScale": 1.3,
-        "u_RimLightScale": 1.3
-    },
-    "Material #71": {
-        "diffuseMap": "heroes/storm_spirit/textures/storm_spirit_hat_hair_color.png",
-        "normalMap": "heroes/storm_spirit/textures/storm_spirit_hat_hair_normal.png",
-        "maskMap1": "heroes/storm_spirit/textures/storm_spirit_hat_hair_masks1.png",
-        "maskMap2": "heroes/storm_spirit/textures/storm_spirit_hat_hair_masks2.png",
-        "u_SpecularExponent": 75,
-        "u_SpecularScale": 1.3,
-        "u_RimLightScale": 1.3
-    },
-    "Material #83": {
-        "diffuseMap": "heroes/storm_spirit/textures/storm_spirit_hat_hair_color.png",
-        "normalMap": "heroes/storm_spirit/textures/storm_spirit_hat_hair_normal.png",
-        "maskMap1": "heroes/storm_spirit/textures/storm_spirit_hat_hair_masks1.png",
-        "maskMap2": "heroes/storm_spirit/textures/storm_spirit_hat_hair_masks2.png",
-        "u_SpecularExponent": 75,
-        "u_SpecularScale": 1.3,
-        "u_RimLightScale": 1.3
-    },
-    "Material #95": {
-        "diffuseMap": "heroes/storm_spirit/textures/storm_spirit_belt_color.png",
-        "normalMap": "heroes/storm_spirit/textures/storm_spirit_belt_normal.png",
-        "maskMap1": "heroes/storm_spirit/textures/storm_spirit_belt_masks1.png",
-        "maskMap2": "heroes/storm_spirit/textures/storm_spirit_belt_masks2.png",
-        "u_SpecularExponent": 75,
-        "u_SpecularScale": 1.3,
-        "u_RimLightScale": 1.3
+    "Material #137": {
+        "diffuseMap": "heroes/storm_spirit/textures/storm_v2_hat_color.png",
+        "normalMap": "heroes/storm_spirit/textures/storm_v2_hat_normal.png",
+        "maskMap1": "heroes/storm_spirit/textures/storm_v2_hat_masks1.png",
+        "maskMap2": "heroes/storm_spirit/textures/storm_v2_hat_masks2.png",
+        "u_SpecularExponent": 32,
+        "u_SpecularScale": 3,
+        "u_SpecularColor": [
+            0,
+            0.5,
+            1
+        ],
+        "u_RimLightScale": 3
     }
 }

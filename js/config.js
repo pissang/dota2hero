@@ -31,8 +31,7 @@
             },
             debug : false,
             verbose : false,
-            performance : false,
-            action : 'hide'
+            performance : false
         });
 
         $('#SoftShadow').dropdown({
@@ -41,8 +40,7 @@
             },
             debug : false,
             verbose : false,
-            performance : false,
-            action : 'hide'
+            performance : false
         });
         this.$get = function () {
             return config;

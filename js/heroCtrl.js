@@ -200,7 +200,7 @@
                                         wrapS : qtek3d.Texture.REPEAT,
                                         wrapT : qtek3d.Texture.REPEAT
                                     });
-                                    texture.load(params[name]);
+                                    texture.load(getResourcePath(params[name]));
                                     mat.set(name, texture);
                                     mat.shader.enableTexture(name);
                                 }

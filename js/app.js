@@ -5,6 +5,10 @@
     var app = angular.module("heroViewer");
     
     function getResourcePath(path) {
+        // if (path[0] !== '/') {
+        //     path = '/' + path;
+        // }
+        // return 'server/proxy.php?path=' + path
         return path;
     }
 
