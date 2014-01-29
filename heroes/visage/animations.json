@@ -1,0 +1,40 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/visage/smd/visage_idle.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/visage/smd/visage_idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/visage/smd/visage_attack.smd"
+        },
+        {
+            "name": "attack_alt1",
+            "path": "heroes/visage/smd/visage_attack_alt1.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/visage/smd/visage_run.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/visage/smd/visage_run_haste.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/visage/smd/visage_run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/visage/smd/visage_idle.smd"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/ursa/smd/idle.smd"
+        },
+        {
+            "name": "idle_earTwitch",
+            "path": "heroes/ursa/smd/idle_earTwitch.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack2",
+            "path": "heroes/ursa/smd/attack2.smd"
+        },
+        {
+            "name": "attack3",
+            "path": "heroes/ursa/smd/attack3.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/ursa/smd/run.smd"
+        },
+        {
+            "name": "run_hurt",
+            "path": "heroes/ursa/smd/run_hurt.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/ursa/smd/idle.smd"
+    }
+}

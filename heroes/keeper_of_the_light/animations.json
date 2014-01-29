@@ -1,0 +1,27 @@
+{
+    "idle": [
+        {
+            "name": "Idle",
+            "path": "heroes/keeper_of_the_light/smd/Idle.smd"
+        },
+        {
+            "name": "IdleAlt",
+            "path": "heroes/keeper_of_the_light/smd/IdleAlt.smd"
+        }
+    ],
+    "attack": [],
+    "run": [
+        {
+            "name": "Run",
+            "path": "heroes/keeper_of_the_light/smd/Run.smd"
+        },
+        {
+            "name": "runInjured",
+            "path": "heroes/keeper_of_the_light/smd/runInjured.smd"
+        }
+    ],
+    "default": {
+        "name": "Idle",
+        "path": "heroes/keeper_of_the_light/smd/Idle.smd"
+    }
+}

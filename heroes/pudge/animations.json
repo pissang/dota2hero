@@ -1,0 +1,32 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/pudge/smd/pudge_idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/pudge/smd/pudge_idle_alt.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1",
+            "path": "heroes/pudge/smd/pudge_attack1.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/pudge/smd/pudge_attack2.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run_haste",
+            "path": "heroes/pudge/smd/pudge_run_haste.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/pudge/smd/pudge_idle.smd"
+    }
+}

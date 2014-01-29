@@ -1,0 +1,48 @@
+{
+    "idle": [
+        {
+            "name": "idle_alt",
+            "path": "heroes/bane/smd/idle_alt.smd"
+        },
+        {
+            "name": "idle_alt_injured",
+            "path": "heroes/bane/smd/idle_alt_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1",
+            "path": "heroes/bane/smd/attack1.smd"
+        },
+        {
+            "name": "attack1_injured",
+            "path": "heroes/bane/smd/attack1_injured.smd"
+        },
+        {
+            "name": "attack_alt",
+            "path": "heroes/bane/smd/attack_alt.smd"
+        },
+        {
+            "name": "attack_alt_injured",
+            "path": "heroes/bane/smd/attack_alt_injured.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run_alt",
+            "path": "heroes/bane/smd/run_alt.smd"
+        },
+        {
+            "name": "run_alt_haste",
+            "path": "heroes/bane/smd/run_alt_haste.smd"
+        },
+        {
+            "name": "run_alt_injured",
+            "path": "heroes/bane/smd/run_alt_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "run_alt",
+        "path": "heroes/bane/smd/run_alt.smd"
+    }
+}

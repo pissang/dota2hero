@@ -1,0 +1,40 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/alchemist/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/alchemist/smd/idle_alt.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1",
+            "path": "heroes/alchemist/smd/attack1.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/alchemist/smd/attack2.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run_alt",
+            "path": "heroes/alchemist/smd/run_alt.smd"
+        },
+        {
+            "name": "run_alt2",
+            "path": "heroes/alchemist/smd/run_alt2.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/alchemist/smd/run_haste.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/alchemist/smd/idle.smd"
+    }
+}

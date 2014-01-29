@@ -1,0 +1,32 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/omniknight/smd/idle.smd"
+        },
+        {
+            "name": "idle_loadout",
+            "path": "heroes/omniknight/smd/idle_loadout.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/omniknight/smd/attack.smd"
+        },
+        {
+            "name": "attackAlt",
+            "path": "heroes/omniknight/smd/attackAlt.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/omniknight/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/omniknight/smd/idle.smd"
+    }
+}

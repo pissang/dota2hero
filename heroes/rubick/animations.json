@@ -1,0 +1,52 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/rubick/smd/rubick_idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/rubick/smd/rubick_idle_alt.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/rubick/smd/rubick_idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/rubick/smd/rubick_attack.smd"
+        },
+        {
+            "name": "attackb",
+            "path": "heroes/rubick/smd/rubick_attackb.smd"
+        },
+        {
+            "name": "attackc",
+            "path": "heroes/rubick/smd/rubick_attackc.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/rubick/smd/rubick_run.smd"
+        },
+        {
+            "name": "run_alt",
+            "path": "heroes/rubick/smd/rubick_run_alt.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/rubick/smd/rubick_run_haste.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/rubick/smd/rubick_run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/rubick/smd/rubick_idle.smd"
+    }
+}

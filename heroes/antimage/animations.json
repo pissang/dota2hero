@@ -1,0 +1,68 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/antimage/smd/idle.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/antimage/smd/idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/antimage/smd/attack.smd"
+        },
+        {
+            "name": "attack1",
+            "path": "heroes/antimage/smd/attack1.smd"
+        },
+        {
+            "name": "attack1_injured",
+            "path": "heroes/antimage/smd/attack1_injured.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/antimage/smd/attack2.smd"
+        },
+        {
+            "name": "attack2_injured",
+            "path": "heroes/antimage/smd/attack2_injured.smd"
+        },
+        {
+            "name": "attack_injured",
+            "path": "heroes/antimage/smd/attack_injured.smd"
+        },
+        {
+            "name": "attack_manta",
+            "path": "heroes/antimage/smd/attack_manta.smd"
+        },
+        {
+            "name": "attack_manta1",
+            "path": "heroes/antimage/smd/attack_manta1.smd"
+        },
+        {
+            "name": "attack_manta2",
+            "path": "heroes/antimage/smd/attack_manta2.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/antimage/smd/run.smd"
+        },
+        {
+            "name": "run_angry",
+            "path": "heroes/antimage/smd/run_angry.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/antimage/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/antimage/smd/idle.smd"
+    }
+}

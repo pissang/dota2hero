@@ -1,0 +1,48 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/abaddon/smd/idle.smd"
+        },
+        {
+            "name": "idle_dupe1_dupe1",
+            "path": "heroes/abaddon/smd/idle_dupe1_dupe1.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/abaddon/smd/idle_injured.smd"
+        },
+        {
+            "name": "idle_long",
+            "path": "heroes/abaddon/smd/idle_long.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1_test",
+            "path": "heroes/abaddon/smd/attack1_test.smd"
+        },
+        {
+            "name": "attack1_tonedown",
+            "path": "heroes/abaddon/smd/attack1_tonedown.smd"
+        },
+        {
+            "name": "attack2_tonedown",
+            "path": "heroes/abaddon/smd/attack2_tonedown.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/abaddon/smd/run.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/abaddon/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/abaddon/smd/idle.smd"
+    }
+}

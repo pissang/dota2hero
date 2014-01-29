@@ -1,0 +1,39 @@
+<div id="Overview">
+    <div class="portrait">
+        <img ng-src="{{overview.portrait}}" />
+        <h2>{{overview.title}}</h2>
+    </div>
+    <div class="abilities">
+        <ul>
+            <li ng-repeat="ability in overview.abilities">
+                <img ng-src="{{ability.icon}}" />
+                <div class="ability-detail">
+                    <h4>{{ability.title}}</h4>
+                    <p>{{ability.detail}}</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="Toolbar">
+    <a class="mini ui black button icon" href="#/heroes" ng-click="showAbout()" title="About">
+        <i class="icon grid layout"></i>
+    </a>
+    <div class="ui black mini button icon" ng-click="resetView()" title="Reset View">
+        <i class="icon unhide"></i>
+    </div>
+    <div class="mini ui black button icon" ng-click="toggleSettings()" title="Settings">
+        <i class="icon settings"></i>
+    </div>
+    <div class="mini ui black button icon" ng-click="showAbout()" title="About">
+        <i class="icon info letter"></i>
+    </div>
+</div>
+<div id="Log">
+    <div>FPS : {{log.fps}}</div>
+    <div>Frame time : {{log.frameTime}}</div>
+    <div>Vertices : {{log.vertexNumber}}</div>
+    <div>Faces : {{log.faceNumber}}</div>
+    <div>Draw calls : {{log.drawCallNumber}}</div>
+</div>
+<div ng-include="'partials/about.html'"></div>

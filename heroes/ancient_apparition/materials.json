@@ -1,0 +1,33 @@
+{
+    "Material #35": {
+        "diffuseMap": "heroes/ancient_apparition/textures/ancientapparition_ghost.png",
+        "normalMap": "heroes/ancient_apparition/textures/flatnormal.png",
+        "u_SpecularExponent": 50,
+        "u_SpecularScale": 0,
+        "u_RimLightScale": 2,
+        "u_RimLightColor": [
+            0,
+            0.4,
+            1
+        ]
+    },
+    "Material #36": {
+        "diffuseMap": "heroes/ancient_apparition/textures/ancientapparition_colors.png",
+        "normalMap": "heroes/ancient_apparition/textures/ancientapparition_normals.png",
+        "maskMap1": "heroes/ancient_apparition/textures/ancientapparition_masks1.png",
+        "maskMap2": "heroes/ancient_apparition/textures/ancientapparition_masks2.png",
+        "u_SpecularExponent": 10,
+        "u_SpecularScale": 5,
+        "u_SpecularColor": [
+            0.7,
+            1,
+            1
+        ],
+        "u_RimLightScale": 1,
+        "u_RimLightColor": [
+            0.8,
+            1,
+            1
+        ]
+    }
+}

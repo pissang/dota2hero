@@ -1,0 +1,68 @@
+{
+    "Material #35": {
+        "diffuseMap": "heroes/queenofpain/textures/queenofpain_color.png",
+        "normalMap": "heroes/queenofpain/textures/queenofpain_normals.png",
+        "maskMap1": "heroes/queenofpain/textures/queenofpain_masks1.png",
+        "maskMap2": "heroes/queenofpain/textures/queenofpain_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 8,
+        "u_RimLightScale": 1,
+        "u_RimLightColor": [
+            1,
+            1,
+            1
+        ]
+    },
+    "Material #46": {
+        "diffuseMap": "heroes/queenofpain/textures/queenofpain_armour_color.png",
+        "normalMap": "heroes/queenofpain/textures/queenofpain_armour_normals.png",
+        "maskMap1": "heroes/queenofpain/textures/queenofpain_armour_masks1.png",
+        "maskMap2": "heroes/queenofpain/textures/queenofpain_armour_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 5,
+        "u_RimLightScale": 1,
+        "u_RimLightColor": [
+            1,
+            1,
+            1
+        ]
+    },
+    "Material #57": {
+        "diffuseMap": "heroes/queenofpain/textures/queenofpain_wing_color.png",
+        "normalMap": "heroes/queenofpain/textures/queenofpain_wing_normals.png",
+        "maskMap1": "heroes/queenofpain/textures/queenofpain_wings_masks1.png",
+        "maskMap2": "heroes/queenofpain/textures/queenofpain_wings_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 2,
+        "u_SpecularColor": [
+            0.5,
+            1,
+            1
+        ],
+        "u_RimLightScale": 0,
+        "u_RimLightColor": [
+            1,
+            1,
+            1
+        ]
+    },
+    "Material #68": {
+        "diffuseMap": "heroes/queenofpain/textures/queenofpain_hair_color.png",
+        "normalMap": "heroes/queenofpain/textures/queenofpain_hair_normals.png",
+        "maskMap1": "heroes/queenofpain/textures/queenofpain_hair_masks1.png",
+        "maskMap2": "heroes/queenofpain/textures/queenofpain_hair_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 2,
+        "u_SpecularColor": [
+            0.5,
+            1,
+            1
+        ],
+        "u_RimLightScale": 0.3,
+        "u_RimLightColor": [
+            1,
+            1,
+            1
+        ]
+    }
+}

@@ -1,0 +1,239 @@
+{
+    "animations": {},
+    "asset": {},
+    "attributes": {
+        "attribute_1": {
+            "bufferView": "bufferView_5",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "count": 2232,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_2": {
+            "bufferView": "bufferView_5",
+            "byteOffset": 26784,
+            "byteStride": 12,
+            "count": 2232,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_3": {
+            "bufferView": "bufferView_5",
+            "byteOffset": 53568,
+            "byteStride": 8,
+            "count": 2232,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC2"
+        }
+    },
+    "bufferViews": {
+        "bufferView_5": {
+            "buffer": "rock.bin",
+            "byteLength": 71424,
+            "byteOffset": 0,
+            "target": "ARRAY_BUFFER"
+        },
+        "bufferView_6": {
+            "buffer": "rock.bin",
+            "byteLength": 4464,
+            "byteOffset": 71424,
+            "target": "ELEMENT_ARRAY_BUFFER"
+        }
+    },
+    "buffers": {
+        "rock.bin": {
+            "byteLength": 75888,
+            "path": "rock.bin"
+        }
+    },
+    "cameras": {},
+    "images": {
+        "image_0": {
+            "path": "textures/badside_rocks001.png"
+        }
+    },
+    "indices": {
+        "indices_4": {
+            "bufferView": "bufferView_6",
+            "byteOffset": 0,
+            "count": 2232,
+            "type": "UNSIGNED_SHORT"
+        }
+    },
+    "lights": {},
+    "materials": {
+        "rock_material": {
+            "instanceTechnique": {
+                "technique": "technique_0",
+                "values": [
+                    {
+                        "parameter": "ambient",
+                        "value": [
+                            0.5879999995231628,
+                            0.5879999995231628,
+                            0.5879999995231628
+                        ]
+                    },
+                    {
+                        "parameter": "emission",
+                        "value": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "parameter": "diffuse",
+                        "value": "Map #2"
+                    },
+                    {
+                        "parameter": "shininess",
+                        "value": 2.0
+                    }
+                ]
+            },
+            "name": "rock_material"
+        }
+    },
+    "meshes": {
+        "badside_rocks006_model-mesh": {
+            "name": "badside_rocks006_model-mesh",
+            "primitives": [
+                {
+                    "indices": "indices_4",
+                    "material": "rock_material",
+                    "semantics": {
+                        "NORMAL": "attribute_2",
+                        "POSITION": "attribute_1",
+                        "TEXCOORD_0": "attribute_3"
+                    }
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "badside_rocks006_model": {
+            "children": [],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -4.371138844755023e-08,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                -4.371138844755023e-08,
+                0.0,
+                -4.968023858964443e-07,
+                -11.365511894226074,
+                -18.680622100830078,
+                1.0
+            ],
+            "meshes": [
+                "badside_rocks006_model-mesh"
+            ],
+            "name": "badside_rocks006_model"
+        },
+        "static_prop": {
+            "children": [],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -4.371138844755023e-08,
+                1.0,
+                0.0,
+                0.0,
+                -1.0,
+                -4.371138844755023e-08,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "static_prop"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": "LINEAR",
+            "minFilter": "LINEAR_MIPMAP_LINEAR",
+            "wrapS": "REPEAT",
+            "wrapT": "REPEAT"
+        }
+    },
+    "scene": "scene_0",
+    "scenes": {
+        "scene_0": {
+            "nodes": [
+                "badside_rocks006_model"
+            ]
+        }
+    },
+    "shaders": {},
+    "skins": {},
+    "techniques": {
+        "technique_0": {
+            "parameters": {},
+            "pass": "defaultPass",
+            "passes": {
+                "defaultPass": {
+                    "instanceProgram": {
+                        "attributes": {},
+                        "program": "",
+                        "uniforms": {}
+                    },
+                    "states": {
+                        "blendEnable": false,
+                        "cullFaceEnable": false,
+                        "depthMask": true,
+                        "depthTestEnable": true
+                    }
+                }
+            }
+        }
+    },
+    "textures": {
+        "Map #2": {
+            "format": "RGBA",
+            "internalFormat": "RGBA",
+            "sampler": "sampler_0",
+            "source": "image_0",
+            "target": "TEXTURE_2D"
+        }
+    }
+}

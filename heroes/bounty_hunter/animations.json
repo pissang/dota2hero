@@ -1,0 +1,76 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/bounty_hunter/smd/idle.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/bounty_hunter/smd/idle_injured.smd"
+        },
+        {
+            "name": "idle_rare",
+            "path": "heroes/bounty_hunter/smd/idle_rare.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/bounty_hunter/smd/attack.smd"
+        },
+        {
+            "name": "attack_alt_a",
+            "path": "heroes/bounty_hunter/smd/attack_alt_a.smd"
+        },
+        {
+            "name": "attack_alt_b",
+            "path": "heroes/bounty_hunter/smd/attack_alt_b.smd"
+        },
+        {
+            "name": "attack_alt_c",
+            "path": "heroes/bounty_hunter/smd/attack_alt_c.smd"
+        },
+        {
+            "name": "attack_alt_d",
+            "path": "heroes/bounty_hunter/smd/attack_alt_d.smd"
+        },
+        {
+            "name": "attack_injured",
+            "path": "heroes/bounty_hunter/smd/attack_injured.smd"
+        },
+        {
+            "name": "attack_injured_alt",
+            "path": "heroes/bounty_hunter/smd/attack_injured_alt.smd"
+        },
+        {
+            "name": "attack_jinada",
+            "path": "heroes/bounty_hunter/smd/attack_jinada.smd"
+        },
+        {
+            "name": "attack_jinada_alt",
+            "path": "heroes/bounty_hunter/smd/attack_jinada_alt.smd"
+        },
+        {
+            "name": "attack_jinada_alt_injured",
+            "path": "heroes/bounty_hunter/smd/attack_jinada_alt_injured.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/bounty_hunter/smd/run.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/bounty_hunter/smd/run_haste.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/bounty_hunter/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/bounty_hunter/smd/idle.smd"
+    }
+}

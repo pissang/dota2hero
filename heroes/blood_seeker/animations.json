@@ -1,0 +1,36 @@
+{
+    "idle": [
+        {
+            "name": "idle_thirst",
+            "path": "heroes/blood_seeker/smd/idle_thirst.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack2_alt",
+            "path": "heroes/blood_seeker/smd/attack2_alt.smd"
+        },
+        {
+            "name": "attack2_thirst",
+            "path": "heroes/blood_seeker/smd/attack2_thirst.smd"
+        },
+        {
+            "name": "attack3",
+            "path": "heroes/blood_seeker/smd/attack3.smd"
+        },
+        {
+            "name": "attack_alt",
+            "path": "heroes/blood_seeker/smd/attack_alt.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run_thirst",
+            "path": "heroes/blood_seeker/smd/run_thirst.smd"
+        }
+    ],
+    "default": {
+        "name": "idle_thirst",
+        "path": "heroes/blood_seeker/smd/idle_thirst.smd"
+    }
+}

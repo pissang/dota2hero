@@ -1,0 +1,40 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/earthshaker/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/earthshaker/smd/idle_alt.smd"
+        },
+        {
+            "name": "idle_alt_2",
+            "path": "heroes/earthshaker/smd/idle_alt_2.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1",
+            "path": "heroes/earthshaker/smd/attack1.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/earthshaker/smd/attack2.smd"
+        },
+        {
+            "name": "attack3",
+            "path": "heroes/earthshaker/smd/attack3.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/earthshaker/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/earthshaker/smd/idle.smd"
+    }
+}

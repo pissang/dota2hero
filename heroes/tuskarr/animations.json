@@ -1,0 +1,56 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/tuskarr/smd/idle.smd"
+        },
+        {
+            "name": "idle2",
+            "path": "heroes/tuskarr/smd/idle2.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/tuskarr/smd/idle_injured.smd"
+        },
+        {
+            "name": "idle_punch",
+            "path": "heroes/tuskarr/smd/idle_punch.smd"
+        },
+        {
+            "name": "idle_punch_alt",
+            "path": "heroes/tuskarr/smd/idle_punch_alt.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/tuskarr/smd/attack.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/tuskarr/smd/attack2.smd"
+        },
+        {
+            "name": "attack_injured",
+            "path": "heroes/tuskarr/smd/attack_injured.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/tuskarr/smd/run.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/tuskarr/smd/run_injured.smd"
+        },
+        {
+            "name": "run_punch",
+            "path": "heroes/tuskarr/smd/run_punch.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/tuskarr/smd/idle.smd"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "idle": [
+        {
+            "name": "idleSpin",
+            "path": "heroes/magnataur/smd/idleSpin.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1",
+            "path": "heroes/magnataur/smd/attack1.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/magnataur/smd/attack2.smd"
+        },
+        {
+            "name": "attack3",
+            "path": "heroes/magnataur/smd/attack3.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/magnataur/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idleSpin",
+        "path": "heroes/magnataur/smd/idleSpin.smd"
+    }
+}

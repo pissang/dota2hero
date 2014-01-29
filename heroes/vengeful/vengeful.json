@@ -1,0 +1,3080 @@
+{
+    "animations": {},
+    "asset": {},
+    "attributes": {
+        "attribute_1": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "count": 1615,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_10": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 105476,
+            "byteStride": 16,
+            "count": 268,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC4"
+        },
+        "attribute_11": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 109764,
+            "byteStride": 12,
+            "count": 268,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_13": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 112980,
+            "byteStride": 12,
+            "count": 614,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_14": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 120348,
+            "byteStride": 12,
+            "count": 614,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_15": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 127716,
+            "byteStride": 8,
+            "count": 614,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC2"
+        },
+        "attribute_16": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 132628,
+            "byteStride": 16,
+            "count": 614,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC4"
+        },
+        "attribute_17": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 142452,
+            "byteStride": 12,
+            "count": 614,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_19": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 149820,
+            "byteStride": 12,
+            "count": 258,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_2": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 19380,
+            "byteStride": 12,
+            "count": 1615,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_20": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 152916,
+            "byteStride": 12,
+            "count": 258,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_21": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 156012,
+            "byteStride": 8,
+            "count": 258,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC2"
+        },
+        "attribute_22": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 158076,
+            "byteStride": 16,
+            "count": 258,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC4"
+        },
+        "attribute_23": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 162204,
+            "byteStride": 12,
+            "count": 258,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_25": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 165300,
+            "byteStride": 12,
+            "count": 198,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_26": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 167676,
+            "byteStride": 12,
+            "count": 198,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_27": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 170052,
+            "byteStride": 8,
+            "count": 198,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC2"
+        },
+        "attribute_28": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 171636,
+            "byteStride": 16,
+            "count": 198,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC4"
+        },
+        "attribute_29": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 174804,
+            "byteStride": 12,
+            "count": 198,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_3": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 38760,
+            "byteStride": 8,
+            "count": 1615,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC2"
+        },
+        "attribute_31": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 177180,
+            "byteStride": 12,
+            "count": 179,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_32": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 179328,
+            "byteStride": 12,
+            "count": 179,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_33": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 181476,
+            "byteStride": 8,
+            "count": 179,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC2"
+        },
+        "attribute_34": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 182908,
+            "byteStride": 16,
+            "count": 179,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC4"
+        },
+        "attribute_35": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 185772,
+            "byteStride": 12,
+            "count": 179,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_37": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 187920,
+            "byteStride": 12,
+            "count": 360,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_38": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 192240,
+            "byteStride": 12,
+            "count": 360,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_39": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 196560,
+            "byteStride": 8,
+            "count": 360,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC2"
+        },
+        "attribute_4": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 51680,
+            "byteStride": 16,
+            "count": 1615,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC4"
+        },
+        "attribute_40": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 199440,
+            "byteStride": 16,
+            "count": 360,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC4"
+        },
+        "attribute_41": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 205200,
+            "byteStride": 12,
+            "count": 360,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_43": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 209520,
+            "byteStride": 12,
+            "count": 508,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_44": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 215616,
+            "byteStride": 12,
+            "count": 508,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_45": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 221712,
+            "byteStride": 8,
+            "count": 508,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC2"
+        },
+        "attribute_46": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 225776,
+            "byteStride": 16,
+            "count": 508,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC4"
+        },
+        "attribute_47": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 233904,
+            "byteStride": 12,
+            "count": 508,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_5": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 77520,
+            "byteStride": 12,
+            "count": 1615,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_7": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 96900,
+            "byteStride": 12,
+            "count": 268,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_8": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 100116,
+            "byteStride": 12,
+            "count": 268,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC3"
+        },
+        "attribute_9": {
+            "bufferView": "bufferView_49",
+            "byteOffset": 103332,
+            "byteStride": 8,
+            "count": 268,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "FLOAT_VEC2"
+        }
+    },
+    "bufferViews": {
+        "bufferView_49": {
+            "buffer": "vengeful.bin",
+            "byteLength": 240000,
+            "byteOffset": 0,
+            "target": "ARRAY_BUFFER"
+        },
+        "bufferView_50": {
+            "buffer": "vengeful.bin",
+            "byteLength": 40320,
+            "byteOffset": 240000,
+            "target": "ELEMENT_ARRAY_BUFFER"
+        }
+    },
+    "buffers": {
+        "vengeful.bin": {
+            "byteLength": 280320,
+            "path": "vengeful.bin"
+        }
+    },
+    "cameras": {},
+    "images": {
+        "image_0": {
+            "path": "textures/vengeful2_body_color.png"
+        },
+        "image_1": {
+            "path": "textures/vengeful2_arms_color.png"
+        },
+        "image_2": {
+            "path": "textures/vengeful2_crown_color.png"
+        },
+        "image_3": {
+            "path": "textures/vengeful2_legs_color.png"
+        },
+        "image_4": {
+            "path": "textures/vengeful2_shoulders_color.png"
+        },
+        "image_5": {
+            "path": "textures/vengeful2_skirt_color.png"
+        },
+        "image_6": {
+            "path": "textures/vengeful_weapon.png"
+        },
+        "image_7": {
+            "path": "textures/vengeful2_wings_color.png"
+        }
+    },
+    "indices": {
+        "indices_12": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 18720,
+            "count": 1440,
+            "type": "UNSIGNED_SHORT"
+        },
+        "indices_18": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 21600,
+            "count": 2904,
+            "type": "UNSIGNED_SHORT"
+        },
+        "indices_24": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 27408,
+            "count": 1524,
+            "type": "UNSIGNED_SHORT"
+        },
+        "indices_30": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 30456,
+            "count": 1164,
+            "type": "UNSIGNED_SHORT"
+        },
+        "indices_36": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 32784,
+            "count": 936,
+            "type": "UNSIGNED_SHORT"
+        },
+        "indices_42": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 34656,
+            "count": 1044,
+            "type": "UNSIGNED_SHORT"
+        },
+        "indices_48": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 36744,
+            "count": 1788,
+            "type": "UNSIGNED_SHORT"
+        },
+        "indices_6": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 0,
+            "count": 9360,
+            "type": "UNSIGNED_SHORT"
+        }
+    },
+    "lights": {},
+    "materials": {
+        "Material #101": {
+            "instanceTechnique": {
+                "technique": "technique_0",
+                "values": [
+                    {
+                        "parameter": "ambient",
+                        "value": [
+                            0.5879999995231628,
+                            0.5879999995231628,
+                            0.5879999995231628
+                        ]
+                    },
+                    {
+                        "parameter": "emission",
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "parameter": "diffuse",
+                        "value": "Map #15"
+                    },
+                    {
+                        "parameter": "shininess",
+                        "value": 2
+                    },
+                    {
+                        "parameter": "specular",
+                        "value": [
+                            0.8999999761581421,
+                            0.8999999761581421,
+                            0.8999999761581421
+                        ]
+                    }
+                ]
+            },
+            "name": "Material #101"
+        },
+        "Material #112": {
+            "instanceTechnique": {
+                "technique": "technique_0",
+                "values": [
+                    {
+                        "parameter": "ambient",
+                        "value": [
+                            0.5879999995231628,
+                            0.5879999995231628,
+                            0.5879999995231628
+                        ]
+                    },
+                    {
+                        "parameter": "emission",
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "parameter": "diffuse",
+                        "value": "Map #16"
+                    },
+                    {
+                        "parameter": "shininess",
+                        "value": 2
+                    },
+                    {
+                        "parameter": "specular",
+                        "value": [
+                            0.8999999761581421,
+                            0.8999999761581421,
+                            0.8999999761581421
+                        ]
+                    }
+                ]
+            },
+            "name": "Material #112"
+        },
+        "Material #123": {
+            "instanceTechnique": {
+                "technique": "technique_0",
+                "values": [
+                    {
+                        "parameter": "ambient",
+                        "value": [
+                            0.5879999995231628,
+                            0.5879999995231628,
+                            0.5879999995231628
+                        ]
+                    },
+                    {
+                        "parameter": "emission",
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "parameter": "diffuse",
+                        "value": "Map #17"
+                    },
+                    {
+                        "parameter": "shininess",
+                        "value": 2
+                    },
+                    {
+                        "parameter": "specular",
+                        "value": [
+                            0.8999999761581421,
+                            0.8999999761581421,
+                            0.8999999761581421
+                        ]
+                    }
+                ]
+            },
+            "name": "Material #123"
+        },
+        "Material #35": {
+            "instanceTechnique": {
+                "technique": "technique_0",
+                "values": [
+                    {
+                        "parameter": "ambient",
+                        "value": [
+                            0.5879999995231628,
+                            0.5879999995231628,
+                            0.5879999995231628
+                        ]
+                    },
+                    {
+                        "parameter": "emission",
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "parameter": "diffuse",
+                        "value": "Map #10"
+                    },
+                    {
+                        "parameter": "shininess",
+                        "value": 2
+                    },
+                    {
+                        "parameter": "specular",
+                        "value": [
+                            0.8999999761581421,
+                            0.8999999761581421,
+                            0.8999999761581421
+                        ]
+                    }
+                ]
+            },
+            "name": "Material #35"
+        },
+        "Material #46": {
+            "instanceTechnique": {
+                "technique": "technique_0",
+                "values": [
+                    {
+                        "parameter": "ambient",
+                        "value": [
+                            0.5879999995231628,
+                            0.5879999995231628,
+                            0.5879999995231628
+                        ]
+                    },
+                    {
+                        "parameter": "emission",
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "parameter": "diffuse",
+                        "value": "Map #11"
+                    },
+                    {
+                        "parameter": "shininess",
+                        "value": 2
+                    },
+                    {
+                        "parameter": "specular",
+                        "value": [
+                            0.8999999761581421,
+                            0.8999999761581421,
+                            0.8999999761581421
+                        ]
+                    }
+                ]
+            },
+            "name": "Material #46"
+        },
+        "Material #57": {
+            "instanceTechnique": {
+                "technique": "technique_0",
+                "values": [
+                    {
+                        "parameter": "ambient",
+                        "value": [
+                            0.5879999995231628,
+                            0.5879999995231628,
+                            0.5879999995231628
+                        ]
+                    },
+                    {
+                        "parameter": "emission",
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "parameter": "diffuse",
+                        "value": "Map #12"
+                    },
+                    {
+                        "parameter": "shininess",
+                        "value": 2
+                    },
+                    {
+                        "parameter": "specular",
+                        "value": [
+                            0.8999999761581421,
+                            0.8999999761581421,
+                            0.8999999761581421
+                        ]
+                    }
+                ]
+            },
+            "name": "Material #57"
+        },
+        "Material #79": {
+            "instanceTechnique": {
+                "technique": "technique_0",
+                "values": [
+                    {
+                        "parameter": "ambient",
+                        "value": [
+                            0.5879999995231628,
+                            0.5879999995231628,
+                            0.5879999995231628
+                        ]
+                    },
+                    {
+                        "parameter": "emission",
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "parameter": "diffuse",
+                        "value": "Map #13"
+                    },
+                    {
+                        "parameter": "shininess",
+                        "value": 2
+                    },
+                    {
+                        "parameter": "specular",
+                        "value": [
+                            0.8999999761581421,
+                            0.8999999761581421,
+                            0.8999999761581421
+                        ]
+                    }
+                ]
+            },
+            "name": "Material #79"
+        },
+        "Material #90": {
+            "instanceTechnique": {
+                "technique": "technique_0",
+                "values": [
+                    {
+                        "parameter": "ambient",
+                        "value": [
+                            0.5879999995231628,
+                            0.5879999995231628,
+                            0.5879999995231628
+                        ]
+                    },
+                    {
+                        "parameter": "emission",
+                        "value": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "parameter": "diffuse",
+                        "value": "Map #14"
+                    },
+                    {
+                        "parameter": "shininess",
+                        "value": 2
+                    },
+                    {
+                        "parameter": "specular",
+                        "value": [
+                            0.8999999761581421,
+                            0.8999999761581421,
+                            0.8999999761581421
+                        ]
+                    }
+                ]
+            },
+            "name": "Material #90"
+        }
+    },
+    "meshes": {
+        "vengeful_arms_model_LOD0-mesh": {
+            "name": "vengeful_arms_model_LOD0-mesh",
+            "primitives": [
+                {
+                    "indices": "indices_12",
+                    "material": "Material #46",
+                    "semantics": {
+                        "JOINT": "attribute_10",
+                        "NORMAL": "attribute_8",
+                        "POSITION": "attribute_7",
+                        "TEXCOORD_0": "attribute_9",
+                        "WEIGHT": "attribute_11"
+                    },
+                    "skin": "skin_1"
+                }
+            ]
+        },
+        "vengeful_hair_model_LOD0-mesh": {
+            "name": "vengeful_hair_model_LOD0-mesh",
+            "primitives": [
+                {
+                    "indices": "indices_18",
+                    "material": "Material #57",
+                    "semantics": {
+                        "JOINT": "attribute_16",
+                        "NORMAL": "attribute_14",
+                        "POSITION": "attribute_13",
+                        "TEXCOORD_0": "attribute_15",
+                        "WEIGHT": "attribute_17"
+                    },
+                    "skin": "skin_2"
+                }
+            ]
+        },
+        "vengeful_legs_model_LOD0-mesh": {
+            "name": "vengeful_legs_model_LOD0-mesh",
+            "primitives": [
+                {
+                    "indices": "indices_24",
+                    "material": "Material #79",
+                    "semantics": {
+                        "JOINT": "attribute_22",
+                        "NORMAL": "attribute_20",
+                        "POSITION": "attribute_19",
+                        "TEXCOORD_0": "attribute_21",
+                        "WEIGHT": "attribute_23"
+                    },
+                    "skin": "skin_3"
+                }
+            ]
+        },
+        "vengeful_model_LOD0-mesh": {
+            "name": "vengeful_model_LOD0-mesh",
+            "primitives": [
+                {
+                    "indices": "indices_6",
+                    "material": "Material #35",
+                    "semantics": {
+                        "JOINT": "attribute_4",
+                        "NORMAL": "attribute_2",
+                        "POSITION": "attribute_1",
+                        "TEXCOORD_0": "attribute_3",
+                        "WEIGHT": "attribute_5"
+                    },
+                    "skin": "skin_0"
+                }
+            ]
+        },
+        "vengeful_shoulders_model_LOD0-mesh": {
+            "name": "vengeful_shoulders_model_LOD0-mesh",
+            "primitives": [
+                {
+                    "indices": "indices_30",
+                    "material": "Material #90",
+                    "semantics": {
+                        "JOINT": "attribute_28",
+                        "NORMAL": "attribute_26",
+                        "POSITION": "attribute_25",
+                        "TEXCOORD_0": "attribute_27",
+                        "WEIGHT": "attribute_29"
+                    },
+                    "skin": "skin_4"
+                }
+            ]
+        },
+        "vengeful_skirt_model_LOD0-mesh": {
+            "name": "vengeful_skirt_model_LOD0-mesh",
+            "primitives": [
+                {
+                    "indices": "indices_36",
+                    "material": "Material #101",
+                    "semantics": {
+                        "JOINT": "attribute_34",
+                        "NORMAL": "attribute_32",
+                        "POSITION": "attribute_31",
+                        "TEXCOORD_0": "attribute_33",
+                        "WEIGHT": "attribute_35"
+                    },
+                    "skin": "skin_5"
+                }
+            ]
+        },
+        "vengeful_weapon_model_LOD0-mesh": {
+            "name": "vengeful_weapon_model_LOD0-mesh",
+            "primitives": [
+                {
+                    "indices": "indices_42",
+                    "material": "Material #112",
+                    "semantics": {
+                        "JOINT": "attribute_40",
+                        "NORMAL": "attribute_38",
+                        "POSITION": "attribute_37",
+                        "TEXCOORD_0": "attribute_39",
+                        "WEIGHT": "attribute_41"
+                    },
+                    "skin": "skin_6"
+                }
+            ]
+        },
+        "vengeful_wings_model_LOD0-mesh": {
+            "name": "vengeful_wings_model_LOD0-mesh",
+            "primitives": [
+                {
+                    "indices": "indices_48",
+                    "material": "Material #123",
+                    "semantics": {
+                        "JOINT": "attribute_46",
+                        "NORMAL": "attribute_44",
+                        "POSITION": "attribute_43",
+                        "TEXCOORD_0": "attribute_45",
+                        "WEIGHT": "attribute_47"
+                    },
+                    "skin": "skin_7"
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "Index_0_L": {
+            "children": [
+                "Index_1_L"
+            ],
+            "matrix": [
+                0.995829105377197,
+                0.08924511820077896,
+                -0.01899032481014728,
+                0,
+                0.04154748294224855,
+                -0.2582199850329818,
+                0.9651925317879659,
+                0,
+                0.08123501214244126,
+                -0.9619554834233592,
+                -0.26085079662488037,
+                0,
+                10.085189819335938,
+                -1.1601066589355398,
+                -2.4422991275787354,
+                1
+            ],
+            "name": "Index_0_L"
+        },
+        "Index_0_R": {
+            "children": [
+                "Index_1_R"
+            ],
+            "matrix": [
+                0.9958284497261046,
+                0.08924568444490433,
+                -0.01899033412337304,
+                0,
+                0.04154768552686,
+                -0.25822025308233626,
+                0.9651922880857441,
+                0,
+                0.0812355684050426,
+                -0.9619550736404884,
+                -0.26085106100288924,
+                0,
+                -10.085189819335923,
+                1.160114288330071,
+                2.4423065185546875,
+                1
+            ],
+            "name": "Index_0_R"
+        },
+        "Index_1_L": {
+            "children": [
+                "Index_2_L"
+            ],
+            "matrix": [
+                0.9357462525367733,
+                1.3783574103615193e-7,
+                -0.3526727855205536,
+                0,
+                3.750408873737232e-8,
+                0.9999998807907513,
+                4.903413084282604e-7,
+                0,
+                0.3526728334111912,
+                -4.7206183356393594e-7,
+                0.9357463796047567,
+                0,
+                5.476257324218764,
+                0.000007152557373046875,
+                0.00000762939453125,
+                1
+            ],
+            "name": "Index_1_L"
+        },
+        "Index_1_R": {
+            "children": [
+                "Index_2_R"
+            ],
+            "matrix": [
+                0.9357472658157346,
+                4.2840838427454786e-7,
+                -0.3526720106601715,
+                0,
+                -5.479452385367956e-7,
+                0.9999999403953941,
+                -2.3911707605498225e-7,
+                0,
+                0.3526720180735654,
+                4.16998132756613e-7,
+                0.9357472854862543,
+                0,
+                -5.47625732421875,
+                -0.000010490417478692393,
+                -0.000019073486321019573,
+                1
+            ],
+            "name": "Index_1_R"
+        },
+        "Index_2_L": {
+            "children": [],
+            "matrix": [
+                0.9906235933303831,
+                1.1920928954384236e-7,
+                -0.13661894202232355,
+                0,
+                -1.8764050650071917e-7,
+                0.9999999999999877,
+                -4.880130260037641e-7,
+                0,
+                0.1366189575995546,
+                5.090725229486837e-7,
+                0.9906237062812885,
+                0,
+                3.8839035034179688,
+                -0.0000028610229483305716,
+                -0.000011444091796875,
+                1
+            ],
+            "name": "Index_2_L"
+        },
+        "Index_2_R": {
+            "children": [],
+            "matrix": [
+                0.4637944400310517,
+                0.0867405906319617,
+                -0.8816861510276794,
+                0,
+                0.13667015179644038,
+                0.9762773544366942,
+                0.1679392726008559,
+                0,
+                0.8753376931189908,
+                -0.19838955316853799,
+                0.4409373196437333,
+                0,
+                -3.8838958740234233,
+                -0.000001430511474609375,
+                0.000017166137698865214,
+                1
+            ],
+            "name": "Index_2_R"
+        },
+        "Mid_0_L": {
+            "children": [
+                "Mid_1_L"
+            ],
+            "matrix": [
+                0.9704523682594298,
+                0.21102102100849152,
+                0.11701545119285582,
+                0,
+                -0.1259653157103155,
+                0.02943338607407964,
+                0.991597900838733,
+                0,
+                0.20580385732549125,
+                -0.9770384992972693,
+                0.05514503325915695,
+                0,
+                10.752265930175781,
+                -1.4769020080566335,
+                0.881767272949219,
+                1
+            ],
+            "name": "Mid_0_L"
+        },
+        "Mid_0_R": {
+            "children": [
+                "Mid_1_R"
+            ],
+            "matrix": [
+                0.9704520106315613,
+                0.2110221385955811,
+                0.11701487749814991,
+                0,
+                -0.12596480217405226,
+                0.0294333270699996,
+                0.9915979437414351,
+                0,
+                0.20580501570528878,
+                -0.9770381362679655,
+                0.05514500252800125,
+                0,
+                -10.752250671386719,
+                1.4769058227539062,
+                -0.8817596435546873,
+                1
+            ],
+            "name": "Mid_0_R"
+        },
+        "Mid_1_L": {
+            "children": [
+                "Mid_2_L"
+            ],
+            "matrix": [
+                0.9706583023071289,
+                7.450580638557192e-9,
+                -0.24046349525451666,
+                0,
+                9.430189137904499e-8,
+                1.0000002384185795,
+                4.116445867959062e-7,
+                0,
+                0.24046347087664463,
+                -4.222422547023319e-7,
+                0.9706582039030575,
+                0,
+                4.952705383300767,
+                0.00001049041748046875,
+                -0.000007629394534802714,
+                1
+            ],
+            "name": "Mid_1_L"
+        },
+        "Mid_1_R": {
+            "children": [
+                "Mid_2_R"
+            ],
+            "matrix": [
+                0.9706583619117742,
+                9.08970832824707e-7,
+                -0.24046339094638833,
+                0,
+                -8.326245759388007e-7,
+                1.0000002384186255,
+                4.1909515706428646e-7,
+                0,
+                0.24046336053733247,
+                -2.0658241432769398e-7,
+                0.9706582391613126,
+                0,
+                -4.95269775390625,
+                -0.0000057220458984375,
+                -0.000011444091800427714,
+                1
+            ],
+            "name": "Mid_1_R"
+        },
+        "Mid_2_L": {
+            "children": [],
+            "matrix": [
+                0.9940049052238461,
+                0.010501377284526811,
+                -0.10882890224456782,
+                0,
+                -0.010439059192716316,
+                0.9999447465870546,
+                0.001142352826731266,
+                0,
+                0.10883489418707826,
+                5.670391882012238e-7,
+                0.9940596882347614,
+                0,
+                4.1749267578125,
+                9.536743146298932e-7,
+                0.00000762939453125,
+                1
+            ],
+            "name": "Mid_2_L"
+        },
+        "Mid_2_R": {
+            "children": [],
+            "matrix": [
+                -0.019830644130707065,
+                0.0009358003735542297,
+                -0.9998030662536621,
+                0,
+                -0.010446574335925107,
+                0.999944803660831,
+                0.001143136140922943,
+                0,
+                0.9997487087041926,
+                0.01046718364701868,
+                -0.01981976884941089,
+                0,
+                -4.1749420166015625,
+                -0.00000476837158203125,
+                0.000003814697265625,
+                1
+            ],
+            "name": "Mid_2_R"
+        },
+        "Ring_0_L": {
+            "children": [
+                "Ring_1_L"
+            ],
+            "matrix": [
+                0.9202328324317931,
+                0.26108515262603754,
+                0.2915589511394499,
+                0,
+                -0.3543075450904267,
+                0.23930367977468706,
+                0.9039914466097467,
+                0,
+                0.16624758169255557,
+                -0.935183958656039,
+                0.31271948001229055,
+                0,
+                10.029006958007827,
+                -0.6542129516601562,
+                4.079307556152344,
+                1
+            ],
+            "name": "Ring_0_L"
+        },
+        "Ring_0_R": {
+            "children": [
+                "Ring_1_R"
+            ],
+            "matrix": [
+                0.9202324151992796,
+                0.26108571887016296,
+                0.291559398174286,
+                0,
+                -0.3543081732636853,
+                0.2393037289062798,
+                0.9039910274472663,
+                0,
+                0.16624785611179557,
+                -0.9351834994830284,
+                0.3127197773678984,
+                0,
+                -10.028999328613267,
+                0.6542091369628835,
+                -4.079292774200439,
+                1
+            ],
+            "name": "Ring_0_R"
+        },
+        "Ring_1_L": {
+            "children": [],
+            "matrix": [
+                0.9229875206947331,
+                -1.1920928955078125e-7,
+                -0.3848297297954562,
+                0,
+                1.9749758267684214e-7,
+                0.9999999999999819,
+                1.6391278997995862e-7,
+                0,
+                0.3848297695173239,
+                -2.272924245205754e-7,
+                0.922987615964959,
+                0,
+                5.013679504394531,
+                -0.000011444091793322286,
+                0.0000171661376953125,
+                1
+            ],
+            "name": "Ring_1_L"
+        },
+        "Ring_1_R": {
+            "children": [],
+            "matrix": [
+                0.9229876399040224,
+                9.238719940185547e-7,
+                -0.3848291635513307,
+                0,
+                -8.440830729372628e-7,
+                0.9999998807907027,
+                3.7625433377264095e-7,
+                0,
+                0.38482920237661244,
+                -2.2450321685019148e-8,
+                0.9229877330238735,
+                0,
+                -5.0136642456054545,
+                -0.00002288818359375,
+                -0.000017166137698865214,
+                1
+            ],
+            "name": "Ring_1_R"
+        },
+        "Thumb_0_L": {
+            "children": [
+                "Thumb_1_L"
+            ],
+            "matrix": [
+                0.8557934165000918,
+                0.2029979676008226,
+                -0.475825399160385,
+                0,
+                0.03529062209418949,
+                -0.9405588400616346,
+                -0.33779207913809184,
+                0,
+                -0.5161127789659085,
+                0.27228800399872366,
+                -0.8120878113665368,
+                0,
+                3.4943466186523438,
+                1.0158882141113352,
+                -2.0819332599639893,
+                1
+            ],
+            "name": "Thumb_0_L"
+        },
+        "Thumb_0_R": {
+            "children": [
+                "Thumb_1_R"
+            ],
+            "matrix": [
+                0.8557931780815125,
+                0.20299755036830905,
+                -0.475825309753418,
+                0,
+                0.03529025044586892,
+                -0.9405590464607333,
+                -0.3377920920331292,
+                0,
+                -0.5161127390679294,
+                0.2722881589702674,
+                -0.8120878062377198,
+                0,
+                -3.494354248046875,
+                -1.0158767700195384,
+                2.0819411277770996,
+                1
+            ],
+            "name": "Thumb_0_R"
+        },
+        "Thumb_1_L": {
+            "children": [
+                "Thumb_2_L"
+            ],
+            "matrix": [
+                0.9836249947547913,
+                1.1175870930080212e-8,
+                -0.18022653460502625,
+                0,
+                -1.7846371491714308e-8,
+                1.0000002384185789,
+                -3.5390257994982743e-8,
+                0,
+                0.18022660090772136,
+                3.802713698271287e-8,
+                0.9836253566159834,
+                0,
+                4.8802261352539205,
+                -0.000003814697272730427,
+                -0.00000762939453125,
+                1
+            ],
+            "name": "Thumb_1_L"
+        },
+        "Thumb_1_R": {
+            "children": [
+                "Thumb_2_R"
+            ],
+            "matrix": [
+                0.983624815940857,
+                -7.45058059484216e-8,
+                -0.1802262961864472,
+                0,
+                1.6925861422156796e-7,
+                1.0000001192092782,
+                5.103648044596509e-7,
+                0,
+                0.180226329903594,
+                -5.325123762084383e-7,
+                0.9836249999598528,
+                0,
+                -4.8802337646484375,
+                -0.000011444091789769573,
+                -0.0000152587890625,
+                1
+            ],
+            "name": "Thumb_1_R"
+        },
+        "Thumb_2_L": {
+            "children": [],
+            "matrix": [
+                0.9775766730308537,
+                -7.450580596923828e-9,
+                -0.21058100461959844,
+                0,
+                8.14486691980143e-8,
+                1.0000003576278675,
+                3.4272671429157187e-7,
+                0,
+                0.21058094459041735,
+                -3.521929572694246e-7,
+                0.9775763943584035,
+                0,
+                4.483352661132798,
+                0.000003814697265625,
+                0,
+                1
+            ],
+            "name": "Thumb_2_L"
+        },
+        "Thumb_2_R": {
+            "children": [],
+            "matrix": [
+                0.306727409362793,
+                -4.395842551387086e-7,
+                -0.9517974853515626,
+                0,
+                0.0000016527806398144995,
+                1.0000002384186246,
+                7.078056517111075e-8,
+                0,
+                0.9517975951388514,
+                -0.0000015948225999158627,
+                0.3067274447437141,
+                0,
+                -4.483390808105483,
+                0.000011444091796875,
+                -0.000011444091796875,
+                1
+            ],
+            "name": "Thumb_2_R"
+        },
+        "ankle_L": {
+            "children": [
+                "toeBase_L"
+            ],
+            "matrix": [
+                0.4715883135795597,
+                -0.11699970811605451,
+                0.8740230798721312,
+                0,
+                0.15995399859443743,
+                0.9860663556945423,
+                0.045693346401914144,
+                0,
+                -0.8671906757811825,
+                0.1182550130120898,
+                0.4837318373916342,
+                0,
+                41.83350372314454,
+                -0.000011444091793322286,
+                -0.000017166137702417927,
+                1
+            ],
+            "name": "ankle_L"
+        },
+        "ankle_R": {
+            "children": [
+                "toeBase_R"
+            ],
+            "matrix": [
+                0.47158730030059876,
+                -0.11699680984020246,
+                0.8740237951278689,
+                0,
+                0.1599560365367474,
+                0.9860661818383476,
+                0.0456891017748605,
+                0,
+                -0.8671909346414839,
+                0.11825900226633068,
+                0.48373071770994774,
+                0,
+                -41.833499908447266,
+                0.00000762939453125,
+                0.0000152587890625,
+                1
+            ],
+            "name": "ankle_R"
+        },
+        "bicep_L": {
+            "children": [
+                "elbow_L"
+            ],
+            "matrix": [
+                0.5239381790161133,
+                0.2175483107566834,
+                -0.8235055208206177,
+                0,
+                -0.7466112411107109,
+                -0.3480374730165408,
+                -0.5669580672270702,
+                0,
+                -0.40995162664887974,
+                0.911889626163862,
+                -0.01992610925821625,
+                0,
+                8.826615333557129,
+                0.000005722045894884786,
+                -0.0000457763671875,
+                1
+            ],
+            "name": "bicep_L"
+        },
+        "bicep_R": {
+            "children": [
+                "elbow_R"
+            ],
+            "matrix": [
+                0.5239381194114685,
+                0.21754911541938785,
+                -0.8235052227973937,
+                0,
+                -0.746613347917585,
+                -0.34803220510542393,
+                -0.5669585072060352,
+                0,
+                -0.40994776886691187,
+                0.9118914069047485,
+                -0.01992227091245112,
+                0,
+                -8.826617240905762,
+                -0.000005722045900213857,
+                0,
+                1
+            ],
+            "name": "bicep_R"
+        },
+        "clavicle_L": {
+            "children": [
+                "bicep_L",
+                "shoulder_L"
+            ],
+            "matrix": [
+                -0.09889904409646999,
+                0.9941092729568485,
+                0.04433801025152208,
+                0,
+                0.004389466542959047,
+                -0.044120198742080584,
+                0.9990167012032954,
+                0,
+                0.9950880997481603,
+                0.09899643007223397,
+                -1.6391277310456864e-7,
+                0,
+                12.356864929199205,
+                3.497406005859375,
+                2.4907646179199254,
+                1
+            ],
+            "name": "clavicle_L"
+        },
+        "clavicle_R": {
+            "children": [
+                "shoulder_R",
+                "bicep_R"
+            ],
+            "matrix": [
+                0.09889907389879218,
+                0.9941091537475587,
+                -0.04433754086494446,
+                0,
+                -0.004389719266833403,
+                -0.044119707066835705,
+                -0.999016701465029,
+                0,
+                -0.9950879180030732,
+                0.09899646698603687,
+                4.6193599667621044e-7,
+                0,
+                12.356864929199205,
+                -3.497410297393799,
+                2.490762710571289,
+                1
+            ],
+            "name": "clavicle_R"
+        },
+        "elbow_L": {
+            "children": [
+                "wrist_L"
+            ],
+            "matrix": [
+                0.9193452000617983,
+                1.4901161193847656e-7,
+                -0.3934519290924072,
+                0,
+                6.90906692413229e-8,
+                1.000000000000158,
+                5.401670985991092e-7,
+                0,
+                0.3934520861342074,
+                -5.237840955685247e-7,
+                0.9193455670076344,
+                0,
+                26.298553466796875,
+                -0.000030517578125,
+                -9.536743181826068e-7,
+                1
+            ],
+            "name": "elbow_L"
+        },
+        "elbow_R": {
+            "children": [
+                "wrist_R"
+            ],
+            "matrix": [
+                0.9193456768989562,
+                -8.046627045232846e-7,
+                -0.3934519588947296,
+                0,
+                8.62501596143872e-7,
+                1.0000002384187208,
+                -2.980232355342949e-8,
+                0,
+                0.3934518464806046,
+                -3.119541417961891e-7,
+                0.9193454142310843,
+                0,
+                -26.298606872558594,
+                0.00003814697265625,
+                -0.0000019073486328125,
+                1
+            ],
+            "name": "elbow_R"
+        },
+        "hair2_0": {
+            "children": [
+                "hair2_1"
+            ],
+            "matrix": [
+                -0.9991451501846315,
+                -8.734804157658495e-8,
+                0.041345737874507904,
+                0,
+                7.391326920431294e-8,
+                0.9999999999999997,
+                0.000003898784598442329,
+                0,
+                -0.04134573787484816,
+                0.00000389850772180213,
+                -0.9991451501846176,
+                0,
+                -7.7585344314575195,
+                -0.00006204296369105588,
+                16.343399047851562,
+                1
+            ],
+            "name": "hair2_0"
+        },
+        "hair2_1": {
+            "children": [],
+            "matrix": [
+                0.9999999999999999,
+                6.186552070630569e-8,
+                0,
+                0,
+                -6.186552070630577e-8,
+                0.9999999999999997,
+                -1.748455673578064e-7,
+                0,
+                -1.0824674490095276e-14,
+                1.748455673578058e-7,
+                1,
+                0,
+                13.527980804443356,
+                8.704068932274831e-7,
+                0,
+                1
+            ],
+            "name": "hair2_1"
+        },
+        "head": {
+            "children": [
+                "hair2_0"
+            ],
+            "matrix": [
+                0.35456773638725286,
+                -1.6907104338770317e-7,
+                -0.9350302219390867,
+                0,
+                -0.000003535877943802317,
+                0.9999999999999997,
+                -0.0000015216398878666328,
+                0,
+                0.9350302219393171,
+                0.000003845677149180318,
+                0.35456773638664474,
+                0,
+                8.063880920410156,
+                -1.0564690455794461e-7,
+                0,
+                1
+            ],
+            "name": "head"
+        },
+        "knee_L": {
+            "children": [
+                "ankle_L"
+            ],
+            "matrix": [
+                0.7403731346130371,
+                2.2351741793547042e-7,
+                -0.6721959114074707,
+                0,
+                -5.995361667121557e-7,
+                1.0000002384185434,
+                -3.278255581648515e-7,
+                0,
+                0.6721958817435886,
+                6.457188136688163e-7,
+                0.7403731019407213,
+                0,
+                42.1521110534668,
+                0.0000095367431640625,
+                -0.00000762939453125,
+                1
+            ],
+            "name": "knee_L"
+        },
+        "knee_R": {
+            "children": [
+                "ankle_R"
+            ],
+            "matrix": [
+                0.7403731346130373,
+                2.7755575615628914e-17,
+                -0.67219614982605,
+                0,
+                -3.213136038626718e-7,
+                0.9999999403953528,
+                -3.539025925300421e-7,
+                0,
+                0.6721961767582665,
+                4.780057868275511e-7,
+                0.7403731642768333,
+                0,
+                -42.15213012695314,
+                0,
+                0.000003814697269177714,
+                1
+            ],
+            "name": "knee_R"
+        },
+        "neck1": {
+            "children": [
+                "head"
+            ],
+            "matrix": [
+                0.8561670780181889,
+                -7.105427350983557e-15,
+                -0.5166990160942079,
+                0,
+                8.299113031764212e-15,
+                1,
+                4.963083675318166e-24,
+                0,
+                0.5166990160942078,
+                -4.288143546849322e-15,
+                0.8561670780181889,
+                0,
+                14.59474945068358,
+                1.7638831195654263e-7,
+                0.0000057220458984375,
+                1
+            ],
+            "name": "neck1"
+        },
+        "root": {
+            "children": [
+                "thigh_R",
+                "skirt_C0_0",
+                "spine1",
+                "thigh_L",
+                "skirt3_0_A_R",
+                "skirt_F1_0",
+                "skirt2_0_A_L"
+            ],
+            "matrix": [
+                -1.629206851037603e-7,
+                -1.0000000000000002,
+                0,
+                0,
+                1.0000000000000002,
+                -1.629206851037603e-7,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                4.405562400817871,
+                91.32797241210938,
+                1
+            ],
+            "name": "root"
+        },
+        "shoulder_L": {
+            "children": [],
+            "matrix": [
+                1.0000001192092898,
+                -4.861503839527492e-7,
+                2.7755575615628914e-17,
+                0,
+                4.861504418925133e-7,
+                1.000000238418565,
+                -9.685754776000977e-7,
+                0,
+                4.708872181069523e-13,
+                9.685751889143557e-7,
+                0.9999999403953553,
+                0,
+                9.07129383087158,
+                -1.3810806274414062,
+                4.8868255615234375,
+                1
+            ],
+            "name": "shoulder_L"
+        },
+        "shoulder_R": {
+            "children": [],
+            "matrix": [
+                1.00000011920929,
+                -4.5821070671081543e-7,
+                -3.501772880554199e-7,
+                0,
+                4.5821099579207436e-7,
+                1.0000004768371715,
+                3.5762786865234375e-7,
+                0,
+                3.501771241865015e-7,
+                -3.5762790120963395e-7,
+                1.000000119209295,
+                0,
+                -9.07129859924316,
+                1.3810882568359393,
+                -4.8868408203125,
+                1
+            ],
+            "name": "shoulder_R"
+        },
+        "skirt2_0_A_L": {
+            "children": [
+                "skirt2_1_A_L"
+            ],
+            "matrix": [
+                -0.2276888042688369,
+                0.34460440278053267,
+                -0.9107170701026918,
+                0,
+                0.0835822108585901,
+                0.9387480067527384,
+                0.3343145446319275,
+                0,
+                0.9701401013932969,
+                -6.72689165608283e-8,
+                -0.2425452098045612,
+                0,
+                -3.741297721862792,
+                9.318793296813963,
+                11.148872375488281,
+                1
+            ],
+            "name": "skirt2_0_A_L"
+        },
+        "skirt2_1_A_L": {
+            "children": [],
+            "matrix": [
+                0.9999998807907103,
+                0,
+                -2.9802322387695312e-8,
+                0,
+                -3.885780586188048e-16,
+                1.000000119209291,
+                -1.4901161179969868e-8,
+                0,
+                2.980232596816457e-8,
+                1.4901159417490817e-8,
+                0.9999999999999996,
+                0,
+                18.20867919921875,
+                -0.000011444091796875,
+                7.105427357601002e-15,
+                1
+            ],
+            "name": "skirt2_1_A_L"
+        },
+        "skirt3_0_A_R": {
+            "children": [
+                "skirt3_1_A_R"
+            ],
+            "matrix": [
+                0.22768855094909665,
+                0.3446042239665983,
+                0.9107171297073364,
+                0,
+                0.08358223553579819,
+                -0.9387479496785207,
+                0.33431433391706544,
+                0,
+                0.9701400421693094,
+                2.2739061255490587e-7,
+                -0.24254496986344723,
+                0,
+                -3.7412919998168954,
+                -9.318789482116697,
+                11.148872375488281,
+                1
+            ],
+            "name": "skirt3_0_A_R"
+        },
+        "skirt3_1_A_R": {
+            "children": [],
+            "matrix": [
+                1,
+                -2.980232233218416e-8,
+                0,
+                0,
+                2.980232954863382e-8,
+                1.0000002384185787,
+                4.6193599700927734e-7,
+                0,
+                -1.3766765505351941e-14,
+                -4.6193605209021715e-7,
+                1.0000003576278491,
+                0,
+                -18.20868682861328,
+                0,
+                -0.00000762939453125,
+                1
+            ],
+            "name": "skirt3_1_A_R"
+        },
+        "skirt_C0_0": {
+            "children": [
+                "skirt_C0_1"
+            ],
+            "matrix": [
+                -0.3722574412822722,
+                -1.7750618046660712e-7,
+                -0.9281294941902161,
+                0,
+                -2.5555384315678924e-7,
+                0.9999999999999996,
+                -8.875309018714077e-8,
+                0,
+                0.9281294941902027,
+                2.0414806092851046e-7,
+                -0.37225744128230565,
+                0,
+                -7.695171356201171,
+                -7.29204941762873e-7,
+                11.999107360839844,
+                1
+            ],
+            "name": "skirt_C0_0"
+        },
+        "skirt_C0_1": {
+            "children": [],
+            "matrix": [
+                0.9999999403953553,
+                4.374413720142912e-8,
+                1.1102230246251565e-16,
+                0,
+                -4.374413980878304e-8,
+                0.9999999999999998,
+                7.549155611741297e-8,
+                0,
+                3.3861802251067274e-15,
+                -7.549155161776544e-8,
+                0.9999999403953552,
+                0,
+                16.46286773681642,
+                0.0000013880517144571075,
+                0.000015258789069605427,
+                1
+            ],
+            "name": "skirt_C0_1"
+        },
+        "skirt_F1_0": {
+            "children": [],
+            "matrix": [
+                0.1752949506044384,
+                -1.6717429218715512e-7,
+                -0.9845159649848938,
+                0,
+                4.842205214570422e-7,
+                0.9999999999999998,
+                -8.358714609361377e-8,
+                0,
+                0.9845159649848804,
+                -4.620704293021094e-7,
+                0.17529495060451442,
+                0,
+                13.443356513977047,
+                0.00000286102294921875,
+                -0.0285186767578125,
+                1
+            ],
+            "name": "skirt_F1_0"
+        },
+        "spear_1": {
+            "children": [],
+            "matrix": [
+                0.2826616466045379,
+                -0.8164591193199159,
+                0.503484845161438,
+                0,
+                0.875637113518419,
+                0.433922196203414,
+                0.21206339546567085,
+                0,
+                -0.3916143069002949,
+                0.38092779298290935,
+                0.8375749920941934,
+                0,
+                -9.52780151367186,
+                -1.9387893676757884,
+                -0.5668177604675295,
+                1
+            ],
+            "name": "spear_1"
+        },
+        "spine1": {
+            "children": [
+                "spine2"
+            ],
+            "matrix": [
+                0.15448567271232594,
+                7.480234387458032e-8,
+                0.9879950284957887,
+                0,
+                -1.308972549467881e-8,
+                0.9999999999999998,
+                -7.366450915924358e-8,
+                0,
+                -0.9879950284957888,
+                -1.5524724606282208e-9,
+                0.154485672712326,
+                0,
+                2.3805055618286133,
+                7.875100891396869e-7,
+                9.143531799316406,
+                1
+            ],
+            "name": "spine1"
+        },
+        "spine2": {
+            "children": [
+                "spine3"
+            ],
+            "matrix": [
+                0.9643709063529968,
+                7.1054273178963325e-15,
+                0.2645537853240967,
+                0,
+                -1.2614909814749444e-7,
+                1.0000000000000002,
+                4.5984793928255385e-7,
+                0,
+                -0.26455378532409657,
+                -4.76837195420615e-7,
+                0.9643709063529969,
+                0,
+                10.1654052734375,
+                4.390121830510907e-7,
+                -0.00000762939453125,
+                1
+            ],
+            "name": "spine2"
+        },
+        "spine3": {
+            "children": [
+                "clavicle_L",
+                "clavicle_R",
+                "neck1"
+            ],
+            "matrix": [
+                0.9986311197280885,
+                1.4210854715202004e-14,
+                0.05229993909597401,
+                0,
+                2.4938546056351345e-8,
+                0.9999999999999997,
+                -4.761845389111839e-7,
+                0,
+                -0.052299939095973955,
+                4.7683698372996854e-7,
+                0.9986311197280883,
+                0,
+                9.675598144531236,
+                4.0913619159258565e-8,
+                0.000003814697265625,
+                1
+            ],
+            "name": "spine3"
+        },
+        "thigh_L": {
+            "children": [
+                "knee_L"
+            ],
+            "matrix": [
+                0.26926639676094044,
+                0.14914041757583613,
+                -0.9514476656913755,
+                0,
+                0.03120761095038072,
+                0.9860663375878485,
+                0.16339890453615585,
+                0,
+                0.9625600489195516,
+                -0.07369025455906147,
+                0.2608602550115478,
+                0,
+                -0.8962063789367676,
+                8.746304512023924,
+                -0.05620574951171875,
+                1
+            ],
+            "name": "thigh_L"
+        },
+        "thigh_R": {
+            "children": [
+                "knee_R"
+            ],
+            "matrix": [
+                -0.2692662775516515,
+                0.1491387933492662,
+                0.9514480829238892,
+                0,
+                -0.03121288988329503,
+                0.9860662262511859,
+                -0.16339862217002038,
+                0,
+                -0.9625599490938633,
+                -0.0736951872128203,
+                -0.26085934437275815,
+                0,
+                -0.8962035179138184,
+                -8.746304512023926,
+                -0.05620574951171875,
+                1
+            ],
+            "name": "thigh_R"
+        },
+        "toeBase_L": {
+            "children": [],
+            "matrix": [
+                0.5696987509727477,
+                -0.22003215551376346,
+                0.7918515801429744,
+                0,
+                0.19241297683893827,
+                0.9724259634337683,
+                0.1317766496304117,
+                0,
+                -0.7990119845739712,
+                0.07728951240223832,
+                0.5963267858242582,
+                0,
+                14.971038818359373,
+                0.0000038146972620722863,
+                -0.000008583068849876696,
+                1
+            ],
+            "name": "toeBase_L"
+        },
+        "toeBase_R": {
+            "children": [],
+            "matrix": [
+                0.5696993470191957,
+                -0.22003197669982918,
+                0.7918510437011719,
+                0,
+                0.19241224180093097,
+                0.972425968210658,
+                0.13177690463021588,
+                0,
+                -0.7990117696410247,
+                0.0772886294800783,
+                0.596327373818889,
+                0,
+                -14.971039772033695,
+                -0.000003814697269177714,
+                9.536743177385176e-7,
+                1
+            ],
+            "name": "toeBase_R"
+        },
+        "vengeful_arms_model_LOD0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "vengeful_arms_model_LOD0-mesh"
+            ],
+            "name": "vengeful_arms_model_LOD0"
+        },
+        "vengeful_hair_model_LOD0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "vengeful_hair_model_LOD0-mesh"
+            ],
+            "name": "vengeful_hair_model_LOD0"
+        },
+        "vengeful_head_model": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                -4.371138844755023e-8,
+                1,
+                0,
+                0,
+                -1,
+                -4.371138844755023e-8,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "vengeful_head_model"
+        },
+        "vengeful_legs_model_LOD0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "vengeful_legs_model_LOD0-mesh"
+            ],
+            "name": "vengeful_legs_model_LOD0"
+        },
+        "vengeful_model_LOD0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "vengeful_model_LOD0-mesh"
+            ],
+            "name": "vengeful_model_LOD0"
+        },
+        "vengeful_shoulders_model_LOD0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "vengeful_shoulders_model_LOD0-mesh"
+            ],
+            "name": "vengeful_shoulders_model_LOD0"
+        },
+        "vengeful_skirt_model_LOD0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "vengeful_skirt_model_LOD0-mesh"
+            ],
+            "name": "vengeful_skirt_model_LOD0"
+        },
+        "vengeful_weapon_model_LOD0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "vengeful_weapon_model_LOD0-mesh"
+            ],
+            "name": "vengeful_weapon_model_LOD0"
+        },
+        "vengeful_wings_model_LOD0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "vengeful_wings_model_LOD0-mesh"
+            ],
+            "name": "vengeful_wings_model_LOD0"
+        },
+        "wrist_L": {
+            "children": [
+                "Ring_0_L",
+                "Mid_0_L",
+                "Index_0_L",
+                "Thumb_0_L"
+            ],
+            "matrix": [
+                0.7774915695190426,
+                0.42265343666076655,
+                0.4656935930252075,
+                0,
+                -0.5720215783916618,
+                0.7829846242706375,
+                0.24438990397664492,
+                0,
+                -0.2613387475796214,
+                -0.4563979744247825,
+                0.8505310172605874,
+                0,
+                26.47552108764647,
+                -1.4210854715202004e-14,
+                0.0000038146972585195726,
+                1
+            ],
+            "name": "wrist_L"
+        },
+        "wrist_R": {
+            "children": [
+                "Mid_0_R",
+                "Ring_0_R",
+                "Index_0_R",
+                "spear_1",
+                "Thumb_0_R"
+            ],
+            "matrix": [
+                0.7774923443794253,
+                0.42265498638153093,
+                0.4656912684440614,
+                0,
+                -0.572020430339196,
+                0.7829864708733766,
+                0.2443858773940274,
+                0,
+                -0.26133909590101834,
+                -0.45639314325101943,
+                0.8505334133037186,
+                0,
+                -26.475505828857422,
+                0.00000762939453125,
+                0.0000038146972585195726,
+                1
+            ],
+            "name": "wrist_R"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": "LINEAR",
+            "minFilter": "LINEAR_MIPMAP_LINEAR",
+            "wrapS": "REPEAT",
+            "wrapT": "REPEAT"
+        },
+        "sampler_1": {
+            "magFilter": "LINEAR",
+            "minFilter": "LINEAR_MIPMAP_LINEAR",
+            "wrapS": "REPEAT",
+            "wrapT": "REPEAT"
+        },
+        "sampler_2": {
+            "magFilter": "LINEAR",
+            "minFilter": "LINEAR_MIPMAP_LINEAR",
+            "wrapS": "REPEAT",
+            "wrapT": "REPEAT"
+        },
+        "sampler_3": {
+            "magFilter": "LINEAR",
+            "minFilter": "LINEAR_MIPMAP_LINEAR",
+            "wrapS": "REPEAT",
+            "wrapT": "REPEAT"
+        },
+        "sampler_4": {
+            "magFilter": "LINEAR",
+            "minFilter": "LINEAR_MIPMAP_LINEAR",
+            "wrapS": "REPEAT",
+            "wrapT": "REPEAT"
+        },
+        "sampler_5": {
+            "magFilter": "LINEAR",
+            "minFilter": "LINEAR_MIPMAP_LINEAR",
+            "wrapS": "REPEAT",
+            "wrapT": "REPEAT"
+        },
+        "sampler_6": {
+            "magFilter": "LINEAR",
+            "minFilter": "LINEAR_MIPMAP_LINEAR",
+            "wrapS": "REPEAT",
+            "wrapT": "REPEAT"
+        },
+        "sampler_7": {
+            "magFilter": "LINEAR",
+            "minFilter": "LINEAR_MIPMAP_LINEAR",
+            "wrapS": "REPEAT",
+            "wrapT": "REPEAT"
+        }
+    },
+    "scene": "scene_0",
+    "scenes": {
+        "scene_0": {
+            "nodes": [
+                "vengeful_model_LOD0",
+                "vengeful_arms_model_LOD0",
+                "vengeful_hair_model_LOD0",
+                "vengeful_legs_model_LOD0",
+                "vengeful_shoulders_model_LOD0",
+                "vengeful_skirt_model_LOD0",
+                "vengeful_weapon_model_LOD0",
+                "vengeful_wings_model_LOD0"
+            ]
+        }
+    },
+    "shaders": {},
+    "skins": {
+        "skin_0": {
+            "bindShapeMatrix": [],
+            "inverseBindMatrices": {},
+            "joints": [
+                "head",
+                "neck1",
+                "spine3",
+                "clavicle_R",
+                "clavicle_L",
+                "root",
+                "thigh_L",
+                "thigh_R",
+                "spine1",
+                "knee_L",
+                "ankle_L",
+                "toeBase_L",
+                "spine2",
+                "bicep_L",
+                "Thumb_2_L",
+                "elbow_L",
+                "toeBase_R",
+                "ankle_R",
+                "knee_R",
+                "Mid_0_R",
+                "Mid_1_R",
+                "wrist_R",
+                "Index_0_R",
+                "Thumb_0_R",
+                "elbow_R",
+                "Ring_0_R",
+                "Ring_1_R",
+                "Thumb_1_R",
+                "Index_1_R",
+                "bicep_R",
+                "Ring_1_L",
+                "Ring_0_L",
+                "wrist_L",
+                "Index_0_L",
+                "Mid_0_L",
+                "Mid_1_L",
+                "Mid_2_L",
+                "Index_1_L",
+                "Thumb_0_L",
+                "Index_2_L",
+                "Thumb_1_L"
+            ],
+            "roots": [
+                "root"
+            ]
+        },
+        "skin_1": {
+            "bindShapeMatrix": [],
+            "inverseBindMatrices": {},
+            "joints": [
+                "elbow_L",
+                "wrist_L",
+                "root",
+                "wrist_R",
+                "elbow_R",
+                "Thumb_0_R",
+                "Thumb_0_L"
+            ],
+            "roots": [
+                "root"
+            ]
+        },
+        "skin_2": {
+            "bindShapeMatrix": [],
+            "inverseBindMatrices": {},
+            "joints": [
+                "head",
+                "hair2_0",
+                "neck1",
+                "hair2_1",
+                "spine3"
+            ],
+            "roots": []
+        },
+        "skin_3": {
+            "bindShapeMatrix": [],
+            "inverseBindMatrices": {},
+            "joints": [
+                "knee_L",
+                "ankle_L",
+                "knee_R",
+                "ankle_R"
+            ],
+            "roots": []
+        },
+        "skin_4": {
+            "bindShapeMatrix": [],
+            "inverseBindMatrices": {},
+            "joints": [
+                "shoulder_R",
+                "shoulder_L"
+            ],
+            "roots": []
+        },
+        "skin_5": {
+            "bindShapeMatrix": [],
+            "inverseBindMatrices": {},
+            "joints": [
+                "skirt3_0_A_R",
+                "skirt3_1_A_R",
+                "skirt_C0_1",
+                "root",
+                "spine1",
+                "skirt_C0_0",
+                "skirt2_1_A_L",
+                "thigh_R",
+                "thigh_L",
+                "skirt2_0_A_L"
+            ],
+            "roots": [
+                "root"
+            ]
+        },
+        "skin_6": {
+            "bindShapeMatrix": [],
+            "inverseBindMatrices": {},
+            "joints": [
+                "spear_1"
+            ],
+            "roots": []
+        },
+        "skin_7": {
+            "bindShapeMatrix": [],
+            "inverseBindMatrices": {},
+            "joints": [
+                "spine2",
+                "spine3",
+                "spine1",
+                "root",
+                "clavicle_L",
+                "clavicle_R"
+            ],
+            "roots": [
+                "root"
+            ]
+        }
+    },
+    "techniques": {
+        "technique_0": {
+            "parameters": {},
+            "pass": "defaultPass",
+            "passes": {
+                "defaultPass": {
+                    "instanceProgram": {
+                        "attributes": {},
+                        "program": "",
+                        "uniforms": {}
+                    },
+                    "states": {
+                        "blendEnable": false,
+                        "cullFaceEnable": false,
+                        "depthMask": true,
+                        "depthTestEnable": true
+                    }
+                }
+            }
+        }
+    },
+    "textures": {
+        "Map #10": {
+            "format": "RGBA",
+            "internalFormat": "RGBA",
+            "sampler": "sampler_0",
+            "source": "image_0",
+            "target": "TEXTURE_2D"
+        },
+        "Map #11": {
+            "format": "RGBA",
+            "internalFormat": "RGBA",
+            "sampler": "sampler_1",
+            "source": "image_1",
+            "target": "TEXTURE_2D"
+        },
+        "Map #12": {
+            "format": "RGBA",
+            "internalFormat": "RGBA",
+            "sampler": "sampler_2",
+            "source": "image_2",
+            "target": "TEXTURE_2D"
+        },
+        "Map #13": {
+            "format": "RGBA",
+            "internalFormat": "RGBA",
+            "sampler": "sampler_3",
+            "source": "image_3",
+            "target": "TEXTURE_2D"
+        },
+        "Map #14": {
+            "format": "RGBA",
+            "internalFormat": "RGBA",
+            "sampler": "sampler_4",
+            "source": "image_4",
+            "target": "TEXTURE_2D"
+        },
+        "Map #15": {
+            "format": "RGBA",
+            "internalFormat": "RGBA",
+            "sampler": "sampler_5",
+            "source": "image_5",
+            "target": "TEXTURE_2D"
+        },
+        "Map #16": {
+            "format": "RGBA",
+            "internalFormat": "RGBA",
+            "sampler": "sampler_6",
+            "source": "image_6",
+            "target": "TEXTURE_2D"
+        },
+        "Map #17": {
+            "format": "RGBA",
+            "internalFormat": "RGBA",
+            "sampler": "sampler_7",
+            "source": "image_7",
+            "target": "TEXTURE_2D"
+        }
+    }
+}

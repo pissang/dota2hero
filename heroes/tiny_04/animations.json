@@ -1,0 +1,48 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/tiny_04/smd/tiny_04_idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/tiny_04/smd/tiny_04_idle_alt.smd"
+        },
+        {
+            "name": "idle_alt_tree",
+            "path": "heroes/tiny_04/smd/tiny_04_idle_alt_tree.smd"
+        },
+        {
+            "name": "idle_tree",
+            "path": "heroes/tiny_04/smd/tiny_04_idle_tree.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1",
+            "path": "heroes/tiny_04/smd/tiny_04_attack1.smd"
+        },
+        {
+            "name": "attack1_tree",
+            "path": "heroes/tiny_04/smd/tiny_04_attack1_tree.smd"
+        },
+        {
+            "name": "attack_alt",
+            "path": "heroes/tiny_04/smd/tiny_04_attack_alt.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/tiny_04/smd/tiny_04_run.smd"
+        },
+        {
+            "name": "run_tree",
+            "path": "heroes/tiny_04/smd/tiny_04_run_tree.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/tiny_04/smd/tiny_04_idle.smd"
+    }
+}

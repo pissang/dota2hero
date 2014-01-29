@@ -1,0 +1,36 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/enchantress/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/enchantress/smd/idle_alt.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/enchantress/smd/attack.smd"
+        },
+        {
+            "name": "attack_alt",
+            "path": "heroes/enchantress/smd/attack_alt.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/enchantress/smd/run.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/enchantress/smd/run_haste.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/enchantress/smd/idle.smd"
+    }
+}

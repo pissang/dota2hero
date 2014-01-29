@@ -1,0 +1,28 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/pugna/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/pugna/smd/idle_alt.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack2",
+            "path": "heroes/pugna/smd/attack2.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/pugna/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/pugna/smd/idle.smd"
+    }
+}

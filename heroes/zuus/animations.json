@@ -1,0 +1,35 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/zuus/smd/zuus_idle.smd"
+        },
+        {
+            "name": "idle_aggro",
+            "path": "heroes/zuus/smd/zuus_idle_aggro.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/zuus/smd/zuus_idle_injured.smd"
+        }
+    ],
+    "attack": [],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/zuus/smd/zuus_run.smd"
+        },
+        {
+            "name": "run_aggro",
+            "path": "heroes/zuus/smd/zuus_run_aggro.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/zuus/smd/zuus_run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle_aggro",
+        "path": "heroes/zuus/smd/zuus_idle_aggro.smd"
+    }
+}

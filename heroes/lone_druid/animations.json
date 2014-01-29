@@ -1,0 +1,76 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/lone_druid/smd/idle.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/lone_druid/smd/idle_injured.smd"
+        },
+        {
+            "name": "idle_rare",
+            "path": "heroes/lone_druid/smd/idle_rare.smd"
+        },
+        {
+            "name": "idle_rareb",
+            "path": "heroes/lone_druid/smd/idle_rareb.smd"
+        },
+        {
+            "name": "idle_trueform",
+            "path": "heroes/lone_druid/smd/idle_trueform.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/lone_druid/smd/attack.smd"
+        },
+        {
+            "name": "attackb",
+            "path": "heroes/lone_druid/smd/attackb.smd"
+        },
+        {
+            "name": "attackb_cauldron",
+            "path": "heroes/lone_druid/smd/attackb_cauldron.smd"
+        },
+        {
+            "name": "attackc",
+            "path": "heroes/lone_druid/smd/attackc.smd"
+        },
+        {
+            "name": "attackc_cauldron",
+            "path": "heroes/lone_druid/smd/attackc_cauldron.smd"
+        },
+        {
+            "name": "attackd",
+            "path": "heroes/lone_druid/smd/attackd.smd"
+        },
+        {
+            "name": "attackd_cauldron",
+            "path": "heroes/lone_druid/smd/attackd_cauldron.smd"
+        },
+        {
+            "name": "attacke_cauldron",
+            "path": "heroes/lone_druid/smd/attacke_cauldron.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/lone_druid/smd/run.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/lone_druid/smd/run_haste.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/lone_druid/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/lone_druid/smd/idle.smd"
+    }
+}

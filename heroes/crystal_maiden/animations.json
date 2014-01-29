@@ -1,0 +1,32 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/crystal_maiden/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt2",
+            "path": "heroes/crystal_maiden/smd/idle_alt2.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/crystal_maiden/smd/attack.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/crystal_maiden/smd/attack2.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/crystal_maiden/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/crystal_maiden/smd/idle.smd"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/spectre/smd/idle.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/spectre/smd/attack.smd"
+        },
+        {
+            "name": "attack1",
+            "path": "heroes/spectre/smd/attack1.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/spectre/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/spectre/smd/idle.smd"
+    }
+}

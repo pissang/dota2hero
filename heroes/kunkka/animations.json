@@ -1,0 +1,32 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/kunkka/smd/idle.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1",
+            "path": "heroes/kunkka/smd/attack1.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/kunkka/smd/attack2.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/kunkka/smd/run.smd"
+        },
+        {
+            "name": "run_pegleg",
+            "path": "heroes/kunkka/smd/run_pegleg.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/kunkka/smd/idle.smd"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/axe/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/axe/smd/idle_alt.smd"
+        },
+        {
+            "name": "idle_alt2",
+            "path": "heroes/axe/smd/idle_alt2.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/axe/smd/idle_injured.smd"
+        },
+        {
+            "name": "idle_injured_blood_chaser",
+            "path": "heroes/axe/smd/idle_injured_blood_chaser.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack_alt",
+            "path": "heroes/axe/smd/attack_alt.smd"
+        },
+        {
+            "name": "attack_main",
+            "path": "heroes/axe/smd/attack_main.smd"
+        },
+        {
+            "name": "attack_main_injured",
+            "path": "heroes/axe/smd/attack_main_injured.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/axe/smd/run.smd"
+        },
+        {
+            "name": "runN_blood_chaser",
+            "path": "heroes/axe/smd/runN_blood_chaser.smd"
+        },
+        {
+            "name": "runN_end",
+            "path": "heroes/axe/smd/runN_end.smd"
+        },
+        {
+            "name": "run_chase",
+            "path": "heroes/axe/smd/run_chase.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/axe/smd/run_haste.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/axe/smd/run_injured.smd"
+        },
+        {
+            "name": "run_injured_blood_chaser",
+            "path": "heroes/axe/smd/run_injured_blood_chaser.smd"
+        },
+        {
+            "name": "run_start2",
+            "path": "heroes/axe/smd/run_start2.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/axe/smd/idle.smd"
+    }
+}

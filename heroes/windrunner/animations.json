@@ -1,0 +1,36 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/windrunner/smd/idle.smd"
+        },
+        {
+            "name": "idle_V2_loadout",
+            "path": "heroes/windrunner/smd/idle_V2_loadout.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/windrunner/smd/idle_alt.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack_1",
+            "path": "heroes/windrunner/smd/attack_1.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "runN",
+            "path": "heroes/windrunner/smd/runN.smd"
+        },
+        {
+            "name": "runN_windrun",
+            "path": "heroes/windrunner/smd/runN_windrun.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/windrunner/smd/idle.smd"
+    }
+}

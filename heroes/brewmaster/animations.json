@@ -1,0 +1,52 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/brewmaster/smd/idle.smd"
+        },
+        {
+            "name": "idle_aggressive",
+            "path": "heroes/brewmaster/smd/idle_aggressive.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/brewmaster/smd/idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1_aggressive",
+            "path": "heroes/brewmaster/smd/attack1_aggressive.smd"
+        },
+        {
+            "name": "attack2_aggressive",
+            "path": "heroes/brewmaster/smd/attack2_aggressive.smd"
+        },
+        {
+            "name": "attack_crit",
+            "path": "heroes/brewmaster/smd/attack_crit.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/brewmaster/smd/run.smd"
+        },
+        {
+            "name": "run_aggressive",
+            "path": "heroes/brewmaster/smd/run_aggressive.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/brewmaster/smd/run_haste.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/brewmaster/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/brewmaster/smd/idle.smd"
+    }
+}

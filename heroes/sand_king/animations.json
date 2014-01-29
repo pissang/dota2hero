@@ -1,0 +1,40 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/sand_king/smd/sand_king_idle.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/sand_king/smd/sand_king_attack.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/sand_king/smd/sand_king_attack2.smd"
+        },
+        {
+            "name": "attack3",
+            "path": "heroes/sand_king/smd/sand_king_attack3.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/sand_king/smd/sand_king_run.smd"
+        },
+        {
+            "name": "run_chase",
+            "path": "heroes/sand_king/smd/sand_king_run_chase.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/sand_king/smd/sand_king_run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "run",
+        "path": "heroes/sand_king/smd/sand_king_run.smd"
+    }
+}

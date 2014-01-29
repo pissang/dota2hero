@@ -1,0 +1,52 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/shadowshaman/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/shadowshaman/smd/idle_alt.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/shadowshaman/smd/idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1",
+            "path": "heroes/shadowshaman/smd/attack1.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/shadowshaman/smd/attack2.smd"
+        },
+        {
+            "name": "attack3",
+            "path": "heroes/shadowshaman/smd/attack3.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/shadowshaman/smd/run.smd"
+        },
+        {
+            "name": "run_chase",
+            "path": "heroes/shadowshaman/smd/run_chase.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/shadowshaman/smd/run_haste.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/shadowshaman/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/shadowshaman/smd/idle.smd"
+    }
+}

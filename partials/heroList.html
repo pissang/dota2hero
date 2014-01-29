@@ -1,0 +1,10 @@
+<div id="HeroList">
+    <h2>{{hoverHero.title}}</h2>
+    <ul>
+        <li ng-repeat="hero in heroList" ng-mouseover="showHeroName(hero)" ng-mouseout="hideHeroName()">
+            <a href="#/hero/{{hero.name}}">
+                <img ng-src="{{hero.hover}}" />
+            </a>
+        </li>
+    </ul>
+</div>

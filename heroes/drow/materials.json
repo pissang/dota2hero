@@ -1,0 +1,81 @@
+{
+    "Material #101": {
+        "diffuseMap": "heroes/drow/textures/drow_quivver_color.png",
+        "normalMap": "heroes/drow/textures/drow_quivver_normals.png",
+        "maskMap1": "heroes/drow/textures/drow_quivver_masks1.png",
+        "maskMap2": "heroes/drow/textures/drow_quivver_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 2,
+        "u_RimLightScale": 1
+    },
+    "Material #112": {
+        "diffuseMap": "heroes/drow/textures/drow_bow_color.png",
+        "normalMap": "heroes/drow/textures/drow_bow_normal.png",
+        "maskMap1": "heroes/drow/textures/drow_bow_masks1.png",
+        "maskMap2": "heroes/drow/textures/drow_bow_masks2.png",
+        "u_SpecularExponent": 30,
+        "u_SpecularScale": 4,
+        "u_SpecularColor": [
+            0,
+            3,
+            2
+        ],
+        "u_RimLightScale": 0.5
+    },
+    "Material #35": {
+        "diffuseMap": "heroes/drow/textures/drow_base_color.png",
+        "normalMap": "heroes/drow/textures/drow_base_normals.png",
+        "maskMap1": "heroes/drow/textures/drow_base_masks1.png",
+        "maskMap2": "heroes/drow/textures/drow_base_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 2,
+        "u_RimLightScale": 1
+    },
+    "Material #46": {
+        "diffuseMap": "heroes/drow/textures/drow_bracer_color.png",
+        "normalMap": "heroes/drow/textures/drow_bracer_normals.png",
+        "maskMap1": "heroes/drow/textures/drow_bracer_masks1.png",
+        "maskMap2": "heroes/drow/textures/drow_bracer_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 2,
+        "u_RimLightScale": 1
+    },
+    "Material #57": {
+        "diffuseMap": "heroes/drow/textures/drow_cape_color.png",
+        "normalMap": "heroes/drow/textures/drow_cape_normal.png",
+        "u_SpecularExponent": 70,
+        "u_SpecularScale": 1.4,
+        "u_SpecularColor": [
+            0.5,
+            0.9,
+            1
+        ]
+    },
+    "Material #68": {
+        "diffuseMap": "heroes/drow/textures/haircowl_color.png",
+        "normalMap": "heroes/drow/textures/haircowl_normal.png",
+        "maskMap1": "heroes/drow/textures/haircowl_masks1.png",
+        "maskMap2": "heroes/drow/textures/haircowl_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 2,
+        "u_RimLightScale": 1
+    },
+    "Material #79": {
+        "diffuseMap": "heroes/drow/textures/drow_legarmor_color.png",
+        "normalMap": "heroes/drow/textures/drow_legarmor_normals.png",
+        "maskMap1": "heroes/drow/textures/drow_legarmor_masks1.png",
+        "maskMap2": "heroes/drow/textures/drow_legarmor_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 2,
+        "u_RimLightScale": 1
+    },
+    "Material #90": {
+        "diffuseMap": "heroes/drow/textures/drow_shoulder_color.png",
+        "normalMap": "heroes/drow/textures/drow_shoulder_normals.png",
+        "maskMap1": "heroes/drow/textures/drow_shoulder_masks1.png",
+        "maskMap2": "heroes/drow/textures/drow_shoulder_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 2,
+        "u_RimLightScale": 1
+    }
+}

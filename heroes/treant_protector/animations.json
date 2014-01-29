@@ -1,0 +1,40 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/treant_protector/smd/idle.smd"
+        },
+        {
+            "name": "idle_allt_shake",
+            "path": "heroes/treant_protector/smd/idle_allt_shake.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/treant_protector/smd/attack.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/treant_protector/smd/attack2.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/treant_protector/smd/run.smd"
+        },
+        {
+            "name": "run_alt",
+            "path": "heroes/treant_protector/smd/run_alt.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/treant_protector/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle_allt_shake",
+        "path": "heroes/treant_protector/smd/idle_allt_shake.smd"
+    }
+}

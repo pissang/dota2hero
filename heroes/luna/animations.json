@@ -1,0 +1,52 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/luna/smd/luna_idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/luna/smd/luna_idle_alt.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/luna/smd/luna_idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/luna/smd/luna_attack.smd"
+        },
+        {
+            "name": "attack_alta",
+            "path": "heroes/luna/smd/luna_attack_alta.smd"
+        },
+        {
+            "name": "attackb",
+            "path": "heroes/luna/smd/luna_attackb.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/luna/smd/luna_run.smd"
+        },
+        {
+            "name": "run_alt",
+            "path": "heroes/luna/smd/luna_run_alt.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/luna/smd/luna_run_haste.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/luna/smd/luna_run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/luna/smd/luna_idle.smd"
+    }
+}

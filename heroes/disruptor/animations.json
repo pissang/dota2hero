@@ -1,0 +1,64 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/disruptor/smd/idle.smd"
+        },
+        {
+            "name": "idle1",
+            "path": "heroes/disruptor/smd/idle1.smd"
+        },
+        {
+            "name": "idle2",
+            "path": "heroes/disruptor/smd/idle2.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/disruptor/smd/idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/disruptor/smd/attack.smd"
+        },
+        {
+            "name": "attack1",
+            "path": "heroes/disruptor/smd/attack1.smd"
+        },
+        {
+            "name": "attack1_injured",
+            "path": "heroes/disruptor/smd/attack1_injured.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/disruptor/smd/attack2.smd"
+        },
+        {
+            "name": "attack2_injured",
+            "path": "heroes/disruptor/smd/attack2_injured.smd"
+        },
+        {
+            "name": "attack_injured",
+            "path": "heroes/disruptor/smd/attack_injured.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/disruptor/smd/run.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/disruptor/smd/run_haste.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/disruptor/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/disruptor/smd/idle.smd"
+    }
+}

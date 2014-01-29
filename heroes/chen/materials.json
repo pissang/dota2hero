@@ -1,0 +1,105 @@
+{
+    "Material #101": {
+        "diffuseMap": "heroes/chen/textures/chen_wep_color.png",
+        "normalMap": "heroes/chen/textures/chen_wep_normal.png",
+        "maskMap1": "heroes/chen/textures/chen_wep_masks1.png",
+        "maskMap2": "heroes/chen/textures/chen_wep_masks2.png",
+        "u_SpecularExponent": 12,
+        "u_SpecularScale": 1,
+        "u_SpecularColor": [
+            0.4,
+            0.9,
+            0.2
+        ],
+        "u_RimLightScale": 0.5,
+        "u_RimLightColor": [
+            1,
+            0.8,
+            0.9
+        ]
+    },
+    "Material #35": {
+        "diffuseMap": "heroes/chen/textures/chen_color.png",
+        "normalMap": "heroes/chen/textures/chen_normal.png",
+        "maskMap1": "heroes/chen/textures/chen_masks1.png",
+        "maskMap2": "heroes/chen/textures/chen_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 3,
+        "u_RimLightScale": 2,
+        "u_RimLightColor": [
+            1,
+            1,
+            0.9
+        ]
+    },
+    "Material #46": {
+        "diffuseMap": "heroes/chen/textures/bracers_color.png",
+        "normalMap": "heroes/chen/textures/bracers_normal.png",
+        "maskMap1": "heroes/chen/textures/bracers_masks1.png",
+        "maskMap2": "heroes/chen/textures/bracers_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 3,
+        "u_RimLightScale": 2,
+        "u_RimLightColor": [
+            1,
+            1,
+            0.9
+        ]
+    },
+    "Material #57": {
+        "diffuseMap": "heroes/chen/textures/helmet_color.png",
+        "normalMap": "heroes/chen/textures/helmet_normal.png",
+        "maskMap1": "heroes/chen/textures/helmet_masks1.png",
+        "maskMap2": "heroes/chen/textures/helmet_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 4,
+        "u_RimLightScale": 2,
+        "u_RimLightColor": [
+            1,
+            1,
+            0.9
+        ]
+    },
+    "Material #68": {
+        "diffuseMap": "heroes/chen/textures/chen_mount_color.png",
+        "normalMap": "heroes/chen/textures/chen_mount_normal.png",
+        "maskMap1": "heroes/chen/textures/chen_mount_masks1.png",
+        "maskMap2": "heroes/chen/textures/chen_mount_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 1,
+        "u_RimLightScale": 1,
+        "u_RimLightColor": [
+            1,
+            1,
+            0.9
+        ]
+    },
+    "Material #79": {
+        "diffuseMap": "heroes/chen/textures/chen_mount_armor_color.png",
+        "normalMap": "heroes/chen/textures/chen_mount_armor_normal.png",
+        "maskMap1": "heroes/chen/textures/chen_mount_armor_masks1.png",
+        "maskMap2": "heroes/chen/textures/chen_mount_armor_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 10,
+        "u_RimLightScale": 0.5,
+        "u_RimLightColor": [
+            1,
+            1,
+            0.9
+        ]
+    },
+    "Material #90": {
+        "diffuseMap": "heroes/chen/textures/shoulders_color.png",
+        "normalMap": "heroes/chen/textures/shoulders_normal.png",
+        "maskMap1": "heroes/chen/textures/shoulders_masks1.png",
+        "maskMap2": "heroes/chen/textures/shoulders_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 4,
+        "u_RimLightScale": 2,
+        "u_RimLightColor": [
+            1,
+            1,
+            0.9
+        ]
+    }
+}

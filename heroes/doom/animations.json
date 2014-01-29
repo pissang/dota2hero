@@ -1,0 +1,72 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/doom/smd/idle.smd"
+        },
+        {
+            "name": "idle2",
+            "path": "heroes/doom/smd/idle2.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/doom/smd/idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1",
+            "path": "heroes/doom/smd/attack1.smd"
+        },
+        {
+            "name": "attack1_injured",
+            "path": "heroes/doom/smd/attack1_injured.smd"
+        },
+        {
+            "name": "attack1_pyre",
+            "path": "heroes/doom/smd/attack1_pyre.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/doom/smd/attack2.smd"
+        },
+        {
+            "name": "attack2_injured",
+            "path": "heroes/doom/smd/attack2_injured.smd"
+        },
+        {
+            "name": "attack2_pyre",
+            "path": "heroes/doom/smd/attack2_pyre.smd"
+        },
+        {
+            "name": "attack_eyeoffetizu",
+            "path": "heroes/doom/smd/attack_eyeoffetizu.smd"
+        },
+        {
+            "name": "attack_eyeoffetizu2",
+            "path": "heroes/doom/smd/attack_eyeoffetizu2.smd"
+        },
+        {
+            "name": "attack_eyeoffetizu3",
+            "path": "heroes/doom/smd/attack_eyeoffetizu3.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/doom/smd/run.smd"
+        },
+        {
+            "name": "run_chase",
+            "path": "heroes/doom/smd/run_chase.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/doom/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/doom/smd/idle.smd"
+    }
+}

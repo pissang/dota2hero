@@ -1,0 +1,44 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/nightstalker/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/nightstalker/smd/idle_alt.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/nightstalker/smd/idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/nightstalker/smd/attack.smd"
+        },
+        {
+            "name": "attack_alt",
+            "path": "heroes/nightstalker/smd/attack_alt.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/nightstalker/smd/run.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/nightstalker/smd/run_haste.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/nightstalker/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/nightstalker/smd/idle.smd"
+    }
+}

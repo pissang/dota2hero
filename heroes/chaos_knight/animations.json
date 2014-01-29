@@ -1,0 +1,36 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/chaos_knight/smd/idle.smd"
+        },
+        {
+            "name": "idle_rare",
+            "path": "heroes/chaos_knight/smd/idle_rare.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/chaos_knight/smd/attack.smd"
+        },
+        {
+            "name": "attack_alt1",
+            "path": "heroes/chaos_knight/smd/attack_alt1.smd"
+        },
+        {
+            "name": "attack_crit",
+            "path": "heroes/chaos_knight/smd/attack_crit.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/chaos_knight/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/chaos_knight/smd/idle.smd"
+    }
+}

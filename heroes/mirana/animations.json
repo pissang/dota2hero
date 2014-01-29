@@ -1,0 +1,32 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/mirana/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/mirana/smd/idle_alt.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/mirana/smd/attack.smd"
+        },
+        {
+            "name": "attack_alt",
+            "path": "heroes/mirana/smd/attack_alt.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/mirana/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/mirana/smd/idle.smd"
+    }
+}

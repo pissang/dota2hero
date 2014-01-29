@@ -1,0 +1,91 @@
+{
+    "Material #35": {
+        "diffuseMap": "heroes/keeper_of_the_light/textures/keeper_body_color.png",
+        "normalMap": "heroes/keeper_of_the_light/textures/keeper_body_normals.png",
+        "maskMap1": "heroes/keeper_of_the_light/textures/keeper_body_masks1.png",
+        "maskMap2": "heroes/keeper_of_the_light/textures/keeper_body_masks2.png",
+        "u_SpecularExponent": 10,
+        "u_SpecularScale": 4,
+        "u_RimLightScale": 1
+    },
+    "Material #46": {
+        "diffuseMap": "heroes/keeper_of_the_light/textures/keeper_hood_color.png",
+        "normalMap": "heroes/keeper_of_the_light/textures/keeper_hood_normals.png",
+        "maskMap1": "heroes/keeper_of_the_light/textures/keeper_hood_masks1.png",
+        "maskMap2": "heroes/keeper_of_the_light/textures/keeper_hood_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 8,
+        "u_RimLightScale": 1
+    },
+    "Material #57": {
+        "diffuseMap": "heroes/keeper_of_the_light/textures/horse_color.png",
+        "normalMap": "heroes/keeper_of_the_light/textures/horse_normals.png",
+        "maskMap1": "heroes/keeper_of_the_light/textures/horse_masks1.png",
+        "maskMap2": "heroes/keeper_of_the_light/textures/horse_masks2.png",
+        "u_SpecularExponent": 100,
+        "u_SpecularScale": 10,
+        "u_RimLightScale": 1,
+        "u_RimLightColor": [
+            0.5,
+            0.8,
+            0.9
+        ]
+    },
+    "Material #68": {
+        "diffuseMap": "heroes/keeper_of_the_light/textures/horse_gear_color.png",
+        "normalMap": "heroes/keeper_of_the_light/textures/horse_gear_normals.png",
+        "maskMap1": "heroes/keeper_of_the_light/textures/horse_gear_masks1.png",
+        "maskMap2": "heroes/keeper_of_the_light/textures/horse_gear_masks2.png",
+        "u_SpecularExponent": 23,
+        "u_SpecularScale": 5,
+        "u_SpecularColor": [
+            0.7,
+            0.9,
+            1
+        ],
+        "u_RimLightScale": 1,
+        "u_RimLightColor": [
+            0.5,
+            0.8,
+            0.9
+        ]
+    },
+    "Material #79": {
+        "diffuseMap": "heroes/keeper_of_the_light/textures/keeper_skirt_color.png",
+        "normalMap": "heroes/keeper_of_the_light/textures/keeper_skirt_normals.png",
+        "maskMap1": "heroes/keeper_of_the_light/textures/keeper_skirt_masks1.png",
+        "maskMap2": "heroes/keeper_of_the_light/textures/keeper_skirt_masks2.png",
+        "u_SpecularExponent": 30,
+        "u_SpecularScale": 3,
+        "u_SpecularColor": [
+            0.7,
+            0.9,
+            1
+        ],
+        "u_RimLightScale": 1,
+        "u_RimLightColor": [
+            0.5,
+            0.8,
+            0.9
+        ]
+    },
+    "Material #90": {
+        "diffuseMap": "heroes/keeper_of_the_light/textures/keeper_staff_color.png",
+        "normalMap": "heroes/keeper_of_the_light/textures/keeper_staff_normals.png",
+        "maskMap1": "heroes/keeper_of_the_light/textures/keeper_staff_masks1.png",
+        "maskMap2": "heroes/keeper_of_the_light/textures/keeper_staff_masks2.png",
+        "u_SpecularExponent": 23,
+        "u_SpecularScale": 5,
+        "u_SpecularColor": [
+            0.7,
+            0.9,
+            1
+        ],
+        "u_RimLightScale": 0.5,
+        "u_RimLightColor": [
+            0.5,
+            0.8,
+            0.9
+        ]
+    }
+}

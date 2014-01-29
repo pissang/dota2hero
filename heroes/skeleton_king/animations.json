@@ -1,0 +1,52 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/skeleton_king/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/skeleton_king/smd/idle_alt.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/skeleton_king/smd/attack.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/skeleton_king/smd/attack2.smd"
+        },
+        {
+            "name": "attack2_regalia_bonelord",
+            "path": "heroes/skeleton_king/smd/attack2_regalia_bonelord.smd"
+        },
+        {
+            "name": "attack3_regalia_bonelord",
+            "path": "heroes/skeleton_king/smd/attack3_regalia_bonelord.smd"
+        },
+        {
+            "name": "attack_regalia_bonelord",
+            "path": "heroes/skeleton_king/smd/attack_regalia_bonelord.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/skeleton_king/smd/run.smd"
+        },
+        {
+            "name": "run_chase",
+            "path": "heroes/skeleton_king/smd/run_chase.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/skeleton_king/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/skeleton_king/smd/idle.smd"
+    }
+}

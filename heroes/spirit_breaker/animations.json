@@ -1,0 +1,44 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/spirit_breaker/smd/idle.smd"
+        },
+        {
+            "name": "idle2",
+            "path": "heroes/spirit_breaker/smd/idle2.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/spirit_breaker/smd/idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/spirit_breaker/smd/attack.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/spirit_breaker/smd/attack2.smd"
+        },
+        {
+            "name": "attack_backhand",
+            "path": "heroes/spirit_breaker/smd/attack_backhand.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/spirit_breaker/smd/run.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/spirit_breaker/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/spirit_breaker/smd/idle.smd"
+    }
+}

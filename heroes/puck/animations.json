@@ -1,0 +1,36 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/puck/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/puck/smd/idle_alt.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/puck/smd/attack.smd"
+        },
+        {
+            "name": "attack_no_wings",
+            "path": "heroes/puck/smd/attack_no_wings.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/puck/smd/run.smd"
+        },
+        {
+            "name": "run_no_wings",
+            "path": "heroes/puck/smd/run_no_wings.smd"
+        }
+    ],
+    "default": {
+        "name": "portrait",
+        "path": "heroes/puck/smd/portrait.smd"
+    }
+}

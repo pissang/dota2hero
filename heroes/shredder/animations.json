@@ -1,0 +1,48 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/shredder/smd/idle.smd"
+        },
+        {
+            "name": "idle_chakram",
+            "path": "heroes/shredder/smd/idle_chakram.smd"
+        },
+        {
+            "name": "idle_rare1",
+            "path": "heroes/shredder/smd/idle_rare1.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "Attack_1",
+            "path": "heroes/shredder/smd/Attack_1.smd"
+        },
+        {
+            "name": "Attack_2",
+            "path": "heroes/shredder/smd/Attack_2.smd"
+        },
+        {
+            "name": "Attack_3",
+            "path": "heroes/shredder/smd/Attack_3.smd"
+        },
+        {
+            "name": "Attack_4",
+            "path": "heroes/shredder/smd/Attack_4.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/shredder/smd/run.smd"
+        },
+        {
+            "name": "run_chakram",
+            "path": "heroes/shredder/smd/run_chakram.smd"
+        }
+    ],
+    "default": {
+        "name": "portrait",
+        "path": "heroes/shredder/smd/portrait.smd"
+    }
+}

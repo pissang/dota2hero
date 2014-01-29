@@ -1,0 +1,32 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/lanaya/smd/idle.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack_01",
+            "path": "heroes/lanaya/smd/attack_01.smd"
+        },
+        {
+            "name": "attack_L",
+            "path": "heroes/lanaya/smd/attack_L.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/lanaya/smd/run.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/lanaya/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/lanaya/smd/idle.smd"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/phantom_lancer/smd/idle.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/phantom_lancer/smd/idle_injured.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/phantom_lancer/smd/attack.smd"
+        },
+        {
+            "name": "attack_alt1",
+            "path": "heroes/phantom_lancer/smd/attack_alt1.smd"
+        },
+        {
+            "name": "attack_alt2",
+            "path": "heroes/phantom_lancer/smd/attack_alt2.smd"
+        },
+        {
+            "name": "attack_alt3",
+            "path": "heroes/phantom_lancer/smd/attack_alt3.smd"
+        },
+        {
+            "name": "attack_alt4",
+            "path": "heroes/phantom_lancer/smd/attack_alt4.smd"
+        },
+        {
+            "name": "attack_spiritlance",
+            "path": "heroes/phantom_lancer/smd/attack_spiritlance.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/phantom_lancer/smd/run.smd"
+        },
+        {
+            "name": "run_doppelwalk",
+            "path": "heroes/phantom_lancer/smd/run_doppelwalk.smd"
+        },
+        {
+            "name": "run_haste",
+            "path": "heroes/phantom_lancer/smd/run_haste.smd"
+        },
+        {
+            "name": "run_injured",
+            "path": "heroes/phantom_lancer/smd/run_injured.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/phantom_lancer/smd/idle.smd"
+    }
+}

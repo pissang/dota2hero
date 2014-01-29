@@ -1,0 +1,60 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/elder_titan/smd/idle.smd"
+        },
+        {
+            "name": "idle_injured",
+            "path": "heroes/elder_titan/smd/idle_injured.smd"
+        },
+        {
+            "name": "idle_rare",
+            "path": "heroes/elder_titan/smd/idle_rare.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/elder_titan/smd/attack.smd"
+        },
+        {
+            "name": "attack_alt",
+            "path": "heroes/elder_titan/smd/attack_alt.smd"
+        },
+        {
+            "name": "attack_alt2_punch",
+            "path": "heroes/elder_titan/smd/attack_alt2_punch.smd"
+        },
+        {
+            "name": "attack_alt2_punch_injured",
+            "path": "heroes/elder_titan/smd/attack_alt2_punch_injured.smd"
+        },
+        {
+            "name": "attack_alt3_hammerFist",
+            "path": "heroes/elder_titan/smd/attack_alt3_hammerFist.smd"
+        },
+        {
+            "name": "attack_alt3_hammerFist_injured",
+            "path": "heroes/elder_titan/smd/attack_alt3_hammerFist_injured.smd"
+        },
+        {
+            "name": "attack_alt_injured",
+            "path": "heroes/elder_titan/smd/attack_alt_injured.smd"
+        },
+        {
+            "name": "attack_injrued",
+            "path": "heroes/elder_titan/smd/attack_injrued.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run_haste",
+            "path": "heroes/elder_titan/smd/run_haste.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/elder_titan/smd/idle.smd"
+    }
+}

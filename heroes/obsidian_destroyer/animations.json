@@ -1,0 +1,36 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/obsidian_destroyer/smd/idle.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/obsidian_destroyer/smd/attack.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/obsidian_destroyer/smd/attack2.smd"
+        },
+        {
+            "name": "attack3",
+            "path": "heroes/obsidian_destroyer/smd/attack3.smd"
+        },
+        {
+            "name": "attack4",
+            "path": "heroes/obsidian_destroyer/smd/attack4.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/obsidian_destroyer/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/obsidian_destroyer/smd/idle.smd"
+    }
+}

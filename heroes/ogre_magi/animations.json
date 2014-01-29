@@ -1,0 +1,36 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/ogre_magi/smd/idle.smd"
+        },
+        {
+            "name": "idle_bellyScratch",
+            "path": "heroes/ogre_magi/smd/idle_bellyScratch.smd"
+        },
+        {
+            "name": "idle_headButt",
+            "path": "heroes/ogre_magi/smd/idle_headButt.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack1",
+            "path": "heroes/ogre_magi/smd/attack1.smd"
+        },
+        {
+            "name": "attack3",
+            "path": "heroes/ogre_magi/smd/attack3.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/ogre_magi/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/ogre_magi/smd/idle.smd"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/drow/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/drow/smd/idle_alt.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack01",
+            "path": "heroes/drow/smd/attack01.smd"
+        },
+        {
+            "name": "attack_fast",
+            "path": "heroes/drow/smd/attack_fast.smd"
+        },
+        {
+            "name": "attack_frost_arrow",
+            "path": "heroes/drow/smd/attack_frost_arrow.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/drow/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/drow/smd/idle.smd"
+    }
+}

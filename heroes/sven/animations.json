@@ -1,0 +1,40 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/sven/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt1",
+            "path": "heroes/sven/smd/idle_alt1.smd"
+        },
+        {
+            "name": "idle_portrait",
+            "path": "heroes/sven/smd/idle_portrait.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack01",
+            "path": "heroes/sven/smd/attack01.smd"
+        },
+        {
+            "name": "attack02",
+            "path": "heroes/sven/smd/attack02.smd"
+        },
+        {
+            "name": "attack03",
+            "path": "heroes/sven/smd/attack03.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "runN",
+            "path": "heroes/sven/smd/runN.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/sven/smd/idle.smd"
+    }
+}

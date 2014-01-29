@@ -1,0 +1,32 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/silencer/smd/idle.smd"
+        },
+        {
+            "name": "idle_rare",
+            "path": "heroes/silencer/smd/idle_rare.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/silencer/smd/attack.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/silencer/smd/attack2.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/silencer/smd/run.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/silencer/smd/idle.smd"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "idle": [
+        {
+            "name": "idle",
+            "path": "heroes/gyro/smd/idle.smd"
+        },
+        {
+            "name": "idle_alt",
+            "path": "heroes/gyro/smd/idle_alt.smd"
+        },
+        {
+            "name": "idle_alt1",
+            "path": "heroes/gyro/smd/idle_alt1.smd"
+        }
+    ],
+    "attack": [
+        {
+            "name": "attack",
+            "path": "heroes/gyro/smd/attack.smd"
+        },
+        {
+            "name": "attack_othergun",
+            "path": "heroes/gyro/smd/attack_othergun.smd"
+        }
+    ],
+    "run": [
+        {
+            "name": "run",
+            "path": "heroes/gyro/smd/run.smd"
+        },
+        {
+            "name": "run_spin",
+            "path": "heroes/gyro/smd/run_spin.smd"
+        }
+    ],
+    "default": {
+        "name": "idle",
+        "path": "heroes/gyro/smd/idle.smd"
+    }
+}
