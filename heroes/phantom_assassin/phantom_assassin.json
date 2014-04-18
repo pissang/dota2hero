@@ -624,43 +624,43 @@
             "type": 35664
         },
         "indices_12": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 12996,
             "count": 1488,
             "type": 5123
         },
         "indices_18": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 15972,
             "count": 1302,
             "type": 5123
         },
         "indices_24": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 18576,
             "count": 2928,
             "type": 5123
         },
         "indices_30": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 24432,
             "count": 3729,
             "type": 5123
         },
         "indices_36": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 31890,
             "count": 2988,
             "type": 5123
         },
         "indices_42": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 37866,
             "count": 1980,
             "type": 5123
         },
         "indices_6": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 0,
             "count": 6498,
             "type": 5123
@@ -677,14 +677,14 @@
         },
         "bufferView_44": {
             "buffer": "phantom_assassin.bin",
-            "byteLength": 41826,
-            "byteOffset": 262020,
-            "target": 34963
+            "byteLength": 4096,
+            "byteOffset": 262020
         },
         "bufferView_45": {
             "buffer": "phantom_assassin.bin",
-            "byteLength": 4096,
-            "byteOffset": 303846
+            "byteLength": 41826,
+            "byteOffset": 266116,
+            "target": 34963
         }
     },
     "buffers": {
@@ -2516,7 +2516,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 0,
                 "count": 29,
                 "type": 5126
@@ -2573,7 +2573,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 1856,
                 "count": 19,
                 "type": 5126
@@ -2620,7 +2620,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 3072,
                 "count": 2,
                 "type": 5126
@@ -2650,7 +2650,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 3200,
                 "count": 3,
                 "type": 5126
@@ -2681,7 +2681,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 3392,
                 "count": 4,
                 "type": 5126
@@ -2713,7 +2713,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 3648,
                 "count": 6,
                 "type": 5126
@@ -2747,7 +2747,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 4032,
                 "count": 1,
                 "type": 5126

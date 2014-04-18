@@ -357,25 +357,25 @@
             "type": 35664
         },
         "indices_12": {
-            "bufferView": "bufferView_26",
+            "bufferView": "bufferView_27",
             "byteOffset": 25716,
             "count": 4488,
             "type": 5123
         },
         "indices_18": {
-            "bufferView": "bufferView_26",
+            "bufferView": "bufferView_27",
             "byteOffset": 34692,
             "count": 936,
             "type": 5123
         },
         "indices_24": {
-            "bufferView": "bufferView_26",
+            "bufferView": "bufferView_27",
             "byteOffset": 36564,
             "count": 2088,
             "type": 5123
         },
         "indices_6": {
-            "bufferView": "bufferView_26",
+            "bufferView": "bufferView_27",
             "byteOffset": 0,
             "count": 12858,
             "type": 5123
@@ -392,14 +392,14 @@
         },
         "bufferView_26": {
             "buffer": "nerubian_assassin.bin",
-            "byteLength": 40740,
-            "byteOffset": 232020,
-            "target": 34963
+            "byteLength": 6656,
+            "byteOffset": 232020
         },
         "bufferView_27": {
             "buffer": "nerubian_assassin.bin",
-            "byteLength": 6656,
-            "byteOffset": 272760
+            "byteLength": 40740,
+            "byteOffset": 238676,
+            "target": 34963
         }
     },
     "buffers": {
@@ -2447,7 +2447,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_27",
+                "bufferView": "bufferView_26",
                 "byteOffset": 0,
                 "count": 52,
                 "type": 5126
@@ -2527,7 +2527,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_27",
+                "bufferView": "bufferView_26",
                 "byteOffset": 3328,
                 "count": 43,
                 "type": 5126
@@ -2598,7 +2598,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_27",
+                "bufferView": "bufferView_26",
                 "byteOffset": 6080,
                 "count": 2,
                 "type": 5126
@@ -2628,7 +2628,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_27",
+                "bufferView": "bufferView_26",
                 "byteOffset": 6208,
                 "count": 7,
                 "type": 5126

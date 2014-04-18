@@ -129,9 +129,7 @@
         var heroRootPath = "heroes/" + heroName + "/";
         var materials = {};
 
-        if (heroRootNode) {
-            renderer.disposeNode(heroRootNode);
-        }
+        renderer.disposeNode(heroRootNode);
         $http.get(getResourcePath(heroRootPath + 'materials.json'))
         .then(function(result) {
             materials = result.data;
@@ -166,9 +164,7 @@
                 for (var i = 0; i < children.length; i++) {
                     heroRootNode.add(children[i]);
                 }
-                for (var name in res.skeletons) {
-                    res.skeletons[name].updateJointMatrices();
-                }
+                heroRootNode.update(true);
                 var meshes = [];
                 heroRootNode.traverse(function(node) {
                     if (node.geometry) {
@@ -264,7 +260,7 @@
                                     });
                                     skinningClip.addJointClip(jointClip);
                                 }
-
+                                animation.removeClipsAll();
                                 animation.addClip(skinningClip);
                                 for (var name in res.skeletons) {
                                     res.skeletons[name].addClip(skinningClip);

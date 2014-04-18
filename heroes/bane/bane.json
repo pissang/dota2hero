@@ -268,19 +268,19 @@
             "type": 35664
         },
         "indices_12": {
-            "bufferView": "bufferView_20",
+            "bufferView": "bufferView_21",
             "byteOffset": 8556,
             "count": 330,
             "type": 5123
         },
         "indices_18": {
-            "bufferView": "bufferView_20",
+            "bufferView": "bufferView_21",
             "byteOffset": 9216,
             "count": 8397,
             "type": 5123
         },
         "indices_6": {
-            "bufferView": "bufferView_20",
+            "bufferView": "bufferView_21",
             "byteOffset": 0,
             "count": 4278,
             "type": 5123
@@ -297,14 +297,14 @@
         },
         "bufferView_20": {
             "buffer": "bane.bin",
-            "byteLength": 26010,
-            "byteOffset": 136860,
-            "target": 34963
+            "byteLength": 4352,
+            "byteOffset": 136860
         },
         "bufferView_21": {
             "buffer": "bane.bin",
-            "byteLength": 4352,
-            "byteOffset": 162870
+            "byteLength": 26010,
+            "byteOffset": 141212,
+            "target": 34963
         }
     },
     "buffers": {
@@ -2544,7 +2544,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_21",
+                "bufferView": "bufferView_20",
                 "byteOffset": 0,
                 "count": 6,
                 "type": 5126
@@ -2578,7 +2578,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_21",
+                "bufferView": "bufferView_20",
                 "byteOffset": 384,
                 "count": 9,
                 "type": 5126
@@ -2615,7 +2615,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_21",
+                "bufferView": "bufferView_20",
                 "byteOffset": 960,
                 "count": 53,
                 "type": 5126

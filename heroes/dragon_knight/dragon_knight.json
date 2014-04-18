@@ -624,43 +624,43 @@
             "type": 35664
         },
         "indices_12": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 23844,
             "count": 1128,
             "type": 5123
         },
         "indices_18": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 26100,
             "count": 2400,
             "type": 5123
         },
         "indices_24": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 30900,
             "count": 726,
             "type": 5123
         },
         "indices_30": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 32352,
             "count": 3678,
             "type": 5123
         },
         "indices_36": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 39708,
             "count": 612,
             "type": 5123
         },
         "indices_42": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 40932,
             "count": 1128,
             "type": 5123
         },
         "indices_6": {
-            "bufferView": "bufferView_44",
+            "bufferView": "bufferView_45",
             "byteOffset": 0,
             "count": 11922,
             "type": 5123
@@ -677,14 +677,14 @@
         },
         "bufferView_44": {
             "buffer": "dragon_knight.bin",
-            "byteLength": 43188,
-            "byteOffset": 252420,
-            "target": 34963
+            "byteLength": 4288,
+            "byteOffset": 252420
         },
         "bufferView_45": {
             "buffer": "dragon_knight.bin",
-            "byteLength": 4288,
-            "byteOffset": 295608
+            "byteLength": 43188,
+            "byteOffset": 256708,
+            "target": 34963
         }
     },
     "buffers": {
@@ -2415,7 +2415,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 0,
                 "count": 40,
                 "type": 5126
@@ -2483,7 +2483,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 2560,
                 "count": 5,
                 "type": 5126
@@ -2516,7 +2516,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 2880,
                 "count": 5,
                 "type": 5126
@@ -2549,7 +2549,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 3200,
                 "count": 1,
                 "type": 5126
@@ -2578,7 +2578,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 3264,
                 "count": 9,
                 "type": 5126
@@ -2615,7 +2615,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 3840,
                 "count": 6,
                 "type": 5126
@@ -2649,7 +2649,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_45",
+                "bufferView": "bufferView_44",
                 "byteOffset": 4224,
                 "count": 1,
                 "type": 5126

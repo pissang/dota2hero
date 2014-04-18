@@ -90,7 +90,7 @@
             "type": 35665
         },
         "indices_6": {
-            "bufferView": "bufferView_8",
+            "bufferView": "bufferView_9",
             "byteOffset": 0,
             "count": 12960,
             "type": 5123
@@ -107,14 +107,14 @@
         },
         "bufferView_8": {
             "buffer": "tiny_01.bin",
-            "byteLength": 25920,
-            "byteOffset": 132480,
-            "target": 34963
+            "byteLength": 1728,
+            "byteOffset": 132480
         },
         "bufferView_9": {
             "buffer": "tiny_01.bin",
-            "byteLength": 1728,
-            "byteOffset": 158400
+            "byteLength": 25920,
+            "byteOffset": 134208,
+            "target": 34963
         }
     },
     "buffers": {
@@ -1281,7 +1281,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_9",
+                "bufferView": "bufferView_8",
                 "byteOffset": 0,
                 "count": 27,
                 "type": 5126

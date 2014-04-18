@@ -90,7 +90,7 @@
             "type": 35665
         },
         "indices_6": {
-            "bufferView": "bufferView_8",
+            "bufferView": "bufferView_9",
             "byteOffset": 0,
             "count": 7422,
             "type": 5123
@@ -107,14 +107,14 @@
         },
         "bufferView_8": {
             "buffer": "morphling.bin",
-            "byteLength": 14844,
-            "byteOffset": 74760,
-            "target": 34963
+            "byteLength": 2944,
+            "byteOffset": 74760
         },
         "bufferView_9": {
             "buffer": "morphling.bin",
-            "byteLength": 2944,
-            "byteOffset": 89604
+            "byteLength": 14844,
+            "byteOffset": 77704,
+            "target": 34963
         }
     },
     "buffers": {
@@ -1382,7 +1382,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_9",
+                "bufferView": "bufferView_8",
                 "byteOffset": 0,
                 "count": 46,
                 "type": 5126

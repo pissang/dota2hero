@@ -179,13 +179,13 @@
             "type": 35664
         },
         "indices_12": {
-            "bufferView": "bufferView_14",
+            "bufferView": "bufferView_15",
             "byteOffset": 19308,
             "count": 5028,
             "type": 5123
         },
         "indices_6": {
-            "bufferView": "bufferView_14",
+            "bufferView": "bufferView_15",
             "byteOffset": 0,
             "count": 9654,
             "type": 5123
@@ -202,14 +202,14 @@
         },
         "bufferView_14": {
             "buffer": "nevermore.bin",
-            "byteLength": 29364,
-            "byteOffset": 148620,
-            "target": 34963
+            "byteLength": 3392,
+            "byteOffset": 148620
         },
         "bufferView_15": {
             "buffer": "nevermore.bin",
-            "byteLength": 3392,
-            "byteOffset": 177984
+            "byteLength": 29364,
+            "byteOffset": 152012,
+            "target": 34963
         }
     },
     "buffers": {
@@ -1626,7 +1626,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_15",
+                "bufferView": "bufferView_14",
                 "byteOffset": 0,
                 "count": 33,
                 "type": 5126
@@ -1687,7 +1687,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_15",
+                "bufferView": "bufferView_14",
                 "byteOffset": 2112,
                 "count": 20,
                 "type": 5126

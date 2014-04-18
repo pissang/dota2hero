@@ -268,19 +268,19 @@
             "type": 35664
         },
         "indices_12": {
-            "bufferView": "bufferView_20",
+            "bufferView": "bufferView_21",
             "byteOffset": 3924,
             "count": 1620,
             "type": 5123
         },
         "indices_18": {
-            "bufferView": "bufferView_20",
+            "bufferView": "bufferView_21",
             "byteOffset": 7164,
             "count": 15036,
             "type": 5123
         },
         "indices_6": {
-            "bufferView": "bufferView_20",
+            "bufferView": "bufferView_21",
             "byteOffset": 0,
             "count": 1962,
             "type": 5123
@@ -297,14 +297,14 @@
         },
         "bufferView_20": {
             "buffer": "rattletrap.bin",
-            "byteLength": 37236,
-            "byteOffset": 193500,
-            "target": 34963
+            "byteLength": 3008,
+            "byteOffset": 193500
         },
         "bufferView_21": {
             "buffer": "rattletrap.bin",
-            "byteLength": 3008,
-            "byteOffset": 230736
+            "byteLength": 37236,
+            "byteOffset": 196508,
+            "target": 34963
         }
     },
     "buffers": {
@@ -1721,7 +1721,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_21",
+                "bufferView": "bufferView_20",
                 "byteOffset": 0,
                 "count": 4,
                 "type": 5126
@@ -1753,7 +1753,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_21",
+                "bufferView": "bufferView_20",
                 "byteOffset": 256,
                 "count": 1,
                 "type": 5126
@@ -1782,7 +1782,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_21",
+                "bufferView": "bufferView_20",
                 "byteOffset": 320,
                 "count": 42,
                 "type": 5126

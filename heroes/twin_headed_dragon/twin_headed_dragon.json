@@ -90,7 +90,7 @@
             "type": 35665
         },
         "indices_6": {
-            "bufferView": "bufferView_8",
+            "bufferView": "bufferView_9",
             "byteOffset": 0,
             "count": 16806,
             "type": 5123
@@ -107,14 +107,14 @@
         },
         "bufferView_8": {
             "buffer": "twin_headed_dragon.bin",
-            "byteLength": 33612,
-            "byteOffset": 169200,
-            "target": 34963
+            "byteLength": 3776,
+            "byteOffset": 169200
         },
         "bufferView_9": {
             "buffer": "twin_headed_dragon.bin",
-            "byteLength": 3776,
-            "byteOffset": 202812
+            "byteLength": 33612,
+            "byteOffset": 172976,
+            "target": 34963
         }
     },
     "buffers": {
@@ -1704,7 +1704,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_9",
+                "bufferView": "bufferView_8",
                 "byteOffset": 0,
                 "count": 59,
                 "type": 5126

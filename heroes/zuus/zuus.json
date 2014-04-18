@@ -90,7 +90,7 @@
             "type": 35665
         },
         "indices_6": {
-            "bufferView": "bufferView_8",
+            "bufferView": "bufferView_9",
             "byteOffset": 0,
             "count": 18168,
             "type": 5123
@@ -107,14 +107,14 @@
         },
         "bufferView_8": {
             "buffer": "zuus.bin",
-            "byteLength": 36336,
-            "byteOffset": 221520,
-            "target": 34963
+            "byteLength": 4800,
+            "byteOffset": 221520
         },
         "bufferView_9": {
             "buffer": "zuus.bin",
-            "byteLength": 4800,
-            "byteOffset": 257856
+            "byteLength": 36336,
+            "byteOffset": 226320,
+            "target": 34963
         }
     },
     "buffers": {
@@ -2101,7 +2101,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_9",
+                "bufferView": "bufferView_8",
                 "byteOffset": 0,
                 "count": 75,
                 "type": 5126

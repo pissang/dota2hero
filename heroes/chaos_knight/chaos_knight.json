@@ -713,49 +713,49 @@
             "type": 35664
         },
         "indices_12": {
-            "bufferView": "bufferView_50",
+            "bufferView": "bufferView_51",
             "byteOffset": 16068,
             "count": 1716,
             "type": 5123
         },
         "indices_18": {
-            "bufferView": "bufferView_50",
+            "bufferView": "bufferView_51",
             "byteOffset": 19500,
             "count": 4680,
             "type": 5123
         },
         "indices_24": {
-            "bufferView": "bufferView_50",
+            "bufferView": "bufferView_51",
             "byteOffset": 28860,
             "count": 2958,
             "type": 5123
         },
         "indices_30": {
-            "bufferView": "bufferView_50",
+            "bufferView": "bufferView_51",
             "byteOffset": 34776,
             "count": 1947,
             "type": 5123
         },
         "indices_36": {
-            "bufferView": "bufferView_50",
+            "bufferView": "bufferView_51",
             "byteOffset": 38670,
             "count": 9744,
             "type": 5123
         },
         "indices_42": {
-            "bufferView": "bufferView_50",
+            "bufferView": "bufferView_51",
             "byteOffset": 58158,
             "count": 972,
             "type": 5123
         },
         "indices_48": {
-            "bufferView": "bufferView_50",
+            "bufferView": "bufferView_51",
             "byteOffset": 60102,
             "count": 1731,
             "type": 5123
         },
         "indices_6": {
-            "bufferView": "bufferView_50",
+            "bufferView": "bufferView_51",
             "byteOffset": 0,
             "count": 8034,
             "type": 5123
@@ -772,14 +772,14 @@
         },
         "bufferView_50": {
             "buffer": "chaos_knight.bin",
-            "byteLength": 63564,
-            "byteOffset": 362400,
-            "target": 34963
+            "byteLength": 5120,
+            "byteOffset": 362400
         },
         "bufferView_51": {
             "buffer": "chaos_knight.bin",
-            "byteLength": 5120,
-            "byteOffset": 425964
+            "byteLength": 63564,
+            "byteOffset": 367520,
+            "target": 34963
         }
     },
     "buffers": {
@@ -2738,7 +2738,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_51",
+                "bufferView": "bufferView_50",
                 "byteOffset": 0,
                 "count": 25,
                 "type": 5126
@@ -2791,7 +2791,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_51",
+                "bufferView": "bufferView_50",
                 "byteOffset": 1600,
                 "count": 6,
                 "type": 5126
@@ -2825,7 +2825,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_51",
+                "bufferView": "bufferView_50",
                 "byteOffset": 1984,
                 "count": 12,
                 "type": 5126
@@ -2865,7 +2865,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_51",
+                "bufferView": "bufferView_50",
                 "byteOffset": 2752,
                 "count": 2,
                 "type": 5126
@@ -2895,7 +2895,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_51",
+                "bufferView": "bufferView_50",
                 "byteOffset": 2880,
                 "count": 1,
                 "type": 5126
@@ -2924,7 +2924,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_51",
+                "bufferView": "bufferView_50",
                 "byteOffset": 2944,
                 "count": 25,
                 "type": 5126
@@ -2977,7 +2977,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_51",
+                "bufferView": "bufferView_50",
                 "byteOffset": 4544,
                 "count": 1,
                 "type": 5126
@@ -3006,7 +3006,7 @@
                 1
             ],
             "inverseBindMatrices": {
-                "bufferView": "bufferView_51",
+                "bufferView": "bufferView_50",
                 "byteOffset": 4608,
                 "count": 8,
                 "type": 5126
