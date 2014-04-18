@@ -75,8 +75,8 @@
             });
             root.add(sphere);
 
-            var lineStart = new qtek.core.Vector3();
-            var lineEnd = new qtek.core.Vector3();
+            var lineStart = new qtek.math.Vector3();
+            var lineEnd = new qtek.math.Vector3();
             var lineGeo = new qtek3d.Geometry();
             var lineGeoVertices = lineGeo.attributes.position.value;
             lineGeoVertices.push(lineStart._array, lineEnd._array);

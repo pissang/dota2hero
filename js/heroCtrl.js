@@ -2,71 +2,62 @@
     
     'use strict';
 
-    var qtek3d = qtek['3d'];
     var heroLoader = new qtek.loader.GLTF();
 
     var app = angular.module("heroViewer");
 
     // Create camera
-    var camera = new qtek3d.camera.Perspective({
+    var camera = new qtek.camera.Perspective({
         aspect : window.innerWidth / window.innerHeight,
         far : 1000
     });
     camera.position.set(40, 10, 40);
-    camera.lookAt(new qtek.core.Vector3(0, 8, 0));
+    camera.lookAt(new qtek.math.Vector3(0, 8, 0));
     
     // Mouse control
-    var control = new qtek3d.plugin.OrbitControl({
+    var control = new qtek.plugin.OrbitControl({
         target : camera,
         domElement : document.getElementById("ViewPort"),
         sensitivity : 0.4,
-        minDistance : 40,
+        minDistance : 35,
         maxDistance : 70,
-        maxRollAngle : Math.PI / 4,
-        minRollAngle : -0.1
+        minPolarAngle : Math.PI / 4,
+        maxPolarAngle : Math.PI / 2
     });
     control.enable();
 
-    var shadowMapPass = new qtek3d.prePass.ShadowMap({
+    var shadowMapPass = new qtek.prePass.ShadowMap({
         useVSM : true
     });
 
     // Create scene
-    var scene = new qtek3d.Scene();
-    var heroRootNode = new qtek3d.Node();
+    var scene = new qtek.Scene();
+    var heroRootNode = new qtek.Node();
     heroRootNode.rotation.rotateX(-Math.PI/2);
     heroRootNode.scale.set(0.1, 0.1, 0.1);
     scene.add(heroRootNode);
-    var light = new qtek3d.light.Directional({
+    var light = new qtek.light.Directional({
         intensity : 0.7,
-        shadowCamera : {
-            left : -25,
-            right : 25,
-            top : 25,
-            bottom : -25,
-            near : 0,
-            far : 50,
-        },
         shadowResolution : 512,
         shadowBias : 0.02
     });
     light.position.set(10, 20, 5);
-    light.lookAt(new qtek.core.Vector3(0, 10, 0), new qtek.core.Vector3(0, 0, 1));
+    light.lookAt(new qtek.math.Vector3(0, 10, 0), new qtek.math.Vector3(0, 0, 1));
 
     scene.add(light);
-    scene.add(new qtek3d.light.Ambient({
+    scene.add(new qtek.light.Ambient({
         intensity : 0.2
     }));
 
     var rockLoader = new qtek.loader.GLTF();
     var heroFragShader;
     var rockNode;
-    rockLoader.on('load', function(_scene) {
-        rockNode = _scene.childAt(0);
+    rockLoader.once('success', function(res) {
+        rockNode = res.scene.childAt(0);
         rockNode.rotation.rotateX(-Math.PI/2);
         rockNode.position.set(-5, -3.2, 0);
         rockNode.scale.set(0.15, 0.15, 0.15);
-         var mat = rockNode.childAt(0).material;
+         var mat = rockNode.material;
         var shader = mat.shader;
         shader.setFragment(heroFragShader);
         // reattach
@@ -74,8 +65,8 @@
         shader.enableTexture('maskMap2');
         shader.enableTexture('diffuseMap');
         shader.define('vertex', 'IS_SPECULAR_MAP');
-        var specularTexture = new qtek3d.texture.Texture2D();
-        var diffuseTexture = new qtek3d.texture.Texture2D();
+        var specularTexture = new qtek.texture.Texture2D();
+        var diffuseTexture = new qtek.texture.Texture2D();
         specularTexture.load('assets/rock/textures/badside_rocks001_spec.png');
         diffuseTexture.load('assets/rock/textures/badside_rocks001.png');
         mat.set('maskMap2', specularTexture);
@@ -117,7 +108,7 @@
         }
         $scope.resetView = function() {
             camera.position.set(40, 10, 40);
-            camera.lookAt(new qtek.core.Vector3(0, 8, 0), new qtek.core.Vector3(0, 1, 0));
+            camera.lookAt(new qtek.math.Vector3(0, 8, 0), new qtek.math.Vector3(0, 1, 0));
         }
         $scope.config = config;
 
@@ -130,7 +121,7 @@
         if (rockNode) {
             rockNode.visible = true;
         } else {
-            rockLoader.on('load', function() {
+            rockLoader.once('success', function() {
                 rockNode.visible = true;
             });
         }
@@ -148,7 +139,9 @@
         })
         .then(function(result) {
             heroFragShader = result.data;
-            rockLoader.load('assets/rock/rock.json');
+            if (!rockNode) {
+                rockLoader.load('assets/rock/rock.json');
+            }
             return $http.get(getResourcePath(heroRootPath + heroName + ".json"));
         })
         .then(function(result) {
@@ -165,40 +158,46 @@
                 );
             }
 
-            heroLoader.parse(data, function(_scene, cameras, skeleton) {
-                var children = _scene.children();
+            heroLoader.parse(data);
+            heroLoader.success(function(res) {
+                var skeleton = res.skeleton;
+                var children = res.scene.children();
+                var animationPrepared = false;
                 for (var i = 0; i < children.length; i++) {
                     heroRootNode.add(children[i]);
+                }
+                for (var name in res.skeletons) {
+                    res.skeletons[name].updateJointMatrices();
                 }
                 var meshes = [];
                 heroRootNode.traverse(function(node) {
                     if (node.geometry) {
-                        node.geometry = node.geometry.convertToGeometry();
-                        node.geometry.generateTangents();
-                        meshes.push(node);
-                    }
-                    if (node.material && heroFragShader) {
-                        var mat = node.material;
-                        var shader = mat.shader;
-                        shader.setFragment(heroFragShader);
-                        // reattach
-                        mat.attachShader(shader);
-                        shader.enableTexturesAll();
-                        // shader.define('fragment', 'RENDER_TEXCOORD')
+                        if (node.geometry.getVertexNumber() > 0) {
+                            meshes.push(node);
+                            node.geometry.generateTangents();
+                        }
+                        if (node.material && heroFragShader) {
+                            var mat = node.material;
+                            var shader = mat.shader;
+                            shader.setFragment(heroFragShader);
+                            // reattach
+                            mat.attachShader(shader);
+                            shader.enableTexturesAll();
+                        }
                     }
                 });
                 for (var name in materials) {
                     var params = materials[name];
-                    var mat = qtek3d.Material.getMaterial(name);
-                    var Texture2D = qtek3d.texture.Texture2D;
+                    var mat = res.materials[name];
+                    var Texture2D = qtek.texture.Texture2D;
                     mat.shader.disableTexturesAll();
                     if (mat) {
                         ['diffuseMap', 'normalMap', 'maskMap1', 'maskMap2']
                             .forEach(function(name) {
                                 if (params[name] !== undefined) {
                                     var texture = new Texture2D({
-                                        wrapS : qtek3d.Texture.REPEAT,
-                                        wrapT : qtek3d.Texture.REPEAT
+                                        wrapS : qtek.Texture.REPEAT,
+                                        wrapT : qtek.Texture.REPEAT
                                     });
                                     texture.load(getResourcePath(params[name]));
                                     mat.set(name, texture);
@@ -219,54 +218,58 @@
                 }
                 for (var i = 0; i < meshes.length; i++) {
                     var mesh = meshes[i];
-                    var res = qtek3d.util.mesh.splitByJoints(mesh, 30, true);
+                    qtek.util.mesh.splitByJoints(mesh, 30, true);
                 }
 
-                var frame = 0;
-                var frameLen = 0;
                 animation.off('frame');
                 animation.on('frame', function(deltaTime) {
-                    var start = new Date().getTime();
-                    // // 30fps
-                    frame += deltaTime / 1000 * 30;
-                    if (frameLen) {
-                        skeleton.setPose(frame % frameLen);
+                    control.update(deltaTime);
+                    if (animationPrepared) {
+                        for (var name in res.skeletons) {
+                            res.skeletons[name].setPose(0);
+                        }
                     }
+                    var start = new Date().getTime();
                     if (config.shadow.enabled) {
-                        shadowMapPass.render(renderer, scene);
+                        shadowMapPass.render(renderer, scene, camera);
                     }
                     background.render(renderer);
                     camera.aspect = renderer.canvas.width / renderer.canvas.height;
+
                     $scope.log = renderer.render(scene, camera);
                     var end = new Date().getTime();
                     $scope.log.frameTime = (end-start).toFixed(1) + 'ms';
                     $scope.log.fps = parseInt(1000 / deltaTime);
                 });
+
                 setInterval(function() {
                     $scope.$digest();
                 }, 500);
+
+
                 // Loading animations
-                var joints = {};
-                for (var i = 0; i < skeleton.joints.length; i++) {
-                    joints[skeleton.joints[i].name] = skeleton.joints[i];
-                }
                 $http.get(getResourcePath(heroRootPath + 'animations.json'))
                     .success(function(animations) {
                         var defaultAnim = animations['default'] || animations['idle'][0];
-
                         $http.get(getResourcePath(defaultAnim.path))
                             .success(function(data) {
                                 var frames = SMDParser(data);
+                                var skinningClip = new qtek.animation.SkinningClip();
+                                skinningClip.setLoop(true);
+
                                 for (var name in frames) {
-                                    if (joints[name]) {
-                                        joints[name].poses = frames[name];
-                                        if (defaultAnim.frameLength) {
-                                            frameLen = defaultAnim.frameLength;
-                                        } else {
-                                            frameLen = frames[name].length;
-                                        }
-                                    }
+                                    var jointClip = new qtek.animation.TransformClip({
+                                        name: name,
+                                        keyFrames: frames[name]
+                                    });
+                                    skinningClip.addJointClip(jointClip);
                                 }
+
+                                animation.addClip(skinningClip);
+                                for (var name in res.skeletons) {
+                                    res.skeletons[name].addClip(skinningClip);
+                                }
+                                animationPrepared = true;
                             });
                     });
                 // http://stackoverflow.com/questions/17039998/angular-not-making-http-requests-immediately

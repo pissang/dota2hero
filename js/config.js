@@ -2,8 +2,7 @@
 
     'use strict';
 
-    var qtek3d = qtek['3d'];
-    var Shader = qtek3d.Shader;
+    var Shader = qtek.Shader;
     var app = angular.module("heroViewer");
     
     app.provider("config", function() {

@@ -91,10 +91,14 @@ glob(pattern, function(err, pathList) {
                 }
             });
             // Converting fbx to gltf
-            var fbxPath = dir + '/' + heroName + '.fbx';
-            var py = spawn('python3.2', ['../../qtek/tools/fbx2gltf.py', fbxPath]);
+            var fbxPath = dir + '/' + heroName + '.FBX';
+            var py = spawn('python3.3', ['../qtek/tools/fbx2gltf.py', fbxPath]);
             py.on('close', afterCloseConvert);
             py.stdout.setEncoding('utf-8');
+            py.stderr.setEncoding('utf-8');
+            py.stderr.on('data', function(data) {
+                console.error(data);
+            });
             py.stdout.on('data', function(data) {
                 console.log(data);
             });
@@ -115,10 +119,7 @@ glob(pattern, function(err, pathList) {
             // find material file
             for (var matName in gltf.materials) {
                 var values = gltf.materials[matName].instanceTechnique.values;
-                var diffuseValue = values.filter(function(item) {
-                    return item.parameter === 'diffuse';
-                })[0];
-                var diffuseTextureName = diffuseValue.value;
+                var diffuseTextureName = values.diffuse;
                 try{
                     var diffuseTexture = gltf.textures[diffuseTextureName];
                     var imageName = diffuseTexture.source;

@@ -40,15 +40,15 @@
                 }
                 var jointFrames = frames[idx];
                 var frame = {
-                    time : currentFrame,
-                    position : new qtek.core.Vector3(
+                    time : currentFrame * 30,
+                    position : new Float32Array([
                         parseFloat(items[1]),
                         parseFloat(items[2]),
                         parseFloat(items[3])
-                    ),
-                    scale : new qtek.core.Vector3(1, 1, 1)
+                    ]),
+                    scale : new Float32Array([1, 1, 1])
                 }
-                var quat = new qtek.core.Quaternion();
+                var quat = new qtek.math.Quaternion();
                 // Fuck, why z first ????
                 quat.rotateZ(parseFloat(items[6]));
                 quat.rotateY(parseFloat(items[5]));
@@ -61,7 +61,7 @@
                 //     mat4.decomposeMatrix(frame.scale, quat, frame.position);
                 // }
 
-                frame.rotation = quat;
+                frame.rotation = quat._array;
                 jointFrames.push(frame);
             }
         }

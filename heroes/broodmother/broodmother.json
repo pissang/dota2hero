@@ -1,365 +1,410 @@
 {
-    "animations": {},
-    "asset": {},
-    "attributes": {
-        "attribute_1": {
+    "accessors": {
+        "attrbute_1": {
             "bufferView": "bufferView_25",
             "byteOffset": 0,
             "byteStride": 12,
             "count": 1503,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                38.40520477294922,
+                43.163970947265625,
+                72.68240356445312,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -38.40520095825195,
+                -57.4154052734375,
+                10.187399864196777,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_10": {
+        "attrbute_10": {
             "bufferView": "bufferView_25",
             "byteOffset": 114148,
             "byteStride": 16,
             "count": 749,
             "max": [
-                1,
-                1,
-                1
+                2,
+                4,
+                4,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_11": {
+        "attrbute_11": {
             "bufferView": "bufferView_25",
             "byteOffset": 126132,
             "byteStride": 12,
             "count": 749,
             "max": [
                 1,
-                1,
-                1
+                0.9973927140235901,
+                0.6161280870437622
             ],
             "min": [
-                0,
+                0.00028265692526474595,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_13": {
+        "attrbute_13": {
             "bufferView": "bufferView_25",
             "byteOffset": 135120,
             "byteStride": 12,
             "count": 30,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                8.495055198669434,
+                6.732170104980469,
+                87.85169982910156,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -8.495064735412598,
+                -24.21450424194336,
+                65.07160186767578,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_14": {
+        "attrbute_14": {
             "bufferView": "bufferView_25",
             "byteOffset": 135480,
             "byteStride": 12,
             "count": 30,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.8774174451828003,
+                0.7942507863044739,
+                0.6741516590118408,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.8774172067642212,
+                -0.6363285183906555,
+                -0.692876398563385,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_15": {
+        "attrbute_15": {
             "bufferView": "bufferView_25",
             "byteOffset": 135840,
             "byteStride": 8,
             "count": 30,
             "max": [
-                1,
-                1,
-                1
+                0.990582287311554,
+                0.9854129552841187
             ],
             "min": [
-                0,
-                0,
-                0
+                0.011075049638748169,
+                0.13767069578170776
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
         },
-        "attribute_16": {
+        "attrbute_16": {
             "bufferView": "bufferView_25",
             "byteOffset": 136080,
             "byteStride": 16,
             "count": 30,
             "max": [
-                1,
-                1,
-                1
+                0,
+                -1,
+                -1,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_17": {
+        "attrbute_17": {
             "bufferView": "bufferView_25",
             "byteOffset": 136560,
             "byteStride": 12,
             "count": 30,
             "max": [
                 1,
-                1,
-                1
-            ],
-            "min": [
-                0,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                1,
+                0,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_19": {
+        "attrbute_19": {
             "bufferView": "bufferView_25",
             "byteOffset": 136920,
             "byteStride": 12,
             "count": 956,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                113.03679656982422,
+                132.76268005371094,
+                132.59071350097656,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -113.07872009277344,
+                -129.69842529296875,
+                -2.205350637435913,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_2": {
+        "attrbute_2": {
             "bufferView": "bufferView_25",
             "byteOffset": 18036,
             "byteStride": 12,
             "count": 1503,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.9989924430847168,
+                0.9915660619735718,
+                0.9841961860656738,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.9989924430847168,
+                -0.9994050860404968,
+                -0.9974170923233032,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_20": {
+        "attrbute_20": {
             "bufferView": "bufferView_25",
             "byteOffset": 148392,
             "byteStride": 12,
             "count": 956,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.9998095631599426,
+                0.9999428987503052,
+                0.9338126182556152,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.9994467496871948,
+                -0.9979653358459473,
+                -0.9991474747657776,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_21": {
+        "attrbute_21": {
             "bufferView": "bufferView_25",
             "byteOffset": 159864,
             "byteStride": 8,
             "count": 956,
             "max": [
-                1,
-                1,
-                1
+                0.9903835654258728,
+                0.9840900301933289
             ],
             "min": [
-                0,
-                0,
-                0
+                0.006764675490558147,
+                0.026402771472930908
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
         },
-        "attribute_22": {
+        "attrbute_22": {
             "bufferView": "bufferView_25",
             "byteOffset": 167512,
             "byteStride": 16,
             "count": 956,
             "max": [
-                1,
-                1,
-                1
+                33,
+                33,
+                32,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_23": {
+        "attrbute_23": {
             "bufferView": "bufferView_25",
             "byteOffset": 182808,
             "byteStride": 12,
             "count": 956,
             "max": [
                 1,
-                1,
-                1
+                0.8890735507011414,
+                0.6613573431968689
             ],
             "min": [
-                0,
+                0.11092644929885864,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_3": {
+        "attrbute_3": {
             "bufferView": "bufferView_25",
             "byteOffset": 36072,
             "byteStride": 8,
             "count": 1503,
             "max": [
-                1,
-                1,
-                1
+                0.9961609840393066,
+                0.9915800094604492
             ],
             "min": [
-                0,
-                0,
-                0
+                0.028984999284148216,
+                0.0261499285697937
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
         },
-        "attribute_4": {
+        "attrbute_4": {
             "bufferView": "bufferView_25",
             "byteOffset": 48096,
             "byteStride": 16,
             "count": 1503,
             "max": [
-                1,
-                1,
-                1
+                27,
+                29,
+                29,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_5": {
+        "attrbute_5": {
             "bufferView": "bufferView_25",
             "byteOffset": 72144,
             "byteStride": 12,
             "count": 1503,
             "max": [
                 1,
-                1,
-                1
+                0.9998637437820435,
+                0.9996992349624634
             ],
             "min": [
-                0,
+                0.00010041753557743505,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_7": {
+        "attrbute_7": {
             "bufferView": "bufferView_25",
             "byteOffset": 90180,
             "byteStride": 12,
             "count": 749,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                23.217464447021484,
+                105.61250305175781,
+                104.9426498413086,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -24.36576271057129,
+                23.942882537841797,
+                27.47273826599121,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_8": {
+        "attrbute_8": {
             "bufferView": "bufferView_25",
             "byteOffset": 99168,
             "byteStride": 12,
             "count": 749,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.9961062073707581,
+                0.9521793127059937,
+                0.9992973208427429,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.9991527795791626,
+                -0.9999313950538635,
+                -0.9811509251594543,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_9": {
+        "attrbute_9": {
             "bufferView": "bufferView_25",
             "byteOffset": 108156,
             "byteStride": 8,
             "count": 749,
             "max": [
-                1,
-                1,
-                1
+                0.9861866235733032,
+                0.9851261377334595
             ],
             "min": [
-                0,
-                0,
-                0
+                0.05277404934167862,
+                0.026310980319976807
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
+        },
+        "indices_12": {
+            "bufferView": "bufferView_26",
+            "byteOffset": 17760,
+            "count": 3318,
+            "type": 5123
+        },
+        "indices_18": {
+            "bufferView": "bufferView_26",
+            "byteOffset": 24396,
+            "count": 144,
+            "type": 5123
+        },
+        "indices_24": {
+            "bufferView": "bufferView_26",
+            "byteOffset": 24684,
+            "count": 5640,
+            "type": 5123
+        },
+        "indices_6": {
+            "bufferView": "bufferView_26",
+            "byteOffset": 0,
+            "count": 8880,
+            "type": 5123
         }
     },
+    "animations": {},
+    "asset": {},
     "bufferViews": {
         "bufferView_25": {
             "buffer": "broodmother.bin",
             "byteLength": 194280,
             "byteOffset": 0,
-            "target": "ARRAY_BUFFER"
+            "target": 34962
         },
         "bufferView_26": {
             "buffer": "broodmother.bin",
             "byteLength": 35964,
             "byteOffset": 194280,
-            "target": "ELEMENT_ARRAY_BUFFER"
+            "target": 34963
+        },
+        "bufferView_27": {
+            "buffer": "broodmother.bin",
+            "byteLength": 4480,
+            "byteOffset": 230244
         }
     },
     "buffers": {
         "broodmother.bin": {
-            "byteLength": 230244,
+            "byteLength": 234724,
             "path": "broodmother.bin"
         }
     },
@@ -378,191 +423,109 @@
             "path": "textures/broodmother_legs.png"
         }
     },
-    "indices": {
-        "indices_12": {
-            "bufferView": "bufferView_26",
-            "byteOffset": 17760,
-            "count": 3318,
-            "type": "UNSIGNED_SHORT"
-        },
-        "indices_18": {
-            "bufferView": "bufferView_26",
-            "byteOffset": 24396,
-            "count": 144,
-            "type": "UNSIGNED_SHORT"
-        },
-        "indices_24": {
-            "bufferView": "bufferView_26",
-            "byteOffset": 24684,
-            "count": 5640,
-            "type": "UNSIGNED_SHORT"
-        },
-        "indices_6": {
-            "bufferView": "bufferView_26",
-            "byteOffset": 0,
-            "count": 8880,
-            "type": "UNSIGNED_SHORT"
-        }
-    },
     "lights": {},
     "materials": {
         "Material #35": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #5"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #5",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #35"
         },
         "Material #46": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #6"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #6",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #46"
         },
         "Material #57": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #7"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #7",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #57"
         },
         "Material #68": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #8"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #8",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #68"
         }
@@ -572,16 +535,15 @@
             "name": "broodmother_abdomen_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_12",
-                    "material": "Material #46",
-                    "semantics": {
-                        "JOINT": "attribute_10",
-                        "NORMAL": "attribute_8",
-                        "POSITION": "attribute_7",
-                        "TEXCOORD_0": "attribute_9",
-                        "WEIGHT": "attribute_11"
+                    "attributes": {
+                        "JOINT": "attrbute_10",
+                        "NORMAL": "attrbute_8",
+                        "POSITION": "attrbute_7",
+                        "TEXCOORD_0": "attrbute_9",
+                        "WEIGHT": "attrbute_11"
                     },
-                    "skin": "skin_1"
+                    "indices": "indices_12",
+                    "material": "Material #46"
                 }
             ]
         },
@@ -589,16 +551,15 @@
             "name": "broodmother_hair_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_18",
-                    "material": "Material #57",
-                    "semantics": {
-                        "JOINT": "attribute_16",
-                        "NORMAL": "attribute_14",
-                        "POSITION": "attribute_13",
-                        "TEXCOORD_0": "attribute_15",
-                        "WEIGHT": "attribute_17"
+                    "attributes": {
+                        "JOINT": "attrbute_16",
+                        "NORMAL": "attrbute_14",
+                        "POSITION": "attrbute_13",
+                        "TEXCOORD_0": "attrbute_15",
+                        "WEIGHT": "attrbute_17"
                     },
-                    "skin": "skin_2"
+                    "indices": "indices_18",
+                    "material": "Material #57"
                 }
             ]
         },
@@ -606,16 +567,15 @@
             "name": "broodmother_legs_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_24",
-                    "material": "Material #68",
-                    "semantics": {
-                        "JOINT": "attribute_22",
-                        "NORMAL": "attribute_20",
-                        "POSITION": "attribute_19",
-                        "TEXCOORD_0": "attribute_21",
-                        "WEIGHT": "attribute_23"
+                    "attributes": {
+                        "JOINT": "attrbute_22",
+                        "NORMAL": "attrbute_20",
+                        "POSITION": "attrbute_19",
+                        "TEXCOORD_0": "attrbute_21",
+                        "WEIGHT": "attrbute_23"
                     },
-                    "skin": "skin_3"
+                    "indices": "indices_24",
+                    "material": "Material #68"
                 }
             ]
         },
@@ -623,16 +583,15 @@
             "name": "broodmother_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_6",
-                    "material": "Material #35",
-                    "semantics": {
-                        "JOINT": "attribute_4",
-                        "NORMAL": "attribute_2",
-                        "POSITION": "attribute_1",
-                        "TEXCOORD_0": "attribute_3",
-                        "WEIGHT": "attribute_5"
+                    "attributes": {
+                        "JOINT": "attrbute_4",
+                        "NORMAL": "attrbute_2",
+                        "POSITION": "attrbute_1",
+                        "TEXCOORD_0": "attrbute_3",
+                        "WEIGHT": "attrbute_5"
                     },
-                    "skin": "skin_0"
+                    "indices": "indices_6",
+                    "material": "Material #35"
                 }
             ]
         }
@@ -642,18 +601,19 @@
             "children": [
                 "SimpleBugLeg_1_A_L"
             ],
+            "jointId": "SimpleBugLeg_0_A_L",
             "matrix": [
-                0.8329474925994876,
-                0.5485212802886966,
-                -0.072959341108799,
+                0.8329474925994874,
+                0.5485212802886967,
+                -0.07295934110879901,
                 0,
-                -0.2605631954374874,
+                -0.26056319543748735,
                 0.272477818977374,
-                -0.9262087233881934,
+                -0.9262087233881935,
                 0,
-                -0.48816532562789355,
-                0.7904936443318237,
-                0.36988412289743694,
+                -0.4881653256278935,
+                0.7904936443318236,
+                0.36988412289743683,
                 0,
                 17.981016159057617,
                 0.000010490417484021464,
@@ -666,6 +626,7 @@
             "children": [
                 "SimpleBugLeg_1_A_R"
             ],
+            "jointId": "SimpleBugLeg_0_A_R",
             "matrix": [
                 0.8329473733901972,
                 0.5485209226608272,
@@ -690,6 +651,7 @@
             "children": [
                 "SimpleBugLeg_1_B_L"
             ],
+            "jointId": "SimpleBugLeg_0_B_L",
             "matrix": [
                 0.8055098652839661,
                 0.5921783447265627,
@@ -714,18 +676,19 @@
             "children": [
                 "SimpleBugLeg_1_B_R"
             ],
+            "jointId": "SimpleBugLeg_0_B_R",
             "matrix": [
-                0.8055095672607419,
-                0.5921783447265623,
-                -0.021888203918933837,
+                0.8055095672607422,
+                0.5921783447265628,
+                -0.021888203918933865,
                 0,
-                -0.08915395467165768,
-                0.08458951647278598,
-                -0.9924196467434095,
+                -0.08915395467165764,
+                0.084589516472786,
+                -0.9924196467434098,
                 0,
                 -0.5858377207575192,
-                0.801354679768587,
-                0.12093266682095656,
+                0.8013546797685871,
+                0.12093266682095648,
                 0,
                 -12.623592376708984,
                 -0.000002861022950995107,
@@ -738,6 +701,7 @@
             "children": [
                 "SimpleBugLeg_1_C_L"
             ],
+            "jointId": "SimpleBugLeg_0_C_L",
             "matrix": [
                 0.8290906548500062,
                 0.2946711480617521,
@@ -762,17 +726,18 @@
             "children": [
                 "SimpleBugLeg_1_C_R"
             ],
+            "jointId": "SimpleBugLeg_0_C_R",
             "matrix": [
-                0.8290904760360716,
-                0.2946715652942656,
-                0.47516086697578436,
+                0.8290904760360718,
+                0.2946715652942657,
+                0.4751608669757843,
                 0,
-                0.25857833067997515,
+                0.2585783306799752,
                 -0.9555820922265614,
-                0.14142166217345814,
+                0.14142166217345817,
                 0,
                 0.4957282514746756,
-                0.005614951632961718,
+                0.005614951632961773,
                 -0.8684598570013026,
                 0,
                 -10.981185913085945,
@@ -786,18 +751,19 @@
             "children": [
                 "SimpleBugLeg_1_L"
             ],
+            "jointId": "SimpleBugLeg_0_L",
             "matrix": [
-                0.7514654397964479,
+                0.751465439796448,
                 0.6328256726264956,
-                -0.18663263320922852,
+                -0.18663263320922854,
                 0,
-                -0.6068264138268542,
-                0.551902823206294,
+                -0.6068264138268543,
+                0.5519028232062941,
                 -0.5719835850295178,
                 0,
-                -0.25896283680344956,
-                0.5430795435426048,
-                0.7987512838415424,
+                -0.2589628368034495,
+                0.543079543542605,
+                0.7987512838415426,
                 0,
                 22.625392913818366,
                 -0.0000019073486328125,
@@ -810,6 +776,7 @@
             "children": [
                 "SimpleBugLeg_1_R"
             ],
+            "jointId": "SimpleBugLeg_0_R",
             "matrix": [
                 0.7514653205871582,
                 0.6328257918357849,
@@ -834,22 +801,23 @@
             "children": [
                 "SimpleBugLeg_2_A_L"
             ],
+            "jointId": "SimpleBugLeg_1_A_L",
             "matrix": [
-                -0.393733948469162,
-                2.1234154685967344e-7,
-                -0.9192246198654175,
+                -0.39373394846916193,
+                2.123415469082457e-7,
+                -0.9192246198654177,
                 0,
-                -4.340927995533095e-8,
+                -4.3409279934514267e-8,
                 1.0000001192092884,
-                2.495943586984517e-7,
+                2.4959435881988234e-7,
                 0,
-                0.9192245622821226,
-                1.3817662616877335e-7,
+                0.9192245622821228,
+                1.3817662612714e-7,
                 -0.3937339238043227,
                 0,
-                83.38020324707031,
-                -0.000006198883054864268,
-                -0.0000209808349609375,
+                83.38020324707033,
+                -0.000006198883056640625,
+                -0.000020980834964490214,
                 1
             ],
             "name": "SimpleBugLeg_1_A_L"
@@ -858,6 +826,7 @@
             "children": [
                 "SimpleBugLeg_2_A_R"
             ],
+            "jointId": "SimpleBugLeg_1_A_R",
             "matrix": [
                 -0.39373341202735906,
                 -8.083879948841965e-7,
@@ -882,17 +851,18 @@
             "children": [
                 "SimpleBugLeg_2_B_L"
             ],
+            "jointId": "SimpleBugLeg_1_B_L",
             "matrix": [
-                -0.1542435586452487,
-                2.048909666756138e-8,
-                -0.9880326986312868,
+                -0.15424355864524858,
+                2.0489096723939892e-8,
+                -0.988032698631287,
                 0,
-                7.980164711506033e-7,
-                0.9999996423719189,
-                -1.0384252579348496e-7,
+                7.980164711662158e-7,
+                0.9999996423719186,
+                -1.0384252581516901e-7,
                 0,
                 0.9880326850056773,
-                -8.044836849220582e-7,
+                -8.044836849064457e-7,
                 -0.15424355651814703,
                 0,
                 79.55189514160156,
@@ -906,21 +876,22 @@
             "children": [
                 "SimpleBugLeg_2_B_R"
             ],
+            "jointId": "SimpleBugLeg_1_B_R",
             "matrix": [
-                -0.15424343943595842,
-                -1.066364347570431e-7,
+                -0.1542434394359582,
+                -1.0663643466336803e-7,
                 -0.9880326986312866,
                 0,
-                -6.167796054341868e-7,
-                0.9999998211860873,
-                -1.1641525578601208e-8,
+                -6.16779605451534e-7,
+                0.9999998211860874,
+                -1.1641525606356784e-8,
                 0,
-                0.9880327122567016,
-                6.076029060962662e-7,
+                0.9880327122567015,
+                6.076029061396343e-7,
                 -0.15424344156311043,
                 0,
                 -79.55192565917969,
-                0.000007271766662597656,
+                0.000007271766662153567,
                 0.0000038146972514141453,
                 1
             ],
@@ -930,16 +901,17 @@
             "children": [
                 "SimpleBugLeg_2_C_L"
             ],
+            "jointId": "SimpleBugLeg_1_C_L",
             "matrix": [
-                0.5715518593788148,
-                7.450580602474943e-8,
-                -0.8205658197402951,
+                0.5715518593788147,
+                7.450580596923828e-8,
+                -0.820565819740295,
                 0,
-                -2.3390494485742153e-8,
-                1.0000000000000104,
-                7.450581543388957e-8,
+                -2.3390494430231e-8,
+                1.0000000000000107,
+                7.450581529511169e-8,
                 0,
-                0.820566008228642,
+                0.8205660082286421,
                 -2.3390502368325627e-8,
                 0.5715519906673239,
                 0,
@@ -954,22 +926,23 @@
             "children": [
                 "SimpleBugLeg_2_C_R"
             ],
+            "jointId": "SimpleBugLeg_1_C_R",
             "matrix": [
-                0.5715522766113279,
-                -2.980232239047087e-7,
-                -0.8205655217170711,
+                0.571552276611328,
+                -2.980232239185865e-7,
+                -0.8205655217170714,
                 0,
-                2.0052845095541727e-7,
-                0.999999880790701,
-                -2.2351742884341164e-7,
+                2.0052845112195072e-7,
+                0.9999998807907007,
+                -2.2351742870463376e-7,
                 0,
-                0.8205655618505368,
-                -3.679484383845022e-8,
+                0.8205655618505365,
+                -3.6794844060494825e-8,
                 0.5715523045656885,
                 0,
-                -41.448570251464844,
+                -41.44857025146483,
                 0.000007629394527697286,
-                -0.000014305114753199177,
+                -0.00001430511474609375,
                 1
             ],
             "name": "SimpleBugLeg_1_C_R"
@@ -978,21 +951,22 @@
             "children": [
                 "SimpleBugLeg_2_L"
             ],
+            "jointId": "SimpleBugLeg_1_L",
             "matrix": [
                 -0.08845788240432689,
-                -5.2154064247855736e-8,
+                -5.2154064261733524e-8,
                 -0.9960799217224123,
                 0,
-                0.0000012980969874010206,
-                1.0000000000035982,
-                -1.6763812946823942e-7,
+                0.000001298096987373265,
+                1.0000000000035985,
+                -1.6763812953068946e-7,
                 0,
-                0.9960799782387318,
-                -0.0000013078373336250504,
-                -0.08845788742324717,
+                0.9960799782387317,
+                -0.0000013078373336805615,
+                -0.08845788742324723,
                 0,
                 73.70118713378906,
-                0.000013351440440345641,
+                0.000013351440426134786,
                 -0.0000152587890625,
                 1
             ],
@@ -1002,18 +976,19 @@
             "children": [
                 "SimpleBugLeg_2_R"
             ],
+            "jointId": "SimpleBugLeg_1_R",
             "matrix": [
                 -0.08845773339271529,
-                5.587935444223424e-8,
-                -0.9960798621177673,
+                5.5879354449173135e-8,
+                -0.9960798621177671,
                 0,
-                -9.203946060576396e-7,
+                -9.203946060853951e-7,
                 0.999999821185966,
-                1.3783570015912794e-7,
+                1.3783570015218904e-7,
                 0,
-                0.996079566426359,
-                9.2897905631939e-7,
-                -0.08845770713353202,
+                0.9960795664263589,
+                9.289790561806122e-7,
+                -0.0884577071335319,
                 0,
                 -73.7011947631836,
                 0.0000019073486257070726,
@@ -1026,21 +1001,22 @@
             "children": [
                 "SimpleBugLeg_3_A_L"
             ],
+            "jointId": "SimpleBugLeg_2_A_L",
             "matrix": [
-                0.8039320707321169,
-                0.017650455236434978,
-                -0.5944589376449586,
+                0.8039320707321168,
+                0.017650455236435013,
+                -0.5944589376449587,
                 0,
-                4.098703903984702e-7,
-                0.9995594620700975,
-                0.029679104698586006,
+                4.0987039044010354e-7,
+                0.9995594620700977,
+                0.029679104698586076,
                 0,
                 0.5947210816160041,
-                -0.023860234808926704,
-                0.8035781386980784,
+                -0.023860234808926614,
+                0.8035781386980783,
                 0,
                 51.905075073242195,
-                0.00001573562621803859,
+                0.000015735626216262233,
                 0.0000152587890625,
                 1
             ],
@@ -1050,18 +1026,19 @@
             "children": [
                 "SimpleBugLeg_3_A_R"
             ],
+            "jointId": "SimpleBugLeg_2_A_R",
             "matrix": [
-                0.8039323091506957,
+                0.8039323091506958,
                 0.017650812864303554,
-                -0.5944589376449585,
+                -0.5944589376449584,
                 0,
-                1.8129237790154296e-7,
-                -0.9995597002993236,
-                -0.029678913634939887,
+                1.8129237781133734e-7,
+                -0.9995597002993238,
+                -0.029678913634939845,
                 0,
-                -0.5947210324169975,
-                0.02385972891466485,
-                -0.8035783113529706,
+                -0.5947210324169974,
+                0.02385972891466484,
+                -0.8035783113529709,
                 0,
                 -51.90503311157225,
                 0.0000171661376953125,
@@ -1074,22 +1051,23 @@
             "children": [
                 "SimpleBugLeg_3_B_L"
             ],
+            "jointId": "SimpleBugLeg_2_B_L",
             "matrix": [
-                0.2672272324562075,
+                0.26722723245620744,
                 -0.1745359152555467,
-                -0.9476954340934755,
+                -0.947695434093475,
                 0,
-                -0.000001327432556624819,
-                0.9834604880771433,
-                -0.18112309604459775,
+                -0.0000013274325566109413,
+                0.9834604880771434,
+                -0.1811230960445977,
                 0,
                 0.9636333197293039,
-                0.04840227266177407,
+                0.04840227266177406,
                 0.2628071437450995,
                 0,
-                57.08876419067382,
-                0.000040292739864389304,
-                -1.4210854715202004e-14,
+                57.088764190673814,
+                0.00004029273986771997,
+                0,
                 1
             ],
             "name": "SimpleBugLeg_2_B_L"
@@ -1098,22 +1076,23 @@
             "children": [
                 "SimpleBugLeg_3_B_R"
             ],
+            "jointId": "SimpleBugLeg_2_B_R",
             "matrix": [
-                0.26722753047943104,
-                -0.17453467845916742,
-                -0.9476956129074098,
+                0.2672275304794311,
+                -0.17453467845916745,
+                -0.9476956129074094,
                 0,
-                -0.000001040046420916485,
-                -0.98346095783294,
-                0.1811211973398156,
+                -0.0000010400464208193405,
+                -0.9834609578329401,
+                0.18112119733981552,
                 0,
-                -0.9636335995620312,
-                -0.048399586363858826,
-                -0.2628080339955392,
+                -0.9636335995620314,
+                -0.04839958636385887,
+                -0.2628080339955391,
                 0,
-                -57.08867263793945,
-                -0.000007152557373935053,
-                0.00000762939453125,
+                -57.088672637939446,
+                -0.000007152557376599589,
+                0.000007629394545460855,
                 1
             ],
             "name": "SimpleBugLeg_2_B_R"
@@ -1122,21 +1101,22 @@
             "children": [
                 "SimpleBugLeg_3_C_L"
             ],
+            "jointId": "SimpleBugLeg_2_C_L",
             "matrix": [
-                0.7727645039558411,
-                0.21987806260585782,
+                0.7727645039558412,
+                0.21987806260585788,
                 -0.5953894853591921,
                 0,
-                6.550381801556648e-8,
-                0.9380749342380515,
-                0.34643230156133853,
+                6.55038179947498e-8,
+                0.9380749342380517,
+                0.34643230156133864,
                 0,
                 0.6346928564217839,
                 -0.2677106418824188,
-                0.7249110434334203,
+                0.7249110434334205,
                 0,
-                35.24699020385741,
-                -0.000011444091803980427,
+                35.24699020385742,
+                -0.000011444091796875,
                 -0.000022888183579539145,
                 1
             ],
@@ -1146,22 +1126,23 @@
             "children": [
                 "SimpleBugLeg_3_C_R"
             ],
+            "jointId": "SimpleBugLeg_2_C_R",
             "matrix": [
-                0.7727642655372621,
+                0.7727642655372624,
                 0.2198781073093415,
-                -0.5953894853591921,
+                -0.595389485359192,
                 0,
                 3.0048177963870604e-7,
-                -0.9380749688683282,
-                -0.34643190976579,
+                -0.9380749688683281,
+                -0.34643190976578975,
                 0,
-                -0.6346927886996631,
-                0.26771003115954056,
-                -0.7249109068189626,
+                -0.634692788699663,
+                0.26771003115954045,
+                -0.7249109068189624,
                 0,
-                -35.24702453613283,
-                -0.00000762939453125,
-                0,
+                -35.2470245361328,
+                -0.000007629394538355427,
+                1.4210854715202004e-14,
                 1
             ],
             "name": "SimpleBugLeg_2_C_R"
@@ -1170,22 +1151,23 @@
             "children": [
                 "SimpleBugLeg_3_L"
             ],
+            "jointId": "SimpleBugLeg_2_L",
             "matrix": [
-                0.5858447551727297,
+                0.5858447551727296,
                 -0.06623832136392596,
-                -0.8077116012573246,
+                -0.8077116012573242,
                 0,
-                7.582632745306572e-8,
-                0.9966543334402974,
-                -0.0817329669425904,
+                7.582632732816563e-8,
+                0.9966543334402971,
+                -0.0817329669425903,
                 0,
-                0.8104230711129587,
-                0.04788276575010209,
-                0.5838846822588927,
+                0.8104230711129584,
+                0.04788276575010187,
+                0.5838846822588923,
                 0,
                 68.51802062988281,
-                0.000011444091789769573,
-                0.000015258789048289145,
+                0.000011444091793322286,
+                0.0000152587890625,
                 1
             ],
             "name": "SimpleBugLeg_2_L"
@@ -1194,86 +1176,90 @@
             "children": [
                 "SimpleBugLeg_3_R"
             ],
+            "jointId": "SimpleBugLeg_2_R",
             "matrix": [
                 0.5858452320098877,
                 -0.06623869389295578,
-                -0.8077117204666137,
+                -0.8077117204666139,
                 0,
-                1.2817232285244895e-7,
-                -0.9966545715186206,
-                0.08173358203944735,
+                1.281723227310183e-7,
+                -0.9966545715186209,
+                0.08173358203944736,
                 0,
                 -0.8104229910126997,
-                -0.047883302526411715,
+                -0.047883302526411736,
                 -0.5838849503197786,
                 0,
-                -68.51809692382812,
+                -68.51809692382814,
                 0.0000133514404296875,
-                -0.000030517578139210855,
+                -0.000030517578125,
                 1
             ],
             "name": "SimpleBugLeg_2_R"
         },
         "SimpleBugLeg_3_A_L": {
             "children": [],
+            "jointId": "SimpleBugLeg_3_A_L",
             "matrix": [
-                0.9999998807907106,
-                -1.3877787807814457e-17,
-                1.490116116609208e-8,
+                0.9999998807907102,
                 0,
-                3.469446951953614e-16,
-                1.0000000000000002,
-                -2.7939677196830992e-8,
+                1.4901161221603232e-8,
                 0,
-                -1.4901161221603232e-8,
-                2.7939673945959198e-8,
+                4.3021142204224816e-16,
+                1,
+                -2.793967731999636e-8,
+                0,
+                -1.4901161193847656e-8,
+                2.7939673873100812e-8,
                 0.9999998807907154,
                 0,
-                77.78726196289061,
-                -0.00001025199890580808,
-                0.00005340576171875,
+                77.78726196289062,
+                -0.000010251998909582838,
+                0.000053405761732960855,
                 1
             ],
             "name": "SimpleBugLeg_3_A_L"
         },
         "SimpleBugLeg_3_A_R": {
             "children": [],
+            "jointId": "SimpleBugLeg_3_A_R",
             "matrix": [
                 1.0000002384185793,
-                5.551115123125783e-17,
-                -1.4901161193847656e-8,
+                4.163336342344337e-17,
+                -1.4901161221603232e-8,
                 0,
-                8.881784197001252e-16,
-                0.9999998807907103,
-                6.053596740725198e-8,
+                8.604228440844963e-16,
+                0.9999998807907101,
+                6.053596740378253e-8,
                 0,
-                1.4901155892532714e-8,
-                -6.053596735521027e-8,
-                0.9999998807907217,
+                1.4901155864777138e-8,
+                -6.053596728755606e-8,
+                0.9999998807907216,
                 0,
-                -77.78728485107422,
-                0.000011920928952635634,
-                -0.000015258789076710855,
+                -77.78728485107423,
+                0.000011920928957964705,
+                -0.0000152587890625,
                 1
             ],
             "name": "SimpleBugLeg_3_A_R"
         },
         "SimpleBugLeg_3_B_L": {
             "children": [],
+            "jointId": "SimpleBugLeg_3_B_L",
             "matrix": [
-                1.0000000000000002,
+                1.0000000000000004,
                 4.172325133999788e-7,
-                4.76837158203125e-7,
+                4.768371581753694e-7,
                 0,
                 -4.1723267771298644e-7,
-                0.9999999999999997,
-                3.4458935262160484e-7,
+                0.9999999999999998,
+                3.445893525903798e-7,
                 0,
-                -4.7683701440148774e-7,
-                -3.445895516152042e-7,
-                0.9999999999999925,
+                -4.768370144292433e-7,
+                -3.4458955155969306e-7,
+                0.9999999999999923,
                 0,
-                83.31210327148435,
+                83.31210327148438,
                 0.0000038146972585195726,
                 0.000030517578139210855,
                 1
@@ -1282,21 +1268,22 @@
         },
         "SimpleBugLeg_3_B_R": {
             "children": [],
+            "jointId": "SimpleBugLeg_3_B_R",
             "matrix": [
-                1.0000001192092896,
+                1.0000001192092898,
                 1.1920928952302567e-7,
-                -2.9802322384919755e-7,
+                -2.980232238769531e-7,
                 0,
                 -1.1920926823449918e-7,
-                0.9999999403953668,
-                1.0408340855860843e-17,
+                0.9999999403953673,
+                3.122502256758253e-17,
                 0,
-                2.980231528504351e-7,
-                3.559305628009213e-14,
-                0.9999998807907358,
+                2.9802315282267955e-7,
+                3.54681561898218e-14,
+                0.999999880790736,
                 0,
                 -83.31199645996094,
-                -0.00003051757811434186,
+                -0.000030517578121447286,
                 -0.000030517578125,
                 1
             ],
@@ -1304,43 +1291,45 @@
         },
         "SimpleBugLeg_3_C_L": {
             "children": [],
+            "jointId": "SimpleBugLeg_3_C_L",
             "matrix": [
-                0.9999999999999997,
-                1.4901161179969868e-8,
-                -5.960464460885717e-8,
-                0,
-                -1.4901158487679034e-8,
                 1,
+                1.4901161221603232e-8,
+                -5.960464477539063e-8,
+                0,
+                -1.4901158501556822e-8,
+                1.0000000000000004,
                 4.470348349827624e-8,
                 0,
-                5.960464538601329e-8,
-                -4.470348269336455e-8,
-                1.00000000000001,
+                5.960464533050214e-8,
+                -4.4703482665608973e-8,
+                1.0000000000000102,
                 0,
-                67.51408386230469,
+                67.5140838623047,
                 0.0000019073486328125,
-                1.4210854715202004e-14,
+                0,
                 1
             ],
             "name": "SimpleBugLeg_3_C_L"
         },
         "SimpleBugLeg_3_C_R": {
             "children": [],
+            "jointId": "SimpleBugLeg_3_C_R",
             "matrix": [
                 1.0000000000000002,
                 -4.6938657763395675e-7,
-                -2.98023223821442e-7,
+                -2.980232240434866e-7,
                 0,
-                4.693866894889265e-7,
-                1.000000238418601,
-                -2.7755575615628914e-17,
+                4.6938668951668205e-7,
+                1.0000002384186009,
+                8.326672684688674e-17,
                 0,
-                2.980232949312267e-7,
+                2.98023295042249e-7,
                 -1.3988810110276972e-13,
                 1.00000023841861,
                 0,
                 -67.51408386230469,
-                0.000015258789069605427,
+                0.0000152587890625,
                 0.0001068115234375,
                 1
             ],
@@ -1348,43 +1337,45 @@
         },
         "SimpleBugLeg_3_L": {
             "children": [],
+            "jointId": "SimpleBugLeg_3_L",
             "matrix": [
-                0.9999998807907103,
-                1.8626451478431783e-8,
-                5.960464477539062e-7,
+                0.9999998807907108,
+                1.8626451485370676e-8,
+                5.960464477816618e-7,
                 0,
-                -1.8626457015669118e-8,
-                0.9999997615814203,
-                1.3038516133087596e-8,
+                -1.8626457078119163e-8,
+                0.9999997615814208,
+                1.3038516063698657e-8,
                 0,
-                -5.960464475041061e-7,
-                -1.3038528801773142e-8,
-                0.9999998807906926,
+                -5.960464475596172e-7,
+                -1.3038528763609225e-8,
+                0.9999998807906929,
                 0,
-                73.12142944335936,
-                -0.000007629394527697286,
-                0.00003051757809657829,
+                73.12142944335938,
+                -0.000007629394520591859,
+                0.000030517578125,
                 1
             ],
             "name": "SimpleBugLeg_3_L"
         },
         "SimpleBugLeg_3_R": {
             "children": [],
+            "jointId": "SimpleBugLeg_3_R",
             "matrix": [
-                0.9999999403953552,
-                7.450580596923828e-8,
-                5.96046448031462e-8,
+                0.9999999403953551,
+                7.450580597617718e-8,
+                5.960464474763505e-8,
                 0,
-                -7.450579487394693e-8,
+                -7.450579483925246e-8,
                 0.9999998211860643,
-                -3.7252902981149694e-8,
+                -3.725290299502748e-8,
                 0,
-                -5.960466534227216e-8,
-                3.725291405909381e-8,
-                1.0000002384185784,
+                -5.9604665286761e-8,
+                3.72529140729716e-8,
+                1.0000002384185782,
                 0,
                 -73.12139892578125,
-                0.00000762939453125,
+                0.000007629394549013568,
                 -0.0000152587890625,
                 1
             ],
@@ -1394,6 +1385,7 @@
             "children": [
                 "SimpleBugLeg_0_A_L"
             ],
+            "jointId": "SimpleBugLeg_base_A_L",
             "matrix": [
                 -0.06319928914308565,
                 0.788463532924652,
@@ -1418,6 +1410,7 @@
             "children": [
                 "SimpleBugLeg_0_A_R"
             ],
+            "jointId": "SimpleBugLeg_base_A_R",
             "matrix": [
                 0.0631990358233452,
                 0.7884634733200075,
@@ -1442,6 +1435,7 @@
             "children": [
                 "SimpleBugLeg_0_B_L"
             ],
+            "jointId": "SimpleBugLeg_base_B_L",
             "matrix": [
                 0.5312818288803103,
                 0.7588763833045962,
@@ -1466,6 +1460,7 @@
             "children": [
                 "SimpleBugLeg_0_B_R"
             ],
+            "jointId": "SimpleBugLeg_base_B_R",
             "matrix": [
                 -0.5312818288803101,
                 0.7588765025138856,
@@ -1490,6 +1485,7 @@
             "children": [
                 "SimpleBugLeg_0_C_L"
             ],
+            "jointId": "SimpleBugLeg_base_C_L",
             "matrix": [
                 0.3230720460414886,
                 0.7708612084388733,
@@ -1514,6 +1510,7 @@
             "children": [
                 "SimpleBugLeg_0_C_R"
             ],
+            "jointId": "SimpleBugLeg_base_C_R",
             "matrix": [
                 -0.3230719268321992,
                 0.7708614468574524,
@@ -1538,6 +1535,7 @@
             "children": [
                 "SimpleBugLeg_0_L"
             ],
+            "jointId": "SimpleBugLeg_base_L",
             "matrix": [
                 -0.18943375349044808,
                 0.8210790753364565,
@@ -1562,6 +1560,7 @@
             "children": [
                 "SimpleBugLeg_0_R"
             ],
+            "jointId": "SimpleBugLeg_base_R",
             "matrix": [
                 0.18943315744400024,
                 0.8210792541503905,
@@ -1586,18 +1585,19 @@
             "children": [
                 "big_teeth2_1_A_L"
             ],
+            "jointId": "big_teeth2_0_A_L",
             "matrix": [
-                0.8301556110382081,
+                0.8301556110382082,
                 0.17190672457218187,
-                -0.5303674936294559,
+                -0.5303674936294558,
                 0,
-                -0.14486601838139646,
-                0.9851131433741764,
+                -0.1448660183813965,
+                0.9851131433741767,
                 0.09255136559457884,
                 0,
                 0.5383822437903875,
-                1.9162345058449298e-7,
-                0.8427007289770827,
+                1.916234505899072e-7,
+                0.8427007289770826,
                 0,
                 10.562065124511715,
                 11.468437194824219,
@@ -1608,22 +1608,23 @@
         },
         "big_teeth2_1_A_L": {
             "children": [],
+            "jointId": "big_teeth2_1_A_L",
             "matrix": [
                 1.000000238418579,
-                7.450580624679404e-9,
-                -8.940696699655248e-8,
+                7.450580645496085e-9,
+                -8.940696688553018e-8,
                 0,
-                -7.450575940926019e-9,
+                -7.450575933987125e-9,
                 1.000000238418579,
-                5.21540641784668e-8,
+                5.215406415071122e-8,
                 0,
                 8.940694617987077e-8,
-                -5.215405105007953e-8,
-                0.9999999999999966,
+                -5.2154051077835106e-8,
+                0.9999999999999967,
                 0,
-                13.13483810424804,
-                0.00000286102294921875,
-                -0.000003814697265625,
+                13.134838104248054,
+                0.0000028610229456660363,
+                -0.0000038146972585195726,
                 1
             ],
             "name": "big_teeth2_1_A_L"
@@ -1632,42 +1633,44 @@
             "children": [
                 "big_teeth3_1_A_R"
             ],
+            "jointId": "big_teeth3_0_A_R",
             "matrix": [
                 -0.8314935564994811,
-                0.16254311800003035,
+                0.16254311800003032,
                 0.5312228202819824,
                 0,
                 -0.13697505542639374,
                 -0.986701375049059,
-                0.08751062693901082,
+                0.0875106269390108,
                 0,
-                0.538382702920935,
-                2.4717320367887037e-7,
+                0.5383827029209352,
+                2.471732036745176e-7,
                 0.8427004472353089,
                 0,
                 10.562065124511715,
                 -11.468441009521486,
-                -9.852386474609368,
+                -9.852386474609375,
                 1
             ],
             "name": "big_teeth3_0_A_R"
         },
         "big_teeth3_1_A_R": {
             "children": [],
+            "jointId": "big_teeth3_1_A_R",
             "matrix": [
                 1.0000003576278687,
-                4.991888999800187e-7,
+                4.991888999730798e-7,
                 -0.000001013278961292663,
                 0,
-                -4.991893303579742e-7,
+                -4.991893303440964e-7,
                 1.000000357627858,
-                -4.246830940246582e-7,
+                -4.24683094038536e-7,
                 0,
                 0.000001013278507600024,
-                4.2468349861768395e-7,
-                1.0000001192091836,
+                4.246834985760506e-7,
+                1.0000001192091839,
                 0,
-                -13.114023208618168,
+                -13.114023208618171,
                 0.000007629394529473643,
                 0.000011444091796875,
                 1
@@ -1676,21 +1679,22 @@
         },
         "bot_teeth0_0_L": {
             "children": [],
+            "jointId": "bot_teeth0_0_L",
             "matrix": [
                 0.9999999999999999,
-                8.378500941452957e-15,
-                -3.5527136796276815e-15,
+                8.37850093908167e-15,
+                -3.552713678800501e-15,
                 0,
-                -8.378500937932212e-15,
+                -8.378500935560926e-15,
                 1,
-                0,
+                -2.6469779601696886e-23,
                 0,
                 3.5527136771461397e-15,
                 0,
                 1,
                 0,
                 -10.613302230834957,
-                7.253335952758791,
+                7.253335952758792,
                 -10.867748260498047,
                 1
             ],
@@ -1698,21 +1702,22 @@
         },
         "bot_teeth1_0_R": {
             "children": [],
+            "jointId": "bot_teeth1_0_R",
             "matrix": [
                 0.9999999999999999,
-                8.378500941452957e-15,
-                -3.5527136796276815e-15,
+                8.37850093908167e-15,
+                -3.552713678800501e-15,
                 0,
-                -8.378500937932212e-15,
+                -8.378500935560926e-15,
                 1,
-                0,
+                -2.6469779601696886e-23,
                 0,
                 3.5527136771461397e-15,
                 0,
                 1,
                 0,
-                -10.613286972045898,
-                -7.253345489501953,
+                -10.613286972045902,
+                -7.253345489501954,
                 -10.867740631103516,
                 1
             ],
@@ -1720,6 +1725,15 @@
         },
         "broodmother_abdomen_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_1",
+                "sources": [
+                    "broodmother_abdomen_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -1737,14 +1751,20 @@
                 0,
                 0,
                 1
-            ],
-            "meshes": [
-                "broodmother_abdomen_model_LOD0-mesh"
             ],
             "name": "broodmother_abdomen_model_LOD0"
         },
         "broodmother_hair_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_2",
+                "sources": [
+                    "broodmother_hair_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -1762,14 +1782,20 @@
                 0,
                 0,
                 1
-            ],
-            "meshes": [
-                "broodmother_hair_model_LOD0-mesh"
             ],
             "name": "broodmother_hair_model_LOD0"
         },
         "broodmother_legs_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_3",
+                "sources": [
+                    "broodmother_legs_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -1787,14 +1813,20 @@
                 0,
                 0,
                 1
-            ],
-            "meshes": [
-                "broodmother_legs_model_LOD0-mesh"
             ],
             "name": "broodmother_legs_model_LOD0"
         },
         "broodmother_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_0",
+                "sources": [
+                    "broodmother_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -1812,9 +1844,6 @@
                 0,
                 0,
                 1
-            ],
-            "meshes": [
-                "broodmother_model_LOD0-mesh"
             ],
             "name": "broodmother_model_LOD0"
         },
@@ -1822,18 +1851,19 @@
             "children": [
                 "butt_R1C0"
             ],
+            "jointId": "butt_R0C0",
             "matrix": [
                 0.9368656873703001,
-                -0.3496890962123871,
-                -3.2862601515669744e-14,
+                -0.3496890962123872,
+                -3.2862601489199964e-14,
                 0,
-                0.3496890962123871,
-                0.9368656873703005,
-                6.97220060672282e-14,
+                0.3496890962123873,
+                0.9368656873703002,
+                6.972200606640102e-14,
                 0,
-                6.406819930828346e-15,
-                -7.681186530832889e-14,
-                1,
+                6.406819917593456e-15,
+                -7.681186536374999e-14,
+                0.9999999999999998,
                 0,
                 16.628475189208984,
                 0.000007629394538355427,
@@ -1846,14 +1876,15 @@
             "children": [
                 "butt_R2C0"
             ],
+            "jointId": "butt_R1C0",
             "matrix": [
                 0.3855314254760741,
-                -0.9226847290992733,
-                -0.004318603780120609,
+                -0.9226847290992732,
+                -0.0043186037801206095,
                 0,
                 0.9219587374584729,
-                0.3850327303369636,
-                0.04173705353606103,
+                0.38503273033696356,
+                0.041737053536061025,
                 0,
                 -0.036847331355815,
                 -0.02007251654307012,
@@ -1861,7 +1892,7 @@
                 0,
                 27.387699127197266,
                 -0.00001907348631746686,
-                0.0000036793690014746954,
+                0.000003679369001474699,
                 1
             ],
             "name": "butt_R1C0"
@@ -1870,21 +1901,22 @@
             "children": [
                 "butt_end"
             ],
+            "jointId": "butt_R2C0",
             "matrix": [
-                0.9052418470382685,
-                -0.4223703145980833,
-                -0.046266473829746205,
+                0.9052418470382687,
+                -0.4223703145980834,
+                -0.04626647382974623,
                 0,
                 0.42464870802929056,
-                0.9030542661796875,
-                0.06454925232433036,
+                0.9030542661796874,
+                0.06454925232433034,
                 0,
                 0.014517448977525497,
                 -0.0780796849720965,
-                0.9968415488459029,
+                0.996841548845903,
                 0,
-                30.632785797119148,
-                -0.000007629394545460855,
+                30.632785797119155,
+                -0.00000762939453125,
                 0.0000040531158447265625,
                 1
             ],
@@ -1892,21 +1924,22 @@
         },
         "butt_end": {
             "children": [],
+            "jointId": "butt_end",
             "matrix": [
                 0.9999998807907098,
-                3.5762786865234375e-7,
-                -2.98023224015731e-8,
+                3.576278687078549e-7,
+                -2.9802322387695312e-8,
                 0,
-                -3.576278902461816e-7,
-                0.9999999403953554,
-                -7.450580610801616e-9,
+                -3.576278900796481e-7,
+                0.9999999403953552,
+                -7.450580596923828e-9,
                 0,
                 2.9802319695404478e-8,
                 7.450590824853442e-9,
                 0.9999998807907107,
                 0,
-                20.711616516113267,
-                -0.000007629394517039145,
+                20.71161651611329,
+                -0.00000762939453125,
                 -0.00000286102294921875,
                 1
             ],
@@ -1916,6 +1949,7 @@
             "children": [
                 "butt_R0C0"
             ],
+            "jointId": "butt_start",
             "matrix": [
                 -0.21580274403095276,
                 -1.217688491981263e-7,
@@ -1940,21 +1974,22 @@
             "children": [
                 "hair_R1C0"
             ],
+            "jointId": "hair_R0C0",
             "matrix": [
                 -0.6902437806129456,
-                -2.249099821799766e-7,
-                0.723576903343201,
+                -2.2490998217997662e-7,
+                0.7235769033432008,
                 0,
                 0.7235769033432129,
-                -7.814515114862552e-8,
+                -7.814515114862554e-8,
                 0.6902437806129329,
                 0,
-                -9.869868876068675e-8,
+                -9.869868876068674e-8,
                 1,
-                2.166788704612582e-7,
+                2.1667887046125818e-7,
                 0,
                 9.672147750854492,
-                -7.645571713510431e-7,
+                -7.645571713510427e-7,
                 17.491008758544922,
                 1
             ],
@@ -1962,22 +1997,23 @@
         },
         "hair_R1C0": {
             "children": [],
+            "jointId": "hair_R1C0",
             "matrix": [
-                0.9999999999999998,
+                1,
+                -5.551115123125783e-17,
+                4.768371582031251e-7,
+                0,
                 -1.1102230246251565e-16,
-                4.76837158203125e-7,
+                0.9999999999999999,
+                1.4210854662262445e-14,
                 0,
-                0,
-                0.9999999999999996,
-                1.4210854688732224e-14,
-                0,
-                -4.768371582031249e-7,
-                -1.4210854715202004e-14,
+                -4.76837158203125e-7,
+                -1.4210854741671783e-14,
                 0.9999999999999999,
                 0,
                 17.82188606262207,
-                -0.000007629394538355427,
-                0.0000076293927122605965,
+                -0.00000762939453125,
+                0.0000076293927122606,
                 1
             ],
             "name": "hair_R1C0"
@@ -1987,18 +2023,19 @@
                 "hair_R0C0",
                 "jaw"
             ],
+            "jointId": "head",
             "matrix": [
                 0.7952915430068972,
-                8.378500923876633e-15,
+                8.378500947975125e-15,
                 -0.6062272191047673,
                 0,
-                -1.59513885460294e-14,
-                0.9999999999999997,
-                -7.105427357601002e-15,
+                -1.5951388526177065e-14,
+                0.9999999999999999,
+                -7.105427344366112e-15,
                 0,
                 0.606227219104767,
-                1.5321052183254955e-14,
-                0.7952915430068971,
+                1.5321052170020065e-14,
+                0.795291543006897,
                 0,
                 12.05474472045898,
                 -0.0000029605321287817787,
@@ -2016,21 +2053,22 @@
                 "big_teeth3_0_A_R",
                 "bot_teeth0_0_L"
             ],
+            "jointId": "jaw",
             "matrix": [
                 0.9999999999999999,
-                8.378500928656974e-15,
-                -3.552713678800501e-15,
+                8.378500926285686e-15,
+                -3.5527136779733203e-15,
                 0,
-                -8.378500930875934e-15,
+                -8.378500935122093e-15,
                 1,
+                -1.3234889800848443e-23,
                 0,
-                0,
-                3.552713678800501e-15,
+                3.5527136779733203e-15,
                 -1.3234889800848443e-23,
                 1,
                 0,
-                10.138271331787106,
-                0.0000019073486328125004,
+                10.13827133178711,
+                0.000001907348632812501,
                 2.087291717529297,
                 1
             ],
@@ -2040,6 +2078,7 @@
             "children": [
                 "head"
             ],
+            "jointId": "neck1",
             "matrix": [
                 0.9893786907196048,
                 7.105427344366112e-15,
@@ -2069,6 +2108,7 @@
                 "butt_start",
                 "spine1"
             ],
+            "jointId": "root",
             "matrix": [
                 -1.629206851037603e-7,
                 -1.0000000000000002,
@@ -2097,6 +2137,7 @@
                 "SimpleBugLeg_base_B_L",
                 "SimpleBugLeg_base_C_R"
             ],
+            "jointId": "spine1",
             "matrix": [
                 0.8749665021896362,
                 1.4255014946229494e-7,
@@ -2119,21 +2160,22 @@
         },
         "top_teeth4_0_B_L": {
             "children": [],
+            "jointId": "top_teeth4_0_B_L",
             "matrix": [
                 0.9999999999999999,
-                8.378500941452957e-15,
-                -3.5527136796276815e-15,
+                8.37850093908167e-15,
+                -3.552713678800501e-15,
                 0,
-                -8.378500937932212e-15,
+                -8.378500935560926e-15,
                 1,
-                0,
+                -2.6469779601696886e-23,
                 0,
                 3.5527136771461397e-15,
                 0,
                 1,
                 0,
                 11.718994140624996,
-                5.6912841796875,
+                5.691284179687501,
                 -7.819919586181641,
                 1
             ],
@@ -2141,14 +2183,15 @@
         },
         "top_teeth4_0_B_R": {
             "children": [],
+            "jointId": "top_teeth4_0_B_R",
             "matrix": [
                 0.9999999999999999,
-                8.378500941452957e-15,
-                -3.5527136796276815e-15,
+                8.37850093908167e-15,
+                -3.552713678800501e-15,
                 0,
-                -8.378500937932212e-15,
+                -8.378500935560926e-15,
                 1,
-                0,
+                -2.6469779601696886e-23,
                 0,
                 3.5527136771461397e-15,
                 0,
@@ -2156,7 +2199,7 @@
                 0,
                 11.718994140624996,
                 -5.25823974609375,
-                -7.819911956787102,
+                -7.819911956787109,
                 1
             ],
             "name": "top_teeth4_0_B_R"
@@ -2164,34 +2207,17 @@
     },
     "samplers": {
         "sampler_0": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
-        },
-        "sampler_1": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
-        },
-        "sampler_2": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
-        },
-        "sampler_3": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
         }
     },
     "scene": "scene_0",
     "scenes": {
         "scene_0": {
             "nodes": [
+                "root",
                 "broodmother_model_LOD0",
                 "broodmother_abdomen_model_LOD0",
                 "broodmother_hair_model_LOD0",
@@ -2202,8 +2228,30 @@
     "shaders": {},
     "skins": {
         "skin_0": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_27",
+                "byteOffset": 0,
+                "count": 30,
+                "type": 5126
+            },
             "joints": [
                 "head",
                 "SimpleBugLeg_0_C_R",
@@ -2235,36 +2283,95 @@
                 "SimpleBugLeg_base_L",
                 "SimpleBugLeg_0_L",
                 "SimpleBugLeg_0_R"
-            ],
-            "roots": [
-                "root"
             ]
         },
         "skin_1": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_27",
+                "byteOffset": 1920,
+                "count": 5,
+                "type": 5126
+            },
             "joints": [
                 "butt_R1C0",
                 "butt_R2C0",
                 "butt_R0C0",
                 "butt_start",
                 "root"
-            ],
-            "roots": [
-                "root"
             ]
         },
         "skin_2": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_27",
+                "byteOffset": 2240,
+                "count": 1,
+                "type": 5126
+            },
             "joints": [
                 "hair_R0C0"
-            ],
-            "roots": []
+            ]
         },
         "skin_3": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_27",
+                "byteOffset": 2304,
+                "count": 34,
+                "type": 5126
+            },
             "joints": [
                 "SimpleBugLeg_1_L",
                 "SimpleBugLeg_0_L",
@@ -2300,9 +2407,6 @@
                 "SimpleBugLeg_base_A_L",
                 "SimpleBugLeg_base_L",
                 "SimpleBugLeg_2_B_L"
-            ],
-            "roots": [
-                "root"
             ]
         }
     },
@@ -2329,32 +2433,32 @@
     },
     "textures": {
         "Map #5": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
+            "format": 6408,
+            "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_0",
-            "target": "TEXTURE_2D"
+            "target": 3553
         },
         "Map #6": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
-            "sampler": "sampler_1",
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
             "source": "image_1",
-            "target": "TEXTURE_2D"
+            "target": 3553
         },
         "Map #7": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
-            "sampler": "sampler_2",
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
             "source": "image_2",
-            "target": "TEXTURE_2D"
+            "target": 3553
         },
         "Map #8": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
-            "sampler": "sampler_3",
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
             "source": "image_3",
-            "target": "TEXTURE_2D"
+            "target": 3553
         }
     }
 }

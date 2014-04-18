@@ -1,705 +1,790 @@
 {
-    "animations": {},
-    "asset": {},
-    "attributes": {
-        "attribute_1": {
+    "accessors": {
+        "attrbute_1": {
             "bufferView": "bufferView_49",
             "byteOffset": 0,
             "byteStride": 12,
             "count": 1439,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                90.78268432617188,
+                102.28691864013672,
+                260.48583984375,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -90.78263092041016,
+                -101.62361907958984,
+                2.499016761779785,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_10": {
+        "attrbute_10": {
             "bufferView": "bufferView_49",
             "byteOffset": 92228,
             "byteStride": 16,
             "count": 184,
             "max": [
-                1,
-                1,
-                1
+                5,
+                7,
+                6,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_11": {
+        "attrbute_11": {
             "bufferView": "bufferView_49",
             "byteOffset": 95172,
             "byteStride": 12,
             "count": 184,
             "max": [
                 1,
-                1,
-                1
+                0.8906906247138977,
+                0.2884688377380371
             ],
             "min": [
-                0,
+                0.10896200686693192,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_13": {
+        "attrbute_13": {
             "bufferView": "bufferView_49",
             "byteOffset": 97380,
             "byteStride": 12,
             "count": 124,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                23.230010986328125,
+                -56.780818939208984,
+                158.4726104736328,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -23.230003356933594,
+                -71.89823150634766,
+                106.95488739013672,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_14": {
+        "attrbute_14": {
             "bufferView": "bufferView_49",
             "byteOffset": 98868,
             "byteStride": 12,
             "count": 124,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.9848417639732361,
+                0.9929109811782837,
+                0.9889530539512634,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.9838236570358276,
+                -0.9996026754379272,
+                -0.9768032431602478,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_15": {
+        "attrbute_15": {
             "bufferView": "bufferView_49",
             "byteOffset": 100356,
             "byteStride": 8,
             "count": 124,
             "max": [
-                1,
-                1,
-                1
+                0.9842810034751892,
+                0.9760640263557434
             ],
             "min": [
-                0,
-                0,
-                0
+                0.015491999685764313,
+                0.030642986297607422
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
         },
-        "attribute_16": {
+        "attrbute_16": {
             "bufferView": "bufferView_49",
             "byteOffset": 101348,
             "byteStride": 16,
             "count": 124,
             "max": [
+                2,
                 1,
-                1,
-                1
+                2,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_17": {
+        "attrbute_17": {
             "bufferView": "bufferView_49",
             "byteOffset": 103332,
             "byteStride": 12,
             "count": 124,
             "max": [
                 1,
-                1,
-                1
+                0.4199542701244354,
+                0.9878848791122437
             ],
             "min": [
-                0,
+                0.006057556252926588,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_19": {
+        "attrbute_19": {
             "bufferView": "bufferView_49",
             "byteOffset": 104820,
             "byteStride": 12,
             "count": 318,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                31.473051071166992,
+                24.495038986206055,
+                281.5776672363281,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -31.415807723999023,
+                -69.95109558105469,
+                174.83108520507812,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_2": {
+        "attrbute_2": {
             "bufferView": "bufferView_49",
             "byteOffset": 17268,
             "byteStride": 12,
             "count": 1439,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.999976396560669,
+                0.9999921321868896,
+                0.9989458918571472,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.999976396560669,
+                -0.9999938607215881,
+                -0.9972057342529297,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_20": {
+        "attrbute_20": {
             "bufferView": "bufferView_49",
             "byteOffset": 108636,
             "byteStride": 12,
             "count": 318,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.9999336004257202,
+                0.9946316480636597,
+                0.9987460970878601,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.9993140697479248,
+                -0.999374508857727,
+                -0.997972846031189,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_21": {
+        "attrbute_21": {
             "bufferView": "bufferView_49",
             "byteOffset": 112452,
             "byteStride": 8,
             "count": 318,
             "max": [
-                1,
-                1,
-                1
+                0.9909629821777344,
+                0.9652929902076721
             ],
             "min": [
-                0,
-                0,
-                0
+                0.01080000028014183,
+                0.04896599054336548
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
         },
-        "attribute_22": {
+        "attrbute_22": {
             "bufferView": "bufferView_49",
             "byteOffset": 114996,
             "byteStride": 16,
             "count": 318,
             "max": [
                 1,
-                1,
-                1
+                2,
+                3,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_23": {
+        "attrbute_23": {
             "bufferView": "bufferView_49",
             "byteOffset": 120084,
             "byteStride": 12,
             "count": 318,
             "max": [
                 1,
-                1,
-                1
+                0.9861955642700195,
+                0.7459142804145813
             ],
             "min": [
-                0,
+                0.00020989739277865738,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_25": {
+        "attrbute_25": {
             "bufferView": "bufferView_49",
             "byteOffset": 123900,
             "byteStride": 12,
             "count": 206,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                84.61567687988281,
+                50.705448150634766,
+                154.0921630859375,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -84.61567687988281,
+                -16.83619499206543,
+                40.950592041015625,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_26": {
+        "attrbute_26": {
             "bufferView": "bufferView_49",
             "byteOffset": 126372,
             "byteStride": 12,
             "count": 206,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.9999619722366333,
+                0.9853594899177551,
+                0.9986230731010437,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.9994810819625854,
+                -0.9731169939041138,
+                -0.7411132454872131,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_27": {
+        "attrbute_27": {
             "bufferView": "bufferView_49",
             "byteOffset": 128844,
             "byteStride": 8,
             "count": 206,
             "max": [
-                1,
-                1,
-                1
+                2.635525941848755,
+                0.983568012714386
             ],
             "min": [
-                0,
-                0,
-                0
+                0.00863999966531992,
+                0.012230992317199707
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
         },
-        "attribute_28": {
+        "attrbute_28": {
             "bufferView": "bufferView_49",
             "byteOffset": 130492,
             "byteStride": 16,
             "count": 206,
             "max": [
-                1,
-                1,
-                1
+                4,
+                5,
+                -1,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_29": {
+        "attrbute_29": {
             "bufferView": "bufferView_49",
             "byteOffset": 133788,
             "byteStride": 12,
             "count": 206,
             "max": [
                 1,
-                1,
-                1
+                0.3737085163593292,
+                0
             ],
             "min": [
-                0,
+                0.6262915134429932,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_3": {
+        "attrbute_3": {
             "bufferView": "bufferView_49",
             "byteOffset": 34536,
             "byteStride": 8,
             "count": 1439,
             "max": [
-                1,
-                1,
-                1
+                1.9922800064086914,
+                0.9977949857711792
             ],
             "min": [
-                0,
-                0,
-                0
+                0.007321999873965979,
+                0.007058978080749512
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
         },
-        "attribute_31": {
+        "attrbute_31": {
             "bufferView": "bufferView_49",
             "byteOffset": 136260,
             "byteStride": 12,
             "count": 564,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                62.535587310791016,
+                12.780303001403809,
+                243.092041015625,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -62.535606384277344,
+                -58.70412063598633,
+                154.10328674316406,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_32": {
+        "attrbute_32": {
             "bufferView": "bufferView_49",
             "byteOffset": 143028,
             "byteStride": 12,
             "count": 564,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.9980423450469971,
+                0.9965032339096069,
+                0.9959172010421753,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.9980422854423523,
+                -0.9999994039535522,
+                -0.991220235824585,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_33": {
+        "attrbute_33": {
             "bufferView": "bufferView_49",
             "byteOffset": 149796,
             "byteStride": 8,
             "count": 564,
             "max": [
-                1,
-                1,
-                1
+                3.947118043899536,
+                0.9890469908714294
             ],
             "min": [
-                0,
-                0,
-                0
+                0.014525000005960464,
+                0.012511014938354492
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
         },
-        "attribute_34": {
+        "attrbute_34": {
             "bufferView": "bufferView_49",
             "byteOffset": 154308,
             "byteStride": 16,
             "count": 564,
             "max": [
-                1,
-                1,
-                1
+                6,
+                9,
+                10,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_35": {
+        "attrbute_35": {
             "bufferView": "bufferView_49",
             "byteOffset": 163332,
             "byteStride": 12,
             "count": 564,
             "max": [
                 1,
-                1,
-                1
+                0.9775976538658142,
+                0.9843490123748779
             ],
             "min": [
-                0,
+                0.011201173067092896,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_37": {
+        "attrbute_37": {
             "bufferView": "bufferView_49",
             "byteOffset": 170100,
             "byteStride": 12,
             "count": 174,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                22.722322463989258,
+                155.9622344970703,
+                172.08953857421875,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -21.79315948486328,
+                81.55281829833984,
+                53.665184020996094,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_38": {
+        "attrbute_38": {
             "bufferView": "bufferView_49",
             "byteOffset": 172188,
             "byteStride": 12,
             "count": 174,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.9995212554931641,
+                0.9991613626480103,
+                0.976071834564209,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.9970459342002869,
+                -0.984997034072876,
+                -0.9894102811813354,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_39": {
+        "attrbute_39": {
             "bufferView": "bufferView_49",
             "byteOffset": 174276,
             "byteStride": 8,
             "count": 174,
             "max": [
-                1,
-                1,
-                1
+                0.970907986164093,
+                0.9733070135116577
             ],
             "min": [
-                0,
-                0,
-                0
+                0.02606300078332424,
+                0.02587801218032837
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
         },
-        "attribute_4": {
+        "attrbute_4": {
             "bufferView": "bufferView_49",
             "byteOffset": 46048,
             "byteStride": 16,
             "count": 1439,
             "max": [
-                1,
-                1,
-                1
+                56,
+                56,
+                57,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_40": {
+        "attrbute_40": {
             "bufferView": "bufferView_49",
             "byteOffset": 175668,
             "byteStride": 16,
             "count": 174,
             "max": [
-                1,
-                1,
-                1
+                3,
+                4,
+                4,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_41": {
+        "attrbute_41": {
             "bufferView": "bufferView_49",
             "byteOffset": 178452,
             "byteStride": 12,
             "count": 174,
             "max": [
                 1,
-                1,
-                1
+                0.9994985461235046,
+                0.5424143671989441
             ],
             "min": [
-                0,
+                0.0002016082580666989,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_43": {
+        "attrbute_43": {
             "bufferView": "bufferView_49",
             "byteOffset": 180540,
             "byteStride": 12,
             "count": 200,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                209.01522827148438,
+                -10.660141944885254,
+                257.8231201171875,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                98.74282836914062,
+                -33.399513244628906,
+                -1.4145214557647705,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_44": {
+        "attrbute_44": {
             "bufferView": "bufferView_49",
             "byteOffset": 182940,
             "byteStride": 12,
             "count": 200,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.9859052300453186,
+                0.9997787475585938,
+                0.9987252950668335,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.9999520778656006,
+                -0.9997787475585938,
+                -0.9838531017303467,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_45": {
+        "attrbute_45": {
             "bufferView": "bufferView_49",
             "byteOffset": 185340,
             "byteStride": 8,
             "count": 200,
             "max": [
-                1,
-                1,
-                1
+                0.988906979560852,
+                0.9743649959564209
             ],
             "min": [
-                0,
-                0,
-                0
+                0.008070999756455421,
+                0.019192993640899658
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
         },
-        "attribute_46": {
+        "attrbute_46": {
             "bufferView": "bufferView_49",
             "byteOffset": 186940,
             "byteStride": 16,
             "count": 200,
             "max": [
-                1,
-                1,
-                1
+                0,
+                -1,
+                -1,
+                -1
             ],
             "min": [
                 0,
-                0,
-                0
+                -1,
+                -1,
+                -1
             ],
-            "type": "FLOAT_VEC4"
+            "type": 35666
         },
-        "attribute_47": {
+        "attrbute_47": {
             "bufferView": "bufferView_49",
             "byteOffset": 190140,
             "byteStride": 12,
             "count": 200,
             "max": [
                 1,
-                1,
-                1
-            ],
-            "min": [
-                0,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                1,
+                0,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_5": {
+        "attrbute_5": {
             "bufferView": "bufferView_49",
             "byteOffset": 69072,
             "byteStride": 12,
             "count": 1439,
             "max": [
                 1,
-                1,
-                1
+                0.9998471140861511,
+                0.9880682826042175
             ],
             "min": [
-                0,
+                0.00015286698180716485,
                 0,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_7": {
+        "attrbute_7": {
             "bufferView": "bufferView_49",
             "byteOffset": 86340,
             "byteStride": 12,
             "count": 184,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                99.32231903076172,
+                -12.92173957824707,
+                179.9468994140625,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -99.32229614257812,
+                -78.35000610351562,
+                128.24114990234375,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_8": {
+        "attrbute_8": {
             "bufferView": "bufferView_49",
             "byteOffset": 88548,
             "byteStride": 12,
             "count": 184,
             "max": [
-                1,
-                1,
-                1
-            ],
-            "min": [
-                0,
-                0,
+                0.9996861219406128,
+                0.9564310908317566,
+                0.9938257932662964,
                 0
             ],
-            "type": "FLOAT_VEC3"
+            "min": [
+                -0.9996861219406128,
+                -0.9543138742446899,
+                -0.9939827919006348,
+                0
+            ],
+            "type": 35665
         },
-        "attribute_9": {
+        "attrbute_9": {
             "bufferView": "bufferView_49",
             "byteOffset": 90756,
             "byteStride": 8,
             "count": 184,
             "max": [
-                1,
-                1,
-                1
+                1.9786089658737183,
+                0.9892789721488953
             ],
             "min": [
-                0,
-                0,
-                0
+                0.03642499819397926,
+                0.029830992221832275
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
+        },
+        "indices_12": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 16992,
+            "count": 1080,
+            "type": 5123
+        },
+        "indices_18": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 19152,
+            "count": 684,
+            "type": 5123
+        },
+        "indices_24": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 20520,
+            "count": 1752,
+            "type": 5123
+        },
+        "indices_30": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 24024,
+            "count": 900,
+            "type": 5123
+        },
+        "indices_36": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 25824,
+            "count": 2808,
+            "type": 5123
+        },
+        "indices_42": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 31440,
+            "count": 834,
+            "type": 5123
+        },
+        "indices_48": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 33108,
+            "count": 1026,
+            "type": 5123
+        },
+        "indices_6": {
+            "bufferView": "bufferView_50",
+            "byteOffset": 0,
+            "count": 8496,
+            "type": 5123
         }
     },
+    "animations": {},
+    "asset": {},
     "bufferViews": {
         "bufferView_49": {
             "buffer": "centaur.bin",
             "byteLength": 192540,
             "byteOffset": 0,
-            "target": "ARRAY_BUFFER"
+            "target": 34962
         },
         "bufferView_50": {
             "buffer": "centaur.bin",
             "byteLength": 35160,
             "byteOffset": 192540,
-            "target": "ELEMENT_ARRAY_BUFFER"
+            "target": 34963
+        },
+        "bufferView_51": {
+            "buffer": "centaur.bin",
+            "byteLength": 6144,
+            "byteOffset": 227700
         }
     },
     "buffers": {
         "centaur.bin": {
-            "byteLength": 227700,
+            "byteLength": 233844,
             "path": "centaur.bin"
         }
     },
@@ -730,375 +815,213 @@
             "path": "textures/weapon_color.png"
         }
     },
-    "indices": {
-        "indices_12": {
-            "bufferView": "bufferView_50",
-            "byteOffset": 16992,
-            "count": 1080,
-            "type": "UNSIGNED_SHORT"
-        },
-        "indices_18": {
-            "bufferView": "bufferView_50",
-            "byteOffset": 19152,
-            "count": 684,
-            "type": "UNSIGNED_SHORT"
-        },
-        "indices_24": {
-            "bufferView": "bufferView_50",
-            "byteOffset": 20520,
-            "count": 1752,
-            "type": "UNSIGNED_SHORT"
-        },
-        "indices_30": {
-            "bufferView": "bufferView_50",
-            "byteOffset": 24024,
-            "count": 900,
-            "type": "UNSIGNED_SHORT"
-        },
-        "indices_36": {
-            "bufferView": "bufferView_50",
-            "byteOffset": 25824,
-            "count": 2808,
-            "type": "UNSIGNED_SHORT"
-        },
-        "indices_42": {
-            "bufferView": "bufferView_50",
-            "byteOffset": 31440,
-            "count": 834,
-            "type": "UNSIGNED_SHORT"
-        },
-        "indices_48": {
-            "bufferView": "bufferView_50",
-            "byteOffset": 33108,
-            "count": 1026,
-            "type": "UNSIGNED_SHORT"
-        },
-        "indices_6": {
-            "bufferView": "bufferView_50",
-            "byteOffset": 0,
-            "count": 8496,
-            "type": "UNSIGNED_SHORT"
-        }
-    },
     "lights": {},
     "materials": {
         "Material #101": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #15"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #15",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #101"
         },
         "Material #112": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #16"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #16",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #112"
         },
         "Material #35": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #11"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #11",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #35"
         },
         "Material #46": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #10"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #10",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #46"
         },
         "Material #57": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #9"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #9",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #57"
         },
         "Material #68": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #12"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #12",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #68"
         },
         "Material #79": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #13"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #13",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #79"
         },
         "Material #90": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #14"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2
-                    },
-                    {
-                        "parameter": "specular",
-                        "value": [
-                            0.8999999761581421,
-                            0.8999999761581421,
-                            0.8999999761581421
-                        ]
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #14",
+                    "emission": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "shininess": 2,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
             "name": "Material #90"
         }
@@ -1108,16 +1031,15 @@
             "name": "belt_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_18",
-                    "material": "Material #57",
-                    "semantics": {
-                        "JOINT": "attribute_16",
-                        "NORMAL": "attribute_14",
-                        "POSITION": "attribute_13",
-                        "TEXCOORD_0": "attribute_15",
-                        "WEIGHT": "attribute_17"
+                    "attributes": {
+                        "JOINT": "attrbute_16",
+                        "NORMAL": "attrbute_14",
+                        "POSITION": "attrbute_13",
+                        "TEXCOORD_0": "attrbute_15",
+                        "WEIGHT": "attrbute_17"
                     },
-                    "skin": "skin_2"
+                    "indices": "indices_18",
+                    "material": "Material #57"
                 }
             ]
         },
@@ -1125,16 +1047,15 @@
             "name": "bracer_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_12",
-                    "material": "Material #46",
-                    "semantics": {
-                        "JOINT": "attribute_10",
-                        "NORMAL": "attribute_8",
-                        "POSITION": "attribute_7",
-                        "TEXCOORD_0": "attribute_9",
-                        "WEIGHT": "attribute_11"
+                    "attributes": {
+                        "JOINT": "attrbute_10",
+                        "NORMAL": "attrbute_8",
+                        "POSITION": "attrbute_7",
+                        "TEXCOORD_0": "attrbute_9",
+                        "WEIGHT": "attrbute_11"
                     },
-                    "skin": "skin_1"
+                    "indices": "indices_12",
+                    "material": "Material #46"
                 }
             ]
         },
@@ -1142,16 +1063,15 @@
             "name": "centaur_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_6",
-                    "material": "Material #35",
-                    "semantics": {
-                        "JOINT": "attribute_4",
-                        "NORMAL": "attribute_2",
-                        "POSITION": "attribute_1",
-                        "TEXCOORD_0": "attribute_3",
-                        "WEIGHT": "attribute_5"
+                    "attributes": {
+                        "JOINT": "attrbute_4",
+                        "NORMAL": "attrbute_2",
+                        "POSITION": "attrbute_1",
+                        "TEXCOORD_0": "attrbute_3",
+                        "WEIGHT": "attrbute_5"
                     },
-                    "skin": "skin_0"
+                    "indices": "indices_6",
+                    "material": "Material #35"
                 }
             ]
         },
@@ -1159,16 +1079,15 @@
             "name": "headitem_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_24",
-                    "material": "Material #68",
-                    "semantics": {
-                        "JOINT": "attribute_22",
-                        "NORMAL": "attribute_20",
-                        "POSITION": "attribute_19",
-                        "TEXCOORD_0": "attribute_21",
-                        "WEIGHT": "attribute_23"
+                    "attributes": {
+                        "JOINT": "attrbute_22",
+                        "NORMAL": "attrbute_20",
+                        "POSITION": "attrbute_19",
+                        "TEXCOORD_0": "attrbute_21",
+                        "WEIGHT": "attrbute_23"
                     },
-                    "skin": "skin_3"
+                    "indices": "indices_24",
+                    "material": "Material #68"
                 }
             ]
         },
@@ -1176,16 +1095,15 @@
             "name": "shield_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_30",
-                    "material": "Material #79",
-                    "semantics": {
-                        "JOINT": "attribute_28",
-                        "NORMAL": "attribute_26",
-                        "POSITION": "attribute_25",
-                        "TEXCOORD_0": "attribute_27",
-                        "WEIGHT": "attribute_29"
+                    "attributes": {
+                        "JOINT": "attrbute_28",
+                        "NORMAL": "attrbute_26",
+                        "POSITION": "attrbute_25",
+                        "TEXCOORD_0": "attrbute_27",
+                        "WEIGHT": "attrbute_29"
                     },
-                    "skin": "skin_4"
+                    "indices": "indices_30",
+                    "material": "Material #79"
                 }
             ]
         },
@@ -1193,16 +1111,15 @@
             "name": "shoulder_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_36",
-                    "material": "Material #90",
-                    "semantics": {
-                        "JOINT": "attribute_34",
-                        "NORMAL": "attribute_32",
-                        "POSITION": "attribute_31",
-                        "TEXCOORD_0": "attribute_33",
-                        "WEIGHT": "attribute_35"
+                    "attributes": {
+                        "JOINT": "attrbute_34",
+                        "NORMAL": "attrbute_32",
+                        "POSITION": "attrbute_31",
+                        "TEXCOORD_0": "attrbute_33",
+                        "WEIGHT": "attrbute_35"
                     },
-                    "skin": "skin_5"
+                    "indices": "indices_36",
+                    "material": "Material #90"
                 }
             ]
         },
@@ -1210,16 +1127,15 @@
             "name": "tail_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_42",
-                    "material": "Material #101",
-                    "semantics": {
-                        "JOINT": "attribute_40",
-                        "NORMAL": "attribute_38",
-                        "POSITION": "attribute_37",
-                        "TEXCOORD_0": "attribute_39",
-                        "WEIGHT": "attribute_41"
+                    "attributes": {
+                        "JOINT": "attrbute_40",
+                        "NORMAL": "attrbute_38",
+                        "POSITION": "attrbute_37",
+                        "TEXCOORD_0": "attrbute_39",
+                        "WEIGHT": "attrbute_41"
                     },
-                    "skin": "skin_6"
+                    "indices": "indices_42",
+                    "material": "Material #101"
                 }
             ]
         },
@@ -1227,16 +1143,15 @@
             "name": "weapon_model_LOD0-mesh",
             "primitives": [
                 {
-                    "indices": "indices_48",
-                    "material": "Material #112",
-                    "semantics": {
-                        "JOINT": "attribute_46",
-                        "NORMAL": "attribute_44",
-                        "POSITION": "attribute_43",
-                        "TEXCOORD_0": "attribute_45",
-                        "WEIGHT": "attribute_47"
+                    "attributes": {
+                        "JOINT": "attrbute_46",
+                        "NORMAL": "attrbute_44",
+                        "POSITION": "attrbute_43",
+                        "TEXCOORD_0": "attrbute_45",
+                        "WEIGHT": "attrbute_47"
                     },
-                    "skin": "skin_7"
+                    "indices": "indices_48",
+                    "material": "Material #112"
                 }
             ]
         }
@@ -1246,21 +1161,22 @@
             "children": [
                 "Goatee_R1C0"
             ],
+            "jointId": "Goatee_R0C0",
             "matrix": [
                 0.20867499709129347,
                 -1.990079852021155e-7,
                 -0.9779850244522093,
                 0,
                 -0.977985024452217,
-                -1.8391579311639398e-7,
-                -0.2086749970912577,
+                -1.8391579311639393e-7,
+                -0.20867499709125767,
                 0,
                 -1.38338905887607e-7,
                 0.9999999999999998,
-                -2.330054656138142e-7,
+                -2.3300546561381418e-7,
                 0,
-                13.956460952758789,
-                -0.000003814697265625007,
+                13.956460952758793,
+                -0.000003814697265625,
                 -13.540069580078097,
                 1
             ],
@@ -1268,17 +1184,18 @@
         },
         "Goatee_R1C0": {
             "children": [],
+            "jointId": "Goatee_R1C0",
             "matrix": [
-                0.9999906420707707,
-                -0.0042924880981445035,
+                0.9999906420707704,
+                -0.004292488098144559,
+                -1.0587911840678754e-22,
                 0,
+                0.004292488098144587,
+                0.9999906420707702,
+                -2.1316282072803006e-14,
                 0,
-                0.004292488098144531,
-                0.9999906420707705,
-                -2.1316282059568116e-14,
-                0,
-                9.149994003375774e-17,
-                2.1316088750767685e-14,
+                9.149988709419854e-17,
+                2.1316088764002574e-14,
                 0.9999999999999999,
                 0,
                 15.366317749023438,
@@ -1292,22 +1209,23 @@
             "children": [
                 "Index_1_L"
             ],
+            "jointId": "Index_0_L",
             "matrix": [
-                0.9554549455642699,
-                0.26109468936920155,
-                -0.13760575652122486,
+                0.95545494556427,
+                0.26109468936920177,
+                -0.13760575652122464,
                 0,
-                0.14264768148829338,
-                -0.000363520206117518,
-                0.9897734150021782,
+                0.14264768148829343,
+                -0.0003635202061174625,
+                0.9897734150021784,
                 0,
-                0.25837465159302,
-                -0.9653133891918592,
-                -0.037591892612325734,
+                0.25837465159301976,
+                -0.9653133891918595,
+                -0.03759189261232582,
                 0,
-                21.224079132080078,
-                -4.473770141601534,
-                -5.6096038818359375,
+                21.224079132080085,
+                -4.4737701416015625,
+                -5.609603881835909,
                 1
             ],
             "name": "Index_0_L"
@@ -1316,22 +1234,23 @@
             "children": [
                 "Index_1_R"
             ],
+            "jointId": "Index_0_R",
             "matrix": [
-                0.9554550647735596,
-                0.26109457015991205,
+                0.9554550647735598,
+                0.2610945701599121,
                 -0.13760551810264587,
                 0,
-                0.14264745306867394,
-                -0.0003636120310217539,
-                0.9897734935525797,
+                0.14264745306867377,
+                -0.00036361203102164286,
+                0.9897734935525795,
                 0,
-                0.25837433644732355,
-                -0.965312750459065,
-                -0.037591873903125766,
+                0.2583743364473238,
+                -0.9653127504590651,
+                -0.03759187390312582,
                 0,
-                -21.22412490844725,
+                -21.224124908447266,
                 4.473724365234375,
-                5.6095962524414205,
+                5.609596252441406,
                 1
             ],
             "name": "Index_0_R"
@@ -1340,22 +1259,23 @@
             "children": [
                 "Index_2_L"
             ],
+            "jointId": "Index_1_L",
             "matrix": [
-                0.9690263271331789,
-                -1.4901161204949886e-7,
-                -0.24695719778537745,
+                0.9690263271331788,
+                -1.4901161193847656e-7,
+                -0.2469571977853776,
                 0,
-                1.4617940924388506e-7,
-                0.9999998807907067,
-                -2.980232272076222e-8,
+                1.461794091883739e-7,
+                0.9999998807907069,
+                -2.980232260973992e-8,
                 0,
-                0.24695723085707008,
-                -7.220823883269389e-9,
-                0.969026456901989,
+                0.24695723085707,
+                -7.220823994291692e-9,
+                0.9690264569019892,
                 0,
-                10.157791137695312,
+                10.15779113769532,
                 0.0000152587890625,
-                -0.0000457763671875,
+                -0.00004577636715907829,
                 1
             ],
             "name": "Index_1_L"
@@ -1364,21 +1284,22 @@
             "children": [
                 "Index_2_R"
             ],
+            "jointId": "Index_1_R",
             "matrix": [
-                0.9690263271331789,
-                1.1920928966180355e-7,
-                -0.24695721268653875,
+                0.9690263271331788,
+                1.192092897173147e-7,
+                -0.2469572126865387,
                 0,
-                -2.3314930303053316e-7,
+                -2.331493028639997e-7,
                 0.9999999999999727,
-                -4.32133655525746e-7,
+                -4.3213365560901273e-7,
                 0,
-                0.24695720178103742,
-                4.763267699436913e-7,
-                0.9690262843417131,
+                0.24695720178103736,
+                4.763267699159357e-7,
+                0.9690262843417129,
                 0,
-                -10.157779693603501,
-                0.000007629394517039145,
+                -10.157779693603509,
+                0.00000762939453125,
                 -0.000030517578125,
                 1
             ],
@@ -1386,44 +1307,46 @@
         },
         "Index_2_L": {
             "children": [],
+            "jointId": "Index_2_L",
             "matrix": [
                 0.9973465800285342,
                 -0.0008536279201508679,
                 -0.07279939204454411,
                 0,
-                0.000851388806094866,
-                0.9999998809209438,
-                -0.00006178766527999147,
+                0.000851388806094755,
+                0.9999998809209437,
+                -0.0000617876652799082,
                 0,
-                0.0727993878473967,
-                -3.568705857770471e-7,
-                0.9973465267124839,
+                0.07279938784739673,
+                -3.5687058586031384e-7,
+                0.9973465267124841,
                 0,
-                5.971725463867173,
-                0.000030517578125,
-                2.842170943040401e-14,
+                5.971725463867195,
+                0.000030517578110789145,
+                -2.842170943040401e-14,
                 1
             ],
             "name": "Index_2_L"
         },
         "Index_2_R": {
             "children": [],
+            "jointId": "Index_2_R",
             "matrix": [
-                0.9973462820053105,
-                -0.0008540749549865168,
-                -0.07279905676841744,
+                0.9973462820053103,
+                -0.0008540749549865723,
+                -0.07279905676841736,
                 0,
                 0.0008518266663109508,
                 0.9999995232755674,
-                -0.00006192922642078713,
+                -0.00006192922642089815,
                 0,
-                0.07279906584485064,
-                -2.4729408821394516e-7,
+                0.07279906584485078,
+                -2.4729408832496746e-7,
                 0.9973464092535917,
                 0,
                 -5.9717559814453125,
-                -0.00000762939453125,
-                0.0000152587890625,
+                -0.000007629394517039145,
+                0.00001525878903407829,
                 1
             ],
             "name": "Index_2_R"
@@ -1432,6 +1355,7 @@
             "children": [
                 "LShield_R1C0"
             ],
+            "jointId": "LShield_R0C0",
             "matrix": [
                 6.123233995736785e-17,
                 -2.938735877055719e-39,
@@ -1456,6 +1380,7 @@
             "children": [
                 "LShield_R2C0"
             ],
+            "jointId": "LShield_R1C0",
             "matrix": [
                 0.9999999999999996,
                 5.338504394103436e-8,
@@ -1478,16 +1403,17 @@
         },
         "LShield_R2C0": {
             "children": [],
+            "jointId": "LShield_R2C0",
             "matrix": [
                 0.9999999999999998,
-                1.1079124775637244e-18,
-                -1.845192514338123e-7,
+                1.1079190950086248e-18,
+                -1.8451925143381234e-7,
                 0,
-                -1.1079257124535253e-18,
-                1,
-                -1.2926458821533692e-21,
+                -1.1079190950086248e-18,
+                1.0000000000000002,
+                -1.2661761025516723e-21,
                 0,
-                1.8451925143381231e-7,
+                1.8451925143381234e-7,
                 1.3035351552726713e-21,
                 0.9999999999999998,
                 0,
@@ -1500,22 +1426,23 @@
         },
         "LWeapon_1": {
             "children": [],
+            "jointId": "LWeapon_1",
             "matrix": [
-                0.1778277158737182,
-                -0.9013187885284422,
+                0.17782771587371807,
+                -0.9013187885284423,
                 0.3949713110923767,
                 0,
-                -0.6387164531657963,
-                -0.41105143975405267,
-                -0.650444451355285,
+                -0.6387164531657965,
+                -0.41105143975405295,
+                -0.6504444513552854,
                 0,
-                0.7486110910823109,
-                -0.13660758005784795,
-                -0.6487832705057116,
+                0.748611091082311,
+                -0.13660758005784804,
+                -0.6487832705057118,
                 0,
                 -13.01181793212892,
                 -55.91693115234375,
-                62.42354583740232,
+                62.42354583740236,
                 1
             ],
             "name": "LWeapon_1"
@@ -1524,22 +1451,23 @@
             "children": [
                 "Mid_1_L"
             ],
+            "jointId": "Mid_0_L",
             "matrix": [
-                0.9230325818061829,
-                0.38126271963119496,
-                -0.05147865414619446,
+                0.9230325818061831,
+                0.3812627196311953,
+                -0.05147865414619418,
                 0,
-                -0.030126420546983057,
-                0.20502621926214853,
-                0.9782925961993303,
+                -0.030126420546982835,
+                0.20502621926214867,
+                0.9782925961993305,
                 0,
                 0.3835410338631605,
-                -0.9014452241592465,
-                0.2007319951386657,
+                -0.901445224159247,
+                0.20073199513866571,
                 0,
-                21.684360504150376,
-                -4.8144683837890625,
-                1.2411117553710653,
+                21.684360504150398,
+                -4.814468383789034,
+                1.2411117553711222,
                 1
             ],
             "name": "Mid_0_L"
@@ -1548,22 +1476,23 @@
             "children": [
                 "Mid_1_R"
             ],
+            "jointId": "Mid_0_R",
             "matrix": [
-                0.9230324029922488,
-                0.3812622427940367,
-                -0.05147853493690496,
+                0.923032402992249,
+                0.38126224279403675,
+                -0.051478534936904796,
                 0,
-                -0.03012627486848357,
-                0.20502580137608822,
+                -0.03012627486848385,
+                0.2050258013760883,
                 0.9782925842772361,
                 0,
-                0.38354048478846187,
-                -0.901444973891782,
-                0.2007314860529377,
+                0.383540484788462,
+                -0.9014449738917821,
+                0.20073148605293756,
                 0,
-                -21.68438339233397,
+                -21.684383392333984,
                 4.8144378662109375,
-                -1.2410964965820312,
+                -1.2410964965820455,
                 1
             ],
             "name": "Mid_0_R"
@@ -1572,22 +1501,23 @@
             "children": [
                 "Mid_2_L"
             ],
+            "jointId": "Mid_1_L",
             "matrix": [
-                0.9425175189971923,
-                -1.4901161193847656e-7,
-                -0.3341560363769531,
+                0.9425175189971924,
+                -1.490116118829654e-7,
+                -0.3341560363769532,
                 0,
-                3.31034976097655e-7,
+                3.310349759311215e-7,
                 0.9999996423720767,
-                4.877802227071584e-7,
+                4.877802227019543e-7,
                 0,
                 0.33415605301555285,
-                -5.703589733285774e-7,
-                0.9425175659281315,
+                -5.703589733008219e-7,
+                0.9425175659281313,
                 0,
-                10.563671112060554,
+                10.563671112060547,
                 -0.000030517578125,
-                0.00006866455076703915,
+                0.00006866455078125,
                 1
             ],
             "name": "Mid_1_L"
@@ -1596,21 +1526,22 @@
             "children": [
                 "Mid_2_R"
             ],
+            "jointId": "Mid_1_R",
             "matrix": [
-                0.9425179958343501,
+                0.9425179958343506,
                 1.1920928943975895e-7,
-                -0.3341561257839203,
+                -0.3341561257839202,
                 0,
-                -1.3902672429955132e-7,
-                1.0000002384186333,
-                -3.539025792993061e-8,
+                -1.3902672407750671e-7,
+                1.0000002384186337,
+                -3.539025803314666e-8,
                 0,
-                0.33415608491144677,
-                7.981255775724172e-8,
-                0.9425178805498197,
+                0.3341560849114468,
+                7.981255767397499e-8,
+                0.9425178805498198,
                 0,
-                -10.56368637084961,
-                -0.00001525878909092171,
+                -10.563686370849624,
+                -0.0000152587890625,
                 -0.000030517578125,
                 1
             ],
@@ -1618,44 +1549,46 @@
         },
         "Mid_2_L": {
             "children": [],
+            "jointId": "Mid_2_L",
             "matrix": [
-                1.0000001192092896,
+                1.0000001192092893,
                 1.4901161182745426e-7,
-                -2.9802322443206464e-8,
+                -2.980232227667301e-8,
                 0,
-                -1.4901159195446212e-7,
-                0.9999999999999905,
-                7.450580599699386e-8,
+                -1.4901159189895097e-7,
+                0.9999999999999906,
+                7.450580596923828e-8,
                 0,
-                2.980233348992556e-8,
+                2.980233354543671e-8,
                 -7.450581046564153e-8,
-                1.0000001192092949,
+                1.0000001192092953,
                 0,
-                7.8468017578125,
+                7.846801757812514,
                 -0.000030517578125,
-                -0.000022888183607960855,
+                -0.00002288818359375,
                 1
             ],
             "name": "Mid_2_L"
         },
         "Mid_2_R": {
             "children": [],
+            "jointId": "Mid_2_R",
             "matrix": [
-                0.999999821186066,
-                3.2782554615362614e-7,
-                -5.662441252829442e-7,
+                0.9999998211860661,
+                3.2782554626464844e-7,
+                -5.662441253662109e-7,
                 0,
-                -3.278255294447696e-7,
-                0.999999821186012,
-                2.980232241545089e-8,
+                -3.2782552950028077e-7,
+                0.9999998211860122,
+                2.9802322387695312e-8,
                 0,
-                5.662443040010956e-7,
-                -2.9802145640189792e-8,
+                5.662443038345621e-7,
+                -2.9802145695700943e-8,
                 1.0000001192092165,
                 0,
-                -7.846809387207031,
-                0.00003051757815342171,
-                0,
+                -7.846809387207017,
+                0.000030517578125,
+                1.4210854715202004e-14,
                 1
             ],
             "name": "Mid_2_R"
@@ -1664,18 +1597,19 @@
             "children": [
                 "PonyTail_R1C0"
             ],
+            "jointId": "PonyTail_R0C0",
             "matrix": [
                 -0.7343313694000244,
-                4.612953148252933e-7,
-                -0.678791105747223,
+                4.612953148253861e-7,
+                -0.6787911057472228,
                 0,
-                -0.6787884703176364,
-                0.0027885335147307283,
+                -0.6787884703176366,
+                0.0027885335147307287,
                 0.7343285202285146,
                 0,
-                0.0018931704188162844,
+                0.0018931704188162846,
                 0.9999960064873947,
-                -0.0020473944353682767,
+                -0.002047394435368277,
                 0,
                 -15.21350574493408,
                 0.000003827044565696269,
@@ -1688,43 +1622,45 @@
             "children": [
                 "PonyTail_R2C0"
             ],
+            "jointId": "PonyTail_R1C0",
             "matrix": [
-                0.9647033810615543,
-                -0.2633391916751863,
-                0.0007343295728787775,
+                0.9647033810615542,
+                -0.26333919167518655,
+                0.0007343295728787786,
                 0,
-                0.2633272367503328,
-                0.9646797895610206,
-                0.007245234213715886,
+                0.26332723675033276,
+                0.9646797895610205,
+                0.007245234213715885,
                 0,
-                -0.002616345965410601,
-                -0.006796130228053952,
-                0.9999738335535525,
+                -0.0026163459654106,
+                -0.00679613022805395,
+                0.9999738335535523,
                 0,
                 17.711959838867188,
-                2.842170943040401e-14,
-                2.6822090143374666e-7,
+                0,
+                2.682209014892578e-7,
                 1
             ],
             "name": "PonyTail_R1C0"
         },
         "PonyTail_R2C0": {
             "children": [],
+            "jointId": "PonyTail_R2C0",
             "matrix": [
                 0.9981269836425779,
-                0.061168849468231146,
-                -0.0002932134084403541,
+                0.06116884946823126,
+                -0.00029321340844035235,
                 0,
-                -0.06116920371088863,
-                0.9980933540451433,
+                -0.06116920371088869,
+                0.9980933540451434,
                 -0.008221530355691134,
                 0,
-                -0.00021024728403675917,
+                -0.00021024728403675906,
                 0.008224070273604561,
                 0.9999659657694874,
                 0,
                 15.953872680664062,
-                -1.4210854715202004e-14,
+                0,
                 -0.000009655952453613281,
                 1
             ],
@@ -1734,6 +1670,7 @@
             "children": [
                 "RShield_R1C0"
             ],
+            "jointId": "RShield_R0C0",
             "matrix": [
                 6.123233995736785e-17,
                 -2.938735877055719e-39,
@@ -1758,6 +1695,7 @@
             "children": [
                 "RShield_R2C0"
             ],
+            "jointId": "RShield_R1C0",
             "matrix": [
                 1,
                 5.338504394103439e-8,
@@ -1780,17 +1718,18 @@
         },
         "RShield_R2C0": {
             "children": [],
+            "jointId": "RShield_R2C0",
             "matrix": [
                 1,
                 1.107905860118824e-18,
-                2.6469779601696886e-23,
+                -2.6469779601696886e-23,
                 0,
-                -1.1079190950086248e-18,
+                -1.1079257124535253e-18,
                 1,
-                3.257721429908598e-21,
+                3.284191207932573e-21,
                 0,
-                2.6469779601696886e-23,
-                -3.2536402280387227e-21,
+                1.0587911840678754e-22,
+                -3.253640232771888e-21,
                 1,
                 0,
                 21.18630218505858,
@@ -1802,21 +1741,22 @@
         },
         "ShoulderArmor2_0": {
             "children": [],
+            "jointId": "ShoulderArmor2_0",
             "matrix": [
-                0.9999998807907106,
+                0.9999998807907102,
                 4.373102768795435e-8,
-                4.7683715814761385e-7,
+                4.76837158203125e-7,
                 0,
-                -4.3730578153694606e-8,
+                -4.373057815369463e-8,
                 1.0000000000000004,
                 -9.536743164062502e-7,
                 0,
                 -4.76837199864244e-7,
-                9.536741818670463e-7,
-                0.9999998807907107,
+                9.536741818670461e-7,
+                0.9999998807907106,
                 0,
                 21.130218505859375,
-                -0.0000044750922825187445,
+                -0.000004475092282518738,
                 -4.096702575683594,
                 1
             ],
@@ -1824,43 +1764,45 @@
         },
         "ShoulderArmor3_0": {
             "children": [],
+            "jointId": "ShoulderArmor3_0",
             "matrix": [
                 0.9032279253005977,
-                -0.42272251844406117,
-                0.07405977696180345,
+                -0.4227225184440612,
+                0.07405977696180344,
                 0,
-                0.42272252861071463,
-                0.9061098230254486,
+                0.4227225286107145,
+                0.9061098230254485,
                 0.016449332300449537,
                 0,
-                -0.07405978368399918,
-                0.016449237480809495,
+                -0.07405978368399921,
+                0.016449237480809467,
                 0.997117880837913,
                 0,
-                32.09960937499999,
+                32.099609375,
                 1.4729766845703054,
-                6.272445678710909,
+                6.2724456787109375,
                 1
             ],
             "name": "ShoulderArmor3_0"
         },
         "ShoulderArmor3_1": {
             "children": [],
+            "jointId": "ShoulderArmor3_1",
             "matrix": [
-                0.9032278060913085,
-                -0.42272233963012695,
-                0.07405978441238407,
+                0.9032278060913084,
+                -0.4227223396301269,
+                0.07405978441238403,
                 0,
-                0.4227223658956424,
-                0.9061097658238423,
+                0.4227223658956422,
+                0.9061097658238422,
                 0.016449481277573064,
                 0,
                 -0.07405986866134617,
                 0.016449100961743124,
-                0.9971178787472964,
+                0.9971178787472962,
                 0,
                 16.60641860961914,
-                10.103385925292969,
+                10.103385925292962,
                 11.1231689453125,
                 1
             ],
@@ -1868,43 +1810,45 @@
         },
         "ShoulderArmor4_0": {
             "children": [],
+            "jointId": "ShoulderArmor4_0",
             "matrix": [
-                -0.9032278060913088,
-                0.422722816467285,
-                -0.07405983656644821,
+                -0.903227806091309,
+                0.4227228164672849,
+                -0.07405983656644823,
                 0,
-                -0.4227228375159608,
-                -0.8465497337705308,
-                0.323510481333946,
+                -0.4227228375159609,
+                -0.8465497337705309,
+                0.3235104813339461,
                 0,
-                0.07405991409139337,
-                0.3235103906210593,
-                0.9433216841223201,
+                0.07405991409139343,
+                0.3235103906210594,
+                0.9433216841223202,
                 0,
                 -32.09999084472656,
                 -1.4729843139648438,
-                -6.2720489501953125,
+                -6.272048950195284,
                 1
             ],
             "name": "ShoulderArmor4_0"
         },
         "ShoulderArmor4_1": {
             "children": [],
+            "jointId": "ShoulderArmor4_1",
             "matrix": [
-                -0.9032278060913088,
-                0.422722816467285,
-                -0.07405983656644821,
+                -0.903227806091309,
+                0.4227228164672849,
+                -0.07405983656644823,
                 0,
-                -0.4227228375159608,
-                -0.8465497337705308,
-                0.323510481333946,
+                -0.4227228375159609,
+                -0.8465497337705309,
+                0.3235104813339461,
                 0,
-                0.07405991409139337,
-                0.3235103906210593,
-                0.9433216841223201,
+                0.07405991409139343,
+                0.3235103906210594,
+                0.9433216841223202,
                 0,
-                -16.606422424316403,
-                -10.103385925292962,
+                -16.606422424316406,
+                -10.103385925292969,
                 -11.123123168945312,
                 1
             ],
@@ -1914,6 +1858,7 @@
             "children": [
                 "Tail_R1C0"
             ],
+            "jointId": "Tail_R0C0",
             "matrix": [
                 0.8380906581878665,
                 5.329070518200751e-15,
@@ -1938,17 +1883,18 @@
             "children": [
                 "Tail_R2C0"
             ],
+            "jointId": "Tail_R1C0",
             "matrix": [
-                0.7855095863342284,
+                0.7855095863342281,
                 -0.6188490986824037,
                 -1.3305803747698516e-7,
                 0,
                 0.618849098682419,
-                0.7855095863342165,
-                1.4526536062930973e-7,
+                0.7855095863342162,
+                1.4526536062930967e-7,
                 0,
-                1.4621033541342768e-8,
-                -1.9645027475516786e-7,
+                1.4621033541342745e-8,
+                -1.964502747551678e-7,
                 0.9999999999999997,
                 0,
                 22.043807983398438,
@@ -1962,44 +1908,46 @@
             "children": [
                 "Tail_R3C0"
             ],
+            "jointId": "Tail_R2C0",
             "matrix": [
-                0.175172656774521,
+                0.17517265677452104,
                 -0.9845378398895265,
-                8.74227765734759e-8,
+                8.742277657347591e-8,
                 0,
                 0.9845378398895251,
                 0.17517265677452853,
-                8.742278367890326e-8,
+                8.742278367890322e-8,
                 0,
-                -1.0138509654800937e-7,
+                -1.0138509654800939e-7,
                 7.075693491032964e-8,
                 1.0000000000000002,
                 0,
-                26.835166931152358,
+                26.83516693115233,
                 0.0000152587890625,
-                0.000001972005748029914,
+                0.0000019720057480299143,
                 1
             ],
             "name": "Tail_R2C0"
         },
         "Tail_R3C0": {
             "children": [],
+            "jointId": "Tail_R3C0",
             "matrix": [
-                0.9999404549598694,
-                -0.010925076901912675,
+                0.9999404549598695,
+                -0.01092507690191269,
                 -2.7748725983656186e-7,
                 0,
-                0.010925076901780365,
-                0.9999404549598709,
+                0.010925076901780378,
+                0.9999404549598712,
                 -4.768372150465438e-7,
                 0,
-                2.826801435491269e-7,
-                4.737771238175132e-7,
+                2.8268014354912694e-7,
+                4.737771238175133e-7,
                 0.9999999999999993,
                 0,
-                33.79380798339844,
-                -0.00001525878909092171,
-                -0.000020787834728253064,
+                33.79380798339842,
+                -0.00001525878911934342,
+                -0.000020787834728253074,
                 1
             ],
             "name": "Tail_R3C0"
@@ -2008,22 +1956,23 @@
             "children": [
                 "Thumb_1_L"
             ],
+            "jointId": "Thumb_0_L",
             "matrix": [
-                0.7343623638153075,
-                0.2123310863971709,
+                0.7343623638153077,
+                0.21233108639717102,
                 -0.6446921825408934,
                 0,
-                0.6549728075461038,
-                0.027560222982731974,
-                0.7551499528857654,
+                0.6549728075461041,
+                0.027560222982732085,
+                0.7551499528857659,
                 0,
-                0.17810959550560568,
-                -0.9768091436175506,
-                -0.1188318474583959,
+                0.1781095955056056,
+                -0.976809143617551,
+                -0.11883184745839598,
                 0,
-                4.774272918701172,
-                -0.004638671874971578,
-                -5.944442749023452,
+                4.774272918701179,
+                -0.004638671875,
+                -5.944442749023423,
                 1
             ],
             "name": "Thumb_0_L"
@@ -2032,18 +1981,19 @@
             "children": [
                 "Thumb_1_R"
             ],
+            "jointId": "Thumb_0_R",
             "matrix": [
-                0.7343619465827941,
-                0.21233117580413807,
-                -0.644691705703735,
+                0.7343619465827945,
+                0.21233117580413818,
+                -0.6446917057037348,
                 0,
-                0.6549726672812056,
+                0.6549726672812057,
                 0.027559681046420426,
-                0.7551497530949288,
+                0.7551497530949289,
                 0,
-                0.17810936390427395,
-                -0.9768088594791693,
-                -0.11883235631846514,
+                0.17810936390427415,
+                -0.9768088594791696,
+                -0.1188323563184652,
                 0,
                 -4.774257659912095,
                 0.0046234130859375,
@@ -2056,21 +2006,22 @@
             "children": [
                 "Thumb_2_L"
             ],
+            "jointId": "Thumb_1_L",
             "matrix": [
-                0.9999613165855411,
-                -6.85453414861481e-7,
-                -0.008782580494880628,
+                0.999961316585541,
+                -6.854534148892366e-7,
+                -0.008782580494880655,
                 0,
-                6.89144614901549e-7,
+                6.891446149293046e-7,
                 1.0000002384184001,
-                4.1723251359426783e-7,
+                4.172325135387567e-7,
                 0,
-                0.008782579972278048,
-                -4.2326871541042976e-7,
+                0.008782579972277979,
+                -4.232687154659409e-7,
                 0.9999612571164327,
                 0,
-                9.662431716918938,
-                -0.00003814697262782829,
+                9.662431716918949,
+                -0.000038146972642039145,
                 0.0000152587890625,
                 1
             ],
@@ -2080,18 +2031,19 @@
             "children": [
                 "Thumb_2_R"
             ],
+            "jointId": "Thumb_1_R",
             "matrix": [
-                0.99996143579483,
-                8.940696721859709e-8,
-                -0.00878276675939553,
+                0.9999614357948304,
+                8.940696713533036e-8,
+                -0.008782766759395537,
                 0,
-                -8.96721615295526e-8,
-                0.9999998807907131,
-                -2.980232233218416e-8,
+                -8.967216150179702e-8,
+                0.9999998807907138,
+                -2.980232227667301e-8,
                 0,
-                0.008782766235344706,
+                0.008782766235344672,
                 3.0588744537318746e-8,
-                0.9999613761293489,
+                0.9999613761293492,
                 0,
                 -9.6624526977539,
                 0.00003051757815342171,
@@ -2102,40 +2054,42 @@
         },
         "Thumb_2_L": {
             "children": [],
+            "jointId": "Thumb_2_L",
             "matrix": [
                 0.9999886751174926,
-                2.9802322359939737e-8,
-                0.004745464771985841,
-                0,
-                -2.994408029866058e-8,
-                0.9999997615814207,
                 2.9802322387695312e-8,
+                0.004745464771985994,
                 0,
-                -0.004745465904889515,
-                -2.994409775691764e-8,
-                0.9999889138489108,
+                -2.9944080215393853e-8,
+                0.9999997615814208,
+                2.980232227667301e-8,
                 0,
-                7.747718811035142,
+                -0.004745465904889529,
+                -2.9944097812428794e-8,
+                0.9999889138489112,
+                0,
+                7.747718811035156,
                 0.00000762939453125,
-                -0.00001525878903407829,
+                -0.0000152587890625,
                 1
             ],
             "name": "Thumb_2_L"
         },
         "Thumb_2_R": {
             "children": [],
+            "jointId": "Thumb_2_R",
             "matrix": [
-                0.9999886155128481,
-                4.4703483609298544e-8,
-                0.0047460161149502425,
+                0.9999886155128482,
+                4.470348363705412e-8,
+                0.004746016114950145,
                 0,
                 -4.215799942475229e-8,
-                0.9999999403953548,
-                -5.364418026454487e-7,
+                0.9999999403953546,
+                -5.364418025344264e-7,
                 0,
-                -0.004746016960345795,
+                -0.004746016960345843,
                 5.362357404781193e-7,
-                0.999988793633198,
+                0.9999887936331978,
                 0,
                 -7.747688293457024,
                 1.4210854715202004e-14,
@@ -2148,20 +2102,21 @@
             "children": [
                 "toeBall_L"
             ],
+            "jointId": "ankle_L",
             "matrix": [
-                0.7058807015419003,
-                0.06771307438611983,
+                0.7058807015419002,
+                0.06771307438611981,
                 0.7050868272781371,
                 0,
-                -0.04790699308141866,
+                -0.04790699308141864,
                 0.9977047461203886,
-                -0.04785372878771709,
+                -0.04785372878771708,
                 0,
-                -0.7067088204418034,
-                4.338918707559682e-7,
+                -0.7067088204418036,
+                4.338918707553736e-7,
                 0.7075044792779447,
                 0,
-                44.79496765136718,
+                44.794967651367195,
                 -0.0000019073486363652137,
                 0.000030517578139210855,
                 1
@@ -2172,18 +2127,19 @@
             "children": [
                 "toeBall_R"
             ],
+            "jointId": "ankle_R",
             "matrix": [
-                0.7058809399604797,
-                0.06771324574947354,
-                0.7050864696502686,
+                0.7058809399604798,
+                0.06771324574947356,
+                0.7050864696502687,
                 0,
                 -0.047907269412870955,
                 0.9977048627924967,
                 -0.047853713903135614,
                 0,
-                -0.7067085728475417,
-                2.570896554497715e-7,
-                0.7075048462053364,
+                -0.706708572847542,
+                2.570896554402791e-7,
+                0.7075048462053365,
                 0,
                 -44.7949562072754,
                 -0.0000057220458984375,
@@ -2194,6 +2150,15 @@
         },
         "belt_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_2",
+                "sources": [
+                    "belt_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -2212,30 +2177,28 @@
                 0,
                 1
             ],
-            "meshes": [
-                "belt_model_LOD0-mesh"
-            ],
             "name": "belt_model_LOD0"
         },
         "bicep_A_L": {
             "children": [
                 "elbow_A_L"
             ],
+            "jointId": "bicep_A_L",
             "matrix": [
-                0.4917534291744231,
-                -0.8050400614738462,
+                0.491753429174423,
+                -0.8050400614738464,
                 -0.3317979872226715,
                 0,
-                -0.09997886820750455,
-                -0.43073872322181345,
-                0.896922188789282,
+                -0.09997886820750443,
+                -0.4307387232218132,
+                0.8969221887892818,
                 0,
-                -0.8649759622848111,
-                -0.40789150455075596,
-                -0.29230404476117083,
+                -0.8649759622848108,
+                -0.40789150455075585,
+                -0.2923040447611709,
                 0,
-                27.582847595214837,
-                -0.000007629394524144573,
+                27.582847595214844,
+                -0.00000762939453125,
                 0.000011444091796875,
                 1
             ],
@@ -2245,21 +2208,22 @@
             "children": [
                 "elbow_A_R"
             ],
+            "jointId": "bicep_A_R",
             "matrix": [
-                0.4917534589767456,
-                -0.8050402402877807,
-                -0.3317968845367433,
+                0.4917534589767455,
+                -0.8050402402877808,
+                -0.33179688453674316,
                 0,
-                -0.09997890260879298,
-                -0.43073735662634677,
-                0.8969220259928895,
+                -0.09997890260879297,
+                -0.4307373566263467,
+                0.8969220259928894,
                 0,
-                -0.8649757172764402,
-                -0.4078918584917811,
-                -0.2923036521736487,
+                -0.8649757172764403,
+                -0.40789185849178095,
+                -0.2923036521736486,
                 0,
-                -27.58285903930664,
-                -0.000011444091811085855,
+                -27.582859039306655,
+                -0.000011444091796875,
                 -0.00002288818359375,
                 1
             ],
@@ -2269,22 +2233,23 @@
             "children": [
                 "elbow_L"
             ],
+            "jointId": "bicep_L",
             "matrix": [
-                0.5206404328346248,
-                -0.22304528951644886,
-                -0.8241263628005981,
+                0.5206404328346249,
+                -0.22304528951644892,
+                -0.8241263628005983,
                 0,
-                -0.7063540810114152,
-                0.42968011325935906,
-                -0.5625285643796964,
+                -0.7063540810114153,
+                0.4296801132593591,
+                -0.5625285643796967,
                 0,
-                0.4795801171918182,
-                0.8750002475927392,
-                0.06615989817029286,
+                0.47958011719181826,
+                0.8750002475927393,
+                0.06615989817029293,
                 0,
                 35.613922119140625,
                 0.000015258789055394573,
-                0.00006103515622157829,
+                0.00006103515627842171,
                 1
             ],
             "name": "bicep_L"
@@ -2293,28 +2258,38 @@
             "children": [
                 "elbow_R"
             ],
+            "jointId": "bicep_R",
             "matrix": [
                 0.5206400156021118,
                 -0.2230455130338669,
-                -0.8241264820098877,
+                -0.8241264820098878,
                 0,
-                -0.706353953215182,
-                0.4296808645634502,
+                -0.7063539532151822,
+                0.42968086456345017,
                 -0.5625283645410074,
                 0,
-                0.4795809072402767,
-                0.874999957961843,
-                0.06615998598524242,
+                0.47958090724027685,
+                0.8749999579618434,
+                0.06615998598524246,
                 0,
                 -35.613929748535156,
                 0.00000762939453125,
-                2.842170943040401e-14,
+                0,
                 1
             ],
             "name": "bicep_R"
         },
         "bracer_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_1",
+                "sources": [
+                    "bracer_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -2332,14 +2307,20 @@
                 0,
                 0,
                 1
-            ],
-            "meshes": [
-                "bracer_model_LOD0-mesh"
             ],
             "name": "bracer_model_LOD0"
         },
         "centaur_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_0",
+                "sources": [
+                    "centaur_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -2357,9 +2338,6 @@
                 0,
                 0,
                 1
-            ],
-            "meshes": [
-                "centaur_model_LOD0-mesh"
             ],
             "name": "centaur_model_LOD0"
         },
@@ -2367,18 +2345,19 @@
             "children": [
                 "bicep_A_L"
             ],
+            "jointId": "clavicle_A_L",
             "matrix": [
-                -0.7836671471595762,
-                0.24882446229457852,
+                -0.7836671471595763,
+                0.2488244622945785,
                 0.5691674947738647,
                 0,
-                0.5424790986882687,
-                -0.17224433484105203,
-                0.8222213249349021,
+                0.5424790986882686,
+                -0.17224433484105198,
+                0.822221324934902,
                 0,
-                0.30262472735708446,
-                0.9531095355645766,
-                1.5646216709741534e-7,
+                0.3026247273570844,
+                0.9531095355645763,
+                1.564621671529265e-7,
                 0,
                 -0.5662612915039205,
                 14.941403388977056,
@@ -2391,18 +2370,19 @@
             "children": [
                 "bicep_A_R"
             ],
+            "jointId": "clavicle_A_R",
             "matrix": [
-                0.7836673855781553,
-                0.24882461130619044,
-                -0.5691676139831542,
+                0.7836673855781551,
+                0.24882461130619035,
+                -0.569167613983154,
                 0,
                 -0.5424790995919275,
-                -0.17224436686120967,
-                -0.8222214403010114,
+                -0.1722443668612096,
+                -0.8222214403010113,
                 0,
                 -0.3026249379715147,
-                0.9531099521626367,
-                -1.415610384469801e-7,
+                0.9531099521626366,
+                -1.4156103847473567e-7,
                 0,
                 -0.5662612915039062,
                 -14.941397666931154,
@@ -2417,18 +2397,19 @@
                 "ShoulderArmor3_0",
                 "ShoulderArmor3_1"
             ],
+            "jointId": "clavicle_L",
             "matrix": [
                 -0.06707736104726794,
-                0.9032284021377565,
-                0.4238857924938203,
+                0.9032284021377567,
+                0.42388579249382047,
                 0,
-                0.031392929977587164,
-                -0.4227217655135883,
+                0.03139292997758719,
+                -0.42272176551358825,
                 0.9057158001296419,
                 0,
-                0.9972538384077224,
+                0.997253838407722,
                 0.07406003180853764,
-                7.450580402634799e-8,
+                7.450580399859241e-8,
                 0,
                 20.991455078125,
                 9.16483211517334,
@@ -2443,22 +2424,23 @@
                 "ShoulderArmor4_0",
                 "ShoulderArmor4_1"
             ],
+            "jointId": "clavicle_R",
             "matrix": [
-                0.06707735359668732,
+                0.06707735359668729,
                 0.9032276868820193,
                 -0.42388761043548595,
                 0,
-                -0.03139316163621299,
+                -0.031393161636212974,
                 -0.42272348636589985,
                 -0.9057149053970661,
                 0,
-                -0.9972537766755466,
+                -0.9972537766755463,
                 0.07406011261082529,
-                5.551115123125783e-17,
+                8.326672684688674e-17,
                 0,
-                20.99145507812503,
+                20.991455078125,
                 -9.164855003356937,
-                -12.562515258789062,
+                -12.562515258789077,
                 1
             ],
             "name": "clavicle_R"
@@ -2467,21 +2449,22 @@
             "children": [
                 "wrist_A_L"
             ],
+            "jointId": "elbow_A_L",
             "matrix": [
-                0.9741379618644714,
-                -1.734723475976807e-18,
-                -0.22595377266407013,
+                0.9741379618644711,
                 0,
-                -1.0436593584142728e-7,
-                0.9999997615814219,
-                -4.4994522034711056e-7,
+                -0.22595377266407007,
                 0,
-                0.2259537734248409,
-                4.618907086015962e-7,
-                0.9741379651443264,
+                -1.0436593583275366e-7,
+                0.9999997615814218,
+                -4.4994522038939444e-7,
+                0,
+                0.22595377342484077,
+                4.618907085405556e-7,
+                0.9741379651443262,
                 0,
                 36.4003677368164,
-                -0.000009536743167615214,
+                -0.000009536743160509786,
                 0.00000858306884765625,
                 1
             ],
@@ -2491,22 +2474,23 @@
             "children": [
                 "wrist_A_R"
             ],
+            "jointId": "elbow_A_R",
             "matrix": [
-                0.9741378426551822,
-                -6.612390281678093e-8,
-                -0.22595378756523143,
+                0.9741378426551823,
+                -6.612390277167812e-8,
+                -0.22595378756523138,
                 0,
-                1.589599998835095e-7,
+                1.5895999989912202e-7,
                 1.0000004768371467,
-                3.926688637823864e-7,
+                3.926688637791338e-7,
                 0,
                 0.2259538470769284,
-                -4.1843112457687e-7,
-                0.9741380992236799,
+                -4.1843112464344e-7,
+                0.9741380992236796,
                 0,
-                -36.400386810302734,
-                0.000019073486328125,
-                0.000022888183591973643,
+                -36.40038681030273,
+                0.000019073486331677714,
+                0.000022888183595526357,
                 1
             ],
             "name": "elbow_A_R"
@@ -2515,21 +2499,22 @@
             "children": [
                 "wrist_L"
             ],
+            "jointId": "elbow_L",
             "matrix": [
-                0.7017140984535217,
+                0.701714098453522,
                 2.9802322387695312e-8,
                 -0.7124587893486026,
                 0,
                 -5.760007504296283e-8,
                 0.9999999999999984,
-                -1.4901159965663435e-8,
+                -1.4901159930968966e-8,
                 0,
-                0.71245866878423,
-                5.149402515502999e-8,
-                0.7017139797073999,
+                0.7124586687842298,
+                5.1494025099518836e-8,
+                0.7017139797073996,
                 0,
-                41.158668518066406,
-                0,
+                41.15866851806638,
+                -2.842170943040401e-14,
                 -0.0000152587890625,
                 1
             ],
@@ -2539,20 +2524,21 @@
             "children": [
                 "wrist_R"
             ],
+            "jointId": "elbow_R",
             "matrix": [
-                0.7017138004302981,
-                -2.9802322387695312e-8,
-                -0.7124589085578922,
+                0.7017138004302976,
+                -2.9802322443206464e-8,
+                -0.7124589085578924,
                 0,
-                9.920578220024012e-8,
-                0.9999999999999957,
-                5.587935452550097e-8,
+                9.920578203370667e-8,
+                0.9999999999999953,
+                5.5879354518562074e-8,
                 0,
-                0.7124588485038236,
-                -1.0989134818784052e-7,
-                0.7017137412819526,
+                0.7124588485038232,
+                -1.0989134813232937e-7,
+                0.7017137412819527,
                 0,
-                -41.158653259277344,
+                -41.15865325927733,
                 -0.0000152587890625,
                 0,
                 1
@@ -2564,28 +2550,38 @@
                 "Goatee_R0C0",
                 "PonyTail_R0C0"
             ],
+            "jointId": "head",
             "matrix": [
-                0.20050360262393943,
+                0.2005036026239395,
                 -0.0000013385061947701622,
-                -0.9796929359436033,
+                -0.9796929359436035,
                 0,
-                1.355643024989661e-7,
+                1.355643024989662e-7,
                 1.0000000000000004,
-                -0.0000013385061947689759,
+                -0.000001338506194768976,
                 0,
-                0.9796929359436394,
-                1.35563924661039e-7,
-                0.2005036026237618,
+                0.9796929359436398,
+                1.3556392466103902e-7,
+                0.20050360262376185,
                 0,
-                23.354888916015597,
+                23.354888916015653,
                 -0.000011605290637817234,
-                0.000055313110348009786,
+                0.00005531311034090436,
                 1
             ],
             "name": "head"
         },
         "headitem_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_3",
+                "sources": [
+                    "headitem_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -2603,9 +2599,6 @@
                 0,
                 0,
                 1
-            ],
-            "meshes": [
-                "headitem_model_LOD0-mesh"
             ],
             "name": "headitem_model_LOD0"
         },
@@ -2613,18 +2606,19 @@
             "children": [
                 "ankle_L"
             ],
+            "jointId": "knee_L",
             "matrix": [
-                0.5041711330413816,
-                -5.293955920339377e-23,
-                -0.863603830337524,
+                0.5041711330413818,
+                2.6469779601696886e-23,
+                -0.8636038303375243,
                 0,
-                -4.1179839627147864e-7,
-                0.9999999999999992,
-                -2.404075303275021e-7,
+                -4.117983962714788e-7,
+                0.9999999999999994,
+                -2.4040753032750217e-7,
                 0,
-                0.8636038303375241,
-                4.768372093037958e-7,
-                0.5041711330413816,
+                0.8636038303375242,
+                4.76837209303796e-7,
+                0.5041711330413818,
                 0,
                 33.65766906738281,
                 0.0000019073486328125,
@@ -2637,6 +2631,7 @@
             "children": [
                 "ankle_R"
             ],
+            "jointId": "knee_R",
             "matrix": [
                 0.5041705369949343,
                 -1.0658141036401503e-14,
@@ -2661,20 +2656,21 @@
             "children": [
                 "head"
             ],
+            "jointId": "neck1",
             "matrix": [
-                0.9388827085494997,
-                -2.1316282019863446e-14,
-                -0.34423714876174927,
+                0.9388827085494994,
+                -2.1316281940454108e-14,
+                -0.3442371487617493,
                 0,
-                1.7344954585607852e-7,
+                1.734495458560784e-7,
                 1,
-                4.7307142381214394e-7,
+                4.7307142381214383e-7,
                 0,
-                0.3442371487617494,
-                -5.038663568456309e-7,
-                0.9388827085495,
+                0.3442371487617492,
+                -5.038663568456311e-7,
+                0.9388827085494998,
                 0,
-                38.894989013671875,
+                38.89498901367185,
                 0.000001907352270791314,
                 0,
                 1
@@ -2688,6 +2684,7 @@
                 "spine1_1",
                 "RShield_R0C0"
             ],
+            "jointId": "root",
             "matrix": [
                 -1.629206851037603e-7,
                 -1.0000000000000002,
@@ -2710,6 +2707,15 @@
         },
         "shield_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_4",
+                "sources": [
+                    "shield_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -2727,14 +2733,20 @@
                 0,
                 0,
                 1
-            ],
-            "meshes": [
-                "shield_model_LOD0-mesh"
             ],
             "name": "shield_model_LOD0"
         },
         "shoulder_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_5",
+                "sources": [
+                    "shoulder_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -2752,9 +2764,6 @@
                 0,
                 0,
                 1
-            ],
-            "meshes": [
-                "shoulder_model_LOD0-mesh"
             ],
             "name": "shoulder_model_LOD0"
         },
@@ -2764,6 +2773,7 @@
                 "spine2",
                 "clavicle_A_L"
             ],
+            "jointId": "spine1",
             "matrix": [
                 0.25339642167091353,
                 4.1283534812919216e-8,
@@ -2788,6 +2798,7 @@
             "children": [
                 "spine1_2"
             ],
+            "jointId": "spine1_1",
             "matrix": [
                 -1,
                 -3.2584136956428006e-7,
@@ -2814,6 +2825,7 @@
                 "Tail_R0C0",
                 "thigh_L"
             ],
+            "jointId": "spine1_2",
             "matrix": [
                 1,
                 2.503434473055676e-7,
@@ -2838,18 +2850,19 @@
             "children": [
                 "spine3"
             ],
+            "jointId": "spine2",
             "matrix": [
                 0.946119546890259,
-                2.830900669437143e-8,
-                0.32381740212440513,
+                2.8309006694371426e-8,
+                0.32381740212440496,
                 0,
                 -2.9921178109991884e-8,
-                1,
-                1.4765966223999064e-14,
+                0.9999999999999999,
+                1.476596622337868e-14,
                 0,
-                -0.3238174021244049,
-                -9.689012134448481e-9,
-                0.9461195468902592,
+                -0.3238174021244048,
+                -9.689012134448453e-9,
+                0.946119546890259,
                 0,
                 34.073089599609375,
                 0.0000014407734170163162,
@@ -2865,18 +2878,19 @@
                 "clavicle_L",
                 "ShoulderArmor2_0"
             ],
+            "jointId": "spine3",
             "matrix": [
+                0.9971148967742924,
+                2.2204460500774937e-15,
+                0.07590900361537933,
+                0,
+                -5.565957326909368e-8,
+                1,
+                7.311252261388292e-7,
+                0,
+                -0.07590900361537935,
+                -7.332409171390135e-7,
                 0.9971148967742922,
-                2.220446051731855e-15,
-                0.07590900361537936,
-                0,
-                -5.565957326909364e-8,
-                0.9999999999999997,
-                7.311252261388289e-7,
-                0,
-                -0.07590900361537936,
-                -7.332409171390134e-7,
-                0.997114896774292,
                 0,
                 37.45343017578128,
                 0.000003814697265625,
@@ -2887,6 +2901,15 @@
         },
         "tail_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_6",
+                "sources": [
+                    "tail_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -2905,15 +2928,13 @@
                 0,
                 1
             ],
-            "meshes": [
-                "tail_model_LOD0-mesh"
-            ],
             "name": "tail_model_LOD0"
         },
         "thigh_L": {
             "children": [
                 "knee_L"
             ],
+            "jointId": "thigh_L",
             "matrix": [
                 -0.3036697208881378,
                 -1.4480100677783557e-7,
@@ -2938,6 +2959,7 @@
             "children": [
                 "knee_R"
             ],
+            "jointId": "thigh_R",
             "matrix": [
                 0.30367004871368425,
                 -7.105427357601002e-15,
@@ -2960,50 +2982,61 @@
         },
         "toeBall_L": {
             "children": [],
+            "jointId": "toeBall_L",
             "matrix": [
-                0.04014169052243377,
-                -0.002725208876654605,
-                0.9991906285285954,
+                0.040141690522433784,
+                -0.0027252088766546068,
+                0.9991906285285953,
                 0,
                 0.06772523836860615,
                 0.9977042111228365,
-                3.4709420513704715e-7,
+                3.4709420513671046e-7,
                 0,
                 -0.9968961480028092,
-                0.06767037217497339,
-                0.040234076869069005,
+                0.06767037217497342,
+                0.040234076869069,
                 0,
                 44.30448913574219,
-                -0.000043869018551134786,
-                -0.000007629394517039145,
+                -0.0000438690185546875,
+                -0.000007629394545460855,
                 1
             ],
             "name": "toeBall_L"
         },
         "toeBall_R": {
             "children": [],
+            "jointId": "toeBall_R",
             "matrix": [
-                0.04014199972152478,
-                -0.0027244961820541234,
-                0.9991903305053712,
+                0.04014199972152481,
+                -0.0027244961820541247,
+                0.9991903305053714,
                 0,
-                0.06771322858048609,
-                0.9977051016151101,
-                9.941784046312064e-8,
+                0.06771322858048606,
+                0.9977051016151098,
+                9.941784046437622e-8,
                 0,
-                -0.9968973411904923,
-                0.06765840269436457,
-                0.0402343643897644,
+                -0.9968973411904926,
+                0.06765840269436461,
+                0.04023436438976441,
                 0,
                 -44.304481506347656,
-                -0.00000762939453125,
-                0.000007629394517039145,
+                -0.000007629394534802714,
+                0.00000762939453125,
                 1
             ],
             "name": "toeBall_R"
         },
         "weapon_model_LOD0": {
             "children": [],
+            "instanceSkin": {
+                "skeletons": [
+                    "root"
+                ],
+                "skin": "skin_7",
+                "sources": [
+                    "weapon_model_LOD0-mesh"
+                ]
+            },
             "matrix": [
                 1,
                 0,
@@ -3022,51 +3055,50 @@
                 0,
                 1
             ],
-            "meshes": [
-                "weapon_model_LOD0-mesh"
-            ],
             "name": "weapon_model_LOD0"
         },
         "wrist_A_L": {
             "children": [],
+            "jointId": "wrist_A_L",
             "matrix": [
-                0.3586483001708986,
-                0.566214680671692,
-                0.7421401143074033,
+                0.35864830017089866,
+                0.5662146806716919,
+                0.7421401143074032,
                 0,
-                0.9258908917787231,
-                -0.316903409149761,
-                -0.2056671360597429,
+                0.9258908917787232,
+                -0.3169034091497612,
+                -0.20566713605974313,
                 0,
-                0.11873497770637988,
-                0.7609029229655121,
-                -0.6379098695077428,
+                0.11873497770637999,
+                0.7609029229655119,
+                -0.6379098695077429,
                 0,
                 33.84429931640625,
-                -0.0000019073486292597863,
-                -0.000005960464476650884,
+                -0.0000019073486328125,
+                -0.0000059604644775390625,
                 1
             ],
             "name": "wrist_A_L"
         },
         "wrist_A_R": {
             "children": [],
+            "jointId": "wrist_A_R",
             "matrix": [
                 0.358648419380188,
-                0.5662151575088501,
-                0.7421396374702455,
+                0.5662151575088502,
+                0.7421396374702453,
                 0,
                 0.9258906265257056,
-                -0.31690353950083444,
-                -0.20566698567548064,
+                -0.31690353950083433,
+                -0.20566698567548053,
                 0,
                 0.1187348876631012,
-                0.7609021093975861,
-                -0.6379101231148115,
+                0.7609021093975858,
+                -0.6379101231148114,
                 0,
-                -33.844303131103516,
+                -33.84430313110351,
                 0.000003814697265625,
-                -0.000004053115842950206,
+                -0.000004053115845614741,
                 1
             ],
             "name": "wrist_A_R"
@@ -3078,22 +3110,23 @@
                 "Mid_0_L",
                 "LWeapon_1"
             ],
+            "jointId": "wrist_L",
             "matrix": [
-                0.9862771034240727,
-                0.16058738529682176,
+                0.9862771034240728,
+                0.16058738529682165,
                 0.038332670927047785,
                 0,
-                -0.16048923126390957,
-                0.9870214244355447,
-                -0.005643635966181948,
+                -0.16048923126390963,
+                0.9870214244355444,
+                -0.0056436359661820035,
                 0,
-                -0.03874145183000127,
-                -0.000585791768763666,
-                0.9992488583617977,
+                -0.03874145183000116,
+                -0.0005857917687637215,
+                0.9992488583617976,
                 0,
                 46.21991729736328,
-                0.00001525878909092171,
-                1.4210854715202004e-14,
+                0.00001525878903407829,
+                0,
                 1
             ],
             "name": "wrist_L"
@@ -3104,22 +3137,23 @@
                 "Index_0_R",
                 "Mid_0_R"
             ],
+            "jointId": "wrist_R",
             "matrix": [
                 0.9862771034240725,
-                0.16058735549449932,
+                0.1605873554944991,
                 0.03833305835723888,
                 0,
                 -0.1604892268312145,
                 0.9870215370966706,
-                -0.005643397575921472,
+                -0.005643397575921583,
                 0,
-                -0.03874179619918561,
-                -0.000586088836970533,
+                -0.03874179619918555,
+                -0.0005860888369706441,
                 0.9992488633758905,
                 0,
-                -46.21987533569336,
-                0.00003051757815342171,
-                -0.0000152587890625,
+                -46.21987533569337,
+                0.000030517578125,
+                -0.000015258789076710855,
                 1
             ],
             "name": "wrist_R"
@@ -3127,58 +3161,17 @@
     },
     "samplers": {
         "sampler_0": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
-        },
-        "sampler_1": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
-        },
-        "sampler_2": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
-        },
-        "sampler_3": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
-        },
-        "sampler_4": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
-        },
-        "sampler_5": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
-        },
-        "sampler_6": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
-        },
-        "sampler_7": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
         }
     },
     "scene": "scene_0",
     "scenes": {
         "scene_0": {
             "nodes": [
+                "root",
                 "centaur_model_LOD0",
                 "bracer_model_LOD0",
                 "belt_model_LOD0",
@@ -3193,8 +3186,30 @@
     "shaders": {},
     "skins": {
         "skin_0": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_51",
+                "byteOffset": 0,
+                "count": 58,
+                "type": 5126
+            },
             "joints": [
                 "head",
                 "neck1",
@@ -3254,14 +3269,33 @@
                 "knee_R",
                 "ankle_R",
                 "RShield_R1C0"
-            ],
-            "roots": [
-                "root"
             ]
         },
         "skin_1": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_51",
+                "byteOffset": 3712,
+                "count": 8,
+                "type": 5126
+            },
             "joints": [
                 "elbow_L",
                 "elbow_R",
@@ -3271,35 +3305,96 @@
                 "wrist_L",
                 "Thumb_0_L",
                 "root"
-            ],
-            "roots": [
-                "root"
             ]
         },
         "skin_2": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_51",
+                "byteOffset": 4224,
+                "count": 3,
+                "type": 5126
+            },
             "joints": [
                 "spine1",
                 "clavicle_A_R",
                 "spine2"
-            ],
-            "roots": []
+            ]
         },
         "skin_3": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_51",
+                "byteOffset": 4416,
+                "count": 4,
+                "type": 5126
+            },
             "joints": [
                 "head",
                 "PonyTail_R0C0",
                 "PonyTail_R1C0",
                 "PonyTail_R2C0"
-            ],
-            "roots": []
+            ]
         },
         "skin_4": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_51",
+                "byteOffset": 4672,
+                "count": 6,
+                "type": 5126
+            },
             "joints": [
                 "LShield_R0C0",
                 "RShield_R2C0",
@@ -3307,12 +3402,33 @@
                 "RShield_R0C0",
                 "LShield_R2C0",
                 "LShield_R1C0"
-            ],
-            "roots": []
+            ]
         },
         "skin_5": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_51",
+                "byteOffset": 5056,
+                "count": 11,
+                "type": 5126
+            },
             "joints": [
                 "ShoulderArmor3_1",
                 "ShoulderArmor4_1",
@@ -3325,28 +3441,69 @@
                 "bicep_R",
                 "spine2",
                 "spine1"
-            ],
-            "roots": []
+            ]
         },
         "skin_6": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_51",
+                "byteOffset": 5760,
+                "count": 5,
+                "type": 5126
+            },
             "joints": [
                 "Tail_R3C0",
                 "Tail_R2C0",
                 "Tail_R1C0",
                 "Tail_R0C0",
                 "spine1_2"
-            ],
-            "roots": []
+            ]
         },
         "skin_7": {
-            "bindShapeMatrix": [],
-            "inverseBindMatrices": {},
+            "bindShapeMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "inverseBindMatrices": {
+                "bufferView": "bufferView_51",
+                "byteOffset": 6080,
+                "count": 1,
+                "type": 5126
+            },
             "joints": [
                 "LWeapon_1"
-            ],
-            "roots": []
+            ]
         }
     },
     "techniques": {
@@ -3372,60 +3529,60 @@
     },
     "textures": {
         "Map #10": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
-            "sampler": "sampler_1",
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
             "source": "image_1",
-            "target": "TEXTURE_2D"
+            "target": 3553
         },
         "Map #11": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
+            "format": 6408,
+            "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_0",
-            "target": "TEXTURE_2D"
+            "target": 3553
         },
         "Map #12": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
-            "sampler": "sampler_3",
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
             "source": "image_3",
-            "target": "TEXTURE_2D"
+            "target": 3553
         },
         "Map #13": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
-            "sampler": "sampler_4",
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
             "source": "image_4",
-            "target": "TEXTURE_2D"
+            "target": 3553
         },
         "Map #14": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
-            "sampler": "sampler_5",
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
             "source": "image_5",
-            "target": "TEXTURE_2D"
+            "target": 3553
         },
         "Map #15": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
-            "sampler": "sampler_6",
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
             "source": "image_6",
-            "target": "TEXTURE_2D"
+            "target": 3553
         },
         "Map #16": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
-            "sampler": "sampler_7",
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
             "source": "image_7",
-            "target": "TEXTURE_2D"
+            "target": 3553
         },
         "Map #9": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
-            "sampler": "sampler_2",
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
             "source": "image_2",
-            "target": "TEXTURE_2D"
+            "target": 3553
         }
     }
 }

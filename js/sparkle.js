@@ -2,8 +2,7 @@
 
     'use strict';
 
-    var qtek3d = qtek['3d'];
-    var Shader = qtek3d.Shader;
+    var Shader = qtek.Shader;
     var app = angular.module("heroViewer");
 
     function generateSprite(){
@@ -32,10 +31,10 @@
         return canvas;
     }
 
-    var Value = qtek.core.Value;
-    var Vector3 = qtek.core.Vector3;
-    var particleSystem = new qtek3d.particleSystem.ParticleSystem();
-    var emitter = new qtek3d.particleSystem.Emitter({
+    var Value = qtek.math.Value;
+    var Vector3 = qtek.math.Vector3;
+    var particleSystem = new qtek.particleSystem.ParticleSystem();
+    var emitter = new qtek.particleSystem.Emitter({
         max : 5000,
         amount : 10,
         life : Value.constant(2),
@@ -46,12 +45,12 @@
     particleSystem.addEmitter(emitter);
     particleSystem.material.set('color', [1, 1, 1]);
     particleSystem.material.shader.enableTexture('sprite');
-    particleSystem.material.set('sprite', new qtek3d.texture.Texture2D({
+    particleSystem.material.set('sprite', new qtek.texture.Texture2D({
         image : generateSprite()
     }));
 
-    var scene = new qtek3d.Scene();
-    var camera = new qtek3d.camera.Perspective({
+    var scene = new qtek.Scene();
+    var camera = new qtek.camera.Perspective({
         aspect : window.innerWidth / window.innerHeight,
         far : 1000,
         near : 1

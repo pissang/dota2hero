@@ -39,8 +39,7 @@
     });
 
     app.provider('renderer', function() {
-        var qtek3d = qtek['3d'];
-        var renderer = new qtek3d.Renderer({
+        var renderer = new qtek.Renderer({
             canvas : document.getElementById("ViewPort")
         });
         renderer.resize(window.innerWidth, window.innerHeight);
