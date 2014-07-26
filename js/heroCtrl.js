@@ -27,7 +27,8 @@
     control.enable();
 
     var shadowMapPass = new qtek.prePass.ShadowMap({
-        useVSM : true
+        softShadow: qtek.prePass.ShadowMap.VSM,
+        shadowBlur: 0.2
     });
 
     // Create scene
@@ -114,7 +115,7 @@
 
         $scope.$watch('config.shadow', function(obj) {
             shadowMapPass.dispose(renderer);
-            shadowMapPass.useVSM = obj.softShadow === 'vsm';
+            shadowMapPass.softShadow = obj.softShadow == 'vsm' ? qtek.prePass.ShadowMap.VSM : qtek.prePass.ShadowMap.PCF;
             light.shadowResolution = obj.resolution;
         }, true);
 
