@@ -24,7 +24,6 @@
         minPolarAngle : Math.PI / 4,
         maxPolarAngle : Math.PI / 2
     });
-    control.enable();
 
     var shadowMapPass = new qtek.prePass.ShadowMap({
         softShadow: qtek.prePass.ShadowMap.VSM,
@@ -54,7 +53,7 @@
     var heroFragShader;
     var rockNode;
     rockLoader.once('success', function(res) {
-        rockNode = res.scene.childAt(0);
+        rockNode = res.scene.getNode('badside_rocks006_model');
         rockNode.rotation.rotateX(-Math.PI/2);
         rockNode.position.set(-5, -3.2, 0);
         rockNode.scale.set(0.15, 0.15, 0.15);
@@ -79,7 +78,7 @@
 
     app.controller('hero', function(
         $scope, $http, $routeParams,
-        renderer, SMDParser, getResourcePath, cache, animation, background, config
+        renderer, getResourcePath, cache, animation, background, config
     ) {
         var heroName = $routeParams.name;
         if (!cache.has('overview')) {

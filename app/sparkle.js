@@ -33,7 +33,7 @@
 
     var Value = qtek.math.Value;
     var Vector3 = qtek.math.Vector3;
-    var particleSystem = new qtek.particleSystem.ParticleSystem();
+    var particleSystem = new qtek.particleSystem.ParticleRenderable();
     var emitter = new qtek.particleSystem.Emitter({
         max : 5000,
         amount : 10,

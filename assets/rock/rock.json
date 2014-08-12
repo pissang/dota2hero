@@ -1,126 +1,120 @@
 {
-    "animations": {},
-    "asset": {},
-    "attributes": {
-        "attribute_1": {
+    "accessors": {
+        "attrbute_1": {
             "bufferView": "bufferView_5",
             "byteOffset": 0,
             "byteStride": 12,
-            "count": 2232,
+            "count": 1253,
             "max": [
-                1,
-                1,
-                1
+                156.56051635742188,
+                7.457004070281982,
+                199.7882080078125,
+                0.0
             ],
             "min": [
-                0,
-                0,
-                0
+                -197.10231018066406,
+                -31.13758659362793,
+                -180.68385314941406,
+                0.0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_2": {
+        "attrbute_2": {
             "bufferView": "bufferView_5",
-            "byteOffset": 26784,
+            "byteOffset": 15036,
             "byteStride": 12,
-            "count": 2232,
+            "count": 1253,
             "max": [
-                1,
-                1,
-                1
+                0.9989007115364075,
+                0.996427059173584,
+                0.9841012358665466,
+                0.0
             ],
             "min": [
-                0,
-                0,
-                0
+                -0.9992859363555908,
+                -0.9997763633728027,
+                -0.9965243339538574,
+                0.0
             ],
-            "type": "FLOAT_VEC3"
+            "type": 35665
         },
-        "attribute_3": {
+        "attrbute_3": {
             "bufferView": "bufferView_5",
-            "byteOffset": 53568,
+            "byteOffset": 30072,
             "byteStride": 8,
-            "count": 2232,
+            "count": 1253,
             "max": [
-                1,
-                1,
-                1
+                0.9602870941162109,
+                0.9978842735290527
             ],
             "min": [
-                0,
-                0,
-                0
+                0.010779595002532005,
+                0.26067763566970825
             ],
-            "type": "FLOAT_VEC2"
+            "type": 35664
+        },
+        "indices_4": {
+            "bufferView": "bufferView_6",
+            "byteOffset": 0,
+            "count": 2232,
+            "type": 5123
         }
     },
+    "animations": {},
+    "asset": {},
     "bufferViews": {
         "bufferView_5": {
             "buffer": "rock.bin",
-            "byteLength": 71424,
+            "byteLength": 40096,
             "byteOffset": 0,
-            "target": "ARRAY_BUFFER"
+            "target": 34962
         },
         "bufferView_6": {
             "buffer": "rock.bin",
             "byteLength": 4464,
-            "byteOffset": 71424,
-            "target": "ELEMENT_ARRAY_BUFFER"
+            "byteOffset": 40096,
+            "target": 34963
         }
     },
     "buffers": {
         "rock.bin": {
-            "byteLength": 75888,
+            "byteLength": 44560,
             "path": "rock.bin"
         }
     },
     "cameras": {},
     "images": {
         "image_0": {
-            "path": "textures/badside_rocks001.png"
-        }
-    },
-    "indices": {
-        "indices_4": {
-            "bufferView": "bufferView_6",
-            "byteOffset": 0,
-            "count": 2232,
-            "type": "UNSIGNED_SHORT"
+            "path": "/Users/lang/Develop/dota2hero/assets/rock/textures/badside_rocks001.png"
         }
     },
     "lights": {},
     "materials": {
-        "rock_material": {
+        "Material #35": {
             "instanceTechnique": {
                 "technique": "technique_0",
-                "values": [
-                    {
-                        "parameter": "ambient",
-                        "value": [
-                            0.5879999995231628,
-                            0.5879999995231628,
-                            0.5879999995231628
-                        ]
-                    },
-                    {
-                        "parameter": "emission",
-                        "value": [
-                            0.0,
-                            0.0,
-                            0.0
-                        ]
-                    },
-                    {
-                        "parameter": "diffuse",
-                        "value": "Map #2"
-                    },
-                    {
-                        "parameter": "shininess",
-                        "value": 2.0
-                    }
-                ]
+                "values": {
+                    "ambient": [
+                        0.5879999995231628,
+                        0.5879999995231628,
+                        0.5879999995231628
+                    ],
+                    "diffuse": "Map #2",
+                    "emission": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "shininess": 2.0,
+                    "specular": [
+                        0.8999999761581421,
+                        0.8999999761581421,
+                        0.8999999761581421
+                    ],
+                    "transparency": 1
+                }
             },
-            "name": "rock_material"
+            "name": "Material #35"
         }
     },
     "meshes": {
@@ -128,13 +122,13 @@
             "name": "badside_rocks006_model-mesh",
             "primitives": [
                 {
+                    "attributes": {
+                        "NORMAL": "attrbute_2",
+                        "POSITION": "attrbute_1",
+                        "TEXCOORD_0": "attrbute_3"
+                    },
                     "indices": "indices_4",
-                    "material": "rock_material",
-                    "semantics": {
-                        "NORMAL": "attribute_2",
-                        "POSITION": "attribute_1",
-                        "TEXCOORD_0": "attribute_3"
-                    }
+                    "material": "Material #35"
                 }
             ]
         }
@@ -167,6 +161,7 @@
         },
         "static_prop": {
             "children": [],
+            "jointId": "static_prop",
             "matrix": [
                 1.0,
                 0.0,
@@ -190,16 +185,17 @@
     },
     "samplers": {
         "sampler_0": {
-            "magFilter": "LINEAR",
-            "minFilter": "LINEAR_MIPMAP_LINEAR",
-            "wrapS": "REPEAT",
-            "wrapT": "REPEAT"
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
         }
     },
     "scene": "scene_0",
     "scenes": {
         "scene_0": {
             "nodes": [
+                "static_prop",
                 "badside_rocks006_model"
             ]
         }
@@ -229,11 +225,11 @@
     },
     "textures": {
         "Map #2": {
-            "format": "RGBA",
-            "internalFormat": "RGBA",
+            "format": 6408,
+            "internalFormat": 6408,
             "sampler": "sampler_0",
             "source": "image_0",
-            "target": "TEXTURE_2D"
+            "target": 3553
         }
     }
 }

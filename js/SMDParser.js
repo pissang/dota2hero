@@ -93,9 +93,5 @@
         return ret;
     }
 
-    app.provider('SMDParser', function() {
-        this.$get = function() {
-            return readSMD;
-        }
-    });
+    window.SMDParser = readSMD;
 })();
