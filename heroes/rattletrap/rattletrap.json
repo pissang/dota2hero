@@ -4,7 +4,7 @@
             "bufferView": "bufferView_19",
             "byteOffset": 0,
             "byteStride": 12,
-            "count": 352,
+            "count": 596,
             "max": [
                 61.18220520019531,
                 53.91798400878906,
@@ -21,9 +21,9 @@
         },
         "attrbute_10": {
             "bufferView": "bufferView_19",
-            "byteOffset": 30496,
+            "byteOffset": 52304,
             "byteStride": 16,
-            "count": 293,
+            "count": 517,
             "max": [
                 0,
                 -1,
@@ -40,9 +40,9 @@
         },
         "attrbute_11": {
             "bufferView": "bufferView_19",
-            "byteOffset": 35184,
+            "byteOffset": 60576,
             "byteStride": 12,
-            "count": 293,
+            "count": 517,
             "max": [
                 1,
                 0,
@@ -57,9 +57,9 @@
         },
         "attrbute_13": {
             "bufferView": "bufferView_19",
-            "byteOffset": 38700,
+            "byteOffset": 66780,
             "byteStride": 12,
-            "count": 2580,
+            "count": 3724,
             "max": [
                 58.9896240234375,
                 47.602684020996094,
@@ -76,9 +76,9 @@
         },
         "attrbute_14": {
             "bufferView": "bufferView_19",
-            "byteOffset": 69660,
+            "byteOffset": 111468,
             "byteStride": 12,
-            "count": 2580,
+            "count": 3724,
             "max": [
                 0.9996640086174011,
                 0.9993289709091187,
@@ -95,12 +95,12 @@
         },
         "attrbute_15": {
             "bufferView": "bufferView_19",
-            "byteOffset": 100620,
+            "byteOffset": 156156,
             "byteStride": 8,
-            "count": 2580,
+            "count": 3724,
             "max": [
                 0.9945999979972839,
-                -0.005200000014156103
+                -0.0038999998942017555
             ],
             "min": [
                 0.0024999999441206455,
@@ -110,9 +110,9 @@
         },
         "attrbute_16": {
             "bufferView": "bufferView_19",
-            "byteOffset": 121260,
+            "byteOffset": 185948,
             "byteStride": 16,
-            "count": 2580,
+            "count": 3724,
             "max": [
                 41,
                 41,
@@ -129,9 +129,9 @@
         },
         "attrbute_17": {
             "bufferView": "bufferView_19",
-            "byteOffset": 162540,
+            "byteOffset": 245532,
             "byteStride": 12,
-            "count": 2580,
+            "count": 3724,
             "max": [
                 1,
                 0.9998930096626282,
@@ -146,9 +146,9 @@
         },
         "attrbute_2": {
             "bufferView": "bufferView_19",
-            "byteOffset": 4224,
+            "byteOffset": 7152,
             "byteStride": 12,
-            "count": 352,
+            "count": 596,
             "max": [
                 0.9999079704284668,
                 0.9911800026893616,
@@ -165,12 +165,12 @@
         },
         "attrbute_3": {
             "bufferView": "bufferView_19",
-            "byteOffset": 8448,
+            "byteOffset": 14304,
             "byteStride": 8,
-            "count": 352,
+            "count": 596,
             "max": [
-                1.8538000583648682,
-                -0.013899999670684338
+                1.8975000381469727,
+                -0.012400000356137753
             ],
             "min": [
                 0.006399999838322401,
@@ -180,9 +180,9 @@
         },
         "attrbute_4": {
             "bufferView": "bufferView_19",
-            "byteOffset": 11264,
+            "byteOffset": 19072,
             "byteStride": 16,
-            "count": 352,
+            "count": 596,
             "max": [
                 3,
                 -1,
@@ -199,9 +199,9 @@
         },
         "attrbute_5": {
             "bufferView": "bufferView_19",
-            "byteOffset": 16896,
+            "byteOffset": 28608,
             "byteStride": 12,
-            "count": 352,
+            "count": 596,
             "max": [
                 1,
                 0,
@@ -216,9 +216,9 @@
         },
         "attrbute_7": {
             "bufferView": "bufferView_19",
-            "byteOffset": 21120,
+            "byteOffset": 35760,
             "byteStride": 12,
-            "count": 293,
+            "count": 517,
             "max": [
                 -73.55704498291016,
                 -44.36378860473633,
@@ -235,9 +235,9 @@
         },
         "attrbute_8": {
             "bufferView": "bufferView_19",
-            "byteOffset": 24636,
+            "byteOffset": 41964,
             "byteStride": 12,
-            "count": 293,
+            "count": 517,
             "max": [
                 0.9971010088920593,
                 0.9994509816169739,
@@ -254,16 +254,16 @@
         },
         "attrbute_9": {
             "bufferView": "bufferView_19",
-            "byteOffset": 28152,
+            "byteOffset": 48168,
             "byteStride": 8,
-            "count": 293,
+            "count": 517,
             "max": [
-                0.9545999765396118,
+                0.9825999736785889,
                 -0.008799999952316284
             ],
             "min": [
-                0.019999999552965164,
-                -0.9779000282287598
+                0.01489999983459711,
+                -0.984499990940094
             ],
             "type": 35664
         },
@@ -291,25 +291,25 @@
     "bufferViews": {
         "bufferView_19": {
             "buffer": "rattletrap.bin",
-            "byteLength": 193500,
+            "byteLength": 290220,
             "byteOffset": 0,
             "target": 34962
         },
         "bufferView_20": {
             "buffer": "rattletrap.bin",
-            "byteLength": 3008,
-            "byteOffset": 193500
+            "byteLength": 3776,
+            "byteOffset": 290220
         },
         "bufferView_21": {
             "buffer": "rattletrap.bin",
             "byteLength": 37236,
-            "byteOffset": 196508,
+            "byteOffset": 293996,
             "target": 34963
         }
     },
     "buffers": {
         "rattletrap.bin": {
-            "byteLength": 233744,
+            "byteLength": 331232,
             "path": "rattletrap.bin"
         }
     },
@@ -1730,7 +1730,11 @@
                 "missle_gun2_1",
                 "missle_gun2_0",
                 "Head_0",
-                "missle_lever"
+                "missle_lever",
+                "Spine_3",
+                "Spine_1",
+                "Spine_0",
+                "Root_0"
             ]
         },
         "skin_1": {
@@ -1754,12 +1758,20 @@
             ],
             "inverseBindMatrices": {
                 "bufferView": "bufferView_20",
-                "byteOffset": 256,
+                "byteOffset": 512,
                 "count": 1,
                 "type": 5126
             },
             "joints": [
-                "weapon_1"
+                "weapon_1",
+                "wrist_R",
+                "elbow_R",
+                "bicep_R",
+                "clavicle_R",
+                "Spine_3",
+                "Spine_1",
+                "Spine_0",
+                "Root_0"
             ]
         },
         "skin_2": {
@@ -1783,7 +1795,7 @@
             ],
             "inverseBindMatrices": {
                 "bufferView": "bufferView_20",
-                "byteOffset": 320,
+                "byteOffset": 1088,
                 "count": 42,
                 "type": 5126
             },

@@ -21,9 +21,9 @@
         },
         "attrbute_10": {
             "bufferView": "bufferView_13",
-            "byteOffset": 175072,
+            "byteOffset": 203104,
             "byteStride": 16,
-            "count": 2621,
+            "count": 3497,
             "max": [
                 35,
                 35,
@@ -40,9 +40,9 @@
         },
         "attrbute_11": {
             "bufferView": "bufferView_13",
-            "byteOffset": 217008,
+            "byteOffset": 259056,
             "byteStride": 12,
-            "count": 2621,
+            "count": 3497,
             "max": [
                 1,
                 0.9998860955238342,
@@ -129,7 +129,7 @@
             "bufferView": "bufferView_13",
             "byteOffset": 91200,
             "byteStride": 12,
-            "count": 2621,
+            "count": 3497,
             "max": [
                 103.88423919677734,
                 74.06877136230469,
@@ -146,9 +146,9 @@
         },
         "attrbute_8": {
             "bufferView": "bufferView_13",
-            "byteOffset": 122652,
+            "byteOffset": 133164,
             "byteStride": 12,
-            "count": 2621,
+            "count": 3497,
             "max": [
                 0.9997859597206116,
                 0.9999972581863403,
@@ -165,12 +165,12 @@
         },
         "attrbute_9": {
             "bufferView": "bufferView_13",
-            "byteOffset": 154104,
+            "byteOffset": 175128,
             "byteStride": 8,
-            "count": 2621,
+            "count": 3497,
             "max": [
                 0.9894160032272339,
-                0.9843810200691223
+                0.9880669713020325
             ],
             "min": [
                 0.00939400028437376,
@@ -196,25 +196,25 @@
     "bufferViews": {
         "bufferView_13": {
             "buffer": "ancient_apparition.bin",
-            "byteLength": 248460,
+            "byteLength": 301020,
             "byteOffset": 0,
             "target": 34962
         },
         "bufferView_14": {
             "buffer": "ancient_apparition.bin",
-            "byteLength": 4352,
-            "byteOffset": 248460
+            "byteLength": 4864,
+            "byteOffset": 301020
         },
         "bufferView_15": {
             "buffer": "ancient_apparition.bin",
             "byteLength": 31242,
-            "byteOffset": 252812,
+            "byteOffset": 305884,
             "target": 34963
         }
     },
     "buffers": {
         "ancient_apparition.bin": {
-            "byteLength": 284054,
+            "byteLength": 337126,
             "path": "ancient_apparition.bin"
         }
     },
@@ -1448,7 +1448,11 @@
                 "Ring_1_L",
                 "Mid_1_L",
                 "Mid_0_L",
-                "Ring_2_L"
+                "Ring_2_L",
+                "clavicle_L",
+                "spine1",
+                "root",
+                "clavicle_R"
             ]
         },
         "skin_1": {
@@ -1472,7 +1476,7 @@
             ],
             "inverseBindMatrices": {
                 "bufferView": "bufferView_14",
-                "byteOffset": 2048,
+                "byteOffset": 2304,
                 "count": 36,
                 "type": 5126
             },
@@ -1512,7 +1516,11 @@
                 "Thumb_1_R",
                 "Thumb_0_R",
                 "leg0_1",
-                "leg0_0"
+                "leg0_0",
+                "wrist_R",
+                "elbow_R",
+                "wrist_L",
+                "elbow_L"
             ]
         }
     },

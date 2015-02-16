@@ -4,7 +4,7 @@
             "bufferView": "bufferView_13",
             "byteOffset": 0,
             "byteStride": 12,
-            "count": 1622,
+            "count": 2180,
             "max": [
                 87.37890625,
                 58.61758041381836,
@@ -21,9 +21,9 @@
         },
         "attrbute_10": {
             "bufferView": "bufferView_13",
-            "byteOffset": 124680,
+            "byteOffset": 165456,
             "byteStride": 16,
-            "count": 855,
+            "count": 1083,
             "max": [
                 19,
                 19,
@@ -40,9 +40,9 @@
         },
         "attrbute_11": {
             "bufferView": "bufferView_13",
-            "byteOffset": 138360,
+            "byteOffset": 182784,
             "byteStride": 12,
-            "count": 855,
+            "count": 1083,
             "max": [
                 1,
                 0.9958270788192749,
@@ -57,9 +57,9 @@
         },
         "attrbute_2": {
             "bufferView": "bufferView_13",
-            "byteOffset": 19464,
+            "byteOffset": 26160,
             "byteStride": 12,
-            "count": 1622,
+            "count": 2180,
             "max": [
                 0.9966055154800415,
                 0.9992330074310303,
@@ -76,9 +76,9 @@
         },
         "attrbute_3": {
             "bufferView": "bufferView_13",
-            "byteOffset": 38928,
+            "byteOffset": 52320,
             "byteStride": 8,
-            "count": 1622,
+            "count": 2180,
             "max": [
                 1.9917000532150269,
                 0.99720698595047
@@ -91,9 +91,9 @@
         },
         "attrbute_4": {
             "bufferView": "bufferView_13",
-            "byteOffset": 51904,
+            "byteOffset": 69760,
             "byteStride": 16,
-            "count": 1622,
+            "count": 2180,
             "max": [
                 32,
                 31,
@@ -110,9 +110,9 @@
         },
         "attrbute_5": {
             "bufferView": "bufferView_13",
-            "byteOffset": 77856,
+            "byteOffset": 104640,
             "byteStride": 12,
-            "count": 1622,
+            "count": 2180,
             "max": [
                 1,
                 0.9989414215087891,
@@ -127,9 +127,9 @@
         },
         "attrbute_7": {
             "bufferView": "bufferView_13",
-            "byteOffset": 97320,
+            "byteOffset": 130800,
             "byteStride": 12,
-            "count": 855,
+            "count": 1083,
             "max": [
                 276.2259216308594,
                 139.76576232910156,
@@ -146,9 +146,9 @@
         },
         "attrbute_8": {
             "bufferView": "bufferView_13",
-            "byteOffset": 107580,
+            "byteOffset": 143796,
             "byteStride": 12,
-            "count": 855,
+            "count": 1083,
             "max": [
                 0.9981558918952942,
                 0.9913855791091919,
@@ -165,15 +165,15 @@
         },
         "attrbute_9": {
             "bufferView": "bufferView_13",
-            "byteOffset": 117840,
+            "byteOffset": 156792,
             "byteStride": 8,
-            "count": 855,
+            "count": 1083,
             "max": [
-                1.9882240295410156,
-                0.9854270219802856
+                1.9894930124282837,
+                0.990884006023407
             ],
             "min": [
-                0.015953000634908676,
+                0.012179000303149223,
                 0.009766995906829834
             ],
             "type": 35664
@@ -196,25 +196,25 @@
     "bufferViews": {
         "bufferView_13": {
             "buffer": "nevermore.bin",
-            "byteLength": 148620,
+            "byteLength": 195780,
             "byteOffset": 0,
             "target": 34962
         },
         "bufferView_14": {
             "buffer": "nevermore.bin",
-            "byteLength": 3392,
-            "byteOffset": 148620
+            "byteLength": 3520,
+            "byteOffset": 195780
         },
         "bufferView_15": {
             "buffer": "nevermore.bin",
             "byteLength": 29364,
-            "byteOffset": 152012,
+            "byteOffset": 199300,
             "target": 34963
         }
     },
     "buffers": {
         "nevermore.bin": {
-            "byteLength": 181376,
+            "byteLength": 228664,
             "path": "nevermore.bin"
         }
     },
@@ -1712,7 +1712,9 @@
                 "lower6_1_C_L",
                 "lower6_0_C_L",
                 "wing0_1_L",
-                "wing0_2_L"
+                "wing0_2_L",
+                "spine1",
+                "root"
             ]
         }
     },

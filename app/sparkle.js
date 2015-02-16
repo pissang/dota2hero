@@ -45,7 +45,7 @@
     particleSystem.addEmitter(emitter);
     particleSystem.material.set('color', [1, 1, 1]);
     particleSystem.material.shader.enableTexture('sprite');
-    particleSystem.material.set('sprite', new qtek.texture.Texture2D({
+    particleSystem.material.set('sprite', new qtek.Texture2D({
         image : generateSprite()
     }));
 

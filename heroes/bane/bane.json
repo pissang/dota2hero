@@ -4,7 +4,7 @@
             "bufferView": "bufferView_19",
             "byteOffset": 0,
             "byteStride": 12,
-            "count": 764,
+            "count": 978,
             "max": [
                 23.042497634887695,
                 26.2705135345459,
@@ -21,7 +21,7 @@
         },
         "attrbute_10": {
             "bufferView": "bufferView_19",
-            "byteOffset": 48048,
+            "byteOffset": 60888,
             "byteStride": 16,
             "count": 69,
             "max": [
@@ -40,7 +40,7 @@
         },
         "attrbute_11": {
             "bufferView": "bufferView_19",
-            "byteOffset": 49152,
+            "byteOffset": 61992,
             "byteStride": 12,
             "count": 69,
             "max": [
@@ -57,9 +57,9 @@
         },
         "attrbute_13": {
             "bufferView": "bufferView_19",
-            "byteOffset": 49980,
+            "byteOffset": 62820,
             "byteStride": 12,
-            "count": 1448,
+            "count": 1849,
             "max": [
                 88.12801361083984,
                 74.72661590576172,
@@ -76,9 +76,9 @@
         },
         "attrbute_14": {
             "bufferView": "bufferView_19",
-            "byteOffset": 67356,
+            "byteOffset": 85008,
             "byteStride": 12,
-            "count": 1448,
+            "count": 1849,
             "max": [
                 0.9995729923248291,
                 0.9991459846496582,
@@ -95,24 +95,24 @@
         },
         "attrbute_15": {
             "bufferView": "bufferView_19",
-            "byteOffset": 84732,
+            "byteOffset": 107196,
             "byteStride": 8,
-            "count": 1448,
+            "count": 1849,
             "max": [
-                1.3142999410629272,
+                1.5266000032424927,
                 -0.013899999670684338
             ],
             "min": [
-                0.021400000900030136,
+                0.009800000116229057,
                 -0.9894000291824341
             ],
             "type": 35664
         },
         "attrbute_16": {
             "bufferView": "bufferView_19",
-            "byteOffset": 96316,
+            "byteOffset": 121988,
             "byteStride": 16,
-            "count": 1448,
+            "count": 1849,
             "max": [
                 52,
                 51,
@@ -129,9 +129,9 @@
         },
         "attrbute_17": {
             "bufferView": "bufferView_19",
-            "byteOffset": 119484,
+            "byteOffset": 151572,
             "byteStride": 12,
-            "count": 1448,
+            "count": 1849,
             "max": [
                 1,
                 0.9994710087776184,
@@ -146,9 +146,9 @@
         },
         "attrbute_2": {
             "bufferView": "bufferView_19",
-            "byteOffset": 9168,
+            "byteOffset": 11736,
             "byteStride": 12,
-            "count": 764,
+            "count": 978,
             "max": [
                 0.996612012386322,
                 0.9995120167732239,
@@ -165,11 +165,11 @@
         },
         "attrbute_3": {
             "bufferView": "bufferView_19",
-            "byteOffset": 18336,
+            "byteOffset": 23472,
             "byteStride": 8,
-            "count": 764,
+            "count": 978,
             "max": [
-                0.9821000099182129,
+                0.9962000250816345,
                 -0.012900000438094139
             ],
             "min": [
@@ -180,9 +180,9 @@
         },
         "attrbute_4": {
             "bufferView": "bufferView_19",
-            "byteOffset": 24448,
+            "byteOffset": 31296,
             "byteStride": 16,
-            "count": 764,
+            "count": 978,
             "max": [
                 3,
                 5,
@@ -199,9 +199,9 @@
         },
         "attrbute_5": {
             "bufferView": "bufferView_19",
-            "byteOffset": 36672,
+            "byteOffset": 46944,
             "byteStride": 12,
-            "count": 764,
+            "count": 978,
             "max": [
                 1,
                 0.9990419745445251,
@@ -216,7 +216,7 @@
         },
         "attrbute_7": {
             "bufferView": "bufferView_19",
-            "byteOffset": 45840,
+            "byteOffset": 58680,
             "byteStride": 12,
             "count": 69,
             "max": [
@@ -235,7 +235,7 @@
         },
         "attrbute_8": {
             "bufferView": "bufferView_19",
-            "byteOffset": 46668,
+            "byteOffset": 59508,
             "byteStride": 12,
             "count": 69,
             "max": [
@@ -254,7 +254,7 @@
         },
         "attrbute_9": {
             "bufferView": "bufferView_19",
-            "byteOffset": 47496,
+            "byteOffset": 60336,
             "byteStride": 8,
             "count": 69,
             "max": [
@@ -291,25 +291,25 @@
     "bufferViews": {
         "bufferView_19": {
             "buffer": "bane.bin",
-            "byteLength": 136860,
+            "byteLength": 173760,
             "byteOffset": 0,
             "target": 34962
         },
         "bufferView_20": {
             "buffer": "bane.bin",
-            "byteLength": 4352,
-            "byteOffset": 136860
+            "byteLength": 5120,
+            "byteOffset": 173760
         },
         "bufferView_21": {
             "buffer": "bane.bin",
             "byteLength": 26010,
-            "byteOffset": 141212,
+            "byteOffset": 178880,
             "target": 34963
         }
     },
     "buffers": {
         "bane.bin": {
-            "byteLength": 167222,
+            "byteLength": 204890,
             "path": "bane.bin"
         }
     },
@@ -2555,7 +2555,12 @@
                 "tentacle0_1_L",
                 "jaw2_0",
                 "tentacle1_0_R",
-                "tentacle1_1_R"
+                "tentacle1_1_R",
+                "neck1",
+                "spine3",
+                "spine2",
+                "spine1",
+                "root"
             ]
         },
         "skin_1": {
@@ -2579,7 +2584,7 @@
             ],
             "inverseBindMatrices": {
                 "bufferView": "bufferView_20",
-                "byteOffset": 384,
+                "byteOffset": 704,
                 "count": 9,
                 "type": 5126
             },
@@ -2592,7 +2597,8 @@
                 "broke_R0C0",
                 "busted_R0C0",
                 "bicep_R",
-                "clavicle_L"
+                "clavicle_L",
+                "clavicle_R"
             ]
         },
         "skin_2": {
@@ -2616,7 +2622,7 @@
             ],
             "inverseBindMatrices": {
                 "bufferView": "bufferView_20",
-                "byteOffset": 960,
+                "byteOffset": 1344,
                 "count": 53,
                 "type": 5126
             },
@@ -2673,7 +2679,13 @@
                 "Mid1_1_A_L",
                 "tentacle0_1_L",
                 "thumb_1_L",
-                "thumb_2_L"
+                "thumb_2_L",
+                "busted_R2C0",
+                "index_1_R",
+                "index_0_R",
+                "wrist_R",
+                "elbow_R",
+                "bicep_R"
             ]
         }
     },

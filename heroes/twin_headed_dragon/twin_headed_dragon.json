@@ -4,7 +4,7 @@
             "bufferView": "bufferView_7",
             "byteOffset": 0,
             "byteStride": 12,
-            "count": 2820,
+            "count": 3732,
             "max": [
                 82.64442443847656,
                 162.86231994628906,
@@ -21,9 +21,9 @@
         },
         "attrbute_2": {
             "bufferView": "bufferView_7",
-            "byteOffset": 33840,
+            "byteOffset": 44784,
             "byteStride": 12,
-            "count": 2820,
+            "count": 3732,
             "max": [
                 0.9989892244338989,
                 0.9978424906730652,
@@ -40,24 +40,24 @@
         },
         "attrbute_3": {
             "bufferView": "bufferView_7",
-            "byteOffset": 67680,
+            "byteOffset": 89568,
             "byteStride": 8,
-            "count": 2820,
+            "count": 3732,
             "max": [
-                0.9940509796142578,
-                0.9792419672012329
+                0.9940990209579468,
+                0.9875860214233398
             ],
             "min": [
-                0.009753510355949402,
+                0.006406679749488831,
                 0.009527981281280518
             ],
             "type": 35664
         },
         "attrbute_4": {
             "bufferView": "bufferView_7",
-            "byteOffset": 90240,
+            "byteOffset": 119424,
             "byteStride": 16,
-            "count": 2820,
+            "count": 3732,
             "max": [
                 58,
                 58,
@@ -74,9 +74,9 @@
         },
         "attrbute_5": {
             "bufferView": "bufferView_7",
-            "byteOffset": 135360,
+            "byteOffset": 179136,
             "byteStride": 12,
-            "count": 2820,
+            "count": 3732,
             "max": [
                 1,
                 0.9998970031738281,
@@ -101,25 +101,25 @@
     "bufferViews": {
         "bufferView_7": {
             "buffer": "twin_headed_dragon.bin",
-            "byteLength": 169200,
+            "byteLength": 223920,
             "byteOffset": 0,
             "target": 34962
         },
         "bufferView_8": {
             "buffer": "twin_headed_dragon.bin",
             "byteLength": 3776,
-            "byteOffset": 169200
+            "byteOffset": 223920
         },
         "bufferView_9": {
             "buffer": "twin_headed_dragon.bin",
             "byteLength": 33612,
-            "byteOffset": 172976,
+            "byteOffset": 227696,
             "target": 34963
         }
     },
     "buffers": {
         "twin_headed_dragon.bin": {
-            "byteLength": 206588,
+            "byteLength": 261308,
             "path": "twin_headed_dragon.bin"
         }
     },

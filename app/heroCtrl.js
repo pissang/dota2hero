@@ -32,17 +32,13 @@
 
     // Create scene
     var scene = new qtek.Scene();
-    var heroRootNode = new qtek.Node();
-    heroRootNode.rotation.rotateX(-Math.PI/2);
-    heroRootNode.scale.set(0.1, 0.1, 0.1);
-    scene.add(heroRootNode);
     var light = new qtek.light.Directional({
         intensity : 0.7,
         shadowResolution : 512,
         shadowBias : 0.02
     });
     light.position.set(10, 20, 5);
-    light.lookAt(new qtek.math.Vector3(0, 10, 0), new qtek.math.Vector3(0, 0, 1));
+    light.lookAt(new qtek.math.Vector3(0, 10, 0));
 
     scene.add(light);
     scene.add(new qtek.light.Ambient({
@@ -52,12 +48,13 @@
     var rockLoader = new qtek.loader.GLTF();
     var heroFragShader;
     var rockNode;
+    var heroRootNode;
     rockLoader.once('success', function(res) {
         rockNode = res.scene.getNode('badside_rocks006_model');
         rockNode.rotation.rotateX(-Math.PI/2);
         rockNode.position.set(-5, -3.2, 0);
         rockNode.scale.set(0.15, 0.15, 0.15);
-         var mat = rockNode.material;
+        var mat = rockNode.material;
         var shader = mat.shader;
         shader.setFragment(heroFragShader);
         // reattach
@@ -65,8 +62,8 @@
         shader.enableTexture('maskMap2');
         shader.enableTexture('diffuseMap');
         shader.define('vertex', 'IS_SPECULAR_MAP');
-        var specularTexture = new qtek.texture.Texture2D();
-        var diffuseTexture = new qtek.texture.Texture2D();
+        var specularTexture = new qtek.Texture2D();
+        var diffuseTexture = new qtek.Texture2D();
         specularTexture.load('assets/rock/textures/badside_rocks001_spec.png');
         diffuseTexture.load('assets/rock/textures/badside_rocks001.png');
         mat.set('maskMap2', specularTexture);
@@ -129,7 +126,12 @@
         var heroRootPath = "heroes/" + heroName + "/";
         var materials = {};
 
-        renderer.disposeNode(heroRootNode);
+        if (heroRootNode) {
+            renderer.disposeNode(heroRootNode);
+        }
+        heroRootNode = new qtek.Node();
+        heroRootNode.rotation.rotateX(-Math.PI/2);
+        heroRootNode.scale.set(0.1, 0.1, 0.1);
         $http.get(getResourcePath(heroRootPath + 'materials.json'))
         .then(function(result) {
             materials = result.data;
@@ -158,7 +160,6 @@
 
             heroLoader.parse(data);
             heroLoader.success(function(res) {
-                var skeleton = res.skeleton;
                 var children = res.scene.children();
                 var animationPrepared = false;
                 for (var i = 0; i < children.length; i++) {
@@ -185,7 +186,7 @@
                 for (var name in materials) {
                     var params = materials[name];
                     var mat = res.materials[name];
-                    var Texture2D = qtek.texture.Texture2D;
+                    var Texture2D = qtek.Texture2D;
                     mat.shader.disableTexturesAll();
                     if (mat) {
                         ['diffuseMap', 'normalMap', 'maskMap1', 'maskMap2']
@@ -216,6 +217,8 @@
                     var mesh = meshes[i];
                     qtek.util.mesh.splitByJoints(mesh, 30, true);
                 }
+
+                scene.add(heroRootNode);
 
                 animation.off('frame');
                 animation.on('frame', function(deltaTime) {

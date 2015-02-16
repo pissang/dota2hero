@@ -85,6 +85,7 @@
     var isPlay = true;
     var audio = document.createElement('audio');
     audio.addEventListener('ended', pick);
+    audio.volume = 0.5;
     function pick() {
         audio.src = 'sounds/' + soundList[Math.floor(Math.random() * 5)];
         audio.play();
