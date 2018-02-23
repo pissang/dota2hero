@@ -52,6 +52,8 @@ export default {
     margin:3px;
     cursor: pointer;
     width: 7.6%;
+    height: 0;
+    padding-bottom: 5%;
 
     img {
       box-shadow: 0 0 5px black;
@@ -62,6 +64,7 @@ export default {
 
       &:hover {
         z-index: 1;
+        transform:scale(1.3);
       }
     }
   }

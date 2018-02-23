@@ -22,7 +22,7 @@
     <a class="mini ui black button icon" href="#/heroes" title="Back">
       <i class="icon grid layout"></i>
     </a>
-    <div class="ui black mini button icon" @click="resetView()" title="Reset View">
+    <!-- <div class="ui black mini button icon" @click="resetView()" title="Reset View">
       <i class="icon unhide"></i>
     </div>
     <div class="mini ui black button icon" @click="toggleSettings()" title="Settings">
@@ -30,7 +30,7 @@
     </div>
     <div class="mini ui black button icon" @click="showAbout()" title="About">
       <i class="icon info letter"></i>
-    </div>
+    </div> -->
   </div>
   <!-- <div id="log">
     <div>FPS : {{log.fps}}</div>
@@ -39,15 +39,6 @@
     <div>Faces : {{log.faceNumber}}</div>
   </div> -->
   <div id="settings" class="ui right sidebar">
-    <div class="ui label">Shadow Quality</div>
-    <div id="ShadowQuality" dropdown class="ui labeled icon top right pointing dropdown purple mini button">
-      <i class="dropdown icon"></i>
-      <span class="text">High</span>
-      <div class="menu">
-        <div class="item">Low</div>
-        <div class="item">High</div>
-      </div>
-    </div>
   </div>
 </div>
 </template>
@@ -108,9 +99,12 @@ export default {
       },
 
       init (app) {
-        const camera = app.createCamera([40, 10, 40], [0, 8, 0]);
+        const camera = app.createCamera([40, 20, 50], [0, 15, 0]);
 
-        app.createDirectionalLight([-10, -10, -5]);
+        const dirLight = app.createDirectionalLight([-10, -10, -5]);
+        dirLight.shadowResolution = 2048;
+        dirLight.shadowBias = 0.005;
+
         app.createAmbientLight('#fff', 0.2);
 
         this._control = new plugin.OrbitControl({
@@ -173,6 +167,7 @@ export default {
           for (let mesh of modelResult.meshes) {
             mesh.geometry.generateTangents();
             mesh.material = newMaterials[mesh.material.name];
+
             util.mesh.splitByJoints(mesh, 30, true);
             // mesh.material.define('fragment', 'RENDER_NORMAL');
           }
@@ -252,9 +247,9 @@ export default {
         position: absolute;
         text-align: left;
         left: 75px;
-        width: 150px;
+        width: 200px;
         background-color: rgba(0, 0, 0, 0.7);
-        padding: 20px;
+        padding: 10px;
         display: none;
         z-index: 10;
 
@@ -315,6 +310,12 @@ export default {
   right: 0;
   top: 0;
   bottom: 0;
+}
+
+#toolbar {
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 
 </style>

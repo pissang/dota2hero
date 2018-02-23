@@ -99,13 +99,10 @@ glob(pattern, function (err, pathList) {
       py.stdout.on('data', function (data) {
         console.log(data);
       });
+      afterCloseConvert();
     });
 
     var afterCloseConvert = function () {
-      if (fs.existsSync(dir + '/' + heroName + '.json')) {
-        fs.unlinkSync(dir + '/' + heroName + '.json');
-      }
-
       var gltfPath = dir + '/' + heroName + '.gltf';
       var gltfStr = fs.readFileSync(gltfPath, 'utf-8');
       var gltf = JSON.parse(gltfStr);
@@ -219,6 +216,9 @@ glob(pattern, function (err, pathList) {
           if (defaultAnimation[heroName]
             && animName === defaultAnimation[heroName]
           ) {
+            animations.default = anim;
+          }
+          else if (animName.toLowerCase() === 'idle') {
             animations.default = anim;
           }
         });
