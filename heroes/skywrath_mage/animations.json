@@ -1,10 +1,6 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/skywrath_mage/smd/skywrath_mage_idle.smd"
-        },
-        {
             "name": "idle_aggressive",
             "path": "heroes/skywrath_mage/smd/skywrath_mage_idle_aggressive.smd"
         },
@@ -15,16 +11,20 @@
         {
             "name": "idle_injured",
             "path": "heroes/skywrath_mage/smd/skywrath_mage_idle_injured.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/skywrath_mage/smd/skywrath_mage_idle.smd"
         }
     ],
     "attack": [
         {
-            "name": "attack",
-            "path": "heroes/skywrath_mage/smd/skywrath_mage_attack.smd"
-        },
-        {
             "name": "attack_alt",
             "path": "heroes/skywrath_mage/smd/skywrath_mage_attack_alt.smd"
+        },
+        {
+            "name": "attack",
+            "path": "heroes/skywrath_mage/smd/skywrath_mage_attack.smd"
         }
     ],
     "run": [
@@ -42,7 +42,7 @@
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/skywrath_mage/smd/skywrath_mage_idle.smd"
+        "name": "idle_aggressive",
+        "path": "heroes/skywrath_mage/smd/skywrath_mage_idle_aggressive.smd"
     }
 }

@@ -37,25 +37,6 @@
             1
         ]
     },
-    "axe_belt": {
-        "diffuseMap": "heroes/axe/textures/axe_belt_color.png",
-        "normalMap": "heroes/axe/textures/axe_belt_normal.png",
-        "maskMap1": "heroes/axe/textures/axe_belt_masks1.png",
-        "maskMap2": "heroes/axe/textures/axe_belt_masks2.png",
-        "u_SpecularExponent": 20,
-        "u_SpecularScale": 2.5,
-        "u_SpecularColor": [
-            0.9,
-            0.8,
-            1
-        ],
-        "u_RimLightScale": 1,
-        "u_RimLightColor": [
-            1,
-            1,
-            1
-        ]
-    },
     "axe_ponytail": {
         "diffuseMap": "heroes/axe/textures/axe_hair_color.png",
         "normalMap": "heroes/axe/textures/axe_hair_normal.png",
@@ -88,6 +69,25 @@
             1
         ],
         "u_RimLightScale": 1.2,
+        "u_RimLightColor": [
+            1,
+            1,
+            1
+        ]
+    },
+    "axe_belt": {
+        "diffuseMap": "heroes/axe/textures/axe_belt_color.png",
+        "normalMap": "heroes/axe/textures/axe_belt_normal.png",
+        "maskMap1": "heroes/axe/textures/axe_belt_masks1.png",
+        "maskMap2": "heroes/axe/textures/axe_belt_masks2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 2.5,
+        "u_SpecularColor": [
+            0.9,
+            0.8,
+            1
+        ],
+        "u_RimLightScale": 1,
         "u_RimLightColor": [
             1,
             1,

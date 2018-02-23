@@ -1,23 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/luna/textures/luna_weapon_color.png",
-        "normalMap": "heroes/luna/textures/luna_weapon_normal.png",
-        "maskMap1": "heroes/luna/textures/luna_weapon_masks1.png",
-        "maskMap2": "heroes/luna/textures/luna_weapon_masks2.png",
-        "u_SpecularExponent": 10,
-        "u_SpecularScale": 3,
-        "u_SpecularColor": [
-            0.8,
-            1,
-            1
-        ],
-        "u_RimLightScale": 5,
-        "u_RimLightColor": [
-            0.8,
-            1,
-            1
-        ]
-    },
     "Material #35": {
         "diffuseMap": "heroes/luna/textures/luna_body_color.png",
         "normalMap": "heroes/luna/textures/luna_body_normal.png",
@@ -126,6 +107,25 @@
             1
         ],
         "u_RimLightScale": 4,
+        "u_RimLightColor": [
+            0.8,
+            1,
+            1
+        ]
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/luna/textures/luna_weapon_color.png",
+        "normalMap": "heroes/luna/textures/luna_weapon_normal.png",
+        "maskMap1": "heroes/luna/textures/luna_weapon_masks1.png",
+        "maskMap2": "heroes/luna/textures/luna_weapon_masks2.png",
+        "u_SpecularExponent": 10,
+        "u_SpecularScale": 3,
+        "u_SpecularColor": [
+            0.8,
+            1,
+            1
+        ],
+        "u_RimLightScale": 5,
         "u_RimLightColor": [
             0.8,
             1,

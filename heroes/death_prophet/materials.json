@@ -1,23 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/death_prophet/textures/death_prophet_ripscroll.png",
-        "normalMap": "heroes/death_prophet/textures/death_prophet_ripscroll_normal.png",
-        "maskMap1": "heroes/death_prophet/textures/death_prophet_ripscroll_mask1.png",
-        "maskMap2": "heroes/death_prophet/textures/death_prophet_ripscroll_mask2.png",
-        "u_SpecularExponent": 23,
-        "u_SpecularScale": 6,
-        "u_SpecularColor": [
-            0.7,
-            0.9,
-            1
-        ],
-        "u_RimLightScale": 10,
-        "u_RimLightColor": [
-            0.3,
-            0.3,
-            0.3
-        ]
-    },
     "Material #35": {
         "diffuseMap": "heroes/death_prophet/textures/death_prophet_body_color.png",
         "normalMap": "heroes/death_prophet/textures/death_prophet_body_normal.png",
@@ -130,6 +111,25 @@
             0.5,
             0.8,
             0.9
+        ]
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/death_prophet/textures/death_prophet_ripscroll.png",
+        "normalMap": "heroes/death_prophet/textures/death_prophet_ripscroll_normal.png",
+        "maskMap1": "heroes/death_prophet/textures/death_prophet_ripscroll_mask1.png",
+        "maskMap2": "heroes/death_prophet/textures/death_prophet_ripscroll_mask2.png",
+        "u_SpecularExponent": 23,
+        "u_SpecularScale": 6,
+        "u_SpecularColor": [
+            0.7,
+            0.9,
+            1
+        ],
+        "u_RimLightScale": 10,
+        "u_RimLightColor": [
+            0.3,
+            0.3,
+            0.3
         ]
     }
 }

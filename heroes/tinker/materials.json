@@ -1,23 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/tinker/textures/tinker_shoulders.png",
-        "normalMap": "heroes/tinker/textures/tinker_shoulders_normal.png",
-        "maskMap1": "heroes/tinker/textures/tinker_shoulders_masks1.png",
-        "maskMap2": "heroes/tinker/textures/tinker_shoulders_masks2.png",
-        "u_SpecularExponent": 40,
-        "u_SpecularScale": 17,
-        "u_SpecularColor": [
-            1,
-            1,
-            1
-        ],
-        "u_RimLightScale": 5,
-        "u_RimLightColor": [
-            1,
-            1,
-            1
-        ]
-    },
     "Material #35": {
         "diffuseMap": "heroes/tinker/textures/tinker_body.png",
         "normalMap": "heroes/tinker/textures/tinker_body_normal.png",
@@ -118,6 +99,25 @@
         "normalMap": "heroes/tinker/textures/tinker_right_arm_normal.png",
         "maskMap1": "heroes/tinker/textures/tinker_right_arm_masks1.png",
         "maskMap2": "heroes/tinker/textures/tinker_right_arm_masks2.png",
+        "u_SpecularExponent": 40,
+        "u_SpecularScale": 17,
+        "u_SpecularColor": [
+            1,
+            1,
+            1
+        ],
+        "u_RimLightScale": 5,
+        "u_RimLightColor": [
+            1,
+            1,
+            1
+        ]
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/tinker/textures/tinker_shoulders.png",
+        "normalMap": "heroes/tinker/textures/tinker_shoulders_normal.png",
+        "maskMap1": "heroes/tinker/textures/tinker_shoulders_masks1.png",
+        "maskMap2": "heroes/tinker/textures/tinker_shoulders_masks2.png",
         "u_SpecularExponent": 40,
         "u_SpecularScale": 17,
         "u_SpecularColor": [

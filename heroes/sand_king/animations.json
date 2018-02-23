@@ -21,16 +21,16 @@
     ],
     "run": [
         {
-            "name": "run",
-            "path": "heroes/sand_king/smd/sand_king_run.smd"
-        },
-        {
             "name": "run_chase",
             "path": "heroes/sand_king/smd/sand_king_run_chase.smd"
         },
         {
             "name": "run_injured",
             "path": "heroes/sand_king/smd/sand_king_run_injured.smd"
+        },
+        {
+            "name": "run",
+            "path": "heroes/sand_king/smd/sand_king_run.smd"
         }
     ],
     "default": {

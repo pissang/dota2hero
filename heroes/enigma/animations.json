@@ -1,16 +1,16 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/enigma/smd/idle.smd"
-        },
-        {
             "name": "idle_alt",
             "path": "heroes/enigma/smd/idle_alt.smd"
         },
         {
             "name": "idle_injured",
             "path": "heroes/enigma/smd/idle_injured.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/enigma/smd/idle.smd"
         }
     ],
     "attack": [
@@ -25,10 +25,6 @@
     ],
     "run": [
         {
-            "name": "run",
-            "path": "heroes/enigma/smd/run.smd"
-        },
-        {
             "name": "run_chase",
             "path": "heroes/enigma/smd/run_chase.smd"
         },
@@ -39,10 +35,14 @@
         {
             "name": "run_injured",
             "path": "heroes/enigma/smd/run_injured.smd"
+        },
+        {
+            "name": "run",
+            "path": "heroes/enigma/smd/run.smd"
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/enigma/smd/idle.smd"
+        "name": "idle_alt",
+        "path": "heroes/enigma/smd/idle_alt.smd"
     }
 }

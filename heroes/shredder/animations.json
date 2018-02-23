@@ -1,16 +1,16 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/shredder/smd/idle.smd"
-        },
-        {
             "name": "idle_chakram",
             "path": "heroes/shredder/smd/idle_chakram.smd"
         },
         {
             "name": "idle_rare1",
             "path": "heroes/shredder/smd/idle_rare1.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/shredder/smd/idle.smd"
         }
     ],
     "attack": [
@@ -33,12 +33,12 @@
     ],
     "run": [
         {
-            "name": "run",
-            "path": "heroes/shredder/smd/run.smd"
-        },
-        {
             "name": "run_chakram",
             "path": "heroes/shredder/smd/run_chakram.smd"
+        },
+        {
+            "name": "run",
+            "path": "heroes/shredder/smd/run.smd"
         }
     ],
     "default": {

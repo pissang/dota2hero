@@ -1,23 +1,4 @@
 {
-    "Material #103": {
-        "diffuseMap": "heroes/pudge/textures/pudge_bracer_color.png",
-        "normalMap": "heroes/pudge/textures/pudge_bracer_normal.png",
-        "maskMap1": "heroes/pudge/textures/pudge_bracer_mask1.png",
-        "maskMap2": "heroes/pudge/textures/pudge_bracer_mask2.png",
-        "u_SpecularExponent": 13,
-        "u_SpecularScale": 52,
-        "u_SpecularColor": [
-            0.7,
-            0.9,
-            1
-        ],
-        "u_RimLightScale": 10,
-        "u_RimLightColor": [
-            0.5,
-            0.8,
-            0.9
-        ]
-    },
     "Material #35": {
         "diffuseMap": "heroes/pudge/textures/pudge_body_color.png",
         "normalMap": "heroes/pudge/textures/pudge_body_normal.png",
@@ -99,6 +80,25 @@
         "normalMap": "heroes/pudge/textures/pudge_back_normal.png",
         "maskMap1": "heroes/pudge/textures/pudge_back_mask1.png",
         "maskMap2": "heroes/pudge/textures/pudge_back_mask2.png",
+        "u_SpecularExponent": 13,
+        "u_SpecularScale": 52,
+        "u_SpecularColor": [
+            0.7,
+            0.9,
+            1
+        ],
+        "u_RimLightScale": 10,
+        "u_RimLightColor": [
+            0.5,
+            0.8,
+            0.9
+        ]
+    },
+    "Material #103": {
+        "diffuseMap": "heroes/pudge/textures/pudge_bracer_color.png",
+        "normalMap": "heroes/pudge/textures/pudge_bracer_normal.png",
+        "maskMap1": "heroes/pudge/textures/pudge_bracer_mask1.png",
+        "maskMap2": "heroes/pudge/textures/pudge_bracer_mask2.png",
         "u_SpecularExponent": 13,
         "u_SpecularScale": 52,
         "u_SpecularColor": [

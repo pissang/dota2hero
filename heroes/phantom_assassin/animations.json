@@ -1,23 +1,19 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/phantom_assassin/smd/phantom_assassin_idle.smd"
-        },
-        {
             "name": "idle_alt1",
             "path": "heroes/phantom_assassin/smd/phantom_assassin_idle_alt1.smd"
         },
         {
             "name": "idle_injured",
             "path": "heroes/phantom_assassin/smd/phantom_assassin_idle_injured.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/phantom_assassin/smd/phantom_assassin_idle.smd"
         }
     ],
     "attack": [
-        {
-            "name": "attack",
-            "path": "heroes/phantom_assassin/smd/phantom_assassin_attack.smd"
-        },
         {
             "name": "attack_alt1",
             "path": "heroes/phantom_assassin/smd/phantom_assassin_attack_alt1.smd"
@@ -25,13 +21,13 @@
         {
             "name": "attack_crit",
             "path": "heroes/phantom_assassin/smd/phantom_assassin_attack_crit.smd"
+        },
+        {
+            "name": "attack",
+            "path": "heroes/phantom_assassin/smd/phantom_assassin_attack.smd"
         }
     ],
     "run": [
-        {
-            "name": "run",
-            "path": "heroes/phantom_assassin/smd/phantom_assassin_run.smd"
-        },
         {
             "name": "run_haste",
             "path": "heroes/phantom_assassin/smd/phantom_assassin_run_haste.smd"
@@ -39,10 +35,14 @@
         {
             "name": "run_injured",
             "path": "heroes/phantom_assassin/smd/phantom_assassin_run_injured.smd"
+        },
+        {
+            "name": "run",
+            "path": "heroes/phantom_assassin/smd/phantom_assassin_run.smd"
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/phantom_assassin/smd/phantom_assassin_idle.smd"
+        "name": "idle_alt1",
+        "path": "heroes/phantom_assassin/smd/phantom_assassin_idle_alt1.smd"
     }
 }

@@ -1,23 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/shadowshaman/textures/weapon_offhand_color.png",
-        "normalMap": "heroes/shadowshaman/textures/weapon_offhand_normal.png",
-        "maskMap1": "heroes/shadowshaman/textures/weapon_offhand_masks1.png",
-        "maskMap2": "heroes/shadowshaman/textures/weapon_offhand_masks2.png",
-        "u_SpecularExponent": 7,
-        "u_SpecularScale": 8,
-        "u_SpecularColor": [
-            0.1,
-            1,
-            1
-        ],
-        "u_RimLightScale": 0.5,
-        "u_RimLightColor": [
-            1,
-            1,
-            1
-        ]
-    },
     "Material #35": {
         "diffuseMap": "heroes/shadowshaman/textures/shadowshaman_color.png",
         "normalMap": "heroes/shadowshaman/textures/shadowshaman_normal.png",
@@ -118,6 +99,25 @@
         "normalMap": "heroes/shadowshaman/textures/weapon_normal.png",
         "maskMap1": "heroes/shadowshaman/textures/weapon_masks1.png",
         "maskMap2": "heroes/shadowshaman/textures/weapon_masks2.png",
+        "u_SpecularExponent": 7,
+        "u_SpecularScale": 8,
+        "u_SpecularColor": [
+            0.1,
+            1,
+            1
+        ],
+        "u_RimLightScale": 0.5,
+        "u_RimLightColor": [
+            1,
+            1,
+            1
+        ]
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/shadowshaman/textures/weapon_offhand_color.png",
+        "normalMap": "heroes/shadowshaman/textures/weapon_offhand_normal.png",
+        "maskMap1": "heroes/shadowshaman/textures/weapon_offhand_masks1.png",
+        "maskMap2": "heroes/shadowshaman/textures/weapon_offhand_masks2.png",
         "u_SpecularExponent": 7,
         "u_SpecularScale": 8,
         "u_SpecularColor": [

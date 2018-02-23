@@ -1,6 +1,14 @@
 {
     "idle": [
         {
+            "name": "idle_injured",
+            "path": "heroes/meepo/smd/idle_injured.smd"
+        },
+        {
+            "name": "idle_loadout",
+            "path": "heroes/meepo/smd/idle_loadout.smd"
+        },
+        {
             "name": "idle",
             "path": "heroes/meepo/smd/idle.smd"
         },
@@ -19,35 +27,31 @@
         {
             "name": "idle4",
             "path": "heroes/meepo/smd/idle4.smd"
-        },
-        {
-            "name": "idle_injured",
-            "path": "heroes/meepo/smd/idle_injured.smd"
-        },
-        {
-            "name": "idle_loadout",
-            "path": "heroes/meepo/smd/idle_loadout.smd"
         }
     ],
     "attack": [
         {
-            "name": "attack",
-            "path": "heroes/meepo/smd/attack.smd"
+            "name": "attack_injured",
+            "path": "heroes/meepo/smd/attack_injured.smd"
         },
         {
-            "name": "attack1",
-            "path": "heroes/meepo/smd/attack1.smd"
+            "name": "attack",
+            "path": "heroes/meepo/smd/attack.smd"
         },
         {
             "name": "attack1_injured",
             "path": "heroes/meepo/smd/attack1_injured.smd"
         },
         {
-            "name": "attack_injured",
-            "path": "heroes/meepo/smd/attack_injured.smd"
+            "name": "attack1",
+            "path": "heroes/meepo/smd/attack1.smd"
         }
     ],
     "run": [
+        {
+            "name": "run_injured",
+            "path": "heroes/meepo/smd/run_injured.smd"
+        },
         {
             "name": "run",
             "path": "heroes/meepo/smd/run.smd"
@@ -59,14 +63,10 @@
         {
             "name": "run2",
             "path": "heroes/meepo/smd/run2.smd"
-        },
-        {
-            "name": "run_injured",
-            "path": "heroes/meepo/smd/run_injured.smd"
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/meepo/smd/idle.smd"
+        "name": "idle_injured",
+        "path": "heroes/meepo/smd/idle_injured.smd"
     }
 }

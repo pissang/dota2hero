@@ -1,22 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/centaur/textures/tail_color.png",
-        "normalMap": "heroes/centaur/textures/tail_normal.png",
-        "maskMap1": "heroes/centaur/textures/tail_masks1.png",
-        "maskMap2": "heroes/centaur/textures/tail_masks2.png",
-        "u_SpecularExponent": 32,
-        "u_SpecularScale": 10,
-        "u_RimLightScale": 3
-    },
-    "Material #112": {
-        "diffuseMap": "heroes/centaur/textures/weapon_color.png",
-        "normalMap": "heroes/centaur/textures/weapon_normal.png",
-        "maskMap1": "heroes/centaur/textures/weapon_masks1.png",
-        "maskMap2": "heroes/centaur/textures/weapon_masks2.png",
-        "u_SpecularExponent": 8,
-        "u_SpecularScale": 1,
-        "u_RimLightScale": 1
-    },
     "Material #35": {
         "diffuseMap": "heroes/centaur/textures/centaur_color.png",
         "normalMap": "heroes/centaur/textures/centaur_normal.png",
@@ -70,5 +52,23 @@
         "u_SpecularExponent": 32,
         "u_SpecularScale": 10,
         "u_RimLightScale": 3
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/centaur/textures/tail_color.png",
+        "normalMap": "heroes/centaur/textures/tail_normal.png",
+        "maskMap1": "heroes/centaur/textures/tail_masks1.png",
+        "maskMap2": "heroes/centaur/textures/tail_masks2.png",
+        "u_SpecularExponent": 32,
+        "u_SpecularScale": 10,
+        "u_RimLightScale": 3
+    },
+    "Material #112": {
+        "diffuseMap": "heroes/centaur/textures/weapon_color.png",
+        "normalMap": "heroes/centaur/textures/weapon_normal.png",
+        "maskMap1": "heroes/centaur/textures/weapon_masks1.png",
+        "maskMap2": "heroes/centaur/textures/weapon_masks2.png",
+        "u_SpecularExponent": 8,
+        "u_SpecularScale": 1,
+        "u_RimLightScale": 1
     }
 }

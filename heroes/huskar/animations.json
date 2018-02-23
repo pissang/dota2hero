@@ -1,16 +1,12 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/huskar/smd/idle.smd"
+            "name": "idle_aggressive_injured",
+            "path": "heroes/huskar/smd/idle_aggressive_injured.smd"
         },
         {
             "name": "idle_aggressive",
             "path": "heroes/huskar/smd/idle_aggressive.smd"
-        },
-        {
-            "name": "idle_aggressive_injured",
-            "path": "heroes/huskar/smd/idle_aggressive_injured.smd"
         },
         {
             "name": "idle_alt",
@@ -19,38 +15,42 @@
         {
             "name": "idle_loadout",
             "path": "heroes/huskar/smd/idle_loadout.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/huskar/smd/idle.smd"
         }
     ],
     "attack": [
         {
-            "name": "attack",
-            "path": "heroes/huskar/smd/attack.smd"
-        },
-        {
             "name": "attack_fast",
             "path": "heroes/huskar/smd/attack_fast.smd"
+        },
+        {
+            "name": "attack",
+            "path": "heroes/huskar/smd/attack.smd"
         }
     ],
     "run": [
         {
-            "name": "run",
-            "path": "heroes/huskar/smd/run.smd"
+            "name": "run_aggressive_injured",
+            "path": "heroes/huskar/smd/run_aggressive_injured.smd"
         },
         {
             "name": "run_aggressive",
             "path": "heroes/huskar/smd/run_aggressive.smd"
         },
         {
-            "name": "run_aggressive_injured",
-            "path": "heroes/huskar/smd/run_aggressive_injured.smd"
-        },
-        {
             "name": "run_haste",
             "path": "heroes/huskar/smd/run_haste.smd"
+        },
+        {
+            "name": "run",
+            "path": "heroes/huskar/smd/run.smd"
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/huskar/smd/idle.smd"
+        "name": "idle_aggressive_injured",
+        "path": "heroes/huskar/smd/idle_aggressive_injured.smd"
     }
 }

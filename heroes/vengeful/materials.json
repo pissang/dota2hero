@@ -1,56 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/vengeful/textures/vengeful2_skirt_color.png",
-        "normalMap": "heroes/vengeful/textures/vengeful2_skirt_normal.png",
-        "maskMap1": "heroes/vengeful/textures/vengeful2_skirt_mask1.png",
-        "maskMap2": "heroes/vengeful/textures/vengeful2_skirt_mask2.png",
-        "u_SpecularExponent": 6,
-        "u_SpecularScale": 60,
-        "u_SpecularColor": [
-            0.7,
-            0.9,
-            1
-        ],
-        "u_RimLightScale": 10,
-        "u_RimLightColor": [
-            0.5,
-            0.8,
-            0.9
-        ]
-    },
-    "Material #112": {
-        "diffuseMap": "heroes/vengeful/textures/vengeful_weapon.png",
-        "normalMap": "heroes/vengeful/textures/vengeful_weapon_normal.png",
-        "maskMap1": "heroes/vengeful/textures/vengeful_weapon_masks1.png",
-        "maskMap2": "heroes/vengeful/textures/vengeful_weapon_masks2.png",
-        "u_SpecularExponent": 10,
-        "u_SpecularScale": 1.5,
-        "u_RimLightScale": 2,
-        "u_RimLightColor": [
-            0.6,
-            0.5,
-            1
-        ]
-    },
-    "Material #123": {
-        "diffuseMap": "heroes/vengeful/textures/vengeful2_wings_color.png",
-        "normalMap": "heroes/vengeful/textures/vengeful2_wings_normal.png",
-        "maskMap1": "heroes/vengeful/textures/vengeful2_wings_mask1.png",
-        "maskMap2": "heroes/vengeful/textures/vengeful2_wings_mask2.png",
-        "u_SpecularExponent": 13,
-        "u_SpecularScale": 90,
-        "u_SpecularColor": [
-            0.7,
-            0.9,
-            1
-        ],
-        "u_RimLightScale": 10,
-        "u_RimLightColor": [
-            0.5,
-            0.8,
-            0.9
-        ]
-    },
     "Material #35": {
         "diffuseMap": "heroes/vengeful/textures/vengeful2_body_color.png",
         "normalMap": "heroes/vengeful/textures/vengeful2_body_normal.png",
@@ -134,6 +82,58 @@
         "maskMap2": "heroes/vengeful/textures/vengeful2_shoulders_mask2.png",
         "u_SpecularExponent": 6,
         "u_SpecularScale": 60,
+        "u_SpecularColor": [
+            0.7,
+            0.9,
+            1
+        ],
+        "u_RimLightScale": 10,
+        "u_RimLightColor": [
+            0.5,
+            0.8,
+            0.9
+        ]
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/vengeful/textures/vengeful2_skirt_color.png",
+        "normalMap": "heroes/vengeful/textures/vengeful2_skirt_normal.png",
+        "maskMap1": "heroes/vengeful/textures/vengeful2_skirt_mask1.png",
+        "maskMap2": "heroes/vengeful/textures/vengeful2_skirt_mask2.png",
+        "u_SpecularExponent": 6,
+        "u_SpecularScale": 60,
+        "u_SpecularColor": [
+            0.7,
+            0.9,
+            1
+        ],
+        "u_RimLightScale": 10,
+        "u_RimLightColor": [
+            0.5,
+            0.8,
+            0.9
+        ]
+    },
+    "Material #112": {
+        "diffuseMap": "heroes/vengeful/textures/vengeful_weapon.png",
+        "normalMap": "heroes/vengeful/textures/vengeful_weapon_normal.png",
+        "maskMap1": "heroes/vengeful/textures/vengeful_weapon_masks1.png",
+        "maskMap2": "heroes/vengeful/textures/vengeful_weapon_masks2.png",
+        "u_SpecularExponent": 10,
+        "u_SpecularScale": 1.5,
+        "u_RimLightScale": 2,
+        "u_RimLightColor": [
+            0.6,
+            0.5,
+            1
+        ]
+    },
+    "Material #123": {
+        "diffuseMap": "heroes/vengeful/textures/vengeful2_wings_color.png",
+        "normalMap": "heroes/vengeful/textures/vengeful2_wings_normal.png",
+        "maskMap1": "heroes/vengeful/textures/vengeful2_wings_mask1.png",
+        "maskMap2": "heroes/vengeful/textures/vengeful2_wings_mask2.png",
+        "u_SpecularExponent": 13,
+        "u_SpecularScale": 90,
         "u_SpecularColor": [
             0.7,
             0.9,

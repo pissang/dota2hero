@@ -1,18 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/mirana/textures/shoulder_color.png",
-        "normalMap": "heroes/mirana/textures/shoulder_normal.png",
-        "maskMap1": "heroes/mirana/textures/shoulder_masks1.png",
-        "maskMap2": "heroes/mirana/textures/shoulder_masks2.png",
-        "u_SpecularExponent": 16,
-        "u_SpecularScale": 10,
-        "u_RimLightScale": 1,
-        "u_RimLightColor": [
-            1,
-            1,
-            1
-        ]
-    },
     "Material #35": {
         "diffuseMap": "heroes/mirana/textures/mirana_color.png",
         "normalMap": "heroes/mirana/textures/mirana_normal.png",
@@ -88,6 +74,20 @@
         "normalMap": "heroes/mirana/textures/quiver_normal.png",
         "maskMap1": "heroes/mirana/textures/quiver_masks1.png",
         "maskMap2": "heroes/mirana/textures/quiver_masks2.png",
+        "u_SpecularExponent": 16,
+        "u_SpecularScale": 10,
+        "u_RimLightScale": 1,
+        "u_RimLightColor": [
+            1,
+            1,
+            1
+        ]
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/mirana/textures/shoulder_color.png",
+        "normalMap": "heroes/mirana/textures/shoulder_normal.png",
+        "maskMap1": "heroes/mirana/textures/shoulder_masks1.png",
+        "maskMap2": "heroes/mirana/textures/shoulder_masks2.png",
         "u_SpecularExponent": 16,
         "u_SpecularScale": 10,
         "u_RimLightScale": 1,

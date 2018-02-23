@@ -1,0 +1,156 @@
+<!Doctype html>
+<html ng-app="heroViewer">
+<head>
+    <title>Dota2 Hero Viewer</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="lib/qtek.js"></script>
+</head>
+<body style="margin:0px; background:#272D3C">
+    <canvas id="viewport"></canvas>
+    <script type="text/javascript">
+        var renderer = new qtek.Renderer({
+            canvas: document.getElementById('viewport')
+        });
+        renderer.resize(window.innerWidth, window.innerHeight);
+        var scene = new qtek.Scene();
+        var camera = new qtek.camera.Perspective({
+            aspect : window.innerWidth / window.innerHeight,
+            far : 1000
+        });
+        camera.position.set(40, 10, 40);
+        var control = new qtek.plugin.OrbitControl({
+            target : camera,
+            domElement : renderer.canvas
+        });
+        var shadowMapPass = new qtek.prePass.ShadowMap({
+        });
+
+        var animation = new qtek.animation.Animation();
+        animation.start();
+
+        var light = new qtek.light.Directional({
+            intensity : 0.5,
+            shadowResolution : 512,
+            shadowBias : 0.02
+        });
+        light.position.set(10, 20, 5);
+        light.lookAt(new qtek.math.Vector3(0, 10, 0), new qtek.math.Vector3(0, 0, 1));
+        scene.add(light);
+
+        var groundPlane = new qtek.Mesh({
+            geometry : new qtek.geometry.Plane({
+                widthSegments : 10,
+                heightSegments : 10
+            }),
+            material : new qtek.Material({
+                shader : qtek.shader.library.get('buildin.basic', 'diffuseMap')
+            }),
+            culling : false
+        });
+        groundPlane.material.set('color', [0.7, 0.7, 0.7]);
+        groundPlane.geometry.generateBarycentric();
+        groundPlane.rotation.rotateX(-Math.PI / 2);
+        groundPlane.scale.set(500, 500, 1);
+
+        var texture = qtek.util.texture.createChessboard(2048, 16, '#ddd', '#777');
+        groundPlane.material.set('diffuseMap', texture);
+        scene.add(groundPlane);
+
+        var skeletons = [];
+        var clips = [];
+
+        var task = qtek.async.Task.makeRequestTask('heroes/overview_cn.json');
+        var shaderTask = qtek.async.Task.makeRequestTask('assets/shaders/hero.essl');
+        var taskGroup = new qtek.async.TaskGroup();
+        taskGroup.all([task, shaderTask]).success(function(res) {
+            var heroList = JSON.parse(res[0]);
+            // heroList = heroList.slice(0, 50);
+            var heroFragShader = res[1];
+            var nRow = Math.floor(Math.sqrt(heroList.length));
+
+            function loadOneHero(idx) {
+                var item = heroList[idx];
+                if (!item) {return;}
+
+                var heroRootPath = "heroes/" + item.name + "/";
+                var gltfLoader = new qtek.loader.GLTF();
+                gltfLoader.load(heroRootPath + item.name + ".json");
+                gltfLoader.success(function(gltfResult) {
+                    var heroRootNode = new qtek.Node();
+                    var children = gltfResult.scene.children();
+                    for (var i = 0; i < children.length; i++) {
+                        heroRootNode.add(children[i]);
+                    }
+                    heroRootNode.update(true);
+                    heroRootNode.traverse(function(node) {
+                        if (node.geometry) {
+                            node.geometry.generateTangents();
+                            if (node.material && heroFragShader) {
+                                var mat = node.material;
+                                var shader = mat.shader;
+                                shader.setFragment(heroFragShader);
+                                // reattach
+                                mat.attachShader(shader);
+                                shader.enableTexturesAll();
+                            }
+                        }
+                    });
+
+                    var x = (idx / nRow - nRow / 2) * 30;
+                    var z = (idx % nRow - nRow / 2) * 30;
+                    heroRootNode.position.set(x, 0, z);
+                    heroRootNode.rotation.rotateX(-Math.PI/2);
+                    heroRootNode.scale.set(0.1, 0.1, 0.1);
+
+                    var matTask = qtek.async.Task.makeRequestTask(heroRootPath + 'materials.json');
+                    matTask.success(function(materials) {
+                        materials = JSON.parse(materials);
+                        for (var name in materials) {
+                            var params = materials[name];
+                            var mat = gltfResult.materials[name];
+                            var Texture2D = qtek.texture.Texture2D;
+                            mat.shader.disableTexturesAll();
+                            if (mat) {
+                                ['diffuseMap', 'normalMap', 'maskMap1', 'maskMap2']
+                                    .forEach(function(name) {
+                                        if (params[name] !== undefined) {
+                                            var texture = new Texture2D({
+                                                wrapS : qtek.Texture.REPEAT,
+                                                wrapT : qtek.Texture.REPEAT
+                                            });
+                                            texture.load(params[name]);
+                                            mat.set(name, texture);
+                                            mat.shader.enableTexture(name);
+                                        }
+                                    });
+                                ['u_SpecularExponent', 'u_SpecularScale', 'u_SpecularColor', 'u_RimLightScale', 'u_RimLightColor']
+                                    .forEach(function(name) {
+                                        if (params[name] !== undefined) {
+                                            mat.set(name, params[name]);
+                                        }
+                                    });
+                                if (params.transparent) {
+                                    mat.transparent = true;
+                                    mat.depthMask = false;
+                                }
+                            }
+                        }
+
+                        scene.add(heroRootNode);
+
+                        loadOneHero(idx + 1);
+                    });
+                });
+            }
+
+            loadOneHero(0);
+        });
+
+        animation.on('frame', function(deltaTime) {
+            // shadowMapPass.render(renderer, scene, camera);
+            control.update(deltaTime);
+            renderer.render(scene, camera);
+        })
+    </script>
+</body>
+</html>

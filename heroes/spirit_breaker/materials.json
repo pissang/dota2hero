@@ -1,42 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/spirit_breaker/textures/spirit_breaker_tail_color.png",
-        "normalMap": "heroes/spirit_breaker/textures/spirit_breaker_tail_normal.png",
-        "maskMap1": "heroes/spirit_breaker/textures/spirit_breaker_tail_masks1.png",
-        "maskMap2": "heroes/spirit_breaker/textures/spirit_breaker_tail_masks2.png",
-        "u_SpecularExponent": 15,
-        "u_SpecularScale": 15,
-        "u_SpecularColor": [
-            0.75,
-            0.8,
-            1
-        ],
-        "u_RimLightScale": 1,
-        "u_RimLightColor": [
-            0.75,
-            0.75,
-            1
-        ]
-    },
-    "Material #112": {
-        "diffuseMap": "heroes/spirit_breaker/textures/spirit_breaker_flail_color.png",
-        "normalMap": "heroes/spirit_breaker/textures/spirit_breaker_flail_normal.png",
-        "maskMap1": "heroes/spirit_breaker/textures/spirit_breaker_flail_masks1.png",
-        "maskMap2": "heroes/spirit_breaker/textures/spirit_breaker_flail_masks2.png",
-        "u_SpecularExponent": 15,
-        "u_SpecularScale": 15,
-        "u_SpecularColor": [
-            0.75,
-            0.8,
-            1
-        ],
-        "u_RimLightScale": 1,
-        "u_RimLightColor": [
-            0.75,
-            0.75,
-            1
-        ]
-    },
     "Material #35": {
         "diffuseMap": "heroes/spirit_breaker/textures/spirit_breaker_body_color.png",
         "normalMap": "heroes/spirit_breaker/textures/spirit_breaker_body_normal.png",
@@ -137,6 +99,44 @@
         "normalMap": "heroes/spirit_breaker/textures/spirit_breaker_shoulders_normal.png",
         "maskMap1": "heroes/spirit_breaker/textures/spirit_breaker_shoulders_masks1.png",
         "maskMap2": "heroes/spirit_breaker/textures/spirit_breaker_shoulders_masks2.png",
+        "u_SpecularExponent": 15,
+        "u_SpecularScale": 15,
+        "u_SpecularColor": [
+            0.75,
+            0.8,
+            1
+        ],
+        "u_RimLightScale": 1,
+        "u_RimLightColor": [
+            0.75,
+            0.75,
+            1
+        ]
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/spirit_breaker/textures/spirit_breaker_tail_color.png",
+        "normalMap": "heroes/spirit_breaker/textures/spirit_breaker_tail_normal.png",
+        "maskMap1": "heroes/spirit_breaker/textures/spirit_breaker_tail_masks1.png",
+        "maskMap2": "heroes/spirit_breaker/textures/spirit_breaker_tail_masks2.png",
+        "u_SpecularExponent": 15,
+        "u_SpecularScale": 15,
+        "u_SpecularColor": [
+            0.75,
+            0.8,
+            1
+        ],
+        "u_RimLightScale": 1,
+        "u_RimLightColor": [
+            0.75,
+            0.75,
+            1
+        ]
+    },
+    "Material #112": {
+        "diffuseMap": "heroes/spirit_breaker/textures/spirit_breaker_flail_color.png",
+        "normalMap": "heroes/spirit_breaker/textures/spirit_breaker_flail_normal.png",
+        "maskMap1": "heroes/spirit_breaker/textures/spirit_breaker_flail_masks1.png",
+        "maskMap2": "heroes/spirit_breaker/textures/spirit_breaker_flail_masks2.png",
         "u_SpecularExponent": 15,
         "u_SpecularScale": 15,
         "u_SpecularColor": [

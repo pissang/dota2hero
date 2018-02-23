@@ -1,12 +1,12 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/lina/smd/idle.smd"
-        },
-        {
             "name": "idle_alt",
             "path": "heroes/lina/smd/idle_alt.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/lina/smd/idle.smd"
         }
     ],
     "attack": [
@@ -21,16 +21,16 @@
     ],
     "run": [
         {
-            "name": "run",
-            "path": "heroes/lina/smd/run.smd"
-        },
-        {
             "name": "run_injured",
             "path": "heroes/lina/smd/run_injured.smd"
+        },
+        {
+            "name": "run",
+            "path": "heroes/lina/smd/run.smd"
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/lina/smd/idle.smd"
+        "name": "idle_alt",
+        "path": "heroes/lina/smd/idle_alt.smd"
     }
 }

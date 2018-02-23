@@ -1,10 +1,6 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/death_prophet/smd/idle.smd"
-        },
-        {
             "name": "idle_alt1",
             "path": "heroes/death_prophet/smd/idle_alt1.smd"
         },
@@ -15,31 +11,31 @@
         {
             "name": "idle_injured",
             "path": "heroes/death_prophet/smd/idle_injured.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/death_prophet/smd/idle.smd"
         }
     ],
     "attack": [
-        {
-            "name": "attack_01",
-            "path": "heroes/death_prophet/smd/attack_01.smd"
-        },
         {
             "name": "attack_01_injured",
             "path": "heroes/death_prophet/smd/attack_01_injured.smd"
         },
         {
-            "name": "attack_02",
-            "path": "heroes/death_prophet/smd/attack_02.smd"
+            "name": "attack_01",
+            "path": "heroes/death_prophet/smd/attack_01.smd"
         },
         {
             "name": "attack_02_injured",
             "path": "heroes/death_prophet/smd/attack_02_injured.smd"
+        },
+        {
+            "name": "attack_02",
+            "path": "heroes/death_prophet/smd/attack_02.smd"
         }
     ],
     "run": [
-        {
-            "name": "run",
-            "path": "heroes/death_prophet/smd/run.smd"
-        },
         {
             "name": "run_chase",
             "path": "heroes/death_prophet/smd/run_chase.smd"
@@ -47,10 +43,14 @@
         {
             "name": "run_injured",
             "path": "heroes/death_prophet/smd/run_injured.smd"
+        },
+        {
+            "name": "run",
+            "path": "heroes/death_prophet/smd/run.smd"
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/death_prophet/smd/idle.smd"
+        "name": "idle_alt1",
+        "path": "heroes/death_prophet/smd/idle_alt1.smd"
     }
 }

@@ -1,13 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/clinkz/textures/clinkz_pads_color.png",
-        "normalMap": "heroes/clinkz/textures/clinkz_pads_normal.png",
-        "maskMap1": "heroes/clinkz/textures/clinkz_pads_masks1.png",
-        "maskMap2": "heroes/clinkz/textures/clinkz_pads_masks2.png",
-        "u_SpecularExponent": 32,
-        "u_SpecularScale": 3,
-        "u_RimLightScale": 1
-    },
     "Material #35": {
         "diffuseMap": "heroes/clinkz/textures/clinkz_body_color.png",
         "normalMap": "heroes/clinkz/textures/clinkz_body_normal.png",
@@ -58,6 +49,15 @@
         "normalMap": "heroes/clinkz/textures/clinkz_horns_normal.png",
         "maskMap1": "heroes/clinkz/textures/clinkz_horns_masks1.png",
         "maskMap2": "heroes/clinkz/textures/clinkz_horns_masks2.png",
+        "u_SpecularExponent": 32,
+        "u_SpecularScale": 3,
+        "u_RimLightScale": 1
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/clinkz/textures/clinkz_pads_color.png",
+        "normalMap": "heroes/clinkz/textures/clinkz_pads_normal.png",
+        "maskMap1": "heroes/clinkz/textures/clinkz_pads_masks1.png",
+        "maskMap2": "heroes/clinkz/textures/clinkz_pads_masks2.png",
         "u_SpecularExponent": 32,
         "u_SpecularScale": 3,
         "u_RimLightScale": 1

@@ -1,22 +1,22 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/lion/smd/idle.smd"
-        },
-        {
             "name": "idle_alt",
             "path": "heroes/lion/smd/idle_alt.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/lion/smd/idle.smd"
         }
     ],
     "attack": [
         {
-            "name": "attack",
-            "path": "heroes/lion/smd/attack.smd"
-        },
-        {
             "name": "attack_backhand",
             "path": "heroes/lion/smd/attack_backhand.smd"
+        },
+        {
+            "name": "attack",
+            "path": "heroes/lion/smd/attack.smd"
         }
     ],
     "run": [
@@ -26,7 +26,7 @@
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/lion/smd/idle.smd"
+        "name": "idle_alt",
+        "path": "heroes/lion/smd/idle_alt.smd"
     }
 }

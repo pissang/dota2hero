@@ -1,16 +1,16 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/ogre_magi/smd/idle.smd"
-        },
-        {
             "name": "idle_bellyScratch",
             "path": "heroes/ogre_magi/smd/idle_bellyScratch.smd"
         },
         {
             "name": "idle_headButt",
             "path": "heroes/ogre_magi/smd/idle_headButt.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/ogre_magi/smd/idle.smd"
         }
     ],
     "attack": [
@@ -30,7 +30,7 @@
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/ogre_magi/smd/idle.smd"
+        "name": "idle_bellyScratch",
+        "path": "heroes/ogre_magi/smd/idle_bellyScratch.smd"
     }
 }

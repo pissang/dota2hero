@@ -1,6 +1,10 @@
 {
     "idle": [
         {
+            "name": "idle_angry",
+            "path": "heroes/bristleback/smd/idle_angry.smd"
+        },
+        {
             "name": "idle",
             "path": "heroes/bristleback/smd/idle.smd"
         },
@@ -11,10 +15,6 @@
         {
             "name": "idle3",
             "path": "heroes/bristleback/smd/idle3.smd"
-        },
-        {
-            "name": "idle_angry",
-            "path": "heroes/bristleback/smd/idle_angry.smd"
         }
     ],
     "attack": [
@@ -33,16 +33,16 @@
     ],
     "run": [
         {
-            "name": "run",
-            "path": "heroes/bristleback/smd/run.smd"
-        },
-        {
             "name": "run_angry",
             "path": "heroes/bristleback/smd/run_angry.smd"
+        },
+        {
+            "name": "run",
+            "path": "heroes/bristleback/smd/run.smd"
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/bristleback/smd/idle.smd"
+        "name": "idle_angry",
+        "path": "heroes/bristleback/smd/idle_angry.smd"
     }
 }

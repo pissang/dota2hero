@@ -1,13 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/elder_titan/textures/elder_titan_shoulder_color.png",
-        "normalMap": "heroes/elder_titan/textures/elder_titan_shoulder_normal.png",
-        "maskMap1": "heroes/elder_titan/textures/elder_titan_shoulder_mask1.png",
-        "maskMap2": "heroes/elder_titan/textures/elder_titan_shoulder_mask2.png",
-        "u_SpecularExponent": 20,
-        "u_SpecularScale": 10,
-        "u_RimLightScale": 1
-    },
     "Material #35": {
         "diffuseMap": "heroes/elder_titan/textures/elder_titan_color.png",
         "normalMap": "heroes/elder_titan/textures/elder_titan_normal.png",
@@ -59,6 +50,15 @@
         "normalMap": "heroes/elder_titan/textures/elder_titan_totem_normal.png",
         "maskMap1": "heroes/elder_titan/textures/elder_titan_totem_mask1.png",
         "maskMap2": "heroes/elder_titan/textures/elder_titan_totem_mask2.png",
+        "u_SpecularExponent": 20,
+        "u_SpecularScale": 10,
+        "u_RimLightScale": 1
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/elder_titan/textures/elder_titan_shoulder_color.png",
+        "normalMap": "heroes/elder_titan/textures/elder_titan_shoulder_normal.png",
+        "maskMap1": "heroes/elder_titan/textures/elder_titan_shoulder_mask1.png",
+        "maskMap2": "heroes/elder_titan/textures/elder_titan_shoulder_mask2.png",
         "u_SpecularExponent": 20,
         "u_SpecularScale": 10,
         "u_RimLightScale": 1

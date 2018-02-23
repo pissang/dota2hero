@@ -1,22 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/meepo/textures/meepo_tail_color.png",
-        "normalMap": "heroes/meepo/textures/meepo_tail_normal.png",
-        "maskMap2": "heroes/meepo/textures/meepo_tail_masks2.png",
-        "u_SpecularExponent": 5,
-        "u_SpecularScale": 10,
-        "u_SpecularColor": [
-            0,
-            1,
-            2
-        ],
-        "u_RimLightScale": 12,
-        "u_RimLightColor": [
-            0.25,
-            0.48,
-            0.9
-        ]
-    },
     "Material #35": {
         "diffuseMap": "heroes/meepo/textures/meepo_color.png",
         "normalMap": "heroes/meepo/textures/meepo_normal.png",
@@ -116,6 +98,24 @@
         "maskMap2": "heroes/meepo/textures/meepo_pads_masks2.png",
         "u_SpecularExponent": 5,
         "u_SpecularScale": 30,
+        "u_SpecularColor": [
+            0,
+            1,
+            2
+        ],
+        "u_RimLightScale": 12,
+        "u_RimLightColor": [
+            0.25,
+            0.48,
+            0.9
+        ]
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/meepo/textures/meepo_tail_color.png",
+        "normalMap": "heroes/meepo/textures/meepo_tail_normal.png",
+        "maskMap2": "heroes/meepo/textures/meepo_tail_masks2.png",
+        "u_SpecularExponent": 5,
+        "u_SpecularScale": 10,
         "u_SpecularColor": [
             0,
             1,

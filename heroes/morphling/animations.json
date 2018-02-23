@@ -1,22 +1,22 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/morphling/smd/idle.smd"
-        },
-        {
             "name": "idle_alt",
             "path": "heroes/morphling/smd/idle_alt.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/morphling/smd/idle.smd"
         }
     ],
     "attack": [
         {
-            "name": "attack1",
-            "path": "heroes/morphling/smd/attack1.smd"
-        },
-        {
             "name": "attack_alt",
             "path": "heroes/morphling/smd/attack_alt.smd"
+        },
+        {
+            "name": "attack1",
+            "path": "heroes/morphling/smd/attack1.smd"
         }
     ],
     "run": [
@@ -26,7 +26,7 @@
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/morphling/smd/idle.smd"
+        "name": "idle_alt",
+        "path": "heroes/morphling/smd/idle_alt.smd"
     }
 }

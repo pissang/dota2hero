@@ -1,26 +1,26 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/rattletrap/smd/idle.smd"
-        },
-        {
             "name": "idle_alt",
             "path": "heroes/rattletrap/smd/idle_alt.smd"
         },
         {
             "name": "idle_portrait",
             "path": "heroes/rattletrap/smd/idle_portrait.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/rattletrap/smd/idle.smd"
         }
     ],
     "attack": [
         {
-            "name": "attack",
-            "path": "heroes/rattletrap/smd/attack.smd"
-        },
-        {
             "name": "attack_alt",
             "path": "heroes/rattletrap/smd/attack_alt.smd"
+        },
+        {
+            "name": "attack",
+            "path": "heroes/rattletrap/smd/attack.smd"
         }
     ],
     "run": [
@@ -30,7 +30,7 @@
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/rattletrap/smd/idle.smd"
+        "name": "idle_alt",
+        "path": "heroes/rattletrap/smd/idle_alt.smd"
     }
 }

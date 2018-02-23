@@ -1,27 +1,23 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/tiny_02/smd/tiny_02_idle.smd"
+            "name": "idle_alt_tree",
+            "path": "heroes/tiny_02/smd/tiny_02_idle_alt_tree.smd"
         },
         {
             "name": "idle_alt",
             "path": "heroes/tiny_02/smd/tiny_02_idle_alt.smd"
         },
         {
-            "name": "idle_alt_tree",
-            "path": "heroes/tiny_02/smd/tiny_02_idle_alt_tree.smd"
-        },
-        {
             "name": "idle_tree",
             "path": "heroes/tiny_02/smd/tiny_02_idle_tree.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/tiny_02/smd/tiny_02_idle.smd"
         }
     ],
     "attack": [
-        {
-            "name": "attack1",
-            "path": "heroes/tiny_02/smd/tiny_02_attack1.smd"
-        },
         {
             "name": "attack_alt",
             "path": "heroes/tiny_02/smd/tiny_02_attack_alt.smd"
@@ -29,20 +25,24 @@
         {
             "name": "attack_tree",
             "path": "heroes/tiny_02/smd/tiny_02_attack_tree.smd"
+        },
+        {
+            "name": "attack1",
+            "path": "heroes/tiny_02/smd/tiny_02_attack1.smd"
         }
     ],
     "run": [
         {
-            "name": "run",
-            "path": "heroes/tiny_02/smd/tiny_02_run.smd"
-        },
-        {
             "name": "run_tree",
             "path": "heroes/tiny_02/smd/tiny_02_run_tree.smd"
+        },
+        {
+            "name": "run",
+            "path": "heroes/tiny_02/smd/tiny_02_run.smd"
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/tiny_02/smd/tiny_02_idle.smd"
+        "name": "idle_alt_tree",
+        "path": "heroes/tiny_02/smd/tiny_02_idle_alt_tree.smd"
     }
 }

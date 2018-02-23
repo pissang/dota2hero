@@ -1,13 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/disruptor/textures/weapon_color.png",
-        "normalMap": "heroes/disruptor/textures/weapon_normal.png",
-        "maskMap1": "heroes/disruptor/textures/weapon_masks1.png",
-        "maskMap2": "heroes/disruptor/textures/weapon_masks2.png",
-        "u_SpecularExponent": 32,
-        "u_SpecularScale": 5,
-        "u_RimLightScale": 3
-    },
     "Material #35": {
         "diffuseMap": "heroes/disruptor/textures/back_color.png",
         "normalMap": "heroes/disruptor/textures/back_normal.png",
@@ -58,6 +49,15 @@
         "normalMap": "heroes/disruptor/textures/shoulder_normal.png",
         "maskMap1": "heroes/disruptor/textures/shoulder_masks1.png",
         "maskMap2": "heroes/disruptor/textures/shoulder_masks2.png",
+        "u_SpecularExponent": 32,
+        "u_SpecularScale": 5,
+        "u_RimLightScale": 3
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/disruptor/textures/weapon_color.png",
+        "normalMap": "heroes/disruptor/textures/weapon_normal.png",
+        "maskMap1": "heroes/disruptor/textures/weapon_masks1.png",
+        "maskMap2": "heroes/disruptor/textures/weapon_masks2.png",
         "u_SpecularExponent": 32,
         "u_SpecularScale": 5,
         "u_RimLightScale": 3

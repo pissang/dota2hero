@@ -1,12 +1,12 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/alchemist/smd/idle.smd"
-        },
-        {
             "name": "idle_alt",
             "path": "heroes/alchemist/smd/idle_alt.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/alchemist/smd/idle.smd"
         }
     ],
     "attack": [
@@ -34,7 +34,7 @@
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/alchemist/smd/idle.smd"
+        "name": "idle_alt",
+        "path": "heroes/alchemist/smd/idle_alt.smd"
     }
 }

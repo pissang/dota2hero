@@ -1,12 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/dragon_knight/textures/knight_weapon_color.png",
-        "normalMap": "heroes/dragon_knight/textures/knight_weapon_normal.png",
-        "maskMap2": "heroes/dragon_knight/textures/knight_weapon_mask2.png",
-        "u_SpecularExponent": 6,
-        "u_SpecularScale": 1,
-        "u_RimLightScale": 1
-    },
     "Material #35": {
         "diffuseMap": "heroes/dragon_knight/textures/knight_color.png",
         "normalMap": "heroes/dragon_knight/textures/knight_normal.png",
@@ -59,6 +51,14 @@
         "maskMap2": "heroes/dragon_knight/textures/skirt_masks2.png",
         "u_SpecularExponent": 11,
         "u_SpecularScale": 5,
+        "u_RimLightScale": 1
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/dragon_knight/textures/knight_weapon_color.png",
+        "normalMap": "heroes/dragon_knight/textures/knight_weapon_normal.png",
+        "maskMap2": "heroes/dragon_knight/textures/knight_weapon_mask2.png",
+        "u_SpecularExponent": 6,
+        "u_SpecularScale": 1,
         "u_RimLightScale": 1
     }
 }

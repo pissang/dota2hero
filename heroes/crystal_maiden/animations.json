@@ -1,12 +1,12 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/crystal_maiden/smd/idle.smd"
-        },
-        {
             "name": "idle_alt2",
             "path": "heroes/crystal_maiden/smd/idle_alt2.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/crystal_maiden/smd/idle.smd"
         }
     ],
     "attack": [
@@ -26,7 +26,7 @@
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/crystal_maiden/smd/idle.smd"
+        "name": "idle_alt2",
+        "path": "heroes/crystal_maiden/smd/idle_alt2.smd"
     }
 }

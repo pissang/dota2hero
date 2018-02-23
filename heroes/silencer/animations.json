@@ -1,12 +1,12 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/silencer/smd/idle.smd"
-        },
-        {
             "name": "idle_rare",
             "path": "heroes/silencer/smd/idle_rare.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/silencer/smd/idle.smd"
         }
     ],
     "attack": [
@@ -26,7 +26,7 @@
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/silencer/smd/idle.smd"
+        "name": "idle_rare",
+        "path": "heroes/silencer/smd/idle_rare.smd"
     }
 }

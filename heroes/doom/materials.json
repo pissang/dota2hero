@@ -1,42 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/doom/textures/tail_color.png",
-        "normalMap": "heroes/doom/textures/tail_normal.png",
-        "maskMap1": "heroes/doom/textures/tail_masks1.png",
-        "maskMap2": "heroes/doom/textures/tail_masks2.png",
-        "u_SpecularExponent": 63,
-        "u_SpecularScale": 5,
-        "u_SpecularColor": [
-            0.7,
-            0.9,
-            1
-        ],
-        "u_RimLightScale": 10,
-        "u_RimLightColor": [
-            0.5,
-            0.8,
-            0.9
-        ]
-    },
-    "Material #112": {
-        "diffuseMap": "heroes/doom/textures/wings_color.png",
-        "normalMap": "heroes/doom/textures/wings_normal.png",
-        "maskMap1": "heroes/doom/textures/wings_masks1.png",
-        "maskMap2": "heroes/doom/textures/wings_masks2.png",
-        "u_SpecularExponent": 63,
-        "u_SpecularScale": 5,
-        "u_SpecularColor": [
-            0.7,
-            0.9,
-            1
-        ],
-        "u_RimLightScale": 10,
-        "u_RimLightColor": [
-            0.5,
-            0.8,
-            0.9
-        ]
-    },
     "Material #35": {
         "diffuseMap": "heroes/doom/textures/doom_color.png",
         "normalMap": "heroes/doom/textures/doom_normal.png",
@@ -137,6 +99,44 @@
         "normalMap": "heroes/doom/textures/shoulders_normal.png",
         "maskMap1": "heroes/doom/textures/shoulders_masks1.png",
         "maskMap2": "heroes/doom/textures/shoulders_masks2.png",
+        "u_SpecularExponent": 63,
+        "u_SpecularScale": 5,
+        "u_SpecularColor": [
+            0.7,
+            0.9,
+            1
+        ],
+        "u_RimLightScale": 10,
+        "u_RimLightColor": [
+            0.5,
+            0.8,
+            0.9
+        ]
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/doom/textures/tail_color.png",
+        "normalMap": "heroes/doom/textures/tail_normal.png",
+        "maskMap1": "heroes/doom/textures/tail_masks1.png",
+        "maskMap2": "heroes/doom/textures/tail_masks2.png",
+        "u_SpecularExponent": 63,
+        "u_SpecularScale": 5,
+        "u_SpecularColor": [
+            0.7,
+            0.9,
+            1
+        ],
+        "u_RimLightScale": 10,
+        "u_RimLightColor": [
+            0.5,
+            0.8,
+            0.9
+        ]
+    },
+    "Material #112": {
+        "diffuseMap": "heroes/doom/textures/wings_color.png",
+        "normalMap": "heroes/doom/textures/wings_normal.png",
+        "maskMap1": "heroes/doom/textures/wings_masks1.png",
+        "maskMap2": "heroes/doom/textures/wings_masks2.png",
         "u_SpecularExponent": 63,
         "u_SpecularScale": 5,
         "u_SpecularColor": [

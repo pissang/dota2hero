@@ -1,36 +1,36 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/sniper/smd/sniper_idle.smd"
-        },
-        {
             "name": "idle_aggressive",
             "path": "heroes/sniper/smd/sniper_idle_aggressive.smd"
         },
         {
             "name": "idle_wolfhound",
             "path": "heroes/sniper/smd/sniper_idle_wolfhound.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/sniper/smd/sniper_idle.smd"
         }
     ],
     "attack": [
         {
-            "name": "attack",
-            "path": "heroes/sniper/smd/sniper_attack.smd"
-        },
-        {
             "name": "attack_schrapnel_cast1_aggressive",
             "path": "heroes/sniper/smd/sniper_attack_schrapnel_cast1_aggressive.smd"
+        },
+        {
+            "name": "attack",
+            "path": "heroes/sniper/smd/sniper_attack.smd"
         }
     ],
     "run": [
         {
-            "name": "run",
-            "path": "heroes/sniper/smd/sniper_run.smd"
-        },
-        {
             "name": "run_aggressive",
             "path": "heroes/sniper/smd/sniper_run_aggressive.smd"
+        },
+        {
+            "name": "run",
+            "path": "heroes/sniper/smd/sniper_run.smd"
         }
     ],
     "default": {

@@ -1,14 +1,6 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/juggernaut/smd/idle.smd"
-        },
-        {
-            "name": "idle2",
-            "path": "heroes/juggernaut/smd/idle2.smd"
-        },
-        {
             "name": "idle_agg_injured",
             "path": "heroes/juggernaut/smd/idle_agg_injured.smd"
         },
@@ -23,24 +15,24 @@
         {
             "name": "idle_spin_sword",
             "path": "heroes/juggernaut/smd/idle_spin_sword.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/juggernaut/smd/idle.smd"
+        },
+        {
+            "name": "idle2",
+            "path": "heroes/juggernaut/smd/idle2.smd"
         }
     ],
     "attack": [
         {
-            "name": "attack",
-            "path": "heroes/juggernaut/smd/attack.smd"
-        },
-        {
-            "name": "attack2",
-            "path": "heroes/juggernaut/smd/attack2.smd"
+            "name": "attack_crit_odachi",
+            "path": "heroes/juggernaut/smd/attack_crit_odachi.smd"
         },
         {
             "name": "attack_crit",
             "path": "heroes/juggernaut/smd/attack_crit.smd"
-        },
-        {
-            "name": "attack_crit_odachi",
-            "path": "heroes/juggernaut/smd/attack_crit_odachi.smd"
         },
         {
             "name": "attack_odachi_01",
@@ -63,27 +55,31 @@
             "path": "heroes/juggernaut/smd/attack_showoff.smd"
         },
         {
-            "name": "attack_spin",
-            "path": "heroes/juggernaut/smd/attack_spin.smd"
+            "name": "attack_spin_cast_odachi",
+            "path": "heroes/juggernaut/smd/attack_spin_cast_odachi.smd"
         },
         {
             "name": "attack_spin_cast",
             "path": "heroes/juggernaut/smd/attack_spin_cast.smd"
         },
         {
-            "name": "attack_spin_cast_odachi",
-            "path": "heroes/juggernaut/smd/attack_spin_cast_odachi.smd"
-        },
-        {
             "name": "attack_spin_odachi",
             "path": "heroes/juggernaut/smd/attack_spin_odachi.smd"
+        },
+        {
+            "name": "attack_spin",
+            "path": "heroes/juggernaut/smd/attack_spin.smd"
+        },
+        {
+            "name": "attack",
+            "path": "heroes/juggernaut/smd/attack.smd"
+        },
+        {
+            "name": "attack2",
+            "path": "heroes/juggernaut/smd/attack2.smd"
         }
     ],
     "run": [
-        {
-            "name": "run",
-            "path": "heroes/juggernaut/smd/run.smd"
-        },
         {
             "name": "run_chase",
             "path": "heroes/juggernaut/smd/run_chase.smd"
@@ -99,10 +95,14 @@
         {
             "name": "run_reverse",
             "path": "heroes/juggernaut/smd/run_reverse.smd"
+        },
+        {
+            "name": "run",
+            "path": "heroes/juggernaut/smd/run.smd"
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/juggernaut/smd/idle.smd"
+        "name": "idle_agg_injured",
+        "path": "heroes/juggernaut/smd/idle_agg_injured.smd"
     }
 }

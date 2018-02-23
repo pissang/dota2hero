@@ -1,4 +1,13 @@
 {
+    "faceless_void_body": {
+        "diffuseMap": "heroes/faceless_void/textures/faceless_void_body_color.png",
+        "normalMap": "heroes/faceless_void/textures/faceless_void_body_normal.png",
+        "maskMap1": "heroes/faceless_void/textures/faceless_void_body_mask1.png",
+        "maskMap2": "heroes/faceless_void/textures/faceless_void_body_mask2.png",
+        "u_SpecularExponent": 30,
+        "u_SpecularScale": 5,
+        "u_RimLightScale": 1
+    },
     "Material #127": {
         "diffuseMap": "heroes/faceless_void/textures/faceless_void_bracer_color.png",
         "normalMap": "heroes/faceless_void/textures/faceless_void_bracer_normal.png",
@@ -39,15 +48,6 @@
         "normalMap": "heroes/faceless_void/textures/faceless_void_belt_normal.png",
         "maskMap1": "heroes/faceless_void/textures/faceless_void_belt_mask1.png",
         "maskMap2": "heroes/faceless_void/textures/faceless_void_belt_mask2.png",
-        "u_SpecularExponent": 30,
-        "u_SpecularScale": 5,
-        "u_RimLightScale": 1
-    },
-    "faceless_void_body": {
-        "diffuseMap": "heroes/faceless_void/textures/faceless_void_body_color.png",
-        "normalMap": "heroes/faceless_void/textures/faceless_void_body_normal.png",
-        "maskMap1": "heroes/faceless_void/textures/faceless_void_body_mask1.png",
-        "maskMap2": "heroes/faceless_void/textures/faceless_void_body_mask2.png",
         "u_SpecularExponent": 30,
         "u_SpecularScale": 5,
         "u_RimLightScale": 1

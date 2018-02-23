@@ -1,16 +1,16 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/beastmaster/smd/idle.smd"
-        },
-        {
             "name": "idle_alt",
             "path": "heroes/beastmaster/smd/idle_alt.smd"
         },
         {
             "name": "idle_injured",
             "path": "heroes/beastmaster/smd/idle_injured.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/beastmaster/smd/idle.smd"
         }
     ],
     "attack": [
@@ -29,10 +29,6 @@
     ],
     "run": [
         {
-            "name": "runN",
-            "path": "heroes/beastmaster/smd/runN.smd"
-        },
-        {
             "name": "run_chase",
             "path": "heroes/beastmaster/smd/run_chase.smd"
         },
@@ -43,10 +39,14 @@
         {
             "name": "run_injured",
             "path": "heroes/beastmaster/smd/run_injured.smd"
+        },
+        {
+            "name": "runN",
+            "path": "heroes/beastmaster/smd/runN.smd"
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/beastmaster/smd/idle.smd"
+        "name": "idle_alt",
+        "path": "heroes/beastmaster/smd/idle_alt.smd"
     }
 }

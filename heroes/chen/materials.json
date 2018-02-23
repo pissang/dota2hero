@@ -1,23 +1,4 @@
 {
-    "Material #101": {
-        "diffuseMap": "heroes/chen/textures/chen_wep_color.png",
-        "normalMap": "heroes/chen/textures/chen_wep_normal.png",
-        "maskMap1": "heroes/chen/textures/chen_wep_masks1.png",
-        "maskMap2": "heroes/chen/textures/chen_wep_masks2.png",
-        "u_SpecularExponent": 12,
-        "u_SpecularScale": 1,
-        "u_SpecularColor": [
-            0.4,
-            0.9,
-            0.2
-        ],
-        "u_RimLightScale": 0.5,
-        "u_RimLightColor": [
-            1,
-            0.8,
-            0.9
-        ]
-    },
     "Material #35": {
         "diffuseMap": "heroes/chen/textures/chen_color.png",
         "normalMap": "heroes/chen/textures/chen_normal.png",
@@ -99,6 +80,25 @@
         "u_RimLightColor": [
             1,
             1,
+            0.9
+        ]
+    },
+    "Material #101": {
+        "diffuseMap": "heroes/chen/textures/chen_wep_color.png",
+        "normalMap": "heroes/chen/textures/chen_wep_normal.png",
+        "maskMap1": "heroes/chen/textures/chen_wep_masks1.png",
+        "maskMap2": "heroes/chen/textures/chen_wep_masks2.png",
+        "u_SpecularExponent": 12,
+        "u_SpecularScale": 1,
+        "u_SpecularColor": [
+            0.4,
+            0.9,
+            0.2
+        ],
+        "u_RimLightScale": 0.5,
+        "u_RimLightColor": [
+            1,
+            0.8,
             0.9
         ]
     }

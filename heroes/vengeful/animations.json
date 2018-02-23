@@ -1,15 +1,19 @@
 {
     "idle": [
         {
-            "name": "idle",
-            "path": "heroes/vengeful/smd/idle.smd"
-        },
-        {
             "name": "idle_alt1",
             "path": "heroes/vengeful/smd/idle_alt1.smd"
+        },
+        {
+            "name": "idle",
+            "path": "heroes/vengeful/smd/idle.smd"
         }
     ],
     "attack": [
+        {
+            "name": "attack_immortal",
+            "path": "heroes/vengeful/smd/attack_immortal.smd"
+        },
         {
             "name": "attack",
             "path": "heroes/vengeful/smd/attack.smd"
@@ -17,10 +21,6 @@
         {
             "name": "attack3_immortal",
             "path": "heroes/vengeful/smd/attack3_immortal.smd"
-        },
-        {
-            "name": "attack_immortal",
-            "path": "heroes/vengeful/smd/attack_immortal.smd"
         }
     ],
     "run": [
@@ -30,7 +30,7 @@
         }
     ],
     "default": {
-        "name": "idle",
-        "path": "heroes/vengeful/smd/idle.smd"
+        "name": "idle_alt1",
+        "path": "heroes/vengeful/smd/idle_alt1.smd"
     }
 }
