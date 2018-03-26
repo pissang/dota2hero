@@ -2,4 +2,4 @@
 
 http://pissang.github.io/dota2hero
 
-Rendered with [QTEK](https://github.com/pissang/qtek)
+Built on top of [ClayGL](https://github.com/pissang/claygl)
