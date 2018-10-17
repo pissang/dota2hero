@@ -1,6 +1,6 @@
 <template>
   <div id="hero-list">
-    <h2>{{ hoverHeroTitle }}</h2>
+    <h2>{{ hoverHeroTitle | formatTitle }}</h2>
     <ul>
       <li v-for="hero in heroList" :key="hero.name" @mouseover="showHeroName(hero)" @mouseout="hideHeroName()">
         <a :href="'#/hero/' + hero.name">
@@ -29,6 +29,14 @@ export default {
 
     hideHeroName() {
       this.hoverHeroTitle = '';
+    }
+  },
+
+  filters: {
+    formatTitle: string => { // "ogre_magi" to "Ogre Magi"
+      return string.split('_')
+        .map(s => s[0].toUpperCase() + s.slice(1))
+        .join(' ');
     }
   }
 }
